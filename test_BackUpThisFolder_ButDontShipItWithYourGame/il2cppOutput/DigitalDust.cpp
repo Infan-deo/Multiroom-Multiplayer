@@ -1,0 +1,17682 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB;
+struct AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD;
+struct Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC;
+struct Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C;
+struct Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20;
+struct Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3;
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+struct Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0;
+struct Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5;
+struct Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2;
+struct Func_3_t12FAD3F375A451FD0814F123B9C4BDC95BF9937E;
+struct HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F;
+struct IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010;
+struct IEqualityComparer_1_tB7B90AB0503F2307A10ED2FA3DDC3ECE8E1D7C89;
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+struct IEqualityComparer_1_tED1D927A3A0185F617A8EAD12C65925EB323F0B1;
+struct KeyCollection_tB2C54C4F827C26AEA5C51F6D9604CD49FCFEB722;
+struct KeyCollection_tE7E493818AC85A49DBA0FD9F9C4DD60AC9496915;
+struct KeyCollection_t3DDFB84B45252739B1D29C9747E13B44936F74FB;
+struct KeyCollection_t75EA20AF1FB250B2398B68B54B2A4B4BC60BFA18;
+struct KeyCollection_tD799FE9E420DC87C6C6FDAEEA0C5B30D2AA1EA7C;
+struct ValueCollection_tB92356F99A90F6C5A12A2ACDECB9BDE9F18FEA3A;
+struct ValueCollection_t8CF7113891D3063650193421C39338EBC23AF4F9;
+struct ValueCollection_t17D63EEA3AC3F0A2053946D65ED7805D2807F322;
+struct ValueCollection_t6520552BAED739BA9F5EE80109332CFF716715B8;
+struct ValueCollection_t9FCB2494A71BB5A074F646F67D83AAFA732809DB;
+struct EntryU5BU5D_t2407088B84674E15E80B2429F5C597B28DC6F0E4;
+struct EntryU5BU5D_tD9446C4C6DE607937758C3FD79573EF90D19944B;
+struct EntryU5BU5D_tBFAFACFA151C594ABDB7F6AAD5FCEE30D0B05ABF;
+struct EntryU5BU5D_tB3DBFDF8827048C426B9C697D5879C9B3BCFE9C8;
+struct EntryU5BU5D_t5A762D3A28215A538BD9AB00D71A0BCF6922F348;
+struct IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88;
+struct SlotU5BU5D_t861B8FAFED10E4C7A4E281B6A00EF0F97EFD625D;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Exception_t;
+struct ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct IPrincipal_tE7AF5096287F6C3472585E124CB38FF2A51EAB5F;
+struct InternalThread_tF40B7BFCBD60C82BD8475A22FF5186CA10293687;
+struct LocalDataStoreHolder_t789DD474AE5141213C2105CE57830ECFC2D3C03F;
+struct LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct MulticastDelegate_t;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+struct String_t;
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
+struct Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E;
+struct Type_t;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8EFA0FCA61339A2958F9FB5A2A8B76EC4196BECD;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00;
+struct U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5;
+struct U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE;
+struct U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651;
+struct U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D;
+struct U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42;
+struct U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6;
+struct U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27;
+struct U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____91CEF74034C3F159DE7BCCC46BD31AEF94B9CB3F9D4280EEAE49295B58B1260B_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____F37BC2EEBDEEEAF2E31ECBFC443B9416261C9F5EFFD21475ADB7F2D23D2D6AD3_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral01A82ED42B0DFDC61F25E719017B65079E1C7D14;
+IL2CPP_EXTERN_C String_t* _stringLiteral0D38602236EC85DCB4F2B7D4214F7F58A29898F4;
+IL2CPP_EXTERN_C String_t* _stringLiteral14B4DEB7D07783B8E34B61F7539267D7B578DEEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralA45723F85D54B15B7AC30B58836BDD2518968808;
+IL2CPP_EXTERN_C String_t* _stringLiteralB2E2BE32169D4D798AD88E70E0CA1D2162DF0970;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5F6733642FFD4CD80588AC86805E9D1AE2DF84A;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m2622ACC6C97D671B43F1BC924FE20CAEE5CA032D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m7837704FCA2058D13468F76CA14911267A2A2EEE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_mE5A7DF4FCB59B4E36E8D6B53C7D8CDD6AE1B7A1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_mEE1144EB7AED53C6A80D99AB59884F95871B41FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m0E16165B2B41417F83FDADDB07943B542EC0AB9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m974860CA74DAF521536F882109B2EF85E753C956_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mB9C4950C81090CA7015336AD041510714E3A1FEE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m27CDD6CA93F1598C52AB1DFB78C770C49F6F743D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m56660FB75F401B22DA291F952774FB0FD7EAFD6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_m69A148667DBBD363496183EF31E37BBF01EC800D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_mBF02E003FC261BE42B40FC6AAAFB14FB380302FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelWithU3Ed__0_System_Collections_IEnumerator_Reset_m41062056A838A35523A62885B1CCD665C14CE2A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelWithU3Ed__1_System_Collections_IEnumerator_Reset_m6A17CCB4B38BCEF42C8ECEBB78C242831029098D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCancelWithU3Ed__2_System_Collections_IEnumerator_Reset_mF320D650128C8AC07EE159B70407EDD1AAA1D3C4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_CallContinuouslyU3Ed__164_System_Collections_IEnumerator_Reset_m0FA521AD5490D5B34DE080598128FBA5CF4052E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_DelayedCallU3Ed__155_System_Collections_IEnumerator_Reset_m243D5D316B0D03119FF16FAA2257D4BB19806D60_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_InjectDelayU3Ed__127_System_Collections_IEnumerator_Reset_m86C9303AB1697D1BB51A20B75F42655C7CF17970_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_StartWhenDoneU3Ed__135_System_Collections_IEnumerator_Reset_m31ADBDFC77B738AB4652019F5BFCB73E8F2CD79E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_StartWhenDoneU3Ed__140_System_Collections_IEnumerator_Reset_m466C714BE52575D326A02E37FFE4DBB00F9C22D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3C_StartWhenDoneU3Ed__142_System_Collections_IEnumerator_Reset_mB0A82C8732827D4948F9FE139686C6D3EB990E2E_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
+struct TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tC071B39FF224E45ABE104B0BB48ACAD3BB3A39C8 
+{
+};
+struct Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_t2407088B84674E15E80B2429F5C597B28DC6F0E4* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tB2C54C4F827C26AEA5C51F6D9604CD49FCFEB722* ____keys;
+	ValueCollection_tB92356F99A90F6C5A12A2ACDECB9BDE9F18FEA3A* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tD9446C4C6DE607937758C3FD79573EF90D19944B* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tE7E493818AC85A49DBA0FD9F9C4DD60AC9496915* ____keys;
+	ValueCollection_t8CF7113891D3063650193421C39338EBC23AF4F9* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tBFAFACFA151C594ABDB7F6AAD5FCEE30D0B05ABF* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t3DDFB84B45252739B1D29C9747E13B44936F74FB* ____keys;
+	ValueCollection_t17D63EEA3AC3F0A2053946D65ED7805D2807F322* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tB3DBFDF8827048C426B9C697D5879C9B3BCFE9C8* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t75EA20AF1FB250B2398B68B54B2A4B4BC60BFA18* ____keys;
+	ValueCollection_t6520552BAED739BA9F5EE80109332CFF716715B8* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_t5A762D3A28215A538BD9AB00D71A0BCF6922F348* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tD799FE9E420DC87C6C6FDAEEA0C5B30D2AA1EA7C* ____keys;
+	ValueCollection_t9FCB2494A71BB5A074F646F67D83AAFA732809DB* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	SlotU5BU5D_t861B8FAFED10E4C7A4E281B6A00EF0F97EFD625D* ____slots;
+	int32_t ____count;
+	int32_t ____lastIndex;
+	int32_t ____freeList;
+	RuntimeObject* ____comparer;
+	int32_t ____version;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
+struct U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459  : public RuntimeObject
+{
+};
+struct CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9  : public RuntimeObject
+{
+};
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617  : public RuntimeObject
+{
+};
+struct MECExtensionMethods1_tB282C9DF4AFE458579D8E732A501EEC51AF69300  : public RuntimeObject
+{
+};
+struct MECExtensionMethods2_t2EFF5EA8A21DE9E60786A92145E049EB072E72EA  : public RuntimeObject
+{
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8EFA0FCA61339A2958F9FB5A2A8B76EC4196BECD  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	RuntimeObject* ___coroutine;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject;
+};
+struct U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	RuntimeObject* ___coroutine;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject1;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject2;
+};
+struct U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	RuntimeObject* ___coroutine;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject1;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject2;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject3;
+};
+struct U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ___U3CU3E4__this;
+	float ___period;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action;
+	float ___timeframe;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onDone;
+	float ___U3CstartTimeU3E5__2;
+};
+struct U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ___U3CU3E4__this;
+	float ___delay;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cancelWith;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action;
+};
+struct U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ___U3CU3E4__this;
+	float ___delayTime;
+	RuntimeObject* ___proc;
+};
+struct U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___operation;
+	RuntimeObject* ___pausedProc;
+};
+struct U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* ___operation;
+	RuntimeObject* ___pausedProc;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 
+{
+	int32_t ____id;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F  : public CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9
+{
+	InternalThread_tF40B7BFCBD60C82BD8475A22FF5186CA10293687* ___internal_thread;
+	RuntimeObject* ___m_ThreadStartArg;
+	RuntimeObject* ___pending_exception;
+	MulticastDelegate_t* ___m_Delegate;
+	ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710* ___m_ExecutionContext;
+	bool ___m_ExecutionContextBelongsToOuterScope;
+	RuntimeObject* ___principal;
+	int32_t ___principal_version;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D122_tCD34FC276E5B0B261363D723FA30A2E66B2E99A1 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D122_tCD34FC276E5B0B261363D723FA30A2E66B2E99A1__padding[122];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D50_t5256833EADFEA15E4D762A2FCC5990F7EA29D7C1 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D50_t5256833EADFEA15E4D762A2FCC5990F7EA29D7C1__padding[50];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF 
+{
+	HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* ____set;
+	int32_t ____index;
+	int32_t ____version;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ____current;
+};
+struct KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___key;
+	HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* ___value;
+};
+struct KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___key;
+	RuntimeObject* ___value;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+	Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* ___m_completeCallback;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	Il2CppMethodPointer ___m_completeCallback;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	Il2CppMethodPointer ___m_completeCallback;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct DebugInfoType_tC113B704D2B673A54EE7A4A3BDD165CE452899C6 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct Segment_t4C1BD3597728DFD93035AFFF8EE9A641B2A9DCA7 
+{
+	int32_t ___value__;
+};
+struct U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	float ___U3CU3E2__current;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ___U3CU3E4__this;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___handle;
+	RuntimeObject* ___proc;
+};
+struct Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C 
+{
+	Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* ____dictionary;
+	int32_t ____version;
+	int32_t ____index;
+	KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 ____current;
+	int32_t ____getEnumeratorRetType;
+};
+struct Enumerator_t1429A99506A8321BC75D9CDDC2BC31C5F6DDFC4B 
+{
+	Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* ____dictionary;
+	int32_t ____version;
+	int32_t ____index;
+	KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E ____current;
+	int32_t ____getEnumeratorRetType;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B  : public Exception_t
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 
+{
+	int32_t ___seg;
+	int32_t ___i;
+};
+struct Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2  : public MulticastDelegate_t
+{
+};
+struct Func_3_t12FAD3F375A451FD0814F123B9C4BDC95BF9937E  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C  : public ArithmeticException_t07E77822D0007642BC8959A671E70D1F33C84FEA
+{
+};
+struct Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___TimeBetweenSlowUpdateCalls;
+	int32_t ___ProfilerDebugAmount;
+	int32_t ___UpdateCoroutines;
+	int32_t ___FixedUpdateCoroutines;
+	int32_t ___LateUpdateCoroutines;
+	int32_t ___SlowUpdateCoroutines;
+	float ___localTime;
+	float ___deltaTime;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___U3CcurrentCoroutineU3Ek__BackingField;
+	int32_t ____currentUpdateFrame;
+	int32_t ____currentLateUpdateFrame;
+	int32_t ____currentSlowUpdateFrame;
+	int32_t ____nextUpdateProcessSlot;
+	int32_t ____nextLateUpdateProcessSlot;
+	int32_t ____nextFixedUpdateProcessSlot;
+	int32_t ____nextSlowUpdateProcessSlot;
+	int32_t ____lastUpdateProcessSlot;
+	int32_t ____lastLateUpdateProcessSlot;
+	int32_t ____lastFixedUpdateProcessSlot;
+	int32_t ____lastSlowUpdateProcessSlot;
+	float ____lastUpdateTime;
+	float ____lastLateUpdateTime;
+	float ____lastFixedUpdateTime;
+	float ____lastSlowUpdateTime;
+	float ____lastSlowUpdateDeltaTime;
+	uint16_t ____framesSinceUpdate;
+	uint16_t ____expansions;
+	uint8_t ____instanceID;
+	Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* ____waitingTriggers;
+	HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* ____allWaiting;
+	Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* ____pendingResume;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____resumeBuffer;
+	int32_t ____resumeCount;
+	Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* ____handleToIndex;
+	Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* ____indexToHandle;
+	Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* ____processTags;
+	Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* ____taggedProcesses;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* ___UpdateProcesses;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* ___LateUpdateProcesses;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* ___FixedUpdateProcesses;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* ___SlowUpdateProcesses;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___UpdatePaused;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___LateUpdatePaused;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___FixedUpdatePaused;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___SlowUpdatePaused;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___UpdateHeld;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___LateUpdateHeld;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___FixedUpdateHeld;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___SlowUpdateHeld;
+};
+struct U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D122_tCD34FC276E5B0B261363D723FA30A2E66B2E99A1 ___91CEF74034C3F159DE7BCCC46BD31AEF94B9CB3F9D4280EEAE49295B58B1260B;
+	__StaticArrayInitTypeSizeU3D50_t5256833EADFEA15E4D762A2FCC5990F7EA29D7C1 ___F37BC2EEBDEEEAF2E31ECBFC443B9416261C9F5EFFD21475ADB7F2D23D2D6AD3;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___NextIndex;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_StaticFields
+{
+	LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E* ___s_LocalDataStoreMgr;
+	AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD* ___s_asyncLocalCurrentCulture;
+	AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD* ___s_asyncLocalCurrentUICulture;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_ThreadStaticFields
+{
+	LocalDataStoreHolder_t789DD474AE5141213C2105CE57830ECFC2D3C03F* ___s_LocalDataStore;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___m_CurrentCulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___m_CurrentUICulture;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___current_thread;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields
+{
+	Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* ___ReplacementFunction;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnPreExecute;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___U3CMainThreadU3Ek__BackingField;
+	RuntimeObject* ____tmpRef;
+	bool ____tmpBool;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ____tmpHandle;
+	TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* ___ActiveInstances;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ____instance;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* m_Items[1];
+
+	inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public RuntimeArray
+{
+	ALIGN_FIELD (8) bool m_Items[1];
+
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* m_Items[1];
+
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m3845897602F6159237ED721CDC1A621F470A2E84_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_mC386E94139F8687EA412BC631FB2966A29EC49E2_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_gshared_inline (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_gshared (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mD8639D0A5E15C23C5196572C94372048763A9BDE_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m38A40004F61A62B7D0CB17E487955A8070048A3F_gshared_inline (Func_3_t12FAD3F375A451FD0814F123B9C4BDC95BF9937E* __this, RuntimeObject* ___0_arg1, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t1429A99506A8321BC75D9CDDC2BC31C5F6DDFC4B Dictionary_2_GetEnumerator_mEA59FC8432B3C84CBF80CCC07E2DB47A8E0C805C_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E Enumerator_get_Current_mF622ECB1073AF44689FA16820CFB8293BD0AD71F_gshared_inline (Enumerator_t1429A99506A8321BC75D9CDDC2BC31C5F6DDFC4B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_m9B00ED4D6995D80B15B6E2764514270FCFFD8080_gshared_inline (KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_gshared_inline (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 KeyValuePair_2_get_Key_mBBBC921B6493D73C5FA7BA10480627B00DB1C88B_gshared_inline (KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mBA2CC4ECDA24ED0623F6E83F950D090C2C98CFDC_gshared (Enumerator_t1429A99506A8321BC75D9CDDC2BC31C5F6DDFC4B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mC5928C2FE4E2830221E9047E0564BC6042E44D8D_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m91BB2A627F705E272BFEC4F134B6502C917FAFC2_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_gshared (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m303EB9B2DF6F79BCB7F5C4CD17C746EAA54EB2F3_gshared (Func_3_t12FAD3F375A451FD0814F123B9C4BDC95BF9937E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m145B7F6E786A7DE3B9CF45AD4DFEAD5A2023EFC6_gshared (Dictionary_2_t0C2987B79E300DDB3F0CD1CCE05D52A7B5DA1B1C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2_gshared (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13_gshared (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__0__ctor_mCE81EE9DDCC04A0326778B129D4EA4C08E7FC705 (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__1__ctor_m91EB5E595DA908EC6DBB17577863DE9A3042DE45 (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__2__ctor_mDEFDCD71144680278777C1B6AF29EE6D3C42B062 (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
+inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* GameObject_GetComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_mBF02E003FC261BE42B40FC6AAAFB14FB380302FE (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* GameObject_AddComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_m69A148667DBBD363496183EF31E37BBF01EC800D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Timing_set_MainThread_mE6659D5F00027161EE9B50992730CA3203778B4C_inline (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OverflowException__ctor_m2B99D79236B7B87C0BB6C9AB2E557DECE481C264 (OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, int32_t ___0_segment, const RuntimeMethod* method) ;
+inline CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61 (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method)
+{
+	return ((  CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, const RuntimeMethod*))Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_gshared)(__this, ___0_key, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_value, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, const RuntimeMethod*))Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936 (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_ContainsKey_m3845897602F6159237ED721CDC1A621F470A2E84_gshared)(__this, ___0_key, method);
+}
+inline HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_get_Item_mC386E94139F8687EA412BC631FB2966A29EC49E2_gshared)(__this, ___0_key, method);
+}
+inline Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_gshared)(__this, method);
+}
+inline CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF* __this, const RuntimeMethod* method)
+{
+	return ((  CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 (*) (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF*, const RuntimeMethod*))Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_gshared_inline)(__this, method);
+}
+inline bool Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272 (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_gshared)(__this, ___0_key, method);
+}
+inline ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_gshared)(__this, ___0_key, method);
+}
+inline bool Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF*, const RuntimeMethod*))Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_gshared)(__this, method);
+}
+inline bool Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2 (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_Remove_mD8639D0A5E15C23C5196572C94372048763A9BDE_gshared)(__this, ___0_key, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) ;
+inline RuntimeObject* Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* __this, RuntimeObject* ___0_arg1, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_arg2, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*, RuntimeObject*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Func_3_Invoke_m38A40004F61A62B7D0CB17E487955A8070048A3F_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0 (Exception_t* ___0_exception, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_RemoveUnused_mE9B027D6DFA25889F40F15599F138D03FD8A8A01 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+inline Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, const RuntimeMethod*))Dictionary_2_GetEnumerator_mEA59FC8432B3C84CBF80CCC07E2DB47A8E0C805C_gshared)(__this, method);
+}
+inline KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline (Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C* __this, const RuntimeMethod* method)
+{
+	return ((  KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 (*) (Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C*, const RuntimeMethod*))Enumerator_get_Current_mF622ECB1073AF44689FA16820CFB8293BD0AD71F_gshared_inline)(__this, method);
+}
+inline HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_inline (KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7* __this, const RuntimeMethod* method)
+{
+	return ((  HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* (*) (KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7*, const RuntimeMethod*))KeyValuePair_2_get_Value_m9B00ED4D6995D80B15B6E2764514270FCFFD8080_gshared_inline)(__this, method);
+}
+inline int32_t HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_inline (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_gshared_inline)(__this, method);
+}
+inline CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_inline (KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7* __this, const RuntimeMethod* method)
+{
+	return ((  CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 (*) (KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7*, const RuntimeMethod*))KeyValuePair_2_get_Key_mBBBC921B6493D73C5FA7BA10480627B00DB1C88B_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54 (Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C*, const RuntimeMethod*))Enumerator_MoveNext_mBA2CC4ECDA24ED0623F6E83F950D090C2C98CFDC_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_coindex, const RuntimeMethod* method) ;
+inline bool Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615 (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_gshared)(__this, ___0_key, method);
+}
+inline bool Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, const RuntimeMethod*))Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_gshared)(__this, ___0_key, method);
+}
+inline void Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956 (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, const RuntimeMethod*))Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977 (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_key, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, uint8_t ___0_ind, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___3_handle, bool ___4_prewarm, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_coindex, const RuntimeMethod* method) ;
+inline void Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7 (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5, const RuntimeMethod*))Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m62F4D6657BEE28D69BEBB5D9772D27FF746DCE27 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2_Clear_mEE1144EB7AED53C6A80D99AB59884F95871B41FF (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, const RuntimeMethod*))Dictionary_2_Clear_mC5928C2FE4E2830221E9047E0564BC6042E44D8D_gshared)(__this, method);
+}
+inline void Dictionary_2_Clear_mE5A7DF4FCB59B4E36E8D6B53C7D8CDD6AE1B7A1F (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, const RuntimeMethod*))Dictionary_2_Clear_mCFB5EA7351D5860D2B91592B91A84CA265A41433_gshared)(__this, method);
+}
+inline void Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, const RuntimeMethod*))Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C_gshared)(__this, method);
+}
+inline void Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40 (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, const RuntimeMethod*))Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40_gshared)(__this, method);
+}
+inline void Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, const RuntimeMethod*))Dictionary_2_Clear_mC5928C2FE4E2830221E9047E0564BC6042E44D8D_gshared)(__this, method);
+}
+inline void HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746 (uint8_t ___0_ID, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing_CoindexExtract_m3779285BC23A046419BBCA2DDB80F141181C213D (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m2487F9FB00EF76D5843DE2A4AC3186C76C25D710 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+inline HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3 (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_Nullify_m2813F73499FB1296ADA91E0226A5A33033B6A603 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_m0A64F61BA58CDB960D02D3A1859A4DCD1C7669AB (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, int32_t ___0_segment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_proc, float ___1_delayTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_mBAC986ED1506716F548B9456A7DCF0FB6F0D6F36 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, bool ___1_newPausedState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_mAA0B348D12CDDDD9B59495A76CCEB33C3C3BC26E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_mD60045F266E1EE8B8CC9E6D7640057876ED6B08A (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_m02FBB21FC8414E8F83A2BFE423B4210C4FE78087 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_mF7526A7EDA2E2A870CFDEFAB19457B221EF81C62 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21 (const RuntimeMethod* method) ;
+inline void Dictionary_2_Add_m7837704FCA2058D13468F76CA14911267A2A2EEE (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, String_t* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, String_t*, const RuntimeMethod*))Dictionary_2_Add_m91BB2A627F705E272BFEC4F134B6502C917FAFC2_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline bool HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062 (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_gshared)(__this, ___0_item, method);
+}
+inline void HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4 (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_gshared)(__this, method);
+}
+inline void Dictionary_2_Add_m2622ACC6C97D671B43F1BC924FE20CAEE5CA032D (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, String_t* ___0_key, HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, String_t*, HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline bool Dictionary_2_ContainsKey_m0E16165B2B41417F83FDADDB07943B542EC0AB9B (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_ContainsKey_m3845897602F6159237ED721CDC1A621F470A2E84_gshared)(__this, ___0_key, method);
+}
+inline String_t* Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98 (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_get_Item_mC386E94139F8687EA412BC631FB2966A29EC49E2_gshared)(__this, ___0_key, method);
+}
+inline bool HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907 (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_gshared)(__this, ___0_item, method);
+}
+inline bool Dictionary_2_Remove_m974860CA74DAF521536F882109B2EF85E753C956 (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
+}
+inline bool Dictionary_2_Remove_mB9C4950C81090CA7015336AD041510714E3A1FEE (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))Dictionary_2_Remove_mD8639D0A5E15C23C5196572C94372048763A9BDE_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_InjectDelayU3Ed__127__ctor_m25161687C92109699009E6E9FF90311CCFE108DF (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_get_LocalTime_m7A9BB2F8196242204B65A477A07599C85A5297B9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitUntilDone_m1460343705C01A268D729CA07162A6FD5B3DCD70 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_otherCoroutine, bool ___1_warnOnIssue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_m1BF1C758146D3E308E53BBA881817865BB0D694A (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, RuntimeObject* ___1_proc, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_CoindexReplace_m53148BF8F7D8B6511959F56C14331EE5D0BAF648 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, RuntimeObject* ___1_replacement, const RuntimeMethod* method) ;
+inline void Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_key, HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, const RuntimeMethod*))Dictionary_2_Add_m91BB2A627F705E272BFEC4F134B6502C917FAFC2_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_op_Equality_m6CF324F83762245FD6CD30092D73C0CA88CE77C4 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_a, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_b, const RuntimeMethod* method) ;
+inline bool HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*))HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, bool ___1_newHeldState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135__ctor_mF908CB64F42DEB231DEC66C3CFF9678DF3E81AC1 (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_HandleIsInWaitingList_m92D6026AF59B3AAE7159EA42C92EC50DDB39DB37 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncOperation_get_isDone_m68A0682777E2132FC033182E9F50303566AA354D (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_m368579C35765F51EF692B1F82F0D58B5823E639C (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___0_operation, RuntimeObject* ___1_pausedProc, const RuntimeMethod* method) ;
+inline void Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_3__ctor_m303EB9B2DF6F79BCB7F5C4CD17C746EAA54EB2F3_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__140__ctor_mC563B9DF2D6832623F05023231B6402506CD039E (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_mC59DB7699A9CFB0FB78AA35142D34657707CF117 (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* ___0_operation, RuntimeObject* ___1_pausedProc, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__142__ctor_mD72DE6AA1666DEBA14064607A9F868342DDC1FBF (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsHeld_m424A2EB967A56C29BA3C4E777027BCED338802C8 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsPaused_m39BD30FFF0057B9EAB9D1D40716A43CC44547B94 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_cancelWith, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m0E7144BEBB4CB80F24C3904EEDAEF4A11F5065A5 (RuntimeObject* ___0_coroutine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_mDA89139CE0799DB1506CF5957A5D78567DDA3BF7 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B (RuntimeObject* ___0_coroutine, int32_t ___1_segment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, int32_t ___1_segment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_DelayedCallU3Ed__155__ctor_m227138A605520464FC1BE9A70497513F31D0AD3B (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_CallContinuouslyU3Ed__164__ctor_mC45A0C625477ECD3B56BE05F97C3A22781CA245D (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+inline void Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*, const RuntimeMethod*))Dictionary_2__ctor_m145B7F6E786A7DE3B9CF45AD4DFEAD5A2023EFC6_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2 (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*, const RuntimeMethod*))Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13 (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*, const RuntimeMethod*))Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m56660FB75F401B22DA291F952774FB0FD7EAFD6E (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*, const RuntimeMethod*))Dictionary_2__ctor_m145B7F6E786A7DE3B9CF45AD4DFEAD5A2023EFC6_gshared)(__this, method);
+}
+inline void Dictionary_2__ctor_m27CDD6CA93F1598C52AB1DFB78C770C49F6F743D (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_Equals_m141C9CEED4733E3B64CD81B0F864C8C1DF4E6B4B (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_Equals_m585DA2113F8B4BEFD5E734F859544F856C236031 (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProcessIndex_GetHashCode_mE50E4FC97E4EA920810C8B7CB561F85CDA261C41 (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitForSecondsOnInstance_m70DD8D0387FC1B04510FBB49FADD5B9429C2760E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_waitTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135_U3CU3Em__Finally1_m1ECE8FE0B4D0416C632D4859C348B7B93561FF8B (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135_System_IDisposable_Dispose_m8405F5061F3C4CF6464E5FA5F46D274CDDA66B6D (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_Equals_mF09A721CEF8542A10A1947AC86B4A0C23EFBFED5 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_Equals_mA0CB662D0F1D1BC6361225001BA00C0645BF84CD (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CoroutineHandle_GetHashCode_m3CF69A8A4E6352A7541B7D7570CC1926CAEEB51B_inline (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m734FCEB20B7D0C043022C04DA99913C244811D56 (RuntimeObject* ___0_coroutine, String_t* ___1_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m88FE2D92C255562E157DAE9A32E1AB643B75D4B9 (RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MECExtensionMethods2_CancelWith_mE766A44FB69659831A15BE131068EBF87FD191DA (RuntimeObject* ___0_coroutine, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* L_0 = (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00*)il2cpp_codegen_object_new(U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00_il2cpp_TypeInfo_var);
+		U3CCancelWithU3Ed__0__ctor_mCE81EE9DDCC04A0326778B129D4EA4C08E7FC705(L_0, 0, NULL);
+		U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* L_1 = L_0;
+		RuntimeObject* L_2 = ___0_coroutine;
+		NullCheck(L_1);
+		L_1->___coroutine = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___coroutine), (void*)L_2);
+		U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* L_3 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___1_gameObject;
+		NullCheck(L_3);
+		L_3->___gameObject = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___gameObject), (void*)L_4);
+		return L_3;
+	}
+}
+// Method Definition Index: 68480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MECExtensionMethods2_CancelWith_m56A19A7DC2FB5D17C6E573CDCA036F015CAFD22B (RuntimeObject* ___0_coroutine, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject1, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_gameObject2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* L_0 = (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5*)il2cpp_codegen_object_new(U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5_il2cpp_TypeInfo_var);
+		U3CCancelWithU3Ed__1__ctor_m91EB5E595DA908EC6DBB17577863DE9A3042DE45(L_0, 0, NULL);
+		U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* L_1 = L_0;
+		RuntimeObject* L_2 = ___0_coroutine;
+		NullCheck(L_1);
+		L_1->___coroutine = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___coroutine), (void*)L_2);
+		U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* L_3 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___1_gameObject1;
+		NullCheck(L_3);
+		L_3->___gameObject1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___gameObject1), (void*)L_4);
+		U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* L_5 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___2_gameObject2;
+		NullCheck(L_5);
+		L_5->___gameObject2 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_5->___gameObject2), (void*)L_6);
+		return L_5;
+	}
+}
+// Method Definition Index: 68481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MECExtensionMethods2_CancelWith_m7391122B7333C566FBB6C7F39C9426841593B353 (RuntimeObject* ___0_coroutine, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_gameObject1, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_gameObject2, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_gameObject3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* L_0 = (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE*)il2cpp_codegen_object_new(U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE_il2cpp_TypeInfo_var);
+		U3CCancelWithU3Ed__2__ctor_mDEFDCD71144680278777C1B6AF29EE6D3C42B062(L_0, 0, NULL);
+		U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* L_1 = L_0;
+		RuntimeObject* L_2 = ___0_coroutine;
+		NullCheck(L_1);
+		L_1->___coroutine = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___coroutine), (void*)L_2);
+		U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* L_3 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___1_gameObject1;
+		NullCheck(L_3);
+		L_3->___gameObject1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___gameObject1), (void*)L_4);
+		U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* L_5 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___2_gameObject2;
+		NullCheck(L_5);
+		L_5->___gameObject2 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_5->___gameObject2), (void*)L_6);
+		U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* L_7 = L_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___3_gameObject3;
+		NullCheck(L_7);
+		L_7->___gameObject3 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___gameObject3), (void*)L_8);
+		return L_7;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__0__ctor_mCE81EE9DDCC04A0326778B129D4EA4C08E7FC705 (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__0_System_IDisposable_Dispose_m11BEA3566ADE09AFAEC2C1B6EEBB7DA30B66DFA1 (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelWithU3Ed__0_MoveNext_m7670B8C6E3D3894228A719F32DFEA7C79322951A (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_003a;
+	}
+
+IL_0019:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3136>
+		RuntimeObject* L_3 = __this->___coroutine;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_3);
+		__this->___U3CU3E2__current = L_4;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0033:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_003a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3135>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_5;
+		L_5 = Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline(NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6;
+		L_6 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
+		if ((!(((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_5) == ((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_6))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___gameObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___gameObject;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		RuntimeObject* L_11 = __this->___coroutine;
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_11);
+		if (L_12)
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_006d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3137>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68485
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CCancelWithU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_mFAD8BA0E92E8A9A92D3C84C0F36D923FCD2E94AF (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68486
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__0_System_Collections_IEnumerator_Reset_m41062056A838A35523A62885B1CCD665C14CE2A8 (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelWithU3Ed__0_System_Collections_IEnumerator_Reset_m41062056A838A35523A62885B1CCD665C14CE2A8_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelWithU3Ed__0_System_Collections_IEnumerator_get_Current_m7504CAA7826D679A3A7B6ACC110F4DCD02C151F3 (U3CCancelWithU3Ed__0_t8B3ECFDFF781D6430A752E23EABEAAAB3ABF0B00* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68488
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__1__ctor_m91EB5E595DA908EC6DBB17577863DE9A3042DE45 (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68489
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__1_System_IDisposable_Dispose_m4F3B9AC65D75DC5720BDB1AF8DCF03004873440C (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68490
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelWithU3Ed__1_MoveNext_m6EAE1F9F138A1B84A90B2E45EFEB3510AE21160F (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_003a;
+	}
+
+IL_0019:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3150>
+		RuntimeObject* L_3 = __this->___coroutine;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_3);
+		__this->___U3CU3E2__current = L_4;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0033:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_003a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3148>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3149>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_5;
+		L_5 = Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline(NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6;
+		L_6 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
+		if ((!(((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_5) == ((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_6))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___gameObject1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___gameObject1;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___gameObject2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gameObject2;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		RuntimeObject* L_15 = __this->___coroutine;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_15);
+		if (L_16)
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_0087:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3151>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68491
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CCancelWithU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_m134C7F8957337ED3469F9314B3016C41BEC2DD3F (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68492
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__1_System_Collections_IEnumerator_Reset_m6A17CCB4B38BCEF42C8ECEBB78C242831029098D (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelWithU3Ed__1_System_Collections_IEnumerator_Reset_m6A17CCB4B38BCEF42C8ECEBB78C242831029098D_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68493
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelWithU3Ed__1_System_Collections_IEnumerator_get_Current_mE8F8230BA54C6633A21E043FB90C96B94F4920CE (U3CCancelWithU3Ed__1_t6AD0570304348E028EC3767890531D3899EFB3C5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68494
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__2__ctor_mDEFDCD71144680278777C1B6AF29EE6D3C42B062 (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68495
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__2_System_IDisposable_Dispose_mF6F494F6DC82EDF89060479256D740E55188F4BE (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68496
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCancelWithU3Ed__2_MoveNext_m33E3FE5554DAE3F1E58D64036CB308E4EC4DD69E (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_003a;
+	}
+
+IL_0019:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3166>
+		RuntimeObject* L_3 = __this->___coroutine;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_3);
+		__this->___U3CU3E2__current = L_4;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0033:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_003a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3164>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3165>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_5;
+		L_5 = Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline(NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6;
+		L_6 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
+		if ((!(((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_5) == ((RuntimeObject*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)L_6))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___gameObject1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___gameObject1;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___gameObject2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___gameObject2;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___gameObject3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___gameObject3;
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_17, NULL);
+		if (!L_18)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		RuntimeObject* L_19 = __this->___coroutine;
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_19);
+		if (L_20)
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_00a4:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3167>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68497
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CCancelWithU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_mBA90CEE99FF177914C32D25D0215468C94394909 (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68498
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelWithU3Ed__2_System_Collections_IEnumerator_Reset_mF320D650128C8AC07EE159B70407EDD1AAA1D3C4 (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelWithU3Ed__2_System_Collections_IEnumerator_Reset_mF320D650128C8AC07EE159B70407EDD1AAA1D3C4_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68499
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCancelWithU3Ed__2_System_Collections_IEnumerator_get_Current_m7AAF3AD2E64CD815B298A4C1B0D5A4AAF9ED2CE4 (U3CCancelWithU3Ed__2_t4E27BDB2988A412A30AC936D979C30609C3437BE* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68500
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA3D89A30DF61A04FE92EFA9527E3049231E995A9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____91CEF74034C3F159DE7BCCC46BD31AEF94B9CB3F9D4280EEAE49295B58B1260B_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____F37BC2EEBDEEEAF2E31ECBFC443B9416261C9F5EFFD21475ADB7F2D23D2D6AD3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:46>
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)50));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____F37BC2EEBDEEEAF2E31ECBFC443B9416261C9F5EFFD21475ADB7F2D23D2D6AD3_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)122));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tB4DFB9D17DA647EC5BE419DCA38D107A82D90459____91CEF74034C3F159DE7BCCC46BD31AEF94B9CB3F9D4280EEAE49295B58B1260B_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 1;
+		(&V_0)->___TotalTypes = 5;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68501
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m8F7CF6789D051E0E2DD13C28BF2243EAACA99642 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8EFA0FCA61339A2958F9FB5A2A8B76EC4196BECD* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_pinvoke(const MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023& unmarshaled, MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_pinvoke_back(const MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_pinvoke& marshaled, MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_pinvoke_cleanup(MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_com(const MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023& unmarshaled, MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_com_back(const MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_com& marshaled, MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshal_com_cleanup(MonoScriptData_tFC579D83A47A2A10AAE73A28BE198C8C37072023_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68502
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_get_LocalTime_m7A9BB2F8196242204B65A477A07599C85A5297B9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:69>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0;
+		L_0 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_0);
+		float L_1 = L_0->___localTime;
+		return L_1;
+	}
+}
+// Method Definition Index: 68503
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_get_DeltaTime_mEF5D37EAEB8F7D35883BBB13555EEDBA9D98C058 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:78>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0;
+		L_0 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_0);
+		float L_1 = L_0->___deltaTime;
+		return L_1;
+	}
+}
+// Method Definition Index: 68504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_add_OnPreExecute_mD8C30AA2B1706875E8A5B24AD06C9C62D532B946 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 68505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_remove_OnPreExecute_m247C6A84395A90A432EEDC3334B495E57FDAD34E (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 68506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:94>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 68507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_set_MainThread_mE6659D5F00027161EE9B50992730CA3203778B4C (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:94>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 68508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:102>
+		V_0 = 0;
+		goto IL_003a;
+	}
+
+IL_0004:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:103>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_5 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9;
+		L_9 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_8, NULL);
+		V_1 = L_9;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87((&V_1), NULL);
+		if (!L_10)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:104>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_11 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		int32_t L_12 = V_0;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_14);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_15;
+		L_15 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_14, NULL);
+		return L_15;
+	}
+
+IL_0036:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:102>
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_003a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:102>
+		int32_t L_17 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_18 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:105>
+		il2cpp_codegen_initobj((&V_1), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_19 = V_1;
+		return L_19;
+	}
+}
+// Method Definition Index: 68509
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:111>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = __this->___U3CcurrentCoroutineU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 68510
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:111>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = ___0_value;
+		__this->___U3CcurrentCoroutineU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68511
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_m69A148667DBBD363496183EF31E37BBF01EC800D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_mBF02E003FC261BE42B40FC6AAAFB14FB380302FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA45723F85D54B15B7AC30B58836BDD2518968808);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* G_B6_0 = NULL;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* G_B5_0 = NULL;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:176>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0068;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:178>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralA45723F85D54B15B7AC30B58836BDD2518968808, NULL);
+		V_0 = L_5;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:180>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:182>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_8, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8;
+		NullCheck(L_9);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_9, _stringLiteralA45723F85D54B15B7AC30B58836BDD2518968808, NULL);
+		V_0 = L_9;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:184>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_10, NULL);
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:187>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
+		NullCheck(L_11);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_12;
+		L_12 = GameObject_GetComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_mBF02E003FC261BE42B40FC6AAAFB14FB380302FE(L_11, GameObject_GetComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_mBF02E003FC261BE42B40FC6AAAFB14FB380302FE_RuntimeMethod_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_13 = L_12;
+		if (L_13)
+		{
+			G_B6_0 = L_13;
+			goto IL_0059;
+		}
+		G_B5_0 = L_13;
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
+		NullCheck(L_14);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_15;
+		L_15 = GameObject_AddComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_m69A148667DBBD363496183EF31E37BBF01EC800D(L_14, GameObject_AddComponent_TisTiming_t0DD075F3BA9244F4658CF51250C0AEC79585114E_m69A148667DBBD363496183EF31E37BBF01EC800D_RuntimeMethod_var);
+		G_B6_0 = L_15;
+	}
+
+IL_0059:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance = G_B6_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance), (void*)G_B6_0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:189>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_16 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_16);
+		Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986(L_16, NULL);
+	}
+
+IL_0068:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:192>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_17 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		return L_17;
+	}
+}
+// Method Definition Index: 68512
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_set_Instance_m178CE740620D35537893D79423CB75999DF78117 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:194>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance), (void*)L_0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 68513
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_OnDestroy_mB38C1485338D4ECF2FF8C72380D43F81EF3B7C33 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:199>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, __this, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:200>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance = (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance), (void*)(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E*)NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:201>
+		return;
+	}
+}
+// Method Definition Index: 68514
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_OnEnable_mE6F340B5B07AB9FB6F28AA4DDE1759466514CF44 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:205>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0;
+		L_0 = Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline(NULL);
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:206>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_1;
+		L_1 = Thread_get_CurrentThread_m6D4719F4993DB9200490531FF02D4076FF9CA9BD(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_set_MainThread_mE6659D5F00027161EE9B50992730CA3203778B4C_inline(L_1, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:208>
+		Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986(__this, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:209>
+		return;
+	}
+}
+// Method Definition Index: 68515
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_OnDisable_mD0A7BF5F36F0AC019A18A909D6F753DA08909EA3 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:213>
+		uint8_t L_0 = __this->____instanceID;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_1 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		NullCheck(L_1);
+		if ((((int32_t)L_0) >= ((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length)))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:214>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		uint8_t L_3 = __this->____instanceID;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, NULL);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E*)NULL);
+	}
+
+IL_001c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:215>
+		return;
+	}
+}
+// Method Definition Index: 68516
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:219>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		uint8_t L_1 = __this->____instanceID;
+		NullCheck(L_0);
+		uint8_t L_2 = L_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:221>
+		uint8_t L_5 = __this->____instanceID;
+		if (L_5)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:222>
+		uint8_t L_6 = __this->____instanceID;
+		__this->____instanceID = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_6, 1)));
+		goto IL_007e;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:226>
+		uint8_t L_7 = __this->____instanceID;
+		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)16)))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:228>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_8, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:229>
+		OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C* L_9 = (OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m2B99D79236B7B87C0BB6C9AB2E557DECE481C264(L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF5F6733642FFD4CD80588AC86805E9D1AE2DF84A)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Timing_InitializeInstanceID_m69E58BA22E5E9C2AB07750291B4D5F422A75E986_RuntimeMethod_var)));
+	}
+
+IL_004d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:232>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_10 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		uint8_t L_11 = __this->____instanceID;
+		NullCheck(L_10);
+		uint8_t L_12 = L_11;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:234>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_15 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		uint8_t L_16 = __this->____instanceID;
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, __this);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E*)__this);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:235>
+		return;
+	}
+
+IL_006f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:224>
+		uint8_t L_17 = __this->____instanceID;
+		__this->____instanceID = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_17, 1)));
+	}
+
+IL_007e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:224>
+		uint8_t L_18 = __this->____instanceID;
+		if ((((int32_t)L_18) <= ((int32_t)((int32_t)16))))
+		{
+			goto IL_002d;
+		}
+	}
+
+IL_0088:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:239>
+		return;
+	}
+}
+// Method Definition Index: 68517
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_Update_m9A6578DAA9A7F699077C69B27BF27D70185D948D (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_11 = NULL;
+	int32_t V_12 = 0;
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_17 = NULL;
+	int32_t V_18 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_22 = NULL;
+	int32_t V_23 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_24;
+	memset((&V_24), 0, sizeof(V_24));
+	uint16_t V_25 = 0;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:243>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:244>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		NullCheck(L_1);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:246>
+		float L_2 = __this->____lastSlowUpdateTime;
+		float L_3 = __this->___TimeBetweenSlowUpdateCalls;
+		float L_4;
+		L_4 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		if ((!(((float)((float)il2cpp_codegen_add(L_2, L_3))) < ((float)L_4))))
+		{
+			goto IL_0533;
+		}
+	}
+	{
+		int32_t L_5 = __this->____nextSlowUpdateProcessSlot;
+		if ((((int32_t)L_5) <= ((int32_t)0)))
+		{
+			goto IL_0533;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:248>
+		il2cpp_codegen_initobj((&V_1), sizeof(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5));
+		(&V_1)->___seg = 3;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = V_1;
+		V_0 = L_6;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:249>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_7 = V_0;
+		int32_t L_8 = L_7.___seg;
+		bool L_9;
+		L_9 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:250>
+		int32_t L_10 = __this->____nextSlowUpdateProcessSlot;
+		__this->____lastSlowUpdateProcessSlot = L_10;
+	}
+
+IL_0060:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:252>
+		(&V_0)->___i = 0;
+		goto IL_02ad;
+	}
+
+IL_006d:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:256>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = __this->___SlowUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12 = V_0;
+			int32_t L_13 = L_12.___i;
+			NullCheck(L_11);
+			int32_t L_14 = L_13;
+			uint8_t L_15 = (uint8_t)(L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+			if (L_15)
+			{
+				goto IL_0286_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_16 = __this->___SlowUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17 = V_0;
+			int32_t L_18 = L_17.___i;
+			NullCheck(L_16);
+			int32_t L_19 = L_18;
+			uint8_t L_20 = (uint8_t)(L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+			if (L_20)
+			{
+				goto IL_0286_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_21 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_22 = V_0;
+			int32_t L_23 = L_22.___i;
+			NullCheck(L_21);
+			int32_t L_24 = L_23;
+			RuntimeObject* L_25 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+			if (!L_25)
+			{
+				goto IL_0286_1;
+			}
+		}
+		{
+			float L_26 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_28 = V_0;
+			int32_t L_29 = L_28.___i;
+			NullCheck(L_27);
+			int32_t L_30 = L_29;
+			RuntimeObject* L_31 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+			NullCheck(L_31);
+			float L_32;
+			L_32 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_31);
+			if ((((float)L_26) < ((float)L_32)))
+			{
+				goto IL_0286_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:258>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_33 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_34 = V_0;
+			NullCheck(L_33);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_35;
+			L_35 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_33, L_34, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_35, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:260>
+			int32_t L_36 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:267>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_37 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_38 = V_0;
+			int32_t L_39 = L_38.___i;
+			NullCheck(L_37);
+			int32_t L_40 = L_39;
+			RuntimeObject* L_41 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+			NullCheck(L_41);
+			bool L_42;
+			L_42 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_41);
+			if (L_42)
+			{
+				goto IL_020e_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:269>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_43 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_44 = V_0;
+			NullCheck(L_43);
+			bool L_45;
+			L_45 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_43, L_44, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_45)
+			{
+				goto IL_027f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:271>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_46 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_47 = V_0;
+			NullCheck(L_46);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_48;
+			L_48 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_46, L_47, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_2 = L_48;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:272>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_49 = V_2;
+			int32_t L_50;
+			L_50 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_49, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:274>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_51 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_52 = V_2;
+			NullCheck(L_51);
+			bool L_53;
+			L_53 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_51, L_52, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_53)
+			{
+				goto IL_027f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:276>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_54 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_55 = V_2;
+			NullCheck(L_54);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_56;
+			L_56 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_54, L_55, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:277>
+			NullCheck(L_56);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_57;
+			L_57 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_56, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_3 = L_57;
+			goto IL_01f3_1;
+		}
+
+IL_013f_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:280>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_58 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_59;
+			L_59 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_58);
+			bool L_60;
+			L_60 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_58, L_59, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_60)
+			{
+				goto IL_01f3_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:282>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_61 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_62;
+			L_62 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_61);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_63;
+			L_63 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_61, L_62, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_4 = L_63;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:283>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_64 = V_4;
+			int32_t L_65 = L_64.___seg;
+			if ((!(((uint32_t)L_65) == ((uint32_t)3))))
+			{
+				goto IL_01f3_1;
+			}
+		}
+		{
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_66 = V_4;
+			int32_t L_67 = L_66.___i;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_68 = V_0;
+			int32_t L_69 = L_68.___i;
+			if ((((int32_t)L_67) >= ((int32_t)L_69)))
+			{
+				goto IL_01f3_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:285>
+			int32_t L_70 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_71 = __this->____resumeBuffer;
+			NullCheck(L_71);
+			if ((!(((uint32_t)L_70) == ((uint32_t)((int32_t)(((RuntimeArray*)L_71)->max_length))))))
+			{
+				goto IL_01d1_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:287>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = __this->____resumeBuffer;
+			NullCheck(L_72);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_72)->max_length)), 2)));
+			V_5 = L_73;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:288>
+			V_6 = 0;
+			goto IL_01bd_1;
+		}
+
+IL_01a9_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:289>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_74 = V_5;
+			int32_t L_75 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_76 = __this->____resumeBuffer;
+			int32_t L_77 = V_6;
+			NullCheck(L_76);
+			int32_t L_78 = L_77;
+			int32_t L_79 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
+			NullCheck(L_74);
+			(L_74)->SetAt(static_cast<il2cpp_array_size_t>(L_75), (int32_t)L_79);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:288>
+			int32_t L_80 = V_6;
+			V_6 = ((int32_t)il2cpp_codegen_add(L_80, 1));
+		}
+
+IL_01bd_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:288>
+			int32_t L_81 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = __this->____resumeBuffer;
+			NullCheck(L_82);
+			if ((((int32_t)L_81) < ((int32_t)((int32_t)(((RuntimeArray*)L_82)->max_length)))))
+			{
+				goto IL_01a9_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:290>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_83 = V_5;
+			__this->____resumeBuffer = L_83;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_83);
+		}
+
+IL_01d1_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:292>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_84 = __this->____resumeBuffer;
+			int32_t L_85 = __this->____resumeCount;
+			V_7 = L_85;
+			int32_t L_86 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_86, 1));
+			int32_t L_87 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_88 = V_4;
+			int32_t L_89 = L_88.___i;
+			NullCheck(L_84);
+			(L_84)->SetAt(static_cast<il2cpp_array_size_t>(L_87), (int32_t)L_89);
+		}
+
+IL_01f3_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:278>
+			bool L_90;
+			L_90 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_3), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_90)
+			{
+				goto IL_013f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:296>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_91 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_92 = V_2;
+			NullCheck(L_91);
+			bool L_93;
+			L_93 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_91, L_92, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_027f_1;
+		}
+
+IL_020e_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:300>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_94 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_95 = V_0;
+			int32_t L_96 = L_95.___i;
+			NullCheck(L_94);
+			int32_t L_97 = L_96;
+			RuntimeObject* L_98 = (L_94)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+			if (!L_98)
+			{
+				goto IL_027f_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_99 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_100 = V_0;
+			int32_t L_101 = L_100.___i;
+			NullCheck(L_99);
+			int32_t L_102 = L_101;
+			RuntimeObject* L_103 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_102));
+			NullCheck(L_103);
+			float L_104;
+			L_104 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_103);
+			bool L_105;
+			L_105 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_104, NULL);
+			if (!L_105)
+			{
+				goto IL_027f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:302>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_106 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_106)
+			{
+				goto IL_0273_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:304>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_107 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_108 = V_0;
+			int32_t L_109 = L_108.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_110 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_111 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_112 = V_0;
+			int32_t L_113 = L_112.___i;
+			NullCheck(L_111);
+			int32_t L_114 = L_113;
+			RuntimeObject* L_115 = (L_111)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_116 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_117 = V_0;
+			NullCheck(L_116);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_118;
+			L_118 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_116, L_117, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_110);
+			RuntimeObject* L_119;
+			L_119 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_110, L_115, L_118, NULL);
+			NullCheck(L_107);
+			ArrayElementTypeCheck (L_107, L_119);
+			(L_107)->SetAt(static_cast<il2cpp_array_size_t>(L_109), (RuntimeObject*)L_119);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:305>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_0273_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:307>
+			int32_t* L_120 = (int32_t*)(&(&V_0)->___i);
+			int32_t* L_121 = L_120;
+			int32_t L_122 = *((int32_t*)L_121);
+			*((int32_t*)L_121) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_122, 1));
+		}
+
+IL_027f_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:310>
+			int32_t L_123 = __this->___ProfilerDebugAmount;
+		}
+
+IL_0286_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:313>
+			goto IL_02a1;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0288;
+		}
+		throw e;
+	}
+
+CATCH_0288:
+	{
+		{
+			Exception_t* L_124 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:316>
+			Exception_t* L_125 = L_124;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_125, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:318>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_125, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_029f;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:319>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:320>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0D38602236EC85DCB4F2B7D4214F7F58A29898F4)), NULL);
+		}
+
+IL_029f:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:321>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_02a1;
+		}
+	}
+
+IL_02a1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:252>
+		int32_t* L_126 = (int32_t*)(&(&V_0)->___i);
+		int32_t* L_127 = L_126;
+		int32_t L_128 = *((int32_t*)L_127);
+		*((int32_t*)L_127) = (int32_t)((int32_t)il2cpp_codegen_add(L_128, 1));
+	}
+
+IL_02ad:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:252>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_129 = V_0;
+		int32_t L_130 = L_129.___i;
+		int32_t L_131 = __this->____lastSlowUpdateProcessSlot;
+		if ((((int32_t)L_130) < ((int32_t)L_131)))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		goto IL_0527;
+	}
+
+IL_02c3:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:326>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_132 = __this->____resumeBuffer;
+		int32_t L_133 = __this->____resumeCount;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_133, 1));
+		int32_t L_134 = V_7;
+		__this->____resumeCount = L_134;
+		int32_t L_135 = V_7;
+		NullCheck(L_132);
+		int32_t L_136 = L_135;
+		int32_t L_137 = (L_132)->GetAt(static_cast<il2cpp_array_size_t>(L_136));
+		(&V_0)->___i = L_137;
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:330>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_138 = __this->___SlowUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_139 = V_0;
+			int32_t L_140 = L_139.___i;
+			NullCheck(L_138);
+			int32_t L_141 = L_140;
+			uint8_t L_142 = (uint8_t)(L_138)->GetAt(static_cast<il2cpp_array_size_t>(L_141));
+			if (L_142)
+			{
+				goto IL_050c_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_143 = __this->___SlowUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_144 = V_0;
+			int32_t L_145 = L_144.___i;
+			NullCheck(L_143);
+			int32_t L_146 = L_145;
+			uint8_t L_147 = (uint8_t)(L_143)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+			if (L_147)
+			{
+				goto IL_050c_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_148 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_149 = V_0;
+			int32_t L_150 = L_149.___i;
+			NullCheck(L_148);
+			int32_t L_151 = L_150;
+			RuntimeObject* L_152 = (L_148)->GetAt(static_cast<il2cpp_array_size_t>(L_151));
+			if (!L_152)
+			{
+				goto IL_050c_1;
+			}
+		}
+		{
+			float L_153 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_154 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_155 = V_0;
+			int32_t L_156 = L_155.___i;
+			NullCheck(L_154);
+			int32_t L_157 = L_156;
+			RuntimeObject* L_158 = (L_154)->GetAt(static_cast<il2cpp_array_size_t>(L_157));
+			NullCheck(L_158);
+			float L_159;
+			L_159 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_158);
+			if ((((float)L_153) < ((float)L_159)))
+			{
+				goto IL_050c_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:332>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_160 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_161 = V_0;
+			NullCheck(L_160);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_162;
+			L_162 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_160, L_161, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_162, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:334>
+			int32_t L_163 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:341>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_164 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_165 = V_0;
+			int32_t L_166 = L_165.___i;
+			NullCheck(L_164);
+			int32_t L_167 = L_166;
+			RuntimeObject* L_168 = (L_164)->GetAt(static_cast<il2cpp_array_size_t>(L_167));
+			NullCheck(L_168);
+			bool L_169;
+			L_169 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_168);
+			if (L_169)
+			{
+				goto IL_047f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:343>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_170 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_171 = V_0;
+			NullCheck(L_170);
+			bool L_172;
+			L_172 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_170, L_171, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_172)
+			{
+				goto IL_0505_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:345>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_173 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_174 = V_0;
+			NullCheck(L_173);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_175;
+			L_175 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_173, L_174, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_8 = L_175;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:346>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_176 = V_8;
+			int32_t L_177;
+			L_177 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_176, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:348>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_178 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_179 = V_8;
+			NullCheck(L_178);
+			bool L_180;
+			L_180 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_178, L_179, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_180)
+			{
+				goto IL_0505_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:350>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_181 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_182 = V_8;
+			NullCheck(L_181);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_183;
+			L_183 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_181, L_182, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:351>
+			NullCheck(L_183);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_184;
+			L_184 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_183, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_9 = L_184;
+			goto IL_0460_1;
+		}
+
+IL_03bb_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:354>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_185 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_186;
+			L_186 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_185);
+			bool L_187;
+			L_187 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_185, L_186, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_187)
+			{
+				goto IL_0460_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:356>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_188 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_189;
+			L_189 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_188);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_190;
+			L_190 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_188, L_189, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_10 = L_190;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:357>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_191 = V_10;
+			int32_t L_192 = L_191.___seg;
+			if ((!(((uint32_t)L_192) == ((uint32_t)3))))
+			{
+				goto IL_0460_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:359>
+			int32_t L_193 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_194 = __this->____resumeBuffer;
+			NullCheck(L_194);
+			if ((!(((uint32_t)L_193) == ((uint32_t)((int32_t)(((RuntimeArray*)L_194)->max_length))))))
+			{
+				goto IL_043e_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:361>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_195 = __this->____resumeBuffer;
+			NullCheck(L_195);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_196 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_195)->max_length)), 2)));
+			V_11 = L_196;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:362>
+			V_12 = 0;
+			goto IL_042a_1;
+		}
+
+IL_0416_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:363>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_197 = V_11;
+			int32_t L_198 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_199 = __this->____resumeBuffer;
+			int32_t L_200 = V_12;
+			NullCheck(L_199);
+			int32_t L_201 = L_200;
+			int32_t L_202 = (L_199)->GetAt(static_cast<il2cpp_array_size_t>(L_201));
+			NullCheck(L_197);
+			(L_197)->SetAt(static_cast<il2cpp_array_size_t>(L_198), (int32_t)L_202);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:362>
+			int32_t L_203 = V_12;
+			V_12 = ((int32_t)il2cpp_codegen_add(L_203, 1));
+		}
+
+IL_042a_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:362>
+			int32_t L_204 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_205 = __this->____resumeBuffer;
+			NullCheck(L_205);
+			if ((((int32_t)L_204) < ((int32_t)((int32_t)(((RuntimeArray*)L_205)->max_length)))))
+			{
+				goto IL_0416_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:364>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_206 = V_11;
+			__this->____resumeBuffer = L_206;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_206);
+		}
+
+IL_043e_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:366>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_207 = __this->____resumeBuffer;
+			int32_t L_208 = __this->____resumeCount;
+			V_7 = L_208;
+			int32_t L_209 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_209, 1));
+			int32_t L_210 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_211 = V_10;
+			int32_t L_212 = L_211.___i;
+			NullCheck(L_207);
+			(L_207)->SetAt(static_cast<il2cpp_array_size_t>(L_210), (int32_t)L_212);
+		}
+
+IL_0460_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:352>
+			bool L_213;
+			L_213 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_9), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_213)
+			{
+				goto IL_03bb_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:370>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_214 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_215 = V_8;
+			NullCheck(L_214);
+			bool L_216;
+			L_216 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_214, L_215, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_0505_1;
+		}
+
+IL_047f_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:374>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_217 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_218 = V_0;
+			int32_t L_219 = L_218.___i;
+			NullCheck(L_217);
+			int32_t L_220 = L_219;
+			RuntimeObject* L_221 = (L_217)->GetAt(static_cast<il2cpp_array_size_t>(L_220));
+			if (!L_221)
+			{
+				goto IL_0505_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_222 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_223 = V_0;
+			int32_t L_224 = L_223.___i;
+			NullCheck(L_222);
+			int32_t L_225 = L_224;
+			RuntimeObject* L_226 = (L_222)->GetAt(static_cast<il2cpp_array_size_t>(L_225));
+			NullCheck(L_226);
+			float L_227;
+			L_227 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_226);
+			bool L_228;
+			L_228 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_227, NULL);
+			if (!L_228)
+			{
+				goto IL_0505_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:376>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_229 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_229)
+			{
+				goto IL_04e4_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:378>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_230 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_231 = V_0;
+			int32_t L_232 = L_231.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_233 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_234 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_235 = V_0;
+			int32_t L_236 = L_235.___i;
+			NullCheck(L_234);
+			int32_t L_237 = L_236;
+			RuntimeObject* L_238 = (L_234)->GetAt(static_cast<il2cpp_array_size_t>(L_237));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_239 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_240 = V_0;
+			NullCheck(L_239);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_241;
+			L_241 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_239, L_240, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_233);
+			RuntimeObject* L_242;
+			L_242 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_233, L_238, L_241, NULL);
+			NullCheck(L_230);
+			ArrayElementTypeCheck (L_230, L_242);
+			(L_230)->SetAt(static_cast<il2cpp_array_size_t>(L_232), (RuntimeObject*)L_242);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:379>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_04e4_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:381>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_243 = __this->____resumeBuffer;
+			int32_t L_244 = __this->____resumeCount;
+			V_7 = L_244;
+			int32_t L_245 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_245, 1));
+			int32_t L_246 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_247 = V_0;
+			int32_t L_248 = L_247.___i;
+			NullCheck(L_243);
+			(L_243)->SetAt(static_cast<il2cpp_array_size_t>(L_246), (int32_t)L_248);
+		}
+
+IL_0505_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:384>
+			int32_t L_249 = __this->___ProfilerDebugAmount;
+		}
+
+IL_050c_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:387>
+			goto IL_0527;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_050e;
+		}
+		throw e;
+	}
+
+CATCH_050e:
+	{
+		{
+			Exception_t* L_250 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:390>
+			Exception_t* L_251 = L_250;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_251, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:392>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_251, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_0525;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:393>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:394>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0D38602236EC85DCB4F2B7D4214F7F58A29898F4)), NULL);
+		}
+
+IL_0525:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:395>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0527;
+		}
+	}
+
+IL_0527:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:324>
+		int32_t L_252 = __this->____resumeCount;
+		if ((((int32_t)L_252) > ((int32_t)0)))
+		{
+			goto IL_02c3;
+		}
+	}
+
+IL_0533:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:399>
+		int32_t L_253 = __this->____nextUpdateProcessSlot;
+		if ((((int32_t)L_253) <= ((int32_t)0)))
+		{
+			goto IL_0a64;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:401>
+		il2cpp_codegen_initobj((&V_1), sizeof(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5));
+		(&V_1)->___seg = 0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_254 = V_1;
+		V_13 = L_254;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:402>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_255 = V_13;
+		int32_t L_256 = L_255.___seg;
+		bool L_257;
+		L_257 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_256, NULL);
+		if (!L_257)
+		{
+			goto IL_056d;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:403>
+		int32_t L_258 = __this->____nextUpdateProcessSlot;
+		__this->____lastUpdateProcessSlot = L_258;
+	}
+
+IL_056d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:405>
+		(&V_13)->___i = 0;
+		goto IL_07d0;
+	}
+
+IL_057a:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:409>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_259 = __this->___UpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_260 = V_13;
+			int32_t L_261 = L_260.___i;
+			NullCheck(L_259);
+			int32_t L_262 = L_261;
+			uint8_t L_263 = (uint8_t)(L_259)->GetAt(static_cast<il2cpp_array_size_t>(L_262));
+			if (L_263)
+			{
+				goto IL_07a9_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_264 = __this->___UpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_265 = V_13;
+			int32_t L_266 = L_265.___i;
+			NullCheck(L_264);
+			int32_t L_267 = L_266;
+			uint8_t L_268 = (uint8_t)(L_264)->GetAt(static_cast<il2cpp_array_size_t>(L_267));
+			if (L_268)
+			{
+				goto IL_07a9_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_269 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_270 = V_13;
+			int32_t L_271 = L_270.___i;
+			NullCheck(L_269);
+			int32_t L_272 = L_271;
+			RuntimeObject* L_273 = (L_269)->GetAt(static_cast<il2cpp_array_size_t>(L_272));
+			if (!L_273)
+			{
+				goto IL_07a9_1;
+			}
+		}
+		{
+			float L_274 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_275 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_276 = V_13;
+			int32_t L_277 = L_276.___i;
+			NullCheck(L_275);
+			int32_t L_278 = L_277;
+			RuntimeObject* L_279 = (L_275)->GetAt(static_cast<il2cpp_array_size_t>(L_278));
+			NullCheck(L_279);
+			float L_280;
+			L_280 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_279);
+			if ((((float)L_274) < ((float)L_280)))
+			{
+				goto IL_07a9_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:411>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_281 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_282 = V_13;
+			NullCheck(L_281);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_283;
+			L_283 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_281, L_282, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_283, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:413>
+			int32_t L_284 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:420>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_285 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_286 = V_13;
+			int32_t L_287 = L_286.___i;
+			NullCheck(L_285);
+			int32_t L_288 = L_287;
+			RuntimeObject* L_289 = (L_285)->GetAt(static_cast<il2cpp_array_size_t>(L_288));
+			NullCheck(L_289);
+			bool L_290;
+			L_290 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_289);
+			if (L_290)
+			{
+				goto IL_072c_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:422>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_291 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_292 = V_13;
+			NullCheck(L_291);
+			bool L_293;
+			L_293 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_291, L_292, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_293)
+			{
+				goto IL_07a2_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:424>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_294 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_295 = V_13;
+			NullCheck(L_294);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_296;
+			L_296 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_294, L_295, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_14 = L_296;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:425>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_297 = V_14;
+			int32_t L_298;
+			L_298 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_297, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:427>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_299 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_300 = V_14;
+			NullCheck(L_299);
+			bool L_301;
+			L_301 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_299, L_300, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_301)
+			{
+				goto IL_07a2_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:429>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_302 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_303 = V_14;
+			NullCheck(L_302);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_304;
+			L_304 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_302, L_303, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:430>
+			NullCheck(L_304);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_305;
+			L_305 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_304, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_15 = L_305;
+			goto IL_0710_1;
+		}
+
+IL_0659_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:433>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_306 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_307;
+			L_307 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_15), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_306);
+			bool L_308;
+			L_308 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_306, L_307, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_308)
+			{
+				goto IL_0710_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:435>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_309 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_310;
+			L_310 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_15), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_309);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_311;
+			L_311 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_309, L_310, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_16 = L_311;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:436>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_312 = V_16;
+			int32_t L_313 = L_312.___seg;
+			if (L_313)
+			{
+				goto IL_0710_1;
+			}
+		}
+		{
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_314 = V_16;
+			int32_t L_315 = L_314.___i;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_316 = V_13;
+			int32_t L_317 = L_316.___i;
+			if ((((int32_t)L_315) >= ((int32_t)L_317)))
+			{
+				goto IL_0710_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:438>
+			int32_t L_318 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_319 = __this->____resumeBuffer;
+			NullCheck(L_319);
+			if ((!(((uint32_t)L_318) == ((uint32_t)((int32_t)(((RuntimeArray*)L_319)->max_length))))))
+			{
+				goto IL_06ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:440>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_320 = __this->____resumeBuffer;
+			NullCheck(L_320);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_321 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_320)->max_length)), 2)));
+			V_17 = L_321;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:441>
+			V_18 = 0;
+			goto IL_06da_1;
+		}
+
+IL_06c6_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:442>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_322 = V_17;
+			int32_t L_323 = V_18;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_324 = __this->____resumeBuffer;
+			int32_t L_325 = V_18;
+			NullCheck(L_324);
+			int32_t L_326 = L_325;
+			int32_t L_327 = (L_324)->GetAt(static_cast<il2cpp_array_size_t>(L_326));
+			NullCheck(L_322);
+			(L_322)->SetAt(static_cast<il2cpp_array_size_t>(L_323), (int32_t)L_327);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:441>
+			int32_t L_328 = V_18;
+			V_18 = ((int32_t)il2cpp_codegen_add(L_328, 1));
+		}
+
+IL_06da_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:441>
+			int32_t L_329 = V_18;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_330 = __this->____resumeBuffer;
+			NullCheck(L_330);
+			if ((((int32_t)L_329) < ((int32_t)((int32_t)(((RuntimeArray*)L_330)->max_length)))))
+			{
+				goto IL_06c6_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:443>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_331 = V_17;
+			__this->____resumeBuffer = L_331;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_331);
+		}
+
+IL_06ee_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:445>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_332 = __this->____resumeBuffer;
+			int32_t L_333 = __this->____resumeCount;
+			V_7 = L_333;
+			int32_t L_334 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_334, 1));
+			int32_t L_335 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_336 = V_16;
+			int32_t L_337 = L_336.___i;
+			NullCheck(L_332);
+			(L_332)->SetAt(static_cast<il2cpp_array_size_t>(L_335), (int32_t)L_337);
+		}
+
+IL_0710_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:431>
+			bool L_338;
+			L_338 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_15), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_338)
+			{
+				goto IL_0659_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:449>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_339 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_340 = V_14;
+			NullCheck(L_339);
+			bool L_341;
+			L_341 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_339, L_340, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_07a2_1;
+		}
+
+IL_072c_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:453>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_342 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_343 = V_13;
+			int32_t L_344 = L_343.___i;
+			NullCheck(L_342);
+			int32_t L_345 = L_344;
+			RuntimeObject* L_346 = (L_342)->GetAt(static_cast<il2cpp_array_size_t>(L_345));
+			if (!L_346)
+			{
+				goto IL_07a2_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_347 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_348 = V_13;
+			int32_t L_349 = L_348.___i;
+			NullCheck(L_347);
+			int32_t L_350 = L_349;
+			RuntimeObject* L_351 = (L_347)->GetAt(static_cast<il2cpp_array_size_t>(L_350));
+			NullCheck(L_351);
+			float L_352;
+			L_352 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_351);
+			bool L_353;
+			L_353 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_352, NULL);
+			if (!L_353)
+			{
+				goto IL_07a2_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:455>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_354 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_354)
+			{
+				goto IL_0796_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:457>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_355 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_356 = V_13;
+			int32_t L_357 = L_356.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_358 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_359 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_360 = V_13;
+			int32_t L_361 = L_360.___i;
+			NullCheck(L_359);
+			int32_t L_362 = L_361;
+			RuntimeObject* L_363 = (L_359)->GetAt(static_cast<il2cpp_array_size_t>(L_362));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_364 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_365 = V_13;
+			NullCheck(L_364);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_366;
+			L_366 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_364, L_365, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_358);
+			RuntimeObject* L_367;
+			L_367 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_358, L_363, L_366, NULL);
+			NullCheck(L_355);
+			ArrayElementTypeCheck (L_355, L_367);
+			(L_355)->SetAt(static_cast<il2cpp_array_size_t>(L_357), (RuntimeObject*)L_367);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:458>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_0796_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:460>
+			int32_t* L_368 = (int32_t*)(&(&V_13)->___i);
+			int32_t* L_369 = L_368;
+			int32_t L_370 = *((int32_t*)L_369);
+			*((int32_t*)L_369) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_370, 1));
+		}
+
+IL_07a2_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:463>
+			int32_t L_371 = __this->___ProfilerDebugAmount;
+		}
+
+IL_07a9_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:466>
+			goto IL_07c4;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_07ab;
+		}
+		throw e;
+	}
+
+CATCH_07ab:
+	{
+		{
+			Exception_t* L_372 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:469>
+			Exception_t* L_373 = L_372;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_373, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:471>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_373, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_07c2;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:472>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:473>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB2E2BE32169D4D798AD88E70E0CA1D2162DF0970)), NULL);
+		}
+
+IL_07c2:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:474>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_07c4;
+		}
+	}
+
+IL_07c4:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:405>
+		int32_t* L_374 = (int32_t*)(&(&V_13)->___i);
+		int32_t* L_375 = L_374;
+		int32_t L_376 = *((int32_t*)L_375);
+		*((int32_t*)L_375) = (int32_t)((int32_t)il2cpp_codegen_add(L_376, 1));
+	}
+
+IL_07d0:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:405>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_377 = V_13;
+		int32_t L_378 = L_377.___i;
+		int32_t L_379 = __this->____lastUpdateProcessSlot;
+		if ((((int32_t)L_378) < ((int32_t)L_379)))
+		{
+			goto IL_057a;
+		}
+	}
+	{
+		goto IL_0a58;
+	}
+
+IL_07e7:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:479>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_380 = __this->____resumeBuffer;
+		int32_t L_381 = __this->____resumeCount;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_381, 1));
+		int32_t L_382 = V_7;
+		__this->____resumeCount = L_382;
+		int32_t L_383 = V_7;
+		NullCheck(L_380);
+		int32_t L_384 = L_383;
+		int32_t L_385 = (L_380)->GetAt(static_cast<il2cpp_array_size_t>(L_384));
+		(&V_13)->___i = L_385;
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:483>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_386 = __this->___UpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_387 = V_13;
+			int32_t L_388 = L_387.___i;
+			NullCheck(L_386);
+			int32_t L_389 = L_388;
+			uint8_t L_390 = (uint8_t)(L_386)->GetAt(static_cast<il2cpp_array_size_t>(L_389));
+			if (L_390)
+			{
+				goto IL_0a3d_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_391 = __this->___UpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_392 = V_13;
+			int32_t L_393 = L_392.___i;
+			NullCheck(L_391);
+			int32_t L_394 = L_393;
+			uint8_t L_395 = (uint8_t)(L_391)->GetAt(static_cast<il2cpp_array_size_t>(L_394));
+			if (L_395)
+			{
+				goto IL_0a3d_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_396 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_397 = V_13;
+			int32_t L_398 = L_397.___i;
+			NullCheck(L_396);
+			int32_t L_399 = L_398;
+			RuntimeObject* L_400 = (L_396)->GetAt(static_cast<il2cpp_array_size_t>(L_399));
+			if (!L_400)
+			{
+				goto IL_0a3d_1;
+			}
+		}
+		{
+			float L_401 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_402 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_403 = V_13;
+			int32_t L_404 = L_403.___i;
+			NullCheck(L_402);
+			int32_t L_405 = L_404;
+			RuntimeObject* L_406 = (L_402)->GetAt(static_cast<il2cpp_array_size_t>(L_405));
+			NullCheck(L_406);
+			float L_407;
+			L_407 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_406);
+			if ((((float)L_401) < ((float)L_407)))
+			{
+				goto IL_0a3d_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:485>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_408 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_409 = V_13;
+			NullCheck(L_408);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_410;
+			L_410 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_408, L_409, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_410, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:487>
+			int32_t L_411 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:494>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_412 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_413 = V_13;
+			int32_t L_414 = L_413.___i;
+			NullCheck(L_412);
+			int32_t L_415 = L_414;
+			RuntimeObject* L_416 = (L_412)->GetAt(static_cast<il2cpp_array_size_t>(L_415));
+			NullCheck(L_416);
+			bool L_417;
+			L_417 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_416);
+			if (L_417)
+			{
+				goto IL_09aa_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:496>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_418 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_419 = V_13;
+			NullCheck(L_418);
+			bool L_420;
+			L_420 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_418, L_419, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_420)
+			{
+				goto IL_0a36_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:498>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_421 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_422 = V_13;
+			NullCheck(L_421);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_423;
+			L_423 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_421, L_422, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_19 = L_423;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:499>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_424 = V_19;
+			int32_t L_425;
+			L_425 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_424, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:501>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_426 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_427 = V_19;
+			NullCheck(L_426);
+			bool L_428;
+			L_428 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_426, L_427, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_428)
+			{
+				goto IL_0a36_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:503>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_429 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_430 = V_19;
+			NullCheck(L_429);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_431;
+			L_431 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_429, L_430, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:504>
+			NullCheck(L_431);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_432;
+			L_432 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_431, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_20 = L_432;
+			goto IL_098b_1;
+		}
+
+IL_08e7_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:507>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_433 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_434;
+			L_434 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_20), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_433);
+			bool L_435;
+			L_435 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_433, L_434, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_435)
+			{
+				goto IL_098b_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:509>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_436 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_437;
+			L_437 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_20), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_436);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_438;
+			L_438 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_436, L_437, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_21 = L_438;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:510>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_439 = V_21;
+			int32_t L_440 = L_439.___seg;
+			if (L_440)
+			{
+				goto IL_098b_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:512>
+			int32_t L_441 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_442 = __this->____resumeBuffer;
+			NullCheck(L_442);
+			if ((!(((uint32_t)L_441) == ((uint32_t)((int32_t)(((RuntimeArray*)L_442)->max_length))))))
+			{
+				goto IL_0969_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:514>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_443 = __this->____resumeBuffer;
+			NullCheck(L_443);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_444 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_443)->max_length)), 2)));
+			V_22 = L_444;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:515>
+			V_23 = 0;
+			goto IL_0955_1;
+		}
+
+IL_0941_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:516>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_445 = V_22;
+			int32_t L_446 = V_23;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_447 = __this->____resumeBuffer;
+			int32_t L_448 = V_23;
+			NullCheck(L_447);
+			int32_t L_449 = L_448;
+			int32_t L_450 = (L_447)->GetAt(static_cast<il2cpp_array_size_t>(L_449));
+			NullCheck(L_445);
+			(L_445)->SetAt(static_cast<il2cpp_array_size_t>(L_446), (int32_t)L_450);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:515>
+			int32_t L_451 = V_23;
+			V_23 = ((int32_t)il2cpp_codegen_add(L_451, 1));
+		}
+
+IL_0955_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:515>
+			int32_t L_452 = V_23;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_453 = __this->____resumeBuffer;
+			NullCheck(L_453);
+			if ((((int32_t)L_452) < ((int32_t)((int32_t)(((RuntimeArray*)L_453)->max_length)))))
+			{
+				goto IL_0941_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:517>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_454 = V_22;
+			__this->____resumeBuffer = L_454;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_454);
+		}
+
+IL_0969_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:519>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_455 = __this->____resumeBuffer;
+			int32_t L_456 = __this->____resumeCount;
+			V_7 = L_456;
+			int32_t L_457 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_457, 1));
+			int32_t L_458 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_459 = V_21;
+			int32_t L_460 = L_459.___i;
+			NullCheck(L_455);
+			(L_455)->SetAt(static_cast<il2cpp_array_size_t>(L_458), (int32_t)L_460);
+		}
+
+IL_098b_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:505>
+			bool L_461;
+			L_461 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_20), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_461)
+			{
+				goto IL_08e7_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:523>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_462 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_463 = V_19;
+			NullCheck(L_462);
+			bool L_464;
+			L_464 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_462, L_463, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_0a36_1;
+		}
+
+IL_09aa_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:527>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_465 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_466 = V_13;
+			int32_t L_467 = L_466.___i;
+			NullCheck(L_465);
+			int32_t L_468 = L_467;
+			RuntimeObject* L_469 = (L_465)->GetAt(static_cast<il2cpp_array_size_t>(L_468));
+			if (!L_469)
+			{
+				goto IL_0a36_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_470 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_471 = V_13;
+			int32_t L_472 = L_471.___i;
+			NullCheck(L_470);
+			int32_t L_473 = L_472;
+			RuntimeObject* L_474 = (L_470)->GetAt(static_cast<il2cpp_array_size_t>(L_473));
+			NullCheck(L_474);
+			float L_475;
+			L_475 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_474);
+			bool L_476;
+			L_476 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_475, NULL);
+			if (!L_476)
+			{
+				goto IL_0a36_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:529>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_477 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_477)
+			{
+				goto IL_0a14_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:531>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_478 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_479 = V_13;
+			int32_t L_480 = L_479.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_481 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_482 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_483 = V_13;
+			int32_t L_484 = L_483.___i;
+			NullCheck(L_482);
+			int32_t L_485 = L_484;
+			RuntimeObject* L_486 = (L_482)->GetAt(static_cast<il2cpp_array_size_t>(L_485));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_487 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_488 = V_13;
+			NullCheck(L_487);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_489;
+			L_489 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_487, L_488, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_481);
+			RuntimeObject* L_490;
+			L_490 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_481, L_486, L_489, NULL);
+			NullCheck(L_478);
+			ArrayElementTypeCheck (L_478, L_490);
+			(L_478)->SetAt(static_cast<il2cpp_array_size_t>(L_480), (RuntimeObject*)L_490);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:532>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_0a14_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:534>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_491 = __this->____resumeBuffer;
+			int32_t L_492 = __this->____resumeCount;
+			V_7 = L_492;
+			int32_t L_493 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_493, 1));
+			int32_t L_494 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_495 = V_13;
+			int32_t L_496 = L_495.___i;
+			NullCheck(L_491);
+			(L_491)->SetAt(static_cast<il2cpp_array_size_t>(L_494), (int32_t)L_496);
+		}
+
+IL_0a36_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:537>
+			int32_t L_497 = __this->___ProfilerDebugAmount;
+		}
+
+IL_0a3d_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:540>
+			goto IL_0a58;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0a3f;
+		}
+		throw e;
+	}
+
+CATCH_0a3f:
+	{
+		{
+			Exception_t* L_498 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:543>
+			Exception_t* L_499 = L_498;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_499, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:545>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_499, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_0a56;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:546>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:547>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB2E2BE32169D4D798AD88E70E0CA1D2162DF0970)), NULL);
+		}
+
+IL_0a56:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:548>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0a58;
+		}
+	}
+
+IL_0a58:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:477>
+		int32_t L_500 = __this->____resumeCount;
+		if ((((int32_t)L_500) > ((int32_t)0)))
+		{
+			goto IL_07e7;
+		}
+	}
+
+IL_0a64:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:552>
+		il2cpp_codegen_initobj((&V_24), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_501 = V_24;
+		Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_501, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:554>
+		uint16_t L_502 = __this->____framesSinceUpdate;
+		V_25 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_502, 1)));
+		uint16_t L_503 = V_25;
+		__this->____framesSinceUpdate = L_503;
+		uint16_t L_504 = V_25;
+		if ((((int32_t)L_504) <= ((int32_t)((int32_t)64))))
+		{
+			goto IL_0aa8;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:556>
+		__this->____framesSinceUpdate = (uint16_t)0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:558>
+		int32_t L_505 = __this->___ProfilerDebugAmount;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:561>
+		Timing_RemoveUnused_mE9B027D6DFA25889F40F15599F138D03FD8A8A01(__this, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:563>
+		int32_t L_506 = __this->___ProfilerDebugAmount;
+	}
+
+IL_0aa8:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:566>
+		return;
+	}
+}
+// Method Definition Index: 68518
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_FixedUpdate_m925BCAA7D8521D12427024617FCD8AC523B637A7 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_11 = NULL;
+	int32_t V_12 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:570>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:571>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		NullCheck(L_1);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:573>
+		int32_t L_2 = __this->____nextFixedUpdateProcessSlot;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_052c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:575>
+		il2cpp_codegen_initobj((&V_1), sizeof(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5));
+		(&V_1)->___seg = 1;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_3 = V_1;
+		V_0 = L_3;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:576>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = V_0;
+		int32_t L_5 = L_4.___seg;
+		bool L_6;
+		L_6 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:577>
+		int32_t L_7 = __this->____nextFixedUpdateProcessSlot;
+		__this->____lastFixedUpdateProcessSlot = L_7;
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:579>
+		(&V_0)->___i = 0;
+		goto IL_0296;
+	}
+
+IL_0056:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:583>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___FixedUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = V_0;
+			int32_t L_10 = L_9.___i;
+			NullCheck(L_8);
+			int32_t L_11 = L_10;
+			uint8_t L_12 = (uint8_t)(L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+			if (L_12)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_13 = __this->___FixedUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = V_0;
+			int32_t L_15 = L_14.___i;
+			NullCheck(L_13);
+			int32_t L_16 = L_15;
+			uint8_t L_17 = (uint8_t)(L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+			if (L_17)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_18 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = V_0;
+			int32_t L_20 = L_19.___i;
+			NullCheck(L_18);
+			int32_t L_21 = L_20;
+			RuntimeObject* L_22 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+			if (!L_22)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			float L_23 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = V_0;
+			int32_t L_26 = L_25.___i;
+			NullCheck(L_24);
+			int32_t L_27 = L_26;
+			RuntimeObject* L_28 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+			NullCheck(L_28);
+			float L_29;
+			L_29 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_28);
+			if ((((float)L_23) < ((float)L_29)))
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:585>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_30 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_31 = V_0;
+			NullCheck(L_30);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_32;
+			L_32 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_30, L_31, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_32, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:587>
+			int32_t L_33 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:594>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_34 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_35 = V_0;
+			int32_t L_36 = L_35.___i;
+			NullCheck(L_34);
+			int32_t L_37 = L_36;
+			RuntimeObject* L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+			NullCheck(L_38);
+			bool L_39;
+			L_39 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_38);
+			if (L_39)
+			{
+				goto IL_01f7_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:596>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_40 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_41 = V_0;
+			NullCheck(L_40);
+			bool L_42;
+			L_42 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_40, L_41, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_42)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:598>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_43 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_44 = V_0;
+			NullCheck(L_43);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_45;
+			L_45 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_43, L_44, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_2 = L_45;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:599>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_46 = V_2;
+			int32_t L_47;
+			L_47 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_46, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:601>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_48 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_49 = V_2;
+			NullCheck(L_48);
+			bool L_50;
+			L_50 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_48, L_49, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_50)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:603>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_51 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_52 = V_2;
+			NullCheck(L_51);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_53;
+			L_53 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_51, L_52, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:604>
+			NullCheck(L_53);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_54;
+			L_54 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_53, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_3 = L_54;
+			goto IL_01dc_1;
+		}
+
+IL_0128_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:607>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_55 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_56;
+			L_56 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_55);
+			bool L_57;
+			L_57 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_55, L_56, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_57)
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:609>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_58 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_59;
+			L_59 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_58);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_60;
+			L_60 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_58, L_59, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_4 = L_60;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:610>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_61 = V_4;
+			int32_t L_62 = L_61.___seg;
+			if ((!(((uint32_t)L_62) == ((uint32_t)1))))
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_63 = V_4;
+			int32_t L_64 = L_63.___i;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_65 = V_0;
+			int32_t L_66 = L_65.___i;
+			if ((((int32_t)L_64) >= ((int32_t)L_66)))
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:612>
+			int32_t L_67 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_68 = __this->____resumeBuffer;
+			NullCheck(L_68);
+			if ((!(((uint32_t)L_67) == ((uint32_t)((int32_t)(((RuntimeArray*)L_68)->max_length))))))
+			{
+				goto IL_01ba_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:614>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = __this->____resumeBuffer;
+			NullCheck(L_69);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_69)->max_length)), 2)));
+			V_5 = L_70;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:615>
+			V_6 = 0;
+			goto IL_01a6_1;
+		}
+
+IL_0192_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:616>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_71 = V_5;
+			int32_t L_72 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73 = __this->____resumeBuffer;
+			int32_t L_74 = V_6;
+			NullCheck(L_73);
+			int32_t L_75 = L_74;
+			int32_t L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+			NullCheck(L_71);
+			(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (int32_t)L_76);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:615>
+			int32_t L_77 = V_6;
+			V_6 = ((int32_t)il2cpp_codegen_add(L_77, 1));
+		}
+
+IL_01a6_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:615>
+			int32_t L_78 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_79 = __this->____resumeBuffer;
+			NullCheck(L_79);
+			if ((((int32_t)L_78) < ((int32_t)((int32_t)(((RuntimeArray*)L_79)->max_length)))))
+			{
+				goto IL_0192_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:617>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = V_5;
+			__this->____resumeBuffer = L_80;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_80);
+		}
+
+IL_01ba_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:619>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81 = __this->____resumeBuffer;
+			int32_t L_82 = __this->____resumeCount;
+			V_7 = L_82;
+			int32_t L_83 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_83, 1));
+			int32_t L_84 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_85 = V_4;
+			int32_t L_86 = L_85.___i;
+			NullCheck(L_81);
+			(L_81)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (int32_t)L_86);
+		}
+
+IL_01dc_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:605>
+			bool L_87;
+			L_87 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_3), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_87)
+			{
+				goto IL_0128_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:623>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_88 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_89 = V_2;
+			NullCheck(L_88);
+			bool L_90;
+			L_90 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_88, L_89, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_0268_1;
+		}
+
+IL_01f7_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:627>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_91 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_92 = V_0;
+			int32_t L_93 = L_92.___i;
+			NullCheck(L_91);
+			int32_t L_94 = L_93;
+			RuntimeObject* L_95 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+			if (!L_95)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_96 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_97 = V_0;
+			int32_t L_98 = L_97.___i;
+			NullCheck(L_96);
+			int32_t L_99 = L_98;
+			RuntimeObject* L_100 = (L_96)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+			NullCheck(L_100);
+			float L_101;
+			L_101 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_100);
+			bool L_102;
+			L_102 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_101, NULL);
+			if (!L_102)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:629>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_103 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_103)
+			{
+				goto IL_025c_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:631>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_104 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_105 = V_0;
+			int32_t L_106 = L_105.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_107 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_108 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_109 = V_0;
+			int32_t L_110 = L_109.___i;
+			NullCheck(L_108);
+			int32_t L_111 = L_110;
+			RuntimeObject* L_112 = (L_108)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_113 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_114 = V_0;
+			NullCheck(L_113);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_115;
+			L_115 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_113, L_114, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_107);
+			RuntimeObject* L_116;
+			L_116 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_107, L_112, L_115, NULL);
+			NullCheck(L_104);
+			ArrayElementTypeCheck (L_104, L_116);
+			(L_104)->SetAt(static_cast<il2cpp_array_size_t>(L_106), (RuntimeObject*)L_116);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:632>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_025c_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:634>
+			int32_t* L_117 = (int32_t*)(&(&V_0)->___i);
+			int32_t* L_118 = L_117;
+			int32_t L_119 = *((int32_t*)L_118);
+			*((int32_t*)L_118) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_119, 1));
+		}
+
+IL_0268_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:637>
+			int32_t L_120 = __this->___ProfilerDebugAmount;
+		}
+
+IL_026f_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:640>
+			goto IL_028a;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0271;
+		}
+		throw e;
+	}
+
+CATCH_0271:
+	{
+		{
+			Exception_t* L_121 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:643>
+			Exception_t* L_122 = L_121;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_122, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:645>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_122, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_0288;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:646>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:647>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral14B4DEB7D07783B8E34B61F7539267D7B578DEEA)), NULL);
+		}
+
+IL_0288:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:648>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_028a;
+		}
+	}
+
+IL_028a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:579>
+		int32_t* L_123 = (int32_t*)(&(&V_0)->___i);
+		int32_t* L_124 = L_123;
+		int32_t L_125 = *((int32_t*)L_124);
+		*((int32_t*)L_124) = (int32_t)((int32_t)il2cpp_codegen_add(L_125, 1));
+	}
+
+IL_0296:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:579>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_126 = V_0;
+		int32_t L_127 = L_126.___i;
+		int32_t L_128 = __this->____lastFixedUpdateProcessSlot;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		goto IL_0510;
+	}
+
+IL_02ac:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:653>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = __this->____resumeBuffer;
+		int32_t L_130 = __this->____resumeCount;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_130, 1));
+		int32_t L_131 = V_7;
+		__this->____resumeCount = L_131;
+		int32_t L_132 = V_7;
+		NullCheck(L_129);
+		int32_t L_133 = L_132;
+		int32_t L_134 = (L_129)->GetAt(static_cast<il2cpp_array_size_t>(L_133));
+		(&V_0)->___i = L_134;
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:657>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_135 = __this->___FixedUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_136 = V_0;
+			int32_t L_137 = L_136.___i;
+			NullCheck(L_135);
+			int32_t L_138 = L_137;
+			uint8_t L_139 = (uint8_t)(L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+			if (L_139)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_140 = __this->___FixedUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_141 = V_0;
+			int32_t L_142 = L_141.___i;
+			NullCheck(L_140);
+			int32_t L_143 = L_142;
+			uint8_t L_144 = (uint8_t)(L_140)->GetAt(static_cast<il2cpp_array_size_t>(L_143));
+			if (L_144)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_145 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_146 = V_0;
+			int32_t L_147 = L_146.___i;
+			NullCheck(L_145);
+			int32_t L_148 = L_147;
+			RuntimeObject* L_149 = (L_145)->GetAt(static_cast<il2cpp_array_size_t>(L_148));
+			if (!L_149)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			float L_150 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_151 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_152 = V_0;
+			int32_t L_153 = L_152.___i;
+			NullCheck(L_151);
+			int32_t L_154 = L_153;
+			RuntimeObject* L_155 = (L_151)->GetAt(static_cast<il2cpp_array_size_t>(L_154));
+			NullCheck(L_155);
+			float L_156;
+			L_156 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_155);
+			if ((((float)L_150) < ((float)L_156)))
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:659>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_157 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_158 = V_0;
+			NullCheck(L_157);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_159;
+			L_159 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_157, L_158, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_159, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:661>
+			int32_t L_160 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:668>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_161 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_162 = V_0;
+			int32_t L_163 = L_162.___i;
+			NullCheck(L_161);
+			int32_t L_164 = L_163;
+			RuntimeObject* L_165 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+			NullCheck(L_165);
+			bool L_166;
+			L_166 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_165);
+			if (L_166)
+			{
+				goto IL_0468_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:670>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_167 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_168 = V_0;
+			NullCheck(L_167);
+			bool L_169;
+			L_169 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_167, L_168, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_169)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:672>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_170 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_171 = V_0;
+			NullCheck(L_170);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_172;
+			L_172 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_170, L_171, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_8 = L_172;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:673>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_173 = V_8;
+			int32_t L_174;
+			L_174 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_173, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:675>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_175 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_176 = V_8;
+			NullCheck(L_175);
+			bool L_177;
+			L_177 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_175, L_176, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_177)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:677>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_178 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_179 = V_8;
+			NullCheck(L_178);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_180;
+			L_180 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_178, L_179, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:678>
+			NullCheck(L_180);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_181;
+			L_181 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_180, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_9 = L_181;
+			goto IL_0449_1;
+		}
+
+IL_03a4_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:681>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_182 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_183;
+			L_183 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_182);
+			bool L_184;
+			L_184 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_182, L_183, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_184)
+			{
+				goto IL_0449_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:683>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_185 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_186;
+			L_186 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_185);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_187;
+			L_187 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_185, L_186, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_10 = L_187;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:684>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_188 = V_10;
+			int32_t L_189 = L_188.___seg;
+			if ((!(((uint32_t)L_189) == ((uint32_t)1))))
+			{
+				goto IL_0449_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:686>
+			int32_t L_190 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_191 = __this->____resumeBuffer;
+			NullCheck(L_191);
+			if ((!(((uint32_t)L_190) == ((uint32_t)((int32_t)(((RuntimeArray*)L_191)->max_length))))))
+			{
+				goto IL_0427_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:688>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_192 = __this->____resumeBuffer;
+			NullCheck(L_192);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_193 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_192)->max_length)), 2)));
+			V_11 = L_193;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:689>
+			V_12 = 0;
+			goto IL_0413_1;
+		}
+
+IL_03ff_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:690>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_194 = V_11;
+			int32_t L_195 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_196 = __this->____resumeBuffer;
+			int32_t L_197 = V_12;
+			NullCheck(L_196);
+			int32_t L_198 = L_197;
+			int32_t L_199 = (L_196)->GetAt(static_cast<il2cpp_array_size_t>(L_198));
+			NullCheck(L_194);
+			(L_194)->SetAt(static_cast<il2cpp_array_size_t>(L_195), (int32_t)L_199);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:689>
+			int32_t L_200 = V_12;
+			V_12 = ((int32_t)il2cpp_codegen_add(L_200, 1));
+		}
+
+IL_0413_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:689>
+			int32_t L_201 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_202 = __this->____resumeBuffer;
+			NullCheck(L_202);
+			if ((((int32_t)L_201) < ((int32_t)((int32_t)(((RuntimeArray*)L_202)->max_length)))))
+			{
+				goto IL_03ff_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:691>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_203 = V_11;
+			__this->____resumeBuffer = L_203;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_203);
+		}
+
+IL_0427_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:693>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_204 = __this->____resumeBuffer;
+			int32_t L_205 = __this->____resumeCount;
+			V_7 = L_205;
+			int32_t L_206 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_206, 1));
+			int32_t L_207 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_208 = V_10;
+			int32_t L_209 = L_208.___i;
+			NullCheck(L_204);
+			(L_204)->SetAt(static_cast<il2cpp_array_size_t>(L_207), (int32_t)L_209);
+		}
+
+IL_0449_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:679>
+			bool L_210;
+			L_210 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_9), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_210)
+			{
+				goto IL_03a4_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:697>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_211 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_212 = V_8;
+			NullCheck(L_211);
+			bool L_213;
+			L_213 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_211, L_212, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_04ee_1;
+		}
+
+IL_0468_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:701>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_214 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_215 = V_0;
+			int32_t L_216 = L_215.___i;
+			NullCheck(L_214);
+			int32_t L_217 = L_216;
+			RuntimeObject* L_218 = (L_214)->GetAt(static_cast<il2cpp_array_size_t>(L_217));
+			if (!L_218)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_219 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_220 = V_0;
+			int32_t L_221 = L_220.___i;
+			NullCheck(L_219);
+			int32_t L_222 = L_221;
+			RuntimeObject* L_223 = (L_219)->GetAt(static_cast<il2cpp_array_size_t>(L_222));
+			NullCheck(L_223);
+			float L_224;
+			L_224 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_223);
+			bool L_225;
+			L_225 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_224, NULL);
+			if (!L_225)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:703>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_226 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_226)
+			{
+				goto IL_04cd_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:705>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_227 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_228 = V_0;
+			int32_t L_229 = L_228.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_230 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_231 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_232 = V_0;
+			int32_t L_233 = L_232.___i;
+			NullCheck(L_231);
+			int32_t L_234 = L_233;
+			RuntimeObject* L_235 = (L_231)->GetAt(static_cast<il2cpp_array_size_t>(L_234));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_236 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_237 = V_0;
+			NullCheck(L_236);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_238;
+			L_238 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_236, L_237, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_230);
+			RuntimeObject* L_239;
+			L_239 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_230, L_235, L_238, NULL);
+			NullCheck(L_227);
+			ArrayElementTypeCheck (L_227, L_239);
+			(L_227)->SetAt(static_cast<il2cpp_array_size_t>(L_229), (RuntimeObject*)L_239);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:706>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_04cd_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:708>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_240 = __this->____resumeBuffer;
+			int32_t L_241 = __this->____resumeCount;
+			V_7 = L_241;
+			int32_t L_242 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_242, 1));
+			int32_t L_243 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_244 = V_0;
+			int32_t L_245 = L_244.___i;
+			NullCheck(L_240);
+			(L_240)->SetAt(static_cast<il2cpp_array_size_t>(L_243), (int32_t)L_245);
+		}
+
+IL_04ee_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:711>
+			int32_t L_246 = __this->___ProfilerDebugAmount;
+		}
+
+IL_04f5_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:714>
+			goto IL_0510;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_04f7;
+		}
+		throw e;
+	}
+
+CATCH_04f7:
+	{
+		{
+			Exception_t* L_247 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:717>
+			Exception_t* L_248 = L_247;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_248, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:719>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_248, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_050e;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:720>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:721>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral14B4DEB7D07783B8E34B61F7539267D7B578DEEA)), NULL);
+		}
+
+IL_050e:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:722>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0510;
+		}
+	}
+
+IL_0510:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:651>
+		int32_t L_249 = __this->____resumeCount;
+		if ((((int32_t)L_249) > ((int32_t)0)))
+		{
+			goto IL_02ac;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:725>
+		il2cpp_codegen_initobj((&V_13), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_250 = V_13;
+		Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_250, NULL);
+	}
+
+IL_052c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:727>
+		return;
+	}
+}
+// Method Definition Index: 68519
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_LateUpdate_m0D671C5EA97DA8913EF5AC028817804E8ECF1D73 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_11 = NULL;
+	int32_t V_12 = 0;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:731>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:732>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___OnPreExecute;
+		NullCheck(L_1);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:734>
+		int32_t L_2 = __this->____nextLateUpdateProcessSlot;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_052c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:736>
+		il2cpp_codegen_initobj((&V_1), sizeof(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5));
+		(&V_1)->___seg = 2;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_3 = V_1;
+		V_0 = L_3;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:737>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = V_0;
+		int32_t L_5 = L_4.___seg;
+		bool L_6;
+		L_6 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:738>
+		int32_t L_7 = __this->____nextLateUpdateProcessSlot;
+		__this->____lastLateUpdateProcessSlot = L_7;
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:740>
+		(&V_0)->___i = 0;
+		goto IL_0296;
+	}
+
+IL_0056:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:744>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___LateUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = V_0;
+			int32_t L_10 = L_9.___i;
+			NullCheck(L_8);
+			int32_t L_11 = L_10;
+			uint8_t L_12 = (uint8_t)(L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+			if (L_12)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_13 = __this->___LateUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = V_0;
+			int32_t L_15 = L_14.___i;
+			NullCheck(L_13);
+			int32_t L_16 = L_15;
+			uint8_t L_17 = (uint8_t)(L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+			if (L_17)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_18 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = V_0;
+			int32_t L_20 = L_19.___i;
+			NullCheck(L_18);
+			int32_t L_21 = L_20;
+			RuntimeObject* L_22 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+			if (!L_22)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			float L_23 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = V_0;
+			int32_t L_26 = L_25.___i;
+			NullCheck(L_24);
+			int32_t L_27 = L_26;
+			RuntimeObject* L_28 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+			NullCheck(L_28);
+			float L_29;
+			L_29 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_28);
+			if ((((float)L_23) < ((float)L_29)))
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:746>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_30 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_31 = V_0;
+			NullCheck(L_30);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_32;
+			L_32 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_30, L_31, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_32, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:748>
+			int32_t L_33 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:755>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_34 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_35 = V_0;
+			int32_t L_36 = L_35.___i;
+			NullCheck(L_34);
+			int32_t L_37 = L_36;
+			RuntimeObject* L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+			NullCheck(L_38);
+			bool L_39;
+			L_39 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_38);
+			if (L_39)
+			{
+				goto IL_01f7_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:757>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_40 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_41 = V_0;
+			NullCheck(L_40);
+			bool L_42;
+			L_42 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_40, L_41, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_42)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:759>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_43 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_44 = V_0;
+			NullCheck(L_43);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_45;
+			L_45 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_43, L_44, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_2 = L_45;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:760>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_46 = V_2;
+			int32_t L_47;
+			L_47 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_46, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:762>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_48 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_49 = V_2;
+			NullCheck(L_48);
+			bool L_50;
+			L_50 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_48, L_49, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_50)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:764>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_51 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_52 = V_2;
+			NullCheck(L_51);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_53;
+			L_53 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_51, L_52, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:765>
+			NullCheck(L_53);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_54;
+			L_54 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_53, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_3 = L_54;
+			goto IL_01dc_1;
+		}
+
+IL_0128_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:768>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_55 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_56;
+			L_56 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_55);
+			bool L_57;
+			L_57 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_55, L_56, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_57)
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:770>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_58 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_59;
+			L_59 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_3), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_58);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_60;
+			L_60 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_58, L_59, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_4 = L_60;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:771>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_61 = V_4;
+			int32_t L_62 = L_61.___seg;
+			if ((!(((uint32_t)L_62) == ((uint32_t)2))))
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_63 = V_4;
+			int32_t L_64 = L_63.___i;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_65 = V_0;
+			int32_t L_66 = L_65.___i;
+			if ((((int32_t)L_64) >= ((int32_t)L_66)))
+			{
+				goto IL_01dc_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:773>
+			int32_t L_67 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_68 = __this->____resumeBuffer;
+			NullCheck(L_68);
+			if ((!(((uint32_t)L_67) == ((uint32_t)((int32_t)(((RuntimeArray*)L_68)->max_length))))))
+			{
+				goto IL_01ba_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:775>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = __this->____resumeBuffer;
+			NullCheck(L_69);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_69)->max_length)), 2)));
+			V_5 = L_70;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:776>
+			V_6 = 0;
+			goto IL_01a6_1;
+		}
+
+IL_0192_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:777>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_71 = V_5;
+			int32_t L_72 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73 = __this->____resumeBuffer;
+			int32_t L_74 = V_6;
+			NullCheck(L_73);
+			int32_t L_75 = L_74;
+			int32_t L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+			NullCheck(L_71);
+			(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (int32_t)L_76);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:776>
+			int32_t L_77 = V_6;
+			V_6 = ((int32_t)il2cpp_codegen_add(L_77, 1));
+		}
+
+IL_01a6_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:776>
+			int32_t L_78 = V_6;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_79 = __this->____resumeBuffer;
+			NullCheck(L_79);
+			if ((((int32_t)L_78) < ((int32_t)((int32_t)(((RuntimeArray*)L_79)->max_length)))))
+			{
+				goto IL_0192_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:778>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = V_5;
+			__this->____resumeBuffer = L_80;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_80);
+		}
+
+IL_01ba_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:780>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81 = __this->____resumeBuffer;
+			int32_t L_82 = __this->____resumeCount;
+			V_7 = L_82;
+			int32_t L_83 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_83, 1));
+			int32_t L_84 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_85 = V_4;
+			int32_t L_86 = L_85.___i;
+			NullCheck(L_81);
+			(L_81)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (int32_t)L_86);
+		}
+
+IL_01dc_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:766>
+			bool L_87;
+			L_87 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_3), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_87)
+			{
+				goto IL_0128_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:784>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_88 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_89 = V_2;
+			NullCheck(L_88);
+			bool L_90;
+			L_90 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_88, L_89, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_0268_1;
+		}
+
+IL_01f7_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:788>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_91 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_92 = V_0;
+			int32_t L_93 = L_92.___i;
+			NullCheck(L_91);
+			int32_t L_94 = L_93;
+			RuntimeObject* L_95 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+			if (!L_95)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_96 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_97 = V_0;
+			int32_t L_98 = L_97.___i;
+			NullCheck(L_96);
+			int32_t L_99 = L_98;
+			RuntimeObject* L_100 = (L_96)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+			NullCheck(L_100);
+			float L_101;
+			L_101 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_100);
+			bool L_102;
+			L_102 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_101, NULL);
+			if (!L_102)
+			{
+				goto IL_0268_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:790>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_103 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_103)
+			{
+				goto IL_025c_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:792>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_104 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_105 = V_0;
+			int32_t L_106 = L_105.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_107 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_108 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_109 = V_0;
+			int32_t L_110 = L_109.___i;
+			NullCheck(L_108);
+			int32_t L_111 = L_110;
+			RuntimeObject* L_112 = (L_108)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_113 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_114 = V_0;
+			NullCheck(L_113);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_115;
+			L_115 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_113, L_114, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_107);
+			RuntimeObject* L_116;
+			L_116 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_107, L_112, L_115, NULL);
+			NullCheck(L_104);
+			ArrayElementTypeCheck (L_104, L_116);
+			(L_104)->SetAt(static_cast<il2cpp_array_size_t>(L_106), (RuntimeObject*)L_116);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:793>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_025c_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:795>
+			int32_t* L_117 = (int32_t*)(&(&V_0)->___i);
+			int32_t* L_118 = L_117;
+			int32_t L_119 = *((int32_t*)L_118);
+			*((int32_t*)L_118) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_119, 1));
+		}
+
+IL_0268_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:798>
+			int32_t L_120 = __this->___ProfilerDebugAmount;
+		}
+
+IL_026f_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:801>
+			goto IL_028a;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0271;
+		}
+		throw e;
+	}
+
+CATCH_0271:
+	{
+		{
+			Exception_t* L_121 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:804>
+			Exception_t* L_122 = L_121;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_122, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:806>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_122, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_0288;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:807>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:808>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral01A82ED42B0DFDC61F25E719017B65079E1C7D14)), NULL);
+		}
+
+IL_0288:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:809>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_028a;
+		}
+	}
+
+IL_028a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:740>
+		int32_t* L_123 = (int32_t*)(&(&V_0)->___i);
+		int32_t* L_124 = L_123;
+		int32_t L_125 = *((int32_t*)L_124);
+		*((int32_t*)L_124) = (int32_t)((int32_t)il2cpp_codegen_add(L_125, 1));
+	}
+
+IL_0296:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:740>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_126 = V_0;
+		int32_t L_127 = L_126.___i;
+		int32_t L_128 = __this->____lastLateUpdateProcessSlot;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		goto IL_0510;
+	}
+
+IL_02ac:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:814>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = __this->____resumeBuffer;
+		int32_t L_130 = __this->____resumeCount;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_130, 1));
+		int32_t L_131 = V_7;
+		__this->____resumeCount = L_131;
+		int32_t L_132 = V_7;
+		NullCheck(L_129);
+		int32_t L_133 = L_132;
+		int32_t L_134 = (L_129)->GetAt(static_cast<il2cpp_array_size_t>(L_133));
+		(&V_0)->___i = L_134;
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:818>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_135 = __this->___LateUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_136 = V_0;
+			int32_t L_137 = L_136.___i;
+			NullCheck(L_135);
+			int32_t L_138 = L_137;
+			uint8_t L_139 = (uint8_t)(L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+			if (L_139)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_140 = __this->___LateUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_141 = V_0;
+			int32_t L_142 = L_141.___i;
+			NullCheck(L_140);
+			int32_t L_143 = L_142;
+			uint8_t L_144 = (uint8_t)(L_140)->GetAt(static_cast<il2cpp_array_size_t>(L_143));
+			if (L_144)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_145 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_146 = V_0;
+			int32_t L_147 = L_146.___i;
+			NullCheck(L_145);
+			int32_t L_148 = L_147;
+			RuntimeObject* L_149 = (L_145)->GetAt(static_cast<il2cpp_array_size_t>(L_148));
+			if (!L_149)
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			float L_150 = __this->___localTime;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_151 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_152 = V_0;
+			int32_t L_153 = L_152.___i;
+			NullCheck(L_151);
+			int32_t L_154 = L_153;
+			RuntimeObject* L_155 = (L_151)->GetAt(static_cast<il2cpp_array_size_t>(L_154));
+			NullCheck(L_155);
+			float L_156;
+			L_156 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_155);
+			if ((((float)L_150) < ((float)L_156)))
+			{
+				goto IL_04f5_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:820>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_157 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_158 = V_0;
+			NullCheck(L_157);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_159;
+			L_159 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_157, L_158, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_159, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:822>
+			int32_t L_160 = __this->___ProfilerDebugAmount;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:829>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_161 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_162 = V_0;
+			int32_t L_163 = L_162.___i;
+			NullCheck(L_161);
+			int32_t L_164 = L_163;
+			RuntimeObject* L_165 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+			NullCheck(L_165);
+			bool L_166;
+			L_166 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_165);
+			if (L_166)
+			{
+				goto IL_0468_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:831>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_167 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_168 = V_0;
+			NullCheck(L_167);
+			bool L_169;
+			L_169 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_167, L_168, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_169)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:833>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_170 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_171 = V_0;
+			NullCheck(L_170);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_172;
+			L_172 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_170, L_171, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			V_8 = L_172;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:834>
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_173 = V_8;
+			int32_t L_174;
+			L_174 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_173, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:836>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_175 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_176 = V_8;
+			NullCheck(L_175);
+			bool L_177;
+			L_177 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_175, L_176, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+			if (!L_177)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:838>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_178 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_179 = V_8;
+			NullCheck(L_178);
+			HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_180;
+			L_180 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_178, L_179, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:839>
+			NullCheck(L_180);
+			Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_181;
+			L_181 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_180, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+			V_9 = L_181;
+			goto IL_0449_1;
+		}
+
+IL_03a4_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:842>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_182 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_183;
+			L_183 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_182);
+			bool L_184;
+			L_184 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_182, L_183, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+			if (!L_184)
+			{
+				goto IL_0449_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:844>
+			Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_185 = __this->____handleToIndex;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_186;
+			L_186 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_9), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+			NullCheck(L_185);
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_187;
+			L_187 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_185, L_186, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+			V_10 = L_187;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:845>
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_188 = V_10;
+			int32_t L_189 = L_188.___seg;
+			if ((!(((uint32_t)L_189) == ((uint32_t)2))))
+			{
+				goto IL_0449_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:847>
+			int32_t L_190 = __this->____resumeCount;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_191 = __this->____resumeBuffer;
+			NullCheck(L_191);
+			if ((!(((uint32_t)L_190) == ((uint32_t)((int32_t)(((RuntimeArray*)L_191)->max_length))))))
+			{
+				goto IL_0427_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:849>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_192 = __this->____resumeBuffer;
+			NullCheck(L_192);
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_193 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_192)->max_length)), 2)));
+			V_11 = L_193;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:850>
+			V_12 = 0;
+			goto IL_0413_1;
+		}
+
+IL_03ff_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:851>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_194 = V_11;
+			int32_t L_195 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_196 = __this->____resumeBuffer;
+			int32_t L_197 = V_12;
+			NullCheck(L_196);
+			int32_t L_198 = L_197;
+			int32_t L_199 = (L_196)->GetAt(static_cast<il2cpp_array_size_t>(L_198));
+			NullCheck(L_194);
+			(L_194)->SetAt(static_cast<il2cpp_array_size_t>(L_195), (int32_t)L_199);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:850>
+			int32_t L_200 = V_12;
+			V_12 = ((int32_t)il2cpp_codegen_add(L_200, 1));
+		}
+
+IL_0413_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:850>
+			int32_t L_201 = V_12;
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_202 = __this->____resumeBuffer;
+			NullCheck(L_202);
+			if ((((int32_t)L_201) < ((int32_t)((int32_t)(((RuntimeArray*)L_202)->max_length)))))
+			{
+				goto IL_03ff_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:852>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_203 = V_11;
+			__this->____resumeBuffer = L_203;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_203);
+		}
+
+IL_0427_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:854>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_204 = __this->____resumeBuffer;
+			int32_t L_205 = __this->____resumeCount;
+			V_7 = L_205;
+			int32_t L_206 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_206, 1));
+			int32_t L_207 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_208 = V_10;
+			int32_t L_209 = L_208.___i;
+			NullCheck(L_204);
+			(L_204)->SetAt(static_cast<il2cpp_array_size_t>(L_207), (int32_t)L_209);
+		}
+
+IL_0449_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:840>
+			bool L_210;
+			L_210 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_9), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+			if (L_210)
+			{
+				goto IL_03a4_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:858>
+			Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_211 = __this->____pendingResume;
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_212 = V_8;
+			NullCheck(L_211);
+			bool L_213;
+			L_213 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_211, L_212, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+			goto IL_04ee_1;
+		}
+
+IL_0468_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:862>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_214 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_215 = V_0;
+			int32_t L_216 = L_215.___i;
+			NullCheck(L_214);
+			int32_t L_217 = L_216;
+			RuntimeObject* L_218 = (L_214)->GetAt(static_cast<il2cpp_array_size_t>(L_217));
+			if (!L_218)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_219 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_220 = V_0;
+			int32_t L_221 = L_220.___i;
+			NullCheck(L_219);
+			int32_t L_222 = L_221;
+			RuntimeObject* L_223 = (L_219)->GetAt(static_cast<il2cpp_array_size_t>(L_222));
+			NullCheck(L_223);
+			float L_224;
+			L_224 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_223);
+			bool L_225;
+			L_225 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_224, NULL);
+			if (!L_225)
+			{
+				goto IL_04ee_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:864>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_226 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_226)
+			{
+				goto IL_04cd_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:866>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_227 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_228 = V_0;
+			int32_t L_229 = L_228.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_230 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_231 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_232 = V_0;
+			int32_t L_233 = L_232.___i;
+			NullCheck(L_231);
+			int32_t L_234 = L_233;
+			RuntimeObject* L_235 = (L_231)->GetAt(static_cast<il2cpp_array_size_t>(L_234));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_236 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_237 = V_0;
+			NullCheck(L_236);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_238;
+			L_238 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_236, L_237, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_230);
+			RuntimeObject* L_239;
+			L_239 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_230, L_235, L_238, NULL);
+			NullCheck(L_227);
+			ArrayElementTypeCheck (L_227, L_239);
+			(L_227)->SetAt(static_cast<il2cpp_array_size_t>(L_229), (RuntimeObject*)L_239);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:867>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_04cd_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:869>
+			Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_240 = __this->____resumeBuffer;
+			int32_t L_241 = __this->____resumeCount;
+			V_7 = L_241;
+			int32_t L_242 = V_7;
+			__this->____resumeCount = ((int32_t)il2cpp_codegen_add(L_242, 1));
+			int32_t L_243 = V_7;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_244 = V_0;
+			int32_t L_245 = L_244.___i;
+			NullCheck(L_240);
+			(L_240)->SetAt(static_cast<il2cpp_array_size_t>(L_243), (int32_t)L_245);
+		}
+
+IL_04ee_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:872>
+			int32_t L_246 = __this->___ProfilerDebugAmount;
+		}
+
+IL_04f5_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:875>
+			goto IL_0510;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_04f7;
+		}
+		throw e;
+	}
+
+CATCH_04f7:
+	{
+		{
+			Exception_t* L_247 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:878>
+			Exception_t* L_248 = L_247;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_248, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:880>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_248, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_050e;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:881>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:882>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral01A82ED42B0DFDC61F25E719017B65079E1C7D14)), NULL);
+		}
+
+IL_050e:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:883>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0510;
+		}
+	}
+
+IL_0510:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:812>
+		int32_t L_249 = __this->____resumeCount;
+		if ((((int32_t)L_249) > ((int32_t)0)))
+		{
+			goto IL_02ac;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:885>
+		il2cpp_codegen_initobj((&V_13), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_250 = V_13;
+		Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_250, NULL);
+	}
+
+IL_052c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:887>
+		return;
+	}
+}
+// Method Definition Index: 68520
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_RemoveUnused_mE9B027D6DFA25889F40F15599F138D03FD8A8A01 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:891>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_0 = __this->____waitingTriggers;
+		NullCheck(L_0);
+		Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C L_1;
+		L_1 = Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F(L_0, Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		V_0 = L_1;
+		goto IL_00af;
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:894>
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_2;
+		L_2 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_3 = L_2;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_3;
+		L_3 = KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_inline((&V_3), KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_RuntimeMethod_var);
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_inline(L_3, HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:896>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_5 = __this->____waitingTriggers;
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_6;
+		L_6 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_3 = L_6;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_inline((&V_3), KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var);
+		NullCheck(L_5);
+		bool L_8;
+		L_8 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_5, L_7, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:897>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_9 = __this->____waitingTriggers;
+		NullCheck(L_9);
+		Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C L_10;
+		L_10 = Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F(L_9, Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		V_0 = L_10;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:898>
+		goto IL_00af;
+	}
+
+IL_0050:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:901>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_11 = __this->____handleToIndex;
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_12;
+		L_12 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_3 = L_12;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13;
+		L_13 = KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_inline((&V_3), KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var);
+		NullCheck(L_11);
+		bool L_14;
+		L_14 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_11, L_13, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_14)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_15 = __this->____handleToIndex;
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_16;
+		L_16 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_3 = L_16;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_17;
+		L_17 = KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_inline((&V_3), KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var);
+		NullCheck(L_15);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_18;
+		L_18 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_15, L_17, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_19;
+		L_19 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(__this, L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:903>
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_20;
+		L_20 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_3 = L_20;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_21;
+		L_21 = KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_inline((&V_3), KeyValuePair_2_get_Key_m1D8005DC55D4378CC28B7892A3B6AAEA0FF208AC_RuntimeMethod_var);
+		Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0(__this, L_21, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:904>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_22 = __this->____waitingTriggers;
+		NullCheck(L_22);
+		Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C L_23;
+		L_23 = Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F(L_22, Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		V_0 = L_23;
+	}
+
+IL_00af:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:892>
+		bool L_24;
+		L_24 = Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54((&V_0), Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54_RuntimeMethod_var);
+		if (L_24)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:909>
+		int32_t L_25 = 0;
+		V_4 = L_25;
+		(&V_2)->___seg = L_25;
+		int32_t L_26 = V_4;
+		(&V_1)->___seg = L_26;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:911>
+		int32_t L_27 = 0;
+		V_5 = L_27;
+		(&V_2)->___i = L_27;
+		int32_t L_28 = V_5;
+		(&V_1)->___i = L_28;
+		goto IL_01f3;
+	}
+
+IL_00e8:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:913>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_29 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_30 = V_1;
+		int32_t L_31 = L_30.___i;
+		NullCheck(L_29);
+		int32_t L_32 = L_31;
+		RuntimeObject* L_33 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		if (!L_33)
+		{
+			goto IL_01e7;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:915>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_34 = V_1;
+		int32_t L_35 = L_34.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_36 = V_2;
+		int32_t L_37 = L_36.___i;
+		if ((((int32_t)L_35) == ((int32_t)L_37)))
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:917>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_38 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_39 = V_2;
+		int32_t L_40 = L_39.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_41 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_42 = V_1;
+		int32_t L_43 = L_42.___i;
+		NullCheck(L_41);
+		int32_t L_44 = L_43;
+		RuntimeObject* L_45 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
+		NullCheck(L_38);
+		ArrayElementTypeCheck (L_38, L_45);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(L_40), (RuntimeObject*)L_45);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:918>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_46 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_47 = V_2;
+		int32_t L_48 = L_47.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_49 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_50 = V_1;
+		int32_t L_51 = L_50.___i;
+		NullCheck(L_49);
+		int32_t L_52 = L_51;
+		uint8_t L_53 = (uint8_t)(L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		NullCheck(L_46);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (bool)L_53);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:919>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_54 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_55 = V_2;
+		int32_t L_56 = L_55.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_57 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_58 = V_1;
+		int32_t L_59 = L_58.___i;
+		NullCheck(L_57);
+		int32_t L_60 = L_59;
+		uint8_t L_61 = (uint8_t)(L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		NullCheck(L_54);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(L_56), (bool)L_61);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:921>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_62 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_63 = V_2;
+		NullCheck(L_62);
+		bool L_64;
+		L_64 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_62, L_63, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_64)
+		{
+			goto IL_019e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:923>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_65 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_66 = V_2;
+		NullCheck(L_65);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_67;
+		L_67 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_65, L_66, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_67, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:924>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_68 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_69 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_70 = V_2;
+		NullCheck(L_69);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_71;
+		L_71 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_69, L_70, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_68);
+		bool L_72;
+		L_72 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_68, L_71, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:925>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_73 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_74 = V_2;
+		NullCheck(L_73);
+		bool L_75;
+		L_75 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_73, L_74, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_019e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:928>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_76 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_77 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_78 = V_1;
+		NullCheck(L_77);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_79;
+		L_79 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_77, L_78, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_80 = V_2;
+		NullCheck(L_76);
+		Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956(L_76, L_79, L_80, Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:929>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_81 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_82 = V_2;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_83 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_84 = V_1;
+		NullCheck(L_83);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_85;
+		L_85 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_83, L_84, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_81);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_81, L_82, L_85, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:930>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_86 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_87 = V_1;
+		NullCheck(L_86);
+		bool L_88;
+		L_88 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_86, L_87, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_01db:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:932>
+		int32_t* L_89 = (int32_t*)(&(&V_2)->___i);
+		int32_t* L_90 = L_89;
+		int32_t L_91 = *((int32_t*)L_90);
+		*((int32_t*)L_90) = (int32_t)((int32_t)il2cpp_codegen_add(L_91, 1));
+	}
+
+IL_01e7:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:911>
+		int32_t* L_92 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_93 = L_92;
+		int32_t L_94 = *((int32_t*)L_93);
+		*((int32_t*)L_93) = (int32_t)((int32_t)il2cpp_codegen_add(L_94, 1));
+	}
+
+IL_01f3:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:911>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_95 = V_1;
+		int32_t L_96 = L_95.___i;
+		int32_t L_97 = __this->____nextUpdateProcessSlot;
+		if ((((int32_t)L_96) < ((int32_t)L_97)))
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:935>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_98 = V_2;
+		int32_t L_99 = L_98.___i;
+		(&V_1)->___i = L_99;
+		goto IL_028e;
+	}
+
+IL_0213:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:937>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_100 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_101 = V_1;
+		int32_t L_102 = L_101.___i;
+		NullCheck(L_100);
+		ArrayElementTypeCheck (L_100, NULL);
+		(L_100)->SetAt(static_cast<il2cpp_array_size_t>(L_102), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:938>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_103 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_104 = V_1;
+		int32_t L_105 = L_104.___i;
+		NullCheck(L_103);
+		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(L_105), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:939>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_106 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_107 = V_1;
+		int32_t L_108 = L_107.___i;
+		NullCheck(L_106);
+		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(L_108), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:941>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_109 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_110 = V_1;
+		NullCheck(L_109);
+		bool L_111;
+		L_111 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_109, L_110, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_111)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:943>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_112 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_113 = V_1;
+		NullCheck(L_112);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_114;
+		L_114 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_112, L_113, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_114, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:945>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_115 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_116 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_117 = V_1;
+		NullCheck(L_116);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_118;
+		L_118 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_116, L_117, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_115);
+		bool L_119;
+		L_119 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_115, L_118, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:946>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_120 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_121 = V_1;
+		NullCheck(L_120);
+		bool L_122;
+		L_122 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_120, L_121, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_0282:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:935>
+		int32_t* L_123 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_124 = L_123;
+		int32_t L_125 = *((int32_t*)L_124);
+		*((int32_t*)L_124) = (int32_t)((int32_t)il2cpp_codegen_add(L_125, 1));
+	}
+
+IL_028e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:935>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_126 = V_1;
+		int32_t L_127 = L_126.___i;
+		int32_t L_128 = __this->____nextUpdateProcessSlot;
+		if ((((int32_t)L_127) < ((int32_t)L_128)))
+		{
+			goto IL_0213;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:950>
+		int32_t L_129 = __this->____lastUpdateProcessSlot;
+		int32_t L_130 = __this->____nextUpdateProcessSlot;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_131 = V_2;
+		int32_t L_132 = L_131.___i;
+		__this->____lastUpdateProcessSlot = ((int32_t)il2cpp_codegen_subtract(L_129, ((int32_t)il2cpp_codegen_subtract(L_130, L_132))));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:951>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_133 = V_2;
+		int32_t L_134 = L_133.___i;
+		int32_t L_135 = L_134;
+		V_5 = L_135;
+		__this->____nextUpdateProcessSlot = L_135;
+		int32_t L_136 = V_5;
+		__this->___UpdateCoroutines = L_136;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:953>
+		int32_t L_137 = 1;
+		V_4 = L_137;
+		(&V_2)->___seg = L_137;
+		int32_t L_138 = V_4;
+		(&V_1)->___seg = L_138;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:954>
+		int32_t L_139 = 0;
+		V_5 = L_139;
+		(&V_2)->___i = L_139;
+		int32_t L_140 = V_5;
+		(&V_1)->___i = L_140;
+		goto IL_0408;
+	}
+
+IL_02fd:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:956>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_141 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_142 = V_1;
+		int32_t L_143 = L_142.___i;
+		NullCheck(L_141);
+		int32_t L_144 = L_143;
+		RuntimeObject* L_145 = (L_141)->GetAt(static_cast<il2cpp_array_size_t>(L_144));
+		if (!L_145)
+		{
+			goto IL_03fc;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:958>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_146 = V_1;
+		int32_t L_147 = L_146.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_148 = V_2;
+		int32_t L_149 = L_148.___i;
+		if ((((int32_t)L_147) == ((int32_t)L_149)))
+		{
+			goto IL_03f0;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:960>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_150 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_151 = V_2;
+		int32_t L_152 = L_151.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_153 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_154 = V_1;
+		int32_t L_155 = L_154.___i;
+		NullCheck(L_153);
+		int32_t L_156 = L_155;
+		RuntimeObject* L_157 = (L_153)->GetAt(static_cast<il2cpp_array_size_t>(L_156));
+		NullCheck(L_150);
+		ArrayElementTypeCheck (L_150, L_157);
+		(L_150)->SetAt(static_cast<il2cpp_array_size_t>(L_152), (RuntimeObject*)L_157);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:961>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_158 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_159 = V_2;
+		int32_t L_160 = L_159.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_161 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_162 = V_1;
+		int32_t L_163 = L_162.___i;
+		NullCheck(L_161);
+		int32_t L_164 = L_163;
+		uint8_t L_165 = (uint8_t)(L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+		NullCheck(L_158);
+		(L_158)->SetAt(static_cast<il2cpp_array_size_t>(L_160), (bool)L_165);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:962>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_166 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_167 = V_2;
+		int32_t L_168 = L_167.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_169 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_170 = V_1;
+		int32_t L_171 = L_170.___i;
+		NullCheck(L_169);
+		int32_t L_172 = L_171;
+		uint8_t L_173 = (uint8_t)(L_169)->GetAt(static_cast<il2cpp_array_size_t>(L_172));
+		NullCheck(L_166);
+		(L_166)->SetAt(static_cast<il2cpp_array_size_t>(L_168), (bool)L_173);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:964>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_174 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_175 = V_2;
+		NullCheck(L_174);
+		bool L_176;
+		L_176 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_174, L_175, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_176)
+		{
+			goto IL_03b3;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:966>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_177 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_178 = V_2;
+		NullCheck(L_177);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_179;
+		L_179 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_177, L_178, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_179, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:967>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_180 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_181 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_182 = V_2;
+		NullCheck(L_181);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_183;
+		L_183 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_181, L_182, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_180);
+		bool L_184;
+		L_184 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_180, L_183, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:968>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_185 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_186 = V_2;
+		NullCheck(L_185);
+		bool L_187;
+		L_187 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_185, L_186, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_03b3:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:971>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_188 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_189 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_190 = V_1;
+		NullCheck(L_189);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_191;
+		L_191 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_189, L_190, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_192 = V_2;
+		NullCheck(L_188);
+		Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956(L_188, L_191, L_192, Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:972>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_193 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_194 = V_2;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_195 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_196 = V_1;
+		NullCheck(L_195);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_197;
+		L_197 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_195, L_196, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_193);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_193, L_194, L_197, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:973>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_198 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_199 = V_1;
+		NullCheck(L_198);
+		bool L_200;
+		L_200 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_198, L_199, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_03f0:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:975>
+		int32_t* L_201 = (int32_t*)(&(&V_2)->___i);
+		int32_t* L_202 = L_201;
+		int32_t L_203 = *((int32_t*)L_202);
+		*((int32_t*)L_202) = (int32_t)((int32_t)il2cpp_codegen_add(L_203, 1));
+	}
+
+IL_03fc:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:954>
+		int32_t* L_204 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_205 = L_204;
+		int32_t L_206 = *((int32_t*)L_205);
+		*((int32_t*)L_205) = (int32_t)((int32_t)il2cpp_codegen_add(L_206, 1));
+	}
+
+IL_0408:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:954>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_207 = V_1;
+		int32_t L_208 = L_207.___i;
+		int32_t L_209 = __this->____nextFixedUpdateProcessSlot;
+		if ((((int32_t)L_208) < ((int32_t)L_209)))
+		{
+			goto IL_02fd;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:978>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_210 = V_2;
+		int32_t L_211 = L_210.___i;
+		(&V_1)->___i = L_211;
+		goto IL_04a3;
+	}
+
+IL_0428:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:980>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_212 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_213 = V_1;
+		int32_t L_214 = L_213.___i;
+		NullCheck(L_212);
+		ArrayElementTypeCheck (L_212, NULL);
+		(L_212)->SetAt(static_cast<il2cpp_array_size_t>(L_214), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:981>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_215 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_216 = V_1;
+		int32_t L_217 = L_216.___i;
+		NullCheck(L_215);
+		(L_215)->SetAt(static_cast<il2cpp_array_size_t>(L_217), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:982>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_218 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_219 = V_1;
+		int32_t L_220 = L_219.___i;
+		NullCheck(L_218);
+		(L_218)->SetAt(static_cast<il2cpp_array_size_t>(L_220), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:984>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_221 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_222 = V_1;
+		NullCheck(L_221);
+		bool L_223;
+		L_223 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_221, L_222, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_223)
+		{
+			goto IL_0497;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:986>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_224 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_225 = V_1;
+		NullCheck(L_224);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_226;
+		L_226 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_224, L_225, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_226, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:988>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_227 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_228 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_229 = V_1;
+		NullCheck(L_228);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_230;
+		L_230 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_228, L_229, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_227);
+		bool L_231;
+		L_231 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_227, L_230, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:989>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_232 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_233 = V_1;
+		NullCheck(L_232);
+		bool L_234;
+		L_234 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_232, L_233, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_0497:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:978>
+		int32_t* L_235 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_236 = L_235;
+		int32_t L_237 = *((int32_t*)L_236);
+		*((int32_t*)L_236) = (int32_t)((int32_t)il2cpp_codegen_add(L_237, 1));
+	}
+
+IL_04a3:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:978>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_238 = V_1;
+		int32_t L_239 = L_238.___i;
+		int32_t L_240 = __this->____nextFixedUpdateProcessSlot;
+		if ((((int32_t)L_239) < ((int32_t)L_240)))
+		{
+			goto IL_0428;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:993>
+		int32_t L_241 = __this->____lastFixedUpdateProcessSlot;
+		int32_t L_242 = __this->____nextFixedUpdateProcessSlot;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_243 = V_2;
+		int32_t L_244 = L_243.___i;
+		__this->____lastFixedUpdateProcessSlot = ((int32_t)il2cpp_codegen_subtract(L_241, ((int32_t)il2cpp_codegen_subtract(L_242, L_244))));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:994>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_245 = V_2;
+		int32_t L_246 = L_245.___i;
+		int32_t L_247 = L_246;
+		V_5 = L_247;
+		__this->____nextFixedUpdateProcessSlot = L_247;
+		int32_t L_248 = V_5;
+		__this->___FixedUpdateCoroutines = L_248;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:996>
+		int32_t L_249 = 2;
+		V_4 = L_249;
+		(&V_2)->___seg = L_249;
+		int32_t L_250 = V_4;
+		(&V_1)->___seg = L_250;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:997>
+		int32_t L_251 = 0;
+		V_5 = L_251;
+		(&V_2)->___i = L_251;
+		int32_t L_252 = V_5;
+		(&V_1)->___i = L_252;
+		goto IL_061d;
+	}
+
+IL_0512:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:999>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_253 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_254 = V_1;
+		int32_t L_255 = L_254.___i;
+		NullCheck(L_253);
+		int32_t L_256 = L_255;
+		RuntimeObject* L_257 = (L_253)->GetAt(static_cast<il2cpp_array_size_t>(L_256));
+		if (!L_257)
+		{
+			goto IL_0611;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1001>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_258 = V_1;
+		int32_t L_259 = L_258.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_260 = V_2;
+		int32_t L_261 = L_260.___i;
+		if ((((int32_t)L_259) == ((int32_t)L_261)))
+		{
+			goto IL_0605;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1003>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_262 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_263 = V_2;
+		int32_t L_264 = L_263.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_265 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_266 = V_1;
+		int32_t L_267 = L_266.___i;
+		NullCheck(L_265);
+		int32_t L_268 = L_267;
+		RuntimeObject* L_269 = (L_265)->GetAt(static_cast<il2cpp_array_size_t>(L_268));
+		NullCheck(L_262);
+		ArrayElementTypeCheck (L_262, L_269);
+		(L_262)->SetAt(static_cast<il2cpp_array_size_t>(L_264), (RuntimeObject*)L_269);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1004>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_270 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_271 = V_2;
+		int32_t L_272 = L_271.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_273 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_274 = V_1;
+		int32_t L_275 = L_274.___i;
+		NullCheck(L_273);
+		int32_t L_276 = L_275;
+		uint8_t L_277 = (uint8_t)(L_273)->GetAt(static_cast<il2cpp_array_size_t>(L_276));
+		NullCheck(L_270);
+		(L_270)->SetAt(static_cast<il2cpp_array_size_t>(L_272), (bool)L_277);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1005>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_278 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_279 = V_2;
+		int32_t L_280 = L_279.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_281 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_282 = V_1;
+		int32_t L_283 = L_282.___i;
+		NullCheck(L_281);
+		int32_t L_284 = L_283;
+		uint8_t L_285 = (uint8_t)(L_281)->GetAt(static_cast<il2cpp_array_size_t>(L_284));
+		NullCheck(L_278);
+		(L_278)->SetAt(static_cast<il2cpp_array_size_t>(L_280), (bool)L_285);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1007>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_286 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_287 = V_2;
+		NullCheck(L_286);
+		bool L_288;
+		L_288 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_286, L_287, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_288)
+		{
+			goto IL_05c8;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1009>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_289 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_290 = V_2;
+		NullCheck(L_289);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_291;
+		L_291 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_289, L_290, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_291, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1010>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_292 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_293 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_294 = V_2;
+		NullCheck(L_293);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_295;
+		L_295 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_293, L_294, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_292);
+		bool L_296;
+		L_296 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_292, L_295, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1011>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_297 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_298 = V_2;
+		NullCheck(L_297);
+		bool L_299;
+		L_299 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_297, L_298, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_05c8:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1014>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_300 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_301 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_302 = V_1;
+		NullCheck(L_301);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_303;
+		L_303 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_301, L_302, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_304 = V_2;
+		NullCheck(L_300);
+		Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956(L_300, L_303, L_304, Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1015>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_305 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_306 = V_2;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_307 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_308 = V_1;
+		NullCheck(L_307);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_309;
+		L_309 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_307, L_308, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_305);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_305, L_306, L_309, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1016>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_310 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_311 = V_1;
+		NullCheck(L_310);
+		bool L_312;
+		L_312 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_310, L_311, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_0605:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1018>
+		int32_t* L_313 = (int32_t*)(&(&V_2)->___i);
+		int32_t* L_314 = L_313;
+		int32_t L_315 = *((int32_t*)L_314);
+		*((int32_t*)L_314) = (int32_t)((int32_t)il2cpp_codegen_add(L_315, 1));
+	}
+
+IL_0611:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:997>
+		int32_t* L_316 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_317 = L_316;
+		int32_t L_318 = *((int32_t*)L_317);
+		*((int32_t*)L_317) = (int32_t)((int32_t)il2cpp_codegen_add(L_318, 1));
+	}
+
+IL_061d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:997>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_319 = V_1;
+		int32_t L_320 = L_319.___i;
+		int32_t L_321 = __this->____nextLateUpdateProcessSlot;
+		if ((((int32_t)L_320) < ((int32_t)L_321)))
+		{
+			goto IL_0512;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1021>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_322 = V_2;
+		int32_t L_323 = L_322.___i;
+		(&V_1)->___i = L_323;
+		goto IL_06b8;
+	}
+
+IL_063d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1023>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_324 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_325 = V_1;
+		int32_t L_326 = L_325.___i;
+		NullCheck(L_324);
+		ArrayElementTypeCheck (L_324, NULL);
+		(L_324)->SetAt(static_cast<il2cpp_array_size_t>(L_326), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1024>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_327 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_328 = V_1;
+		int32_t L_329 = L_328.___i;
+		NullCheck(L_327);
+		(L_327)->SetAt(static_cast<il2cpp_array_size_t>(L_329), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1025>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_330 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_331 = V_1;
+		int32_t L_332 = L_331.___i;
+		NullCheck(L_330);
+		(L_330)->SetAt(static_cast<il2cpp_array_size_t>(L_332), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1027>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_333 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_334 = V_1;
+		NullCheck(L_333);
+		bool L_335;
+		L_335 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_333, L_334, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_335)
+		{
+			goto IL_06ac;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1029>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_336 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_337 = V_1;
+		NullCheck(L_336);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_338;
+		L_338 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_336, L_337, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_338, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1031>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_339 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_340 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_341 = V_1;
+		NullCheck(L_340);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_342;
+		L_342 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_340, L_341, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_339);
+		bool L_343;
+		L_343 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_339, L_342, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1032>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_344 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_345 = V_1;
+		NullCheck(L_344);
+		bool L_346;
+		L_346 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_344, L_345, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_06ac:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1021>
+		int32_t* L_347 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_348 = L_347;
+		int32_t L_349 = *((int32_t*)L_348);
+		*((int32_t*)L_348) = (int32_t)((int32_t)il2cpp_codegen_add(L_349, 1));
+	}
+
+IL_06b8:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1021>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_350 = V_1;
+		int32_t L_351 = L_350.___i;
+		int32_t L_352 = __this->____nextLateUpdateProcessSlot;
+		if ((((int32_t)L_351) < ((int32_t)L_352)))
+		{
+			goto IL_063d;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1036>
+		int32_t L_353 = __this->____lastLateUpdateProcessSlot;
+		int32_t L_354 = __this->____nextLateUpdateProcessSlot;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_355 = V_2;
+		int32_t L_356 = L_355.___i;
+		__this->____lastLateUpdateProcessSlot = ((int32_t)il2cpp_codegen_subtract(L_353, ((int32_t)il2cpp_codegen_subtract(L_354, L_356))));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1037>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_357 = V_2;
+		int32_t L_358 = L_357.___i;
+		int32_t L_359 = L_358;
+		V_5 = L_359;
+		__this->____nextLateUpdateProcessSlot = L_359;
+		int32_t L_360 = V_5;
+		__this->___LateUpdateCoroutines = L_360;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1039>
+		int32_t L_361 = 3;
+		V_4 = L_361;
+		(&V_2)->___seg = L_361;
+		int32_t L_362 = V_4;
+		(&V_1)->___seg = L_362;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1040>
+		int32_t L_363 = 0;
+		V_5 = L_363;
+		(&V_2)->___i = L_363;
+		int32_t L_364 = V_5;
+		(&V_1)->___i = L_364;
+		goto IL_0832;
+	}
+
+IL_0727:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1042>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_365 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_366 = V_1;
+		int32_t L_367 = L_366.___i;
+		NullCheck(L_365);
+		int32_t L_368 = L_367;
+		RuntimeObject* L_369 = (L_365)->GetAt(static_cast<il2cpp_array_size_t>(L_368));
+		if (!L_369)
+		{
+			goto IL_0826;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1044>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_370 = V_1;
+		int32_t L_371 = L_370.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_372 = V_2;
+		int32_t L_373 = L_372.___i;
+		if ((((int32_t)L_371) == ((int32_t)L_373)))
+		{
+			goto IL_081a;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1046>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_374 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_375 = V_2;
+		int32_t L_376 = L_375.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_377 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_378 = V_1;
+		int32_t L_379 = L_378.___i;
+		NullCheck(L_377);
+		int32_t L_380 = L_379;
+		RuntimeObject* L_381 = (L_377)->GetAt(static_cast<il2cpp_array_size_t>(L_380));
+		NullCheck(L_374);
+		ArrayElementTypeCheck (L_374, L_381);
+		(L_374)->SetAt(static_cast<il2cpp_array_size_t>(L_376), (RuntimeObject*)L_381);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1047>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_382 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_383 = V_2;
+		int32_t L_384 = L_383.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_385 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_386 = V_1;
+		int32_t L_387 = L_386.___i;
+		NullCheck(L_385);
+		int32_t L_388 = L_387;
+		uint8_t L_389 = (uint8_t)(L_385)->GetAt(static_cast<il2cpp_array_size_t>(L_388));
+		NullCheck(L_382);
+		(L_382)->SetAt(static_cast<il2cpp_array_size_t>(L_384), (bool)L_389);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1048>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_390 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_391 = V_2;
+		int32_t L_392 = L_391.___i;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_393 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_394 = V_1;
+		int32_t L_395 = L_394.___i;
+		NullCheck(L_393);
+		int32_t L_396 = L_395;
+		uint8_t L_397 = (uint8_t)(L_393)->GetAt(static_cast<il2cpp_array_size_t>(L_396));
+		NullCheck(L_390);
+		(L_390)->SetAt(static_cast<il2cpp_array_size_t>(L_392), (bool)L_397);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1050>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_398 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_399 = V_2;
+		NullCheck(L_398);
+		bool L_400;
+		L_400 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_398, L_399, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_400)
+		{
+			goto IL_07dd;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1052>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_401 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_402 = V_2;
+		NullCheck(L_401);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_403;
+		L_403 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_401, L_402, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_403, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1053>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_404 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_405 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_406 = V_2;
+		NullCheck(L_405);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_407;
+		L_407 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_405, L_406, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_404);
+		bool L_408;
+		L_408 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_404, L_407, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1054>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_409 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_410 = V_2;
+		NullCheck(L_409);
+		bool L_411;
+		L_411 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_409, L_410, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_07dd:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1057>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_412 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_413 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_414 = V_1;
+		NullCheck(L_413);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_415;
+		L_415 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_413, L_414, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_416 = V_2;
+		NullCheck(L_412);
+		Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956(L_412, L_415, L_416, Dictionary_2_set_Item_mE2D0691982DCACB22A77563AFB75D4C9A7D5A956_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1058>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_417 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_418 = V_2;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_419 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_420 = V_1;
+		NullCheck(L_419);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_421;
+		L_421 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_419, L_420, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_417);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_417, L_418, L_421, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1059>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_422 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_423 = V_1;
+		NullCheck(L_422);
+		bool L_424;
+		L_424 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_422, L_423, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_081a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1061>
+		int32_t* L_425 = (int32_t*)(&(&V_2)->___i);
+		int32_t* L_426 = L_425;
+		int32_t L_427 = *((int32_t*)L_426);
+		*((int32_t*)L_426) = (int32_t)((int32_t)il2cpp_codegen_add(L_427, 1));
+	}
+
+IL_0826:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1040>
+		int32_t* L_428 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_429 = L_428;
+		int32_t L_430 = *((int32_t*)L_429);
+		*((int32_t*)L_429) = (int32_t)((int32_t)il2cpp_codegen_add(L_430, 1));
+	}
+
+IL_0832:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1040>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_431 = V_1;
+		int32_t L_432 = L_431.___i;
+		int32_t L_433 = __this->____nextSlowUpdateProcessSlot;
+		if ((((int32_t)L_432) < ((int32_t)L_433)))
+		{
+			goto IL_0727;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1064>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_434 = V_2;
+		int32_t L_435 = L_434.___i;
+		(&V_1)->___i = L_435;
+		goto IL_08cd;
+	}
+
+IL_0852:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1066>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_436 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_437 = V_1;
+		int32_t L_438 = L_437.___i;
+		NullCheck(L_436);
+		ArrayElementTypeCheck (L_436, NULL);
+		(L_436)->SetAt(static_cast<il2cpp_array_size_t>(L_438), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1067>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_439 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_440 = V_1;
+		int32_t L_441 = L_440.___i;
+		NullCheck(L_439);
+		(L_439)->SetAt(static_cast<il2cpp_array_size_t>(L_441), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1068>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_442 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_443 = V_1;
+		int32_t L_444 = L_443.___i;
+		NullCheck(L_442);
+		(L_442)->SetAt(static_cast<il2cpp_array_size_t>(L_444), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1070>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_445 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_446 = V_1;
+		NullCheck(L_445);
+		bool L_447;
+		L_447 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_445, L_446, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		if (!L_447)
+		{
+			goto IL_08c1;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1072>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_448 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_449 = V_1;
+		NullCheck(L_448);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_450;
+		L_450 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_448, L_449, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_450, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1074>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_451 = __this->____handleToIndex;
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_452 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_453 = V_1;
+		NullCheck(L_452);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_454;
+		L_454 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_452, L_453, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		NullCheck(L_451);
+		bool L_455;
+		L_455 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_451, L_454, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1075>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_456 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_457 = V_1;
+		NullCheck(L_456);
+		bool L_458;
+		L_458 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_456, L_457, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+	}
+
+IL_08c1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1064>
+		int32_t* L_459 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_460 = L_459;
+		int32_t L_461 = *((int32_t*)L_460);
+		*((int32_t*)L_460) = (int32_t)((int32_t)il2cpp_codegen_add(L_461, 1));
+	}
+
+IL_08cd:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1064>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_462 = V_1;
+		int32_t L_463 = L_462.___i;
+		int32_t L_464 = __this->____nextSlowUpdateProcessSlot;
+		if ((((int32_t)L_463) < ((int32_t)L_464)))
+		{
+			goto IL_0852;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1079>
+		int32_t L_465 = __this->____lastSlowUpdateProcessSlot;
+		int32_t L_466 = __this->____nextSlowUpdateProcessSlot;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_467 = V_2;
+		int32_t L_468 = L_467.___i;
+		__this->____lastSlowUpdateProcessSlot = ((int32_t)il2cpp_codegen_subtract(L_465, ((int32_t)il2cpp_codegen_subtract(L_466, L_468))));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1080>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_469 = V_2;
+		int32_t L_470 = L_469.___i;
+		int32_t L_471 = L_470;
+		V_5 = L_471;
+		__this->____nextSlowUpdateProcessSlot = L_471;
+		int32_t L_472 = V_5;
+		__this->___SlowUpdateCoroutines = L_472;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1081>
+		return;
+	}
+}
+// Method Definition Index: 68521
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m0E7144BEBB4CB80F24C3904EEDAEF4A11F5065A5 (RuntimeObject* ___0_coroutine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1090>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1091>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		RuntimeObject* L_2 = ___0_coroutine;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3;
+		L_3 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_3);
+		uint8_t L_4 = L_3->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_5), L_4, NULL);
+		NullCheck(L_1);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(L_1, L_2, 0, (String_t*)NULL, L_5, (bool)1, NULL);
+		return L_6;
+	}
+
+IL_0021:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68522
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m734FCEB20B7D0C043022C04DA99913C244811D56 (RuntimeObject* ___0_coroutine, String_t* ___1_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1102>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1103>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		RuntimeObject* L_2 = ___0_coroutine;
+		String_t* L_3 = ___1_tag;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4;
+		L_4 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_4);
+		uint8_t L_5 = L_4->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_6), L_5, NULL);
+		NullCheck(L_1);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(L_1, L_2, 0, L_3, L_6, (bool)1, NULL);
+		return L_7;
+	}
+
+IL_0021:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68523
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B (RuntimeObject* ___0_coroutine, int32_t ___1_segment, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1114>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1115>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		RuntimeObject* L_2 = ___0_coroutine;
+		int32_t L_3 = ___1_segment;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4;
+		L_4 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_4);
+		uint8_t L_5 = L_4->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_6), L_5, NULL);
+		NullCheck(L_1);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(L_1, L_2, L_3, (String_t*)NULL, L_6, (bool)1, NULL);
+		return L_7;
+	}
+
+IL_0021:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68524
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutine_m88FE2D92C255562E157DAE9A32E1AB643B75D4B9 (RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1127>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1128>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		RuntimeObject* L_2 = ___0_coroutine;
+		int32_t L_3 = ___1_segment;
+		String_t* L_4 = ___2_tag;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_5;
+		L_5 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		NullCheck(L_5);
+		uint8_t L_6 = L_5->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_7), L_6, NULL);
+		NullCheck(L_1);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8;
+		L_8 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(L_1, L_2, L_3, L_4, L_7, (bool)1, NULL);
+		return L_8;
+	}
+
+IL_0021:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 68525
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_mDA89139CE0799DB1506CF5957A5D78567DDA3BF7 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1138>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1139>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_coroutine;
+		uint8_t L_2 = __this->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_3), L_2, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		L_4 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(__this, L_1, 0, (String_t*)NULL, L_3, (bool)1, NULL);
+		return L_4;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 68526
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_mFA6653BDF28B03D147E3D24556B22192E5E0D085 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, String_t* ___1_tag, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1150>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1151>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_coroutine;
+		String_t* L_2 = ___1_tag;
+		uint8_t L_3 = __this->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_4), L_3, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(__this, L_1, 0, L_2, L_4, (bool)1, NULL);
+		return L_5;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68527
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, int32_t ___1_segment, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1162>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1163>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_coroutine;
+		int32_t L_2 = ___1_segment;
+		uint8_t L_3 = __this->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_4), L_3, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(__this, L_1, L_2, (String_t*)NULL, L_4, (bool)1, NULL);
+		return L_5;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68528
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineOnInstance_mE16F294D13CF24A5B894A863D4188491FA146AE3 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1175>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1176>
+		RuntimeObject* L_0 = ___0_coroutine;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		RuntimeObject* L_1 = ___0_coroutine;
+		int32_t L_2 = ___1_segment;
+		String_t* L_3 = ___2_tag;
+		uint8_t L_4 = __this->____instanceID;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6((&L_5), L_4, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(__this, L_1, L_2, L_3, L_5, (bool)1, NULL);
+		return L_6;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68529
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___3_handle, bool ___4_prewarm, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* V_5 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_6 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_7 = NULL;
+	uint16_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* V_11 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_12 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_13 = NULL;
+	int32_t V_14 = 0;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* V_15 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_16 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_17 = NULL;
+	int32_t V_18 = 0;
+	IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* V_19 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_20 = NULL;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_21 = NULL;
+	int32_t V_22 = 0;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	int32_t G_B25_0 = 0;
+	int32_t G_B54_0 = 0;
+	int32_t G_B83_0 = 0;
+	int32_t G_B112_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1182>
+		il2cpp_codegen_initobj((&V_4), sizeof(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5));
+		int32_t L_0 = ___1_segment;
+		(&V_4)->___seg = L_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_1 = V_4;
+		V_0 = L_1;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1184>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_2 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3 = ___3_handle;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_2, L_3, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_4)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1186>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_5 = __this->____indexToHandle;
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_6 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = ___3_handle;
+		NullCheck(L_6);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_8;
+		L_8 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_6, L_7, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_5);
+		bool L_9;
+		L_9 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_5, L_8, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1187>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_10 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___3_handle;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_10, L_11, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1190>
+		float L_13 = __this->___localTime;
+		V_1 = L_13;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1191>
+		float L_14 = __this->___deltaTime;
+		V_2 = L_14;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1192>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_15;
+		L_15 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(__this, NULL);
+		V_3 = L_15;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1193>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16 = ___3_handle;
+		Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_16, NULL);
+		int32_t L_17 = ___1_segment;
+		switch (L_17)
+		{
+			case 0:
+			{
+				goto IL_0081;
+			}
+			case 1:
+			{
+				goto IL_02a1;
+			}
+			case 2:
+			{
+				goto IL_04c1;
+			}
+			case 3:
+			{
+				goto IL_06e1;
+			}
+		}
+	}
+	{
+		goto IL_08fe;
+	}
+
+IL_0081:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1199>
+		int32_t L_18 = __this->____nextUpdateProcessSlot;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_19 = __this->___UpdateProcesses;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length)))))
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1201>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_20 = __this->___UpdateProcesses;
+		V_5 = L_20;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1202>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_21 = __this->___UpdatePaused;
+		V_6 = L_21;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1203>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_22 = __this->___UpdateHeld;
+		V_7 = L_22;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1205>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_23 = __this->___UpdateProcesses;
+		NullCheck(L_23);
+		uint16_t L_24 = __this->____expansions;
+		V_8 = L_24;
+		uint16_t L_25 = V_8;
+		__this->____expansions = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_25, 1)));
+		uint16_t L_26 = V_8;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_23)->max_length)), ((int32_t)il2cpp_codegen_multiply(((int32_t)64), (int32_t)L_26)))));
+		__this->___UpdateProcesses = L_27;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateProcesses), (void*)L_27);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1206>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_28 = __this->___UpdateProcesses;
+		NullCheck(L_28);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_29 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)));
+		__this->___UpdatePaused = L_29;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdatePaused), (void*)L_29);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1207>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_30 = __this->___UpdateProcesses;
+		NullCheck(L_30);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)));
+		__this->___UpdateHeld = L_31;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateHeld), (void*)L_31);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1209>
+		V_9 = 0;
+		goto IL_0133;
+	}
+
+IL_0103:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1211>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_32 = __this->___UpdateProcesses;
+		int32_t L_33 = V_9;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_34 = V_5;
+		int32_t L_35 = V_9;
+		NullCheck(L_34);
+		int32_t L_36 = L_35;
+		RuntimeObject* L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		NullCheck(L_32);
+		ArrayElementTypeCheck (L_32, L_37);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(L_33), (RuntimeObject*)L_37);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1212>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_38 = __this->___UpdatePaused;
+		int32_t L_39 = V_9;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_40 = V_6;
+		int32_t L_41 = V_9;
+		NullCheck(L_40);
+		int32_t L_42 = L_41;
+		uint8_t L_43 = (uint8_t)(L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(L_39), (bool)L_43);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1213>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_44 = __this->___UpdateHeld;
+		int32_t L_45 = V_9;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_46 = V_7;
+		int32_t L_47 = V_9;
+		NullCheck(L_46);
+		int32_t L_48 = L_47;
+		uint8_t L_49 = (uint8_t)(L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		NullCheck(L_44);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(L_45), (bool)L_49);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1209>
+		int32_t L_50 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+	}
+
+IL_0133:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1209>
+		int32_t L_51 = V_9;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_52 = V_5;
+		NullCheck(L_52);
+		if ((((int32_t)L_51) < ((int32_t)((int32_t)(((RuntimeArray*)L_52)->max_length)))))
+		{
+			goto IL_0103;
+		}
+	}
+
+IL_013b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1217>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_53 = V_0;
+		int32_t L_54 = L_53.___seg;
+		bool L_55;
+		L_55 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_54, NULL);
+		if (!L_55)
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1218>
+		int32_t L_56 = __this->____nextUpdateProcessSlot;
+		__this->____lastUpdateProcessSlot = L_56;
+	}
+
+IL_0155:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1220>
+		int32_t L_57 = __this->____nextUpdateProcessSlot;
+		V_10 = L_57;
+		int32_t L_58 = V_10;
+		__this->____nextUpdateProcessSlot = ((int32_t)il2cpp_codegen_add(L_58, 1));
+		int32_t L_59 = V_10;
+		(&V_0)->___i = L_59;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1221>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_60 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_61 = V_0;
+		int32_t L_62 = L_61.___i;
+		RuntimeObject* L_63 = ___0_coroutine;
+		NullCheck(L_60);
+		ArrayElementTypeCheck (L_60, L_63);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(L_62), (RuntimeObject*)L_63);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1223>
+		String_t* L_64 = ___2_tag;
+		if (!L_64)
+		{
+			goto IL_018a;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1224>
+		String_t* L_65 = ___2_tag;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_66 = ___3_handle;
+		Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC(__this, L_65, L_66, NULL);
+	}
+
+IL_018a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1226>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_67 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_68 = V_0;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_69 = ___3_handle;
+		NullCheck(L_67);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_67, L_68, L_69, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1227>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_70 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_71 = ___3_handle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_72 = V_0;
+		NullCheck(L_70);
+		Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7(L_70, L_71, L_72, Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var);
+		goto IL_0295;
+	}
+
+IL_01ab:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1233>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_73 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_74 = V_0;
+			int32_t L_75 = L_74.___i;
+			NullCheck(L_73);
+			int32_t L_76 = L_75;
+			RuntimeObject* L_77 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+			NullCheck(L_77);
+			bool L_78;
+			L_78 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_77);
+			if (L_78)
+			{
+				goto IL_01e9_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1235>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_79 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_80 = V_0;
+			NullCheck(L_79);
+			bool L_81;
+			L_81 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_79, L_80, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_81)
+			{
+				goto IL_01e1_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1236>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_82 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_83 = V_0;
+			NullCheck(L_82);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_84;
+			L_84 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_82, L_83, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			int32_t L_85;
+			L_85 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_84, NULL);
+		}
+
+IL_01e1_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1238>
+			___4_prewarm = (bool)0;
+			goto IL_0277_1;
+		}
+
+IL_01e9_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1240>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_86 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_87 = V_0;
+			int32_t L_88 = L_87.___i;
+			NullCheck(L_86);
+			int32_t L_89 = L_88;
+			RuntimeObject* L_90 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_89));
+			if (!L_90)
+			{
+				goto IL_0274_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_91 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_92 = V_0;
+			int32_t L_93 = L_92.___i;
+			NullCheck(L_91);
+			int32_t L_94 = L_93;
+			RuntimeObject* L_95 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+			NullCheck(L_95);
+			float L_96;
+			L_96 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_95);
+			bool L_97;
+			L_97 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_96, NULL);
+			if (!L_97)
+			{
+				goto IL_0274_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1242>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_98 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_98)
+			{
+				goto IL_024e_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1244>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_99 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_100 = V_0;
+			int32_t L_101 = L_100.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_102 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_103 = __this->___UpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_104 = V_0;
+			int32_t L_105 = L_104.___i;
+			NullCheck(L_103);
+			int32_t L_106 = L_105;
+			RuntimeObject* L_107 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_106));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_108 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_109 = V_0;
+			NullCheck(L_108);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_110;
+			L_110 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_108, L_109, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_102);
+			RuntimeObject* L_111;
+			L_111 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_102, L_107, L_110, NULL);
+			NullCheck(L_99);
+			ArrayElementTypeCheck (L_99, L_111);
+			(L_99)->SetAt(static_cast<il2cpp_array_size_t>(L_101), (RuntimeObject*)L_111);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1245>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_024e_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1247>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_112 = __this->___UpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_113 = V_0;
+			int32_t L_114 = L_113.___i;
+			NullCheck(L_112);
+			int32_t L_115 = L_114;
+			uint8_t L_116 = (uint8_t)(L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_115));
+			if (L_116)
+			{
+				goto IL_026f_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_117 = __this->___UpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_118 = V_0;
+			int32_t L_119 = L_118.___i;
+			NullCheck(L_117);
+			int32_t L_120 = L_119;
+			uint8_t L_121 = (uint8_t)(L_117)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+			G_B25_0 = ((((int32_t)L_121) == ((int32_t)0))? 1 : 0);
+			goto IL_0270_1;
+		}
+
+IL_026f_1:
+		{
+			G_B25_0 = 0;
+		}
+
+IL_0270_1:
+		{
+			___4_prewarm = (bool)G_B25_0;
+			goto IL_0277_1;
+		}
+
+IL_0274_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1251>
+			___4_prewarm = (bool)0;
+		}
+
+IL_0277_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1253>
+			goto IL_0295;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0279;
+		}
+		throw e;
+	}
+
+CATCH_0279:
+	{
+		{
+			Exception_t* L_122 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1256>
+			Exception_t* L_123 = L_122;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_123, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1258>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_123, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_0290;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1259>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1260>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB2E2BE32169D4D798AD88E70E0CA1D2162DF0970)), NULL);
+		}
+
+IL_0290:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1262>
+			___4_prewarm = (bool)0;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1263>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0295;
+		}
+	}
+
+IL_0295:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1229>
+		bool L_124 = ___4_prewarm;
+		if (L_124)
+		{
+			goto IL_01ab;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1266>
+		goto IL_0906;
+	}
+
+IL_02a1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1270>
+		int32_t L_125 = __this->____nextFixedUpdateProcessSlot;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_126 = __this->___FixedUpdateProcesses;
+		NullCheck(L_126);
+		if ((((int32_t)L_125) < ((int32_t)((int32_t)(((RuntimeArray*)L_126)->max_length)))))
+		{
+			goto IL_035b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1272>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_127 = __this->___FixedUpdateProcesses;
+		V_11 = L_127;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1273>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_128 = __this->___FixedUpdatePaused;
+		V_12 = L_128;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1274>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_129 = __this->___FixedUpdateHeld;
+		V_13 = L_129;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1276>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_130 = __this->___FixedUpdateProcesses;
+		NullCheck(L_130);
+		uint16_t L_131 = __this->____expansions;
+		V_8 = L_131;
+		uint16_t L_132 = V_8;
+		__this->____expansions = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_132, 1)));
+		uint16_t L_133 = V_8;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_134 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_130)->max_length)), ((int32_t)il2cpp_codegen_multiply(((int32_t)64), (int32_t)L_133)))));
+		__this->___FixedUpdateProcesses = L_134;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateProcesses), (void*)L_134);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1277>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_135 = __this->___FixedUpdateProcesses;
+		NullCheck(L_135);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_136 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_135)->max_length)));
+		__this->___FixedUpdatePaused = L_136;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdatePaused), (void*)L_136);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1278>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_137 = __this->___FixedUpdateProcesses;
+		NullCheck(L_137);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_138 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_137)->max_length)));
+		__this->___FixedUpdateHeld = L_138;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateHeld), (void*)L_138);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1280>
+		V_14 = 0;
+		goto IL_0353;
+	}
+
+IL_0323:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1282>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_139 = __this->___FixedUpdateProcesses;
+		int32_t L_140 = V_14;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_141 = V_11;
+		int32_t L_142 = V_14;
+		NullCheck(L_141);
+		int32_t L_143 = L_142;
+		RuntimeObject* L_144 = (L_141)->GetAt(static_cast<il2cpp_array_size_t>(L_143));
+		NullCheck(L_139);
+		ArrayElementTypeCheck (L_139, L_144);
+		(L_139)->SetAt(static_cast<il2cpp_array_size_t>(L_140), (RuntimeObject*)L_144);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1283>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_145 = __this->___FixedUpdatePaused;
+		int32_t L_146 = V_14;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_147 = V_12;
+		int32_t L_148 = V_14;
+		NullCheck(L_147);
+		int32_t L_149 = L_148;
+		uint8_t L_150 = (uint8_t)(L_147)->GetAt(static_cast<il2cpp_array_size_t>(L_149));
+		NullCheck(L_145);
+		(L_145)->SetAt(static_cast<il2cpp_array_size_t>(L_146), (bool)L_150);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1284>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_151 = __this->___FixedUpdateHeld;
+		int32_t L_152 = V_14;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_153 = V_13;
+		int32_t L_154 = V_14;
+		NullCheck(L_153);
+		int32_t L_155 = L_154;
+		uint8_t L_156 = (uint8_t)(L_153)->GetAt(static_cast<il2cpp_array_size_t>(L_155));
+		NullCheck(L_151);
+		(L_151)->SetAt(static_cast<il2cpp_array_size_t>(L_152), (bool)L_156);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1280>
+		int32_t L_157 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_157, 1));
+	}
+
+IL_0353:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1280>
+		int32_t L_158 = V_14;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_159 = V_11;
+		NullCheck(L_159);
+		if ((((int32_t)L_158) < ((int32_t)((int32_t)(((RuntimeArray*)L_159)->max_length)))))
+		{
+			goto IL_0323;
+		}
+	}
+
+IL_035b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1288>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_160 = V_0;
+		int32_t L_161 = L_160.___seg;
+		bool L_162;
+		L_162 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_161, NULL);
+		if (!L_162)
+		{
+			goto IL_0375;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1289>
+		int32_t L_163 = __this->____nextFixedUpdateProcessSlot;
+		__this->____lastFixedUpdateProcessSlot = L_163;
+	}
+
+IL_0375:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1291>
+		int32_t L_164 = __this->____nextFixedUpdateProcessSlot;
+		V_10 = L_164;
+		int32_t L_165 = V_10;
+		__this->____nextFixedUpdateProcessSlot = ((int32_t)il2cpp_codegen_add(L_165, 1));
+		int32_t L_166 = V_10;
+		(&V_0)->___i = L_166;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1292>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_167 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_168 = V_0;
+		int32_t L_169 = L_168.___i;
+		RuntimeObject* L_170 = ___0_coroutine;
+		NullCheck(L_167);
+		ArrayElementTypeCheck (L_167, L_170);
+		(L_167)->SetAt(static_cast<il2cpp_array_size_t>(L_169), (RuntimeObject*)L_170);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1294>
+		String_t* L_171 = ___2_tag;
+		if (!L_171)
+		{
+			goto IL_03aa;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1295>
+		String_t* L_172 = ___2_tag;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_173 = ___3_handle;
+		Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC(__this, L_172, L_173, NULL);
+	}
+
+IL_03aa:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1297>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_174 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_175 = V_0;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_176 = ___3_handle;
+		NullCheck(L_174);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_174, L_175, L_176, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1298>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_177 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_178 = ___3_handle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_179 = V_0;
+		NullCheck(L_177);
+		Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7(L_177, L_178, L_179, Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var);
+		goto IL_04b5;
+	}
+
+IL_03cb:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1304>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_180 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_181 = V_0;
+			int32_t L_182 = L_181.___i;
+			NullCheck(L_180);
+			int32_t L_183 = L_182;
+			RuntimeObject* L_184 = (L_180)->GetAt(static_cast<il2cpp_array_size_t>(L_183));
+			NullCheck(L_184);
+			bool L_185;
+			L_185 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_184);
+			if (L_185)
+			{
+				goto IL_0409_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1306>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_186 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_187 = V_0;
+			NullCheck(L_186);
+			bool L_188;
+			L_188 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_186, L_187, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_188)
+			{
+				goto IL_0401_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1307>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_189 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_190 = V_0;
+			NullCheck(L_189);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_191;
+			L_191 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_189, L_190, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			int32_t L_192;
+			L_192 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_191, NULL);
+		}
+
+IL_0401_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1309>
+			___4_prewarm = (bool)0;
+			goto IL_0497_1;
+		}
+
+IL_0409_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1311>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_193 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_194 = V_0;
+			int32_t L_195 = L_194.___i;
+			NullCheck(L_193);
+			int32_t L_196 = L_195;
+			RuntimeObject* L_197 = (L_193)->GetAt(static_cast<il2cpp_array_size_t>(L_196));
+			if (!L_197)
+			{
+				goto IL_0494_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_198 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_199 = V_0;
+			int32_t L_200 = L_199.___i;
+			NullCheck(L_198);
+			int32_t L_201 = L_200;
+			RuntimeObject* L_202 = (L_198)->GetAt(static_cast<il2cpp_array_size_t>(L_201));
+			NullCheck(L_202);
+			float L_203;
+			L_203 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_202);
+			bool L_204;
+			L_204 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_203, NULL);
+			if (!L_204)
+			{
+				goto IL_0494_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1313>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_205 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_205)
+			{
+				goto IL_046e_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1315>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_206 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_207 = V_0;
+			int32_t L_208 = L_207.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_209 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_210 = __this->___FixedUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_211 = V_0;
+			int32_t L_212 = L_211.___i;
+			NullCheck(L_210);
+			int32_t L_213 = L_212;
+			RuntimeObject* L_214 = (L_210)->GetAt(static_cast<il2cpp_array_size_t>(L_213));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_215 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_216 = V_0;
+			NullCheck(L_215);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_217;
+			L_217 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_215, L_216, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_209);
+			RuntimeObject* L_218;
+			L_218 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_209, L_214, L_217, NULL);
+			NullCheck(L_206);
+			ArrayElementTypeCheck (L_206, L_218);
+			(L_206)->SetAt(static_cast<il2cpp_array_size_t>(L_208), (RuntimeObject*)L_218);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1316>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_046e_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1318>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_219 = __this->___FixedUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_220 = V_0;
+			int32_t L_221 = L_220.___i;
+			NullCheck(L_219);
+			int32_t L_222 = L_221;
+			uint8_t L_223 = (uint8_t)(L_219)->GetAt(static_cast<il2cpp_array_size_t>(L_222));
+			if (L_223)
+			{
+				goto IL_048f_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_224 = __this->___FixedUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_225 = V_0;
+			int32_t L_226 = L_225.___i;
+			NullCheck(L_224);
+			int32_t L_227 = L_226;
+			uint8_t L_228 = (uint8_t)(L_224)->GetAt(static_cast<il2cpp_array_size_t>(L_227));
+			G_B54_0 = ((((int32_t)L_228) == ((int32_t)0))? 1 : 0);
+			goto IL_0490_1;
+		}
+
+IL_048f_1:
+		{
+			G_B54_0 = 0;
+		}
+
+IL_0490_1:
+		{
+			___4_prewarm = (bool)G_B54_0;
+			goto IL_0497_1;
+		}
+
+IL_0494_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1322>
+			___4_prewarm = (bool)0;
+		}
+
+IL_0497_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1324>
+			goto IL_04b5;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0499;
+		}
+		throw e;
+	}
+
+CATCH_0499:
+	{
+		{
+			Exception_t* L_229 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1327>
+			Exception_t* L_230 = L_229;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_230, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1329>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_230, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_04b0;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1330>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1331>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral14B4DEB7D07783B8E34B61F7539267D7B578DEEA)), NULL);
+		}
+
+IL_04b0:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1333>
+			___4_prewarm = (bool)0;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1334>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_04b5;
+		}
+	}
+
+IL_04b5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1300>
+		bool L_231 = ___4_prewarm;
+		if (L_231)
+		{
+			goto IL_03cb;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1337>
+		goto IL_0906;
+	}
+
+IL_04c1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1341>
+		int32_t L_232 = __this->____nextLateUpdateProcessSlot;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_233 = __this->___LateUpdateProcesses;
+		NullCheck(L_233);
+		if ((((int32_t)L_232) < ((int32_t)((int32_t)(((RuntimeArray*)L_233)->max_length)))))
+		{
+			goto IL_057b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1343>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_234 = __this->___LateUpdateProcesses;
+		V_15 = L_234;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1344>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_235 = __this->___LateUpdatePaused;
+		V_16 = L_235;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1345>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_236 = __this->___LateUpdateHeld;
+		V_17 = L_236;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1347>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_237 = __this->___LateUpdateProcesses;
+		NullCheck(L_237);
+		uint16_t L_238 = __this->____expansions;
+		V_8 = L_238;
+		uint16_t L_239 = V_8;
+		__this->____expansions = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_239, 1)));
+		uint16_t L_240 = V_8;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_241 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_237)->max_length)), ((int32_t)il2cpp_codegen_multiply(((int32_t)64), (int32_t)L_240)))));
+		__this->___LateUpdateProcesses = L_241;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateProcesses), (void*)L_241);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1348>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_242 = __this->___LateUpdateProcesses;
+		NullCheck(L_242);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_243 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_242)->max_length)));
+		__this->___LateUpdatePaused = L_243;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdatePaused), (void*)L_243);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1349>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_244 = __this->___LateUpdateProcesses;
+		NullCheck(L_244);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_245 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_244)->max_length)));
+		__this->___LateUpdateHeld = L_245;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateHeld), (void*)L_245);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1351>
+		V_18 = 0;
+		goto IL_0573;
+	}
+
+IL_0543:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1353>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_246 = __this->___LateUpdateProcesses;
+		int32_t L_247 = V_18;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_248 = V_15;
+		int32_t L_249 = V_18;
+		NullCheck(L_248);
+		int32_t L_250 = L_249;
+		RuntimeObject* L_251 = (L_248)->GetAt(static_cast<il2cpp_array_size_t>(L_250));
+		NullCheck(L_246);
+		ArrayElementTypeCheck (L_246, L_251);
+		(L_246)->SetAt(static_cast<il2cpp_array_size_t>(L_247), (RuntimeObject*)L_251);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1354>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_252 = __this->___LateUpdatePaused;
+		int32_t L_253 = V_18;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_254 = V_16;
+		int32_t L_255 = V_18;
+		NullCheck(L_254);
+		int32_t L_256 = L_255;
+		uint8_t L_257 = (uint8_t)(L_254)->GetAt(static_cast<il2cpp_array_size_t>(L_256));
+		NullCheck(L_252);
+		(L_252)->SetAt(static_cast<il2cpp_array_size_t>(L_253), (bool)L_257);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1355>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_258 = __this->___LateUpdateHeld;
+		int32_t L_259 = V_18;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_260 = V_17;
+		int32_t L_261 = V_18;
+		NullCheck(L_260);
+		int32_t L_262 = L_261;
+		uint8_t L_263 = (uint8_t)(L_260)->GetAt(static_cast<il2cpp_array_size_t>(L_262));
+		NullCheck(L_258);
+		(L_258)->SetAt(static_cast<il2cpp_array_size_t>(L_259), (bool)L_263);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1351>
+		int32_t L_264 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_264, 1));
+	}
+
+IL_0573:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1351>
+		int32_t L_265 = V_18;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_266 = V_15;
+		NullCheck(L_266);
+		if ((((int32_t)L_265) < ((int32_t)((int32_t)(((RuntimeArray*)L_266)->max_length)))))
+		{
+			goto IL_0543;
+		}
+	}
+
+IL_057b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1359>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_267 = V_0;
+		int32_t L_268 = L_267.___seg;
+		bool L_269;
+		L_269 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_268, NULL);
+		if (!L_269)
+		{
+			goto IL_0595;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1360>
+		int32_t L_270 = __this->____nextLateUpdateProcessSlot;
+		__this->____lastLateUpdateProcessSlot = L_270;
+	}
+
+IL_0595:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1362>
+		int32_t L_271 = __this->____nextLateUpdateProcessSlot;
+		V_10 = L_271;
+		int32_t L_272 = V_10;
+		__this->____nextLateUpdateProcessSlot = ((int32_t)il2cpp_codegen_add(L_272, 1));
+		int32_t L_273 = V_10;
+		(&V_0)->___i = L_273;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1363>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_274 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_275 = V_0;
+		int32_t L_276 = L_275.___i;
+		RuntimeObject* L_277 = ___0_coroutine;
+		NullCheck(L_274);
+		ArrayElementTypeCheck (L_274, L_277);
+		(L_274)->SetAt(static_cast<il2cpp_array_size_t>(L_276), (RuntimeObject*)L_277);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1365>
+		String_t* L_278 = ___2_tag;
+		if (!L_278)
+		{
+			goto IL_05ca;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1366>
+		String_t* L_279 = ___2_tag;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_280 = ___3_handle;
+		Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC(__this, L_279, L_280, NULL);
+	}
+
+IL_05ca:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1368>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_281 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_282 = V_0;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_283 = ___3_handle;
+		NullCheck(L_281);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_281, L_282, L_283, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1369>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_284 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_285 = ___3_handle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_286 = V_0;
+		NullCheck(L_284);
+		Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7(L_284, L_285, L_286, Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var);
+		goto IL_06d5;
+	}
+
+IL_05eb:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1375>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_287 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_288 = V_0;
+			int32_t L_289 = L_288.___i;
+			NullCheck(L_287);
+			int32_t L_290 = L_289;
+			RuntimeObject* L_291 = (L_287)->GetAt(static_cast<il2cpp_array_size_t>(L_290));
+			NullCheck(L_291);
+			bool L_292;
+			L_292 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_291);
+			if (L_292)
+			{
+				goto IL_0629_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1377>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_293 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_294 = V_0;
+			NullCheck(L_293);
+			bool L_295;
+			L_295 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_293, L_294, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_295)
+			{
+				goto IL_0621_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1378>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_296 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_297 = V_0;
+			NullCheck(L_296);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_298;
+			L_298 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_296, L_297, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			int32_t L_299;
+			L_299 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_298, NULL);
+		}
+
+IL_0621_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1380>
+			___4_prewarm = (bool)0;
+			goto IL_06b7_1;
+		}
+
+IL_0629_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1382>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_300 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_301 = V_0;
+			int32_t L_302 = L_301.___i;
+			NullCheck(L_300);
+			int32_t L_303 = L_302;
+			RuntimeObject* L_304 = (L_300)->GetAt(static_cast<il2cpp_array_size_t>(L_303));
+			if (!L_304)
+			{
+				goto IL_06b4_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_305 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_306 = V_0;
+			int32_t L_307 = L_306.___i;
+			NullCheck(L_305);
+			int32_t L_308 = L_307;
+			RuntimeObject* L_309 = (L_305)->GetAt(static_cast<il2cpp_array_size_t>(L_308));
+			NullCheck(L_309);
+			float L_310;
+			L_310 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_309);
+			bool L_311;
+			L_311 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_310, NULL);
+			if (!L_311)
+			{
+				goto IL_06b4_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1384>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_312 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_312)
+			{
+				goto IL_068e_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1386>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_313 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_314 = V_0;
+			int32_t L_315 = L_314.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_316 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_317 = __this->___LateUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_318 = V_0;
+			int32_t L_319 = L_318.___i;
+			NullCheck(L_317);
+			int32_t L_320 = L_319;
+			RuntimeObject* L_321 = (L_317)->GetAt(static_cast<il2cpp_array_size_t>(L_320));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_322 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_323 = V_0;
+			NullCheck(L_322);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_324;
+			L_324 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_322, L_323, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_316);
+			RuntimeObject* L_325;
+			L_325 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_316, L_321, L_324, NULL);
+			NullCheck(L_313);
+			ArrayElementTypeCheck (L_313, L_325);
+			(L_313)->SetAt(static_cast<il2cpp_array_size_t>(L_315), (RuntimeObject*)L_325);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1387>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_068e_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1389>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_326 = __this->___LateUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_327 = V_0;
+			int32_t L_328 = L_327.___i;
+			NullCheck(L_326);
+			int32_t L_329 = L_328;
+			uint8_t L_330 = (uint8_t)(L_326)->GetAt(static_cast<il2cpp_array_size_t>(L_329));
+			if (L_330)
+			{
+				goto IL_06af_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_331 = __this->___LateUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_332 = V_0;
+			int32_t L_333 = L_332.___i;
+			NullCheck(L_331);
+			int32_t L_334 = L_333;
+			uint8_t L_335 = (uint8_t)(L_331)->GetAt(static_cast<il2cpp_array_size_t>(L_334));
+			G_B83_0 = ((((int32_t)L_335) == ((int32_t)0))? 1 : 0);
+			goto IL_06b0_1;
+		}
+
+IL_06af_1:
+		{
+			G_B83_0 = 0;
+		}
+
+IL_06b0_1:
+		{
+			___4_prewarm = (bool)G_B83_0;
+			goto IL_06b7_1;
+		}
+
+IL_06b4_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1393>
+			___4_prewarm = (bool)0;
+		}
+
+IL_06b7_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1395>
+			goto IL_06d5;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_06b9;
+		}
+		throw e;
+	}
+
+CATCH_06b9:
+	{
+		{
+			Exception_t* L_336 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1398>
+			Exception_t* L_337 = L_336;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_337, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1400>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_337, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_06d0;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1401>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1402>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral01A82ED42B0DFDC61F25E719017B65079E1C7D14)), NULL);
+		}
+
+IL_06d0:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1404>
+			___4_prewarm = (bool)0;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1405>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_06d5;
+		}
+	}
+
+IL_06d5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1371>
+		bool L_338 = ___4_prewarm;
+		if (L_338)
+		{
+			goto IL_05eb;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1408>
+		goto IL_0906;
+	}
+
+IL_06e1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1412>
+		int32_t L_339 = __this->____nextSlowUpdateProcessSlot;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_340 = __this->___SlowUpdateProcesses;
+		NullCheck(L_340);
+		if ((((int32_t)L_339) < ((int32_t)((int32_t)(((RuntimeArray*)L_340)->max_length)))))
+		{
+			goto IL_079b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1414>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_341 = __this->___SlowUpdateProcesses;
+		V_19 = L_341;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1415>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_342 = __this->___SlowUpdatePaused;
+		V_20 = L_342;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1416>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_343 = __this->___SlowUpdateHeld;
+		V_21 = L_343;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1418>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_344 = __this->___SlowUpdateProcesses;
+		NullCheck(L_344);
+		uint16_t L_345 = __this->____expansions;
+		V_8 = L_345;
+		uint16_t L_346 = V_8;
+		__this->____expansions = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_346, 1)));
+		uint16_t L_347 = V_8;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_348 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_344)->max_length)), ((int32_t)il2cpp_codegen_multiply(((int32_t)64), (int32_t)L_347)))));
+		__this->___SlowUpdateProcesses = L_348;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateProcesses), (void*)L_348);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1419>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_349 = __this->___SlowUpdateProcesses;
+		NullCheck(L_349);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_350 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_349)->max_length)));
+		__this->___SlowUpdatePaused = L_350;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdatePaused), (void*)L_350);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1420>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_351 = __this->___SlowUpdateProcesses;
+		NullCheck(L_351);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_352 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_351)->max_length)));
+		__this->___SlowUpdateHeld = L_352;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateHeld), (void*)L_352);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1422>
+		V_22 = 0;
+		goto IL_0793;
+	}
+
+IL_0763:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1424>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_353 = __this->___SlowUpdateProcesses;
+		int32_t L_354 = V_22;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_355 = V_19;
+		int32_t L_356 = V_22;
+		NullCheck(L_355);
+		int32_t L_357 = L_356;
+		RuntimeObject* L_358 = (L_355)->GetAt(static_cast<il2cpp_array_size_t>(L_357));
+		NullCheck(L_353);
+		ArrayElementTypeCheck (L_353, L_358);
+		(L_353)->SetAt(static_cast<il2cpp_array_size_t>(L_354), (RuntimeObject*)L_358);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1425>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_359 = __this->___SlowUpdatePaused;
+		int32_t L_360 = V_22;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_361 = V_20;
+		int32_t L_362 = V_22;
+		NullCheck(L_361);
+		int32_t L_363 = L_362;
+		uint8_t L_364 = (uint8_t)(L_361)->GetAt(static_cast<il2cpp_array_size_t>(L_363));
+		NullCheck(L_359);
+		(L_359)->SetAt(static_cast<il2cpp_array_size_t>(L_360), (bool)L_364);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1426>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_365 = __this->___SlowUpdateHeld;
+		int32_t L_366 = V_22;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_367 = V_21;
+		int32_t L_368 = V_22;
+		NullCheck(L_367);
+		int32_t L_369 = L_368;
+		uint8_t L_370 = (uint8_t)(L_367)->GetAt(static_cast<il2cpp_array_size_t>(L_369));
+		NullCheck(L_365);
+		(L_365)->SetAt(static_cast<il2cpp_array_size_t>(L_366), (bool)L_370);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1422>
+		int32_t L_371 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_371, 1));
+	}
+
+IL_0793:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1422>
+		int32_t L_372 = V_22;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_373 = V_19;
+		NullCheck(L_373);
+		if ((((int32_t)L_372) < ((int32_t)((int32_t)(((RuntimeArray*)L_373)->max_length)))))
+		{
+			goto IL_0763;
+		}
+	}
+
+IL_079b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1430>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_374 = V_0;
+		int32_t L_375 = L_374.___seg;
+		bool L_376;
+		L_376 = Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3(__this, L_375, NULL);
+		if (!L_376)
+		{
+			goto IL_07b5;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1431>
+		int32_t L_377 = __this->____nextSlowUpdateProcessSlot;
+		__this->____lastSlowUpdateProcessSlot = L_377;
+	}
+
+IL_07b5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1433>
+		int32_t L_378 = __this->____nextSlowUpdateProcessSlot;
+		V_10 = L_378;
+		int32_t L_379 = V_10;
+		__this->____nextSlowUpdateProcessSlot = ((int32_t)il2cpp_codegen_add(L_379, 1));
+		int32_t L_380 = V_10;
+		(&V_0)->___i = L_380;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1434>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_381 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_382 = V_0;
+		int32_t L_383 = L_382.___i;
+		RuntimeObject* L_384 = ___0_coroutine;
+		NullCheck(L_381);
+		ArrayElementTypeCheck (L_381, L_384);
+		(L_381)->SetAt(static_cast<il2cpp_array_size_t>(L_383), (RuntimeObject*)L_384);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1436>
+		String_t* L_385 = ___2_tag;
+		if (!L_385)
+		{
+			goto IL_07ea;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1437>
+		String_t* L_386 = ___2_tag;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_387 = ___3_handle;
+		Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC(__this, L_386, L_387, NULL);
+	}
+
+IL_07ea:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1439>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_388 = __this->____indexToHandle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_389 = V_0;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_390 = ___3_handle;
+		NullCheck(L_388);
+		Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977(L_388, L_389, L_390, Dictionary_2_Add_m74A60A1320D2F8D5B9CF31DE5AF0898568A69977_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1440>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_391 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_392 = ___3_handle;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_393 = V_0;
+		NullCheck(L_391);
+		Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7(L_391, L_392, L_393, Dictionary_2_Add_m9D432FA354887947788335CA0D7AB10F6B33BCC7_RuntimeMethod_var);
+		goto IL_08f5;
+	}
+
+IL_080b:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1446>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_394 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_395 = V_0;
+			int32_t L_396 = L_395.___i;
+			NullCheck(L_394);
+			int32_t L_397 = L_396;
+			RuntimeObject* L_398 = (L_394)->GetAt(static_cast<il2cpp_array_size_t>(L_397));
+			NullCheck(L_398);
+			bool L_399;
+			L_399 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_398);
+			if (L_399)
+			{
+				goto IL_0849_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1448>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_400 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_401 = V_0;
+			NullCheck(L_400);
+			bool L_402;
+			L_402 = Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC(L_400, L_401, Dictionary_2_ContainsKey_m22C6BED9556AC6DEEB49B394861B45BD72730AFC_RuntimeMethod_var);
+			if (!L_402)
+			{
+				goto IL_0841_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1449>
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_403 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_404 = V_0;
+			NullCheck(L_403);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_405;
+			L_405 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_403, L_404, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			int32_t L_406;
+			L_406 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(__this, L_405, NULL);
+		}
+
+IL_0841_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1451>
+			___4_prewarm = (bool)0;
+			goto IL_08d7_1;
+		}
+
+IL_0849_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1453>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_407 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_408 = V_0;
+			int32_t L_409 = L_408.___i;
+			NullCheck(L_407);
+			int32_t L_410 = L_409;
+			RuntimeObject* L_411 = (L_407)->GetAt(static_cast<il2cpp_array_size_t>(L_410));
+			if (!L_411)
+			{
+				goto IL_08d4_1;
+			}
+		}
+		{
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_412 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_413 = V_0;
+			int32_t L_414 = L_413.___i;
+			NullCheck(L_412);
+			int32_t L_415 = L_414;
+			RuntimeObject* L_416 = (L_412)->GetAt(static_cast<il2cpp_array_size_t>(L_415));
+			NullCheck(L_416);
+			float L_417;
+			L_417 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_416);
+			bool L_418;
+			L_418 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_417, NULL);
+			if (!L_418)
+			{
+				goto IL_08d4_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1455>
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_419 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			if (!L_419)
+			{
+				goto IL_08ae_1;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1457>
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_420 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_421 = V_0;
+			int32_t L_422 = L_421.___i;
+			il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+			Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_423 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction;
+			IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_424 = __this->___SlowUpdateProcesses;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_425 = V_0;
+			int32_t L_426 = L_425.___i;
+			NullCheck(L_424);
+			int32_t L_427 = L_426;
+			RuntimeObject* L_428 = (L_424)->GetAt(static_cast<il2cpp_array_size_t>(L_427));
+			Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_429 = __this->____indexToHandle;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_430 = V_0;
+			NullCheck(L_429);
+			CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_431;
+			L_431 = Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61(L_429, L_430, Dictionary_2_get_Item_m25AB86B6CAD01D7C3B6C3F19A08C8F5C4EBDDC61_RuntimeMethod_var);
+			NullCheck(L_423);
+			RuntimeObject* L_432;
+			L_432 = Func_3_Invoke_m06C1E425D770BEBAC5FA3BA1EACADADCA3D3CB3A_inline(L_423, L_428, L_431, NULL);
+			NullCheck(L_420);
+			ArrayElementTypeCheck (L_420, L_432);
+			(L_420)->SetAt(static_cast<il2cpp_array_size_t>(L_422), (RuntimeObject*)L_432);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1458>
+			((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)NULL);
+		}
+
+IL_08ae_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1460>
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_433 = __this->___SlowUpdatePaused;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_434 = V_0;
+			int32_t L_435 = L_434.___i;
+			NullCheck(L_433);
+			int32_t L_436 = L_435;
+			uint8_t L_437 = (uint8_t)(L_433)->GetAt(static_cast<il2cpp_array_size_t>(L_436));
+			if (L_437)
+			{
+				goto IL_08cf_1;
+			}
+		}
+		{
+			BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_438 = __this->___SlowUpdateHeld;
+			ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_439 = V_0;
+			int32_t L_440 = L_439.___i;
+			NullCheck(L_438);
+			int32_t L_441 = L_440;
+			uint8_t L_442 = (uint8_t)(L_438)->GetAt(static_cast<il2cpp_array_size_t>(L_441));
+			G_B112_0 = ((((int32_t)L_442) == ((int32_t)0))? 1 : 0);
+			goto IL_08d0_1;
+		}
+
+IL_08cf_1:
+		{
+			G_B112_0 = 0;
+		}
+
+IL_08d0_1:
+		{
+			___4_prewarm = (bool)G_B112_0;
+			goto IL_08d7_1;
+		}
+
+IL_08d4_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1464>
+			___4_prewarm = (bool)0;
+		}
+
+IL_08d7_1:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1466>
+			goto IL_08f5;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_08d9;
+		}
+		throw e;
+	}
+
+CATCH_08d9:
+	{
+		{
+			Exception_t* L_443 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1469>
+			Exception_t* L_444 = L_443;
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_444, NULL);
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1471>
+			if (!((MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B*)IsInstClass((RuntimeObject*)L_444, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t35FD5FA7551453057398F69DC338ADBC09B7581B_il2cpp_TypeInfo_var)))))
+			{
+				goto IL_08f0;
+			}
+		}
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1472>
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1473>
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0D38602236EC85DCB4F2B7D4214F7F58A29898F4)), NULL);
+		}
+
+IL_08f0:
+		{
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1475>
+			___4_prewarm = (bool)0;
+			//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1476>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_08f5;
+		}
+	}
+
+IL_08f5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1442>
+		bool L_445 = ___4_prewarm;
+		if (L_445)
+		{
+			goto IL_080b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1479>
+		goto IL_0906;
+	}
+
+IL_08fe:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1482>
+		il2cpp_codegen_initobj((&___3_handle), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+	}
+
+IL_0906:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1486>
+		float L_446 = V_1;
+		__this->___localTime = L_446;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1487>
+		float L_447 = V_2;
+		__this->___deltaTime = L_447;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1488>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_448 = V_3;
+		Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline(__this, L_448, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1490>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_449 = ___3_handle;
+		return L_449;
+	}
+}
+// Method Definition Index: 68530
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutines_mC0832B66B279685E63ABFE35E07B1DFFA72CD198 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1502>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Timing_KillCoroutinesOnInstance_m62F4D6657BEE28D69BEBB5D9772D27FF746DCE27(L_2, NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68531
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m62F4D6657BEE28D69BEBB5D9772D27FF746DCE27 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_mE5A7DF4FCB59B4E36E8D6B53C7D8CDD6AE1B7A1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Clear_mEE1144EB7AED53C6A80D99AB59884F95871B41FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1514>
+		int32_t L_0 = __this->____nextUpdateProcessSlot;
+		int32_t L_1 = __this->____nextLateUpdateProcessSlot;
+		int32_t L_2 = __this->____nextFixedUpdateProcessSlot;
+		int32_t L_3 = __this->____nextSlowUpdateProcessSlot;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1516>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_4 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdateProcesses = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateProcesses), (void*)L_4);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1517>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_5 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdatePaused = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdatePaused), (void*)L_5);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1518>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdateHeld = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateHeld), (void*)L_6);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1519>
+		__this->___UpdateCoroutines = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1520>
+		__this->____nextUpdateProcessSlot = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1522>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_7 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdateProcesses = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateProcesses), (void*)L_7);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1523>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdatePaused = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdatePaused), (void*)L_8);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1524>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdateHeld = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateHeld), (void*)L_9);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1525>
+		__this->___LateUpdateCoroutines = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1526>
+		__this->____nextLateUpdateProcessSlot = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1528>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_10 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdateProcesses = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateProcesses), (void*)L_10);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1529>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdatePaused = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdatePaused), (void*)L_11);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1530>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdateHeld = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateHeld), (void*)L_12);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1531>
+		__this->___FixedUpdateCoroutines = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1532>
+		__this->____nextFixedUpdateProcessSlot = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1534>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_13 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdateProcesses = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateProcesses), (void*)L_13);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1535>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdatePaused = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdatePaused), (void*)L_14);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1536>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_15 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdateHeld = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateHeld), (void*)L_15);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1537>
+		__this->___SlowUpdateCoroutines = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1538>
+		__this->____nextSlowUpdateProcessSlot = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1540>
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_16 = __this->____processTags;
+		NullCheck(L_16);
+		Dictionary_2_Clear_mEE1144EB7AED53C6A80D99AB59884F95871B41FF(L_16, Dictionary_2_Clear_mEE1144EB7AED53C6A80D99AB59884F95871B41FF_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1541>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_17 = __this->____taggedProcesses;
+		NullCheck(L_17);
+		Dictionary_2_Clear_mE5A7DF4FCB59B4E36E8D6B53C7D8CDD6AE1B7A1F(L_17, Dictionary_2_Clear_mE5A7DF4FCB59B4E36E8D6B53C7D8CDD6AE1B7A1F_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1542>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_18 = __this->____handleToIndex;
+		NullCheck(L_18);
+		Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C(L_18, Dictionary_2_Clear_m9F8E7ED860E0D888A171C3DC3C0B40AD52AD737C_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1543>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_19 = __this->____indexToHandle;
+		NullCheck(L_19);
+		Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40(L_19, Dictionary_2_Clear_mD1DE886FEBA0751E75006B2D262E68A769AD5F40_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1544>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_20 = __this->____waitingTriggers;
+		NullCheck(L_20);
+		Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD(L_20, Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1545>
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_21 = __this->____allWaiting;
+		NullCheck(L_21);
+		HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F(L_21, HashSet_1_Clear_m77EE4EC9D23BC4E55236F1E3F95AE75F2F5A561F_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1546>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_22 = __this->____pendingResume;
+		NullCheck(L_22);
+		Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD(L_22, Dictionary_2_Clear_m444FE731AA7E831C16E3836525E7DF4560B00CFD_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1547>
+		uint16_t L_23 = __this->____expansions;
+		__this->____expansions = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add(((int32_t)((int32_t)L_23/2)), 1)));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1549>
+		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_0, L_1)), L_2)), L_3));
+	}
+}
+// Method Definition Index: 68532
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutines_m81EE7237247CEE5C23067167313689A86B0F2196 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1559>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_1;
+		L_1 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		NullCheck(L_0);
+		uint8_t L_2 = L_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6;
+		L_6 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_5, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = ___0_handle;
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0(L_6, L_7, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 68533
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m52D4BC17BAFCD59ED458E39D660E12AECC5AD6B0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1569>
+		V_0 = (bool)0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1571>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_0 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_handle;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_0, L_1, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1573>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_3 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4 = ___0_handle;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_3, L_4, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (!L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1574>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = ___0_handle;
+		Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0(__this, L_6, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1576>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_7 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = ___0_handle;
+		NullCheck(L_7);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9;
+		L_9 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_7, L_8, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		RuntimeObject* L_10;
+		L_10 = Timing_CoindexExtract_m3779285BC23A046419BBCA2DDB80F141181C213D(__this, L_9, NULL);
+		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_10) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1577>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___0_handle;
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_11, NULL);
+	}
+
+IL_0042:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1580>
+		bool L_12 = V_0;
+		if (L_12)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0047:
+	{
+		return 1;
+	}
+}
+// Method Definition Index: 68534
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutines_m08D4BF404877687958E58263436ECA7D40F3E2AA (String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1590>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		String_t* L_3 = ___0_tag;
+		NullCheck(L_2);
+		int32_t L_4;
+		L_4 = Timing_KillCoroutinesOnInstance_m2487F9FB00EF76D5843DE2A4AC3186C76C25D710(L_2, L_3, NULL);
+		return L_4;
+	}
+
+IL_0019:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68535
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_KillCoroutinesOnInstance_m2487F9FB00EF76D5843DE2A4AC3186C76C25D710 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1600>
+		String_t* L_0 = ___0_tag;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1600>
+		return 0;
+	}
+
+IL_0005:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1601>
+		V_0 = 0;
+		goto IL_00b7;
+	}
+
+IL_000c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1605>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_1 = __this->____taggedProcesses;
+		String_t* L_2 = ___0_tag;
+		NullCheck(L_1);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_3;
+		L_3 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_1, L_2, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		NullCheck(L_3);
+		Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_4;
+		L_4 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_3, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		V_1 = L_4;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1606>
+		bool L_5;
+		L_5 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_1), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1608>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_6 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_6);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_8;
+		L_8 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_6, L_7, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_9;
+		L_9 = Timing_Nullify_m2813F73499FB1296ADA91E0226A5A33033B6A603(__this, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1610>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_10 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11;
+		L_11 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_10, L_11, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (!L_12)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1611>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13;
+		L_13 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0(__this, L_13, NULL);
+	}
+
+IL_0061:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1613>
+		int32_t L_14 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0065:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1616>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_15;
+		L_15 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F(__this, L_15, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1618>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_16 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_17;
+		L_17 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_16);
+		bool L_18;
+		L_18 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_16, L_17, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_18)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1620>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_19 = __this->____indexToHandle;
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_20 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_21;
+		L_21 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_20);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_22;
+		L_22 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_20, L_21, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_19);
+		bool L_23;
+		L_23 = Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A(L_19, L_22, Dictionary_2_Remove_m317BD9C3096552CEC7591DD4AF6E870C8A67A88A_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1621>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_24 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_25;
+		L_25 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_24);
+		bool L_26;
+		L_26 = Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615(L_24, L_25, Dictionary_2_Remove_mA9140AF7607A71265FE520877E27B0D942761615_RuntimeMethod_var);
+	}
+
+IL_00b7:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1603>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_27 = __this->____taggedProcesses;
+		String_t* L_28 = ___0_tag;
+		NullCheck(L_27);
+		bool L_29;
+		L_29 = Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE(L_27, L_28, Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		if (L_29)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1625>
+		int32_t L_30 = V_0;
+		return L_30;
+	}
+}
+// Method Definition Index: 68536
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutines_mC76433FC5DC4C6031AA1E509170CCE24A115CEAD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1634>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Timing_PauseCoroutinesOnInstance_m0A64F61BA58CDB960D02D3A1859A4DCD1C7669AB(L_2, NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68537
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_m0A64F61BA58CDB960D02D3A1859A4DCD1C7669AB (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1643>
+		V_0 = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1645>
+		V_1 = 0;
+		goto IL_006c;
+	}
+
+IL_0006:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1647>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___UpdatePaused;
+		int32_t L_1 = V_1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		uint8_t L_3 = (uint8_t)(L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		if (L_3)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_4 = __this->___UpdateProcesses;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		if (!L_7)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1649>
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1650>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___UpdatePaused;
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1652>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_11 = __this->___UpdateProcesses;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_14);
+		float L_15;
+		L_15 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_14);
+		float L_16;
+		L_16 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 0, NULL);
+		if ((!(((float)L_15) > ((float)L_16))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1653>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1654>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_17 = __this->___UpdateProcesses;
+		int32_t L_18 = V_1;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_19 = __this->___UpdateProcesses;
+		int32_t L_20 = V_1;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		RuntimeObject* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_23 = __this->___UpdateProcesses;
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		int32_t L_25 = L_24;
+		RuntimeObject* L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		NullCheck(L_26);
+		float L_27;
+		L_27 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_26);
+		float L_28;
+		L_28 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 0, NULL);
+		RuntimeObject* L_29;
+		L_29 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_22, ((float)il2cpp_codegen_subtract(L_27, L_28)), NULL);
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_29);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (RuntimeObject*)L_29);
+	}
+
+IL_0068:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1645>
+		int32_t L_30 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_006c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1645>
+		int32_t L_31 = V_1;
+		int32_t L_32 = __this->____nextUpdateProcessSlot;
+		if ((((int32_t)L_31) < ((int32_t)L_32)))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1658>
+		V_1 = 0;
+		goto IL_00df;
+	}
+
+IL_0079:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1660>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_33 = __this->___LateUpdatePaused;
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		int32_t L_35 = L_34;
+		uint8_t L_36 = (uint8_t)(L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		if (L_36)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_37 = __this->___LateUpdateProcesses;
+		int32_t L_38 = V_1;
+		NullCheck(L_37);
+		int32_t L_39 = L_38;
+		RuntimeObject* L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		if (!L_40)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1662>
+		int32_t L_41 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_41, 1));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1663>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_42 = __this->___LateUpdatePaused;
+		int32_t L_43 = V_1;
+		NullCheck(L_42);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(L_43), (bool)1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1665>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_44 = __this->___LateUpdateProcesses;
+		int32_t L_45 = V_1;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		RuntimeObject* L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_47);
+		float L_48;
+		L_48 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_47);
+		float L_49;
+		L_49 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 2, NULL);
+		if ((!(((float)L_48) > ((float)L_49))))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1666>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1667>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_50 = __this->___LateUpdateProcesses;
+		int32_t L_51 = V_1;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_52 = __this->___LateUpdateProcesses;
+		int32_t L_53 = V_1;
+		NullCheck(L_52);
+		int32_t L_54 = L_53;
+		RuntimeObject* L_55 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_56 = __this->___LateUpdateProcesses;
+		int32_t L_57 = V_1;
+		NullCheck(L_56);
+		int32_t L_58 = L_57;
+		RuntimeObject* L_59 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		NullCheck(L_59);
+		float L_60;
+		L_60 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_59);
+		float L_61;
+		L_61 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 2, NULL);
+		RuntimeObject* L_62;
+		L_62 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_55, ((float)il2cpp_codegen_subtract(L_60, L_61)), NULL);
+		NullCheck(L_50);
+		ArrayElementTypeCheck (L_50, L_62);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_51), (RuntimeObject*)L_62);
+	}
+
+IL_00db:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1658>
+		int32_t L_63 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_63, 1));
+	}
+
+IL_00df:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1658>
+		int32_t L_64 = V_1;
+		int32_t L_65 = __this->____nextLateUpdateProcessSlot;
+		if ((((int32_t)L_64) < ((int32_t)L_65)))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1671>
+		V_1 = 0;
+		goto IL_0152;
+	}
+
+IL_00ec:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1673>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_66 = __this->___FixedUpdatePaused;
+		int32_t L_67 = V_1;
+		NullCheck(L_66);
+		int32_t L_68 = L_67;
+		uint8_t L_69 = (uint8_t)(L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		if (L_69)
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_70 = __this->___FixedUpdateProcesses;
+		int32_t L_71 = V_1;
+		NullCheck(L_70);
+		int32_t L_72 = L_71;
+		RuntimeObject* L_73 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		if (!L_73)
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1675>
+		int32_t L_74 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_74, 1));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1676>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_75 = __this->___FixedUpdatePaused;
+		int32_t L_76 = V_1;
+		NullCheck(L_75);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(L_76), (bool)1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1678>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_77 = __this->___FixedUpdateProcesses;
+		int32_t L_78 = V_1;
+		NullCheck(L_77);
+		int32_t L_79 = L_78;
+		RuntimeObject* L_80 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		NullCheck(L_80);
+		float L_81;
+		L_81 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_80);
+		float L_82;
+		L_82 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 1, NULL);
+		if ((!(((float)L_81) > ((float)L_82))))
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1679>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1680>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_83 = __this->___FixedUpdateProcesses;
+		int32_t L_84 = V_1;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_85 = __this->___FixedUpdateProcesses;
+		int32_t L_86 = V_1;
+		NullCheck(L_85);
+		int32_t L_87 = L_86;
+		RuntimeObject* L_88 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_89 = __this->___FixedUpdateProcesses;
+		int32_t L_90 = V_1;
+		NullCheck(L_89);
+		int32_t L_91 = L_90;
+		RuntimeObject* L_92 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_91));
+		NullCheck(L_92);
+		float L_93;
+		L_93 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_92);
+		float L_94;
+		L_94 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 1, NULL);
+		RuntimeObject* L_95;
+		L_95 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_88, ((float)il2cpp_codegen_subtract(L_93, L_94)), NULL);
+		NullCheck(L_83);
+		ArrayElementTypeCheck (L_83, L_95);
+		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(L_84), (RuntimeObject*)L_95);
+	}
+
+IL_014e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1671>
+		int32_t L_96 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+	}
+
+IL_0152:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1671>
+		int32_t L_97 = V_1;
+		int32_t L_98 = __this->____nextFixedUpdateProcessSlot;
+		if ((((int32_t)L_97) < ((int32_t)L_98)))
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1684>
+		V_1 = 0;
+		goto IL_01c5;
+	}
+
+IL_015f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1686>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_99 = __this->___SlowUpdatePaused;
+		int32_t L_100 = V_1;
+		NullCheck(L_99);
+		int32_t L_101 = L_100;
+		uint8_t L_102 = (uint8_t)(L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		if (L_102)
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_103 = __this->___SlowUpdateProcesses;
+		int32_t L_104 = V_1;
+		NullCheck(L_103);
+		int32_t L_105 = L_104;
+		RuntimeObject* L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		if (!L_106)
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1688>
+		int32_t L_107 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_107, 1));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1689>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_108 = __this->___SlowUpdatePaused;
+		int32_t L_109 = V_1;
+		NullCheck(L_108);
+		(L_108)->SetAt(static_cast<il2cpp_array_size_t>(L_109), (bool)1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1691>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_110 = __this->___SlowUpdateProcesses;
+		int32_t L_111 = V_1;
+		NullCheck(L_110);
+		int32_t L_112 = L_111;
+		RuntimeObject* L_113 = (L_110)->GetAt(static_cast<il2cpp_array_size_t>(L_112));
+		NullCheck(L_113);
+		float L_114;
+		L_114 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_113);
+		float L_115;
+		L_115 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 3, NULL);
+		if ((!(((float)L_114) > ((float)L_115))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1692>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1693>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_116 = __this->___SlowUpdateProcesses;
+		int32_t L_117 = V_1;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_118 = __this->___SlowUpdateProcesses;
+		int32_t L_119 = V_1;
+		NullCheck(L_118);
+		int32_t L_120 = L_119;
+		RuntimeObject* L_121 = (L_118)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_122 = __this->___SlowUpdateProcesses;
+		int32_t L_123 = V_1;
+		NullCheck(L_122);
+		int32_t L_124 = L_123;
+		RuntimeObject* L_125 = (L_122)->GetAt(static_cast<il2cpp_array_size_t>(L_124));
+		NullCheck(L_125);
+		float L_126;
+		L_126 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_125);
+		float L_127;
+		L_127 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, 3, NULL);
+		RuntimeObject* L_128;
+		L_128 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_121, ((float)il2cpp_codegen_subtract(L_126, L_127)), NULL);
+		NullCheck(L_116);
+		ArrayElementTypeCheck (L_116, L_128);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(L_117), (RuntimeObject*)L_128);
+	}
+
+IL_01c1:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1684>
+		int32_t L_129 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_129, 1));
+	}
+
+IL_01c5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1684>
+		int32_t L_130 = V_1;
+		int32_t L_131 = __this->____nextSlowUpdateProcessSlot;
+		if ((((int32_t)L_130) < ((int32_t)L_131)))
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1697>
+		int32_t L_132 = V_0;
+		return L_132;
+	}
+}
+// Method Definition Index: 68538
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutines_mBA20276951DEFBB634478D1EEF16959B31D39142 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1707>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_1;
+		L_1 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		NullCheck(L_0);
+		uint8_t L_2 = L_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6;
+		L_6 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_5, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = ___0_handle;
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = Timing_PauseCoroutinesOnInstance_mBAC986ED1506716F548B9456A7DCF0FB6F0D6F36(L_6, L_7, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 68539
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_mBAC986ED1506716F548B9456A7DCF0FB6F0D6F36 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1717>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_0 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_handle;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_0, L_1, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_3 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4 = ___0_handle;
+		NullCheck(L_3);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_5;
+		L_5 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_3, L_4, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_6;
+		L_6 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(__this, L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_7 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = ___0_handle;
+		NullCheck(L_7);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9;
+		L_9 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_7, L_8, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_10;
+		L_10 = Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1(__this, L_9, (bool)1, NULL);
+		if (!L_10)
+		{
+			goto IL_0039;
+		}
+	}
+
+IL_0037:
+	{
+		return 0;
+	}
+
+IL_0039:
+	{
+		return 1;
+	}
+}
+// Method Definition Index: 68540
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutines_m842CC296776A7B84F10BF52F99120C46F2196738 (String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1727>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		String_t* L_3 = ___0_tag;
+		NullCheck(L_2);
+		int32_t L_4;
+		L_4 = Timing_PauseCoroutinesOnInstance_mAA0B348D12CDDDD9B59495A76CCEB33C3C3BC26E(L_2, L_3, NULL);
+		return L_4;
+	}
+
+IL_0019:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68541
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_PauseCoroutinesOnInstance_mAA0B348D12CDDDD9B59495A76CCEB33C3C3BC26E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1737>
+		String_t* L_0 = ___0_tag;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_1 = __this->____taggedProcesses;
+		String_t* L_2 = ___0_tag;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE(L_1, L_2, Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		if (L_3)
+		{
+			goto IL_0013;
+		}
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1738>
+		return 0;
+	}
+
+IL_0013:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1740>
+		V_0 = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1741>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_4 = __this->____taggedProcesses;
+		String_t* L_5 = ___0_tag;
+		NullCheck(L_4);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_6;
+		L_6 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_4, L_5, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		NullCheck(L_6);
+		Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_7;
+		L_7 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_6, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		V_1 = L_7;
+		goto IL_0062;
+	}
+
+IL_0029:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1744>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_8 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9;
+		L_9 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_8);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_10;
+		L_10 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_8, L_9, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_11;
+		L_11 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(__this, L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_12 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13;
+		L_13 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_12);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14;
+		L_14 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_12, L_13, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_15;
+		L_15 = Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1(__this, L_14, (bool)1, NULL);
+		if (L_15)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1745>
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0062:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1743>
+		bool L_17;
+		L_17 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_1), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		if (L_17)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1747>
+		int32_t L_18 = V_0;
+		return L_18;
+	}
+}
+// Method Definition Index: 68542
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutines_m3FAA3A19A3375C2D626C6274EA2832DB096DB08D (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1757>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Timing_ResumeCoroutinesOnInstance_mD60045F266E1EE8B8CC9E6D7640057876ED6B08A(L_2, NULL);
+		return L_3;
+	}
+
+IL_0018:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68543
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_mD60045F266E1EE8B8CC9E6D7640057876ED6B08A (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1766>
+		V_0 = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1768>
+		(&V_1)->___i = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1768>
+		(&V_1)->___seg = 0;
+		goto IL_0050;
+	}
+
+IL_0014:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1770>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_1 = V_1;
+		int32_t L_2 = L_1.___i;
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		uint8_t L_4 = (uint8_t)(L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		if (!L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_5 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = V_1;
+		int32_t L_7 = L_6.___i;
+		NullCheck(L_5);
+		int32_t L_8 = L_7;
+		RuntimeObject* L_9 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		if (!L_9)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1772>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_11 = V_1;
+		int32_t L_12 = L_11.___i;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1773>
+		int32_t L_13 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0044:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1768>
+		int32_t* L_14 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_15 = L_14;
+		int32_t L_16 = *((int32_t*)L_15);
+		*((int32_t*)L_15) = (int32_t)((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0050:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1768>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17 = V_1;
+		int32_t L_18 = L_17.___i;
+		int32_t L_19 = __this->____nextUpdateProcessSlot;
+		if ((((int32_t)L_18) < ((int32_t)L_19)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1777>
+		(&V_1)->___i = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1777>
+		(&V_1)->___seg = 2;
+		goto IL_00ac;
+	}
+
+IL_0070:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1779>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_20 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_21 = V_1;
+		int32_t L_22 = L_21.___i;
+		NullCheck(L_20);
+		int32_t L_23 = L_22;
+		uint8_t L_24 = (uint8_t)(L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		if (!L_24)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_25 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_26 = V_1;
+		int32_t L_27 = L_26.___i;
+		NullCheck(L_25);
+		int32_t L_28 = L_27;
+		RuntimeObject* L_29 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		if (!L_29)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1781>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_30 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_31 = V_1;
+		int32_t L_32 = L_31.___i;
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_32), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1782>
+		int32_t L_33 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_33, 1));
+	}
+
+IL_00a0:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1777>
+		int32_t* L_34 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_35 = L_34;
+		int32_t L_36 = *((int32_t*)L_35);
+		*((int32_t*)L_35) = (int32_t)((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00ac:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1777>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_37 = V_1;
+		int32_t L_38 = L_37.___i;
+		int32_t L_39 = __this->____nextLateUpdateProcessSlot;
+		if ((((int32_t)L_38) < ((int32_t)L_39)))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1786>
+		(&V_1)->___i = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1786>
+		(&V_1)->___seg = 1;
+		goto IL_0108;
+	}
+
+IL_00cc:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1788>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_40 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_41 = V_1;
+		int32_t L_42 = L_41.___i;
+		NullCheck(L_40);
+		int32_t L_43 = L_42;
+		uint8_t L_44 = (uint8_t)(L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		if (!L_44)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_45 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_46 = V_1;
+		int32_t L_47 = L_46.___i;
+		NullCheck(L_45);
+		int32_t L_48 = L_47;
+		RuntimeObject* L_49 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		if (!L_49)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1790>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_50 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_51 = V_1;
+		int32_t L_52 = L_51.___i;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_52), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1791>
+		int32_t L_53 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_53, 1));
+	}
+
+IL_00fc:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1786>
+		int32_t* L_54 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_55 = L_54;
+		int32_t L_56 = *((int32_t*)L_55);
+		*((int32_t*)L_55) = (int32_t)((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_0108:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1786>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_57 = V_1;
+		int32_t L_58 = L_57.___i;
+		int32_t L_59 = __this->____nextFixedUpdateProcessSlot;
+		if ((((int32_t)L_58) < ((int32_t)L_59)))
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1795>
+		(&V_1)->___i = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1795>
+		(&V_1)->___seg = 3;
+		goto IL_0164;
+	}
+
+IL_0128:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1797>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_60 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_61 = V_1;
+		int32_t L_62 = L_61.___i;
+		NullCheck(L_60);
+		int32_t L_63 = L_62;
+		uint8_t L_64 = (uint8_t)(L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		if (!L_64)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_65 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_66 = V_1;
+		int32_t L_67 = L_66.___i;
+		NullCheck(L_65);
+		int32_t L_68 = L_67;
+		RuntimeObject* L_69 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		if (!L_69)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1799>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_70 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_71 = V_1;
+		int32_t L_72 = L_71.___i;
+		NullCheck(L_70);
+		(L_70)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (bool)0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1800>
+		int32_t L_73 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0158:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1795>
+		int32_t* L_74 = (int32_t*)(&(&V_1)->___i);
+		int32_t* L_75 = L_74;
+		int32_t L_76 = *((int32_t*)L_75);
+		*((int32_t*)L_75) = (int32_t)((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_0164:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1795>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_77 = V_1;
+		int32_t L_78 = L_77.___i;
+		int32_t L_79 = __this->____nextSlowUpdateProcessSlot;
+		if ((((int32_t)L_78) < ((int32_t)L_79)))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1804>
+		int32_t L_80 = V_0;
+		return L_80;
+	}
+}
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutines_m8753890270497C1EF6134E6685865B2C7061334C (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1814>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_1;
+		L_1 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		NullCheck(L_0);
+		uint8_t L_2 = L_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6;
+		L_6 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_5, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = ___0_handle;
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = Timing_ResumeCoroutinesOnInstance_m02FBB21FC8414E8F83A2BFE423B4210C4FE78087(L_6, L_7, NULL);
+		return L_8;
+	}
+}
+// Method Definition Index: 68545
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_m02FBB21FC8414E8F83A2BFE423B4210C4FE78087 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1824>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1825>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_0 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_handle;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_0, L_1, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_3 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4 = ___0_handle;
+		NullCheck(L_3);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_5;
+		L_5 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_3, L_4, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_6;
+		L_6 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(__this, L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_7 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = ___0_handle;
+		NullCheck(L_7);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9;
+		L_9 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_7, L_8, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_10;
+		L_10 = Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1(__this, L_9, (bool)0, NULL);
+		if (L_10)
+		{
+			goto IL_0039;
+		}
+	}
+
+IL_0037:
+	{
+		return 0;
+	}
+
+IL_0039:
+	{
+		return 1;
+	}
+}
+// Method Definition Index: 68546
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutines_m1E5BDF72E3367ECF18BF5CBFE5629A19BF4097CA (String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1836>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____instance;
+		String_t* L_3 = ___0_tag;
+		NullCheck(L_2);
+		int32_t L_4;
+		L_4 = Timing_ResumeCoroutinesOnInstance_mF7526A7EDA2E2A870CFDEFAB19457B221EF81C62(L_2, L_3, NULL);
+		return L_4;
+	}
+
+IL_0019:
+	{
+		return 0;
+	}
+}
+// Method Definition Index: 68547
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Timing_ResumeCoroutinesOnInstance_mF7526A7EDA2E2A870CFDEFAB19457B221EF81C62 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1846>
+		String_t* L_0 = ___0_tag;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_1 = __this->____taggedProcesses;
+		String_t* L_2 = ___0_tag;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE(L_1, L_2, Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		if (L_3)
+		{
+			goto IL_0013;
+		}
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1847>
+		return 0;
+	}
+
+IL_0013:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1848>
+		V_0 = 0;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1850>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_4 = __this->____taggedProcesses;
+		String_t* L_5 = ___0_tag;
+		NullCheck(L_4);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_6;
+		L_6 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_4, L_5, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		NullCheck(L_6);
+		Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_7;
+		L_7 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_6, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		V_1 = L_7;
+		goto IL_0062;
+	}
+
+IL_0029:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1853>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_8 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9;
+		L_9 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_8);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_10;
+		L_10 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_8, L_9, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_11;
+		L_11 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(__this, L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_12 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13;
+		L_13 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_1), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_12);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14;
+		L_14 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_12, L_13, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_15;
+		L_15 = Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1(__this, L_14, (bool)0, NULL);
+		if (!L_15)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1855>
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0062:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1851>
+		bool L_17;
+		L_17 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_1), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		if (L_17)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1859>
+		int32_t L_18 = V_0;
+		return L_18;
+	}
+}
+// Method Definition Index: 68548
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_UpdateTimeValues_m0B93F486B96CE89F82CB72BB081683D40CDA11C3 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, int32_t ___0_segment, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		int32_t L_0 = ___0_segment;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_001b;
+			}
+			case 1:
+			{
+				goto IL_00d5;
+			}
+			case 2:
+			{
+				goto IL_0078;
+			}
+			case 3:
+			{
+				goto IL_010d;
+			}
+		}
+	}
+	{
+		goto IL_0170;
+	}
+
+IL_001b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1867>
+		int32_t L_1 = __this->____currentUpdateFrame;
+		int32_t L_2;
+		L_2 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1869>
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___deltaTime = L_3;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1870>
+		float L_4 = __this->____lastUpdateTime;
+		float L_5 = __this->___deltaTime;
+		__this->____lastUpdateTime = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1871>
+		float L_6 = __this->____lastUpdateTime;
+		__this->___localTime = L_6;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1872>
+		int32_t L_7;
+		L_7 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		__this->____currentUpdateFrame = L_7;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1873>
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1877>
+		float L_8;
+		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___deltaTime = L_8;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1878>
+		float L_9 = __this->____lastUpdateTime;
+		__this->___localTime = L_9;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1879>
+		return (bool)0;
+	}
+
+IL_0078:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1882>
+		int32_t L_10 = __this->____currentLateUpdateFrame;
+		int32_t L_11;
+		L_11 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		if ((((int32_t)L_10) == ((int32_t)L_11)))
+		{
+			goto IL_00bc;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1884>
+		float L_12;
+		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___deltaTime = L_12;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1885>
+		float L_13 = __this->____lastLateUpdateTime;
+		float L_14 = __this->___deltaTime;
+		__this->____lastLateUpdateTime = ((float)il2cpp_codegen_add(L_13, L_14));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1886>
+		float L_15 = __this->____lastLateUpdateTime;
+		__this->___localTime = L_15;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1887>
+		int32_t L_16;
+		L_16 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		__this->____currentLateUpdateFrame = L_16;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1888>
+		return (bool)1;
+	}
+
+IL_00bc:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1892>
+		float L_17;
+		L_17 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___deltaTime = L_17;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1893>
+		float L_18 = __this->____lastLateUpdateTime;
+		__this->___localTime = L_18;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1894>
+		return (bool)0;
+	}
+
+IL_00d5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1897>
+		float L_19;
+		L_19 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		__this->___deltaTime = L_19;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1898>
+		float L_20;
+		L_20 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
+		__this->___localTime = L_20;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1900>
+		float L_21 = __this->____lastFixedUpdateTime;
+		float L_22;
+		L_22 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
+		if ((!(((float)((float)il2cpp_codegen_add(L_21, (0.00048828125f)))) < ((float)L_22))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1902>
+		float L_23;
+		L_23 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
+		__this->____lastFixedUpdateTime = L_23;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1903>
+		return (bool)1;
+	}
+
+IL_010b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1906>
+		return (bool)0;
+	}
+
+IL_010d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1908>
+		int32_t L_24 = __this->____currentSlowUpdateFrame;
+		int32_t L_25;
+		L_25 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		if ((((int32_t)L_24) == ((int32_t)L_25)))
+		{
+			goto IL_0156;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1910>
+		float L_26;
+		L_26 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		float L_27 = __this->____lastSlowUpdateTime;
+		float L_28 = ((float)il2cpp_codegen_subtract(L_26, L_27));
+		V_0 = L_28;
+		__this->____lastSlowUpdateDeltaTime = L_28;
+		float L_29 = V_0;
+		__this->___deltaTime = L_29;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1911>
+		float L_30;
+		L_30 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		float L_31 = L_30;
+		V_0 = L_31;
+		__this->____lastSlowUpdateTime = L_31;
+		float L_32 = V_0;
+		__this->___localTime = L_32;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1912>
+		int32_t L_33;
+		L_33 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		__this->____currentSlowUpdateFrame = L_33;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1913>
+		return (bool)1;
+	}
+
+IL_0156:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1917>
+		float L_34 = __this->____lastSlowUpdateDeltaTime;
+		__this->___deltaTime = L_34;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1918>
+		float L_35 = __this->____lastSlowUpdateTime;
+		__this->___localTime = L_35;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1919>
+		return (bool)0;
+	}
+
+IL_0170:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1922>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68549
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, int32_t ___0_segment, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_segment;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_0018;
+			}
+			case 1:
+			{
+				goto IL_005a;
+			}
+			case 2:
+			{
+				goto IL_0039;
+			}
+			case 3:
+			{
+				goto IL_0060;
+			}
+		}
+	}
+	{
+		goto IL_0066;
+	}
+
+IL_0018:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1930>
+		int32_t L_1 = __this->____currentUpdateFrame;
+		int32_t L_2;
+		L_2 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1931>
+		float L_3 = __this->____lastUpdateTime;
+		return L_3;
+	}
+
+IL_002c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1933>
+		float L_4 = __this->____lastUpdateTime;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		return ((float)il2cpp_codegen_add(L_4, L_5));
+	}
+
+IL_0039:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1935>
+		int32_t L_6 = __this->____currentLateUpdateFrame;
+		int32_t L_7;
+		L_7 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1936>
+		float L_8 = __this->____lastLateUpdateTime;
+		return L_8;
+	}
+
+IL_004d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1938>
+		float L_9 = __this->____lastLateUpdateTime;
+		float L_10;
+		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		return ((float)il2cpp_codegen_add(L_9, L_10));
+	}
+
+IL_005a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1940>
+		float L_11;
+		L_11 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
+		return L_11;
+	}
+
+IL_0060:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1942>
+		float L_12;
+		L_12 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
+		return L_12;
+	}
+
+IL_0066:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1944>
+		return (0.0f);
+	}
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746 (uint8_t ___0_ID, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1955>
+		uint8_t L_0 = ___0_ID;
+		if ((((int32_t)L_0) < ((int32_t)((int32_t)16))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1956>
+		return (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E*)NULL;
+	}
+
+IL_0007:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1957>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_1 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances;
+		uint8_t L_2 = ___0_ID;
+		NullCheck(L_1);
+		uint8_t L_3 = L_2;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		return L_4;
+	}
+}
+// Method Definition Index: 68551
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_AddTag_mD5935E61A8654F887008788B2880812562CD2CBC (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_tag, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_coindex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m2622ACC6C97D671B43F1BC924FE20CAEE5CA032D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m7837704FCA2058D13468F76CA14911267A2A2EEE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1962>
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_0 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___1_coindex;
+		String_t* L_2 = ___0_tag;
+		NullCheck(L_0);
+		Dictionary_2_Add_m7837704FCA2058D13468F76CA14911267A2A2EEE(L_0, L_1, L_2, Dictionary_2_Add_m7837704FCA2058D13468F76CA14911267A2A2EEE_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1964>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_3 = __this->____taggedProcesses;
+		String_t* L_4 = ___0_tag;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE(L_3, L_4, Dictionary_2_ContainsKey_m4375689268E1ACAB570C0032D8D3124154DB59AE_RuntimeMethod_var);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1965>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_6 = __this->____taggedProcesses;
+		String_t* L_7 = ___0_tag;
+		NullCheck(L_6);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_8;
+		L_8 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_6, L_7, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9 = ___1_coindex;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_8, L_9, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		return;
+	}
+
+IL_002f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1967>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_11 = __this->____taggedProcesses;
+		String_t* L_12 = ___0_tag;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_13 = (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*)il2cpp_codegen_object_new(HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4(L_13, HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_14 = L_13;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_15 = ___1_coindex;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_14, L_15, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		NullCheck(L_11);
+		Dictionary_2_Add_m2622ACC6C97D671B43F1BC924FE20CAEE5CA032D(L_11, L_12, L_14, Dictionary_2_Add_m2622ACC6C97D671B43F1BC924FE20CAEE5CA032D_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1968>
+		return;
+	}
+}
+// Method Definition Index: 68552
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_RemoveTag_mE4DB5AE274C8FBF888C82F8C5E0253074DA6731F (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_coindex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m0E16165B2B41417F83FDADDB07943B542EC0AB9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m974860CA74DAF521536F882109B2EF85E753C956_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mB9C4950C81090CA7015336AD041510714E3A1FEE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1972>
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_0 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_coindex;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m0E16165B2B41417F83FDADDB07943B542EC0AB9B(L_0, L_1, Dictionary_2_ContainsKey_m0E16165B2B41417F83FDADDB07943B542EC0AB9B_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1974>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_3 = __this->____taggedProcesses;
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_4 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5 = ___0_coindex;
+		NullCheck(L_4);
+		String_t* L_6;
+		L_6 = Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98(L_4, L_5, Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98_RuntimeMethod_var);
+		NullCheck(L_3);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_7;
+		L_7 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_3, L_6, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_inline(L_7, HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		if ((((int32_t)L_8) <= ((int32_t)1)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1975>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_9 = __this->____taggedProcesses;
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_10 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___0_coindex;
+		NullCheck(L_10);
+		String_t* L_12;
+		L_12 = Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98(L_10, L_11, Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98_RuntimeMethod_var);
+		NullCheck(L_9);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_13;
+		L_13 = Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3(L_9, L_12, Dictionary_2_get_Item_mEFC871CC9D1AC963B55EAC185A4B50487CA480E3_RuntimeMethod_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_14 = ___0_coindex;
+		NullCheck(L_13);
+		bool L_15;
+		L_15 = HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907(L_13, L_14, HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+		goto IL_0065;
+	}
+
+IL_004d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1977>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_16 = __this->____taggedProcesses;
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_17 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_18 = ___0_coindex;
+		NullCheck(L_17);
+		String_t* L_19;
+		L_19 = Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98(L_17, L_18, Dictionary_2_get_Item_mF3D30C45AC75146CDC948DC25CAC01AED9432E98_RuntimeMethod_var);
+		NullCheck(L_16);
+		bool L_20;
+		L_20 = Dictionary_2_Remove_m974860CA74DAF521536F882109B2EF85E753C956(L_16, L_19, Dictionary_2_Remove_m974860CA74DAF521536F882109B2EF85E753C956_RuntimeMethod_var);
+	}
+
+IL_0065:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1979>
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_21 = __this->____processTags;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_22 = ___0_coindex;
+		NullCheck(L_21);
+		bool L_23;
+		L_23 = Dictionary_2_Remove_mB9C4950C81090CA7015336AD041510714E3A1FEE(L_21, L_22, Dictionary_2_Remove_mB9C4950C81090CA7015336AD041510714E3A1FEE_RuntimeMethod_var);
+	}
+
+IL_0072:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1981>
+		return;
+	}
+}
+// Method Definition Index: 68553
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_Nullify_m2813F73499FB1296ADA91E0226A5A33033B6A603 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1988>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_003e;
+			}
+			case 2:
+			{
+				goto IL_005d;
+			}
+			case 3:
+			{
+				goto IL_007c;
+			}
+		}
+	}
+	{
+		goto IL_009b;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1991>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_3 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1992>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_8 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, NULL);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1993>
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_7) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+
+IL_003e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1995>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_11 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12 = ___0_coindex;
+		int32_t L_13 = L_12.___i;
+		NullCheck(L_11);
+		int32_t L_14 = L_13;
+		RuntimeObject* L_15 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1996>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_16 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17 = ___0_coindex;
+		int32_t L_18 = L_17.___i;
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, NULL);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1997>
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_15) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+
+IL_005d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:1999>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_19 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_20 = ___0_coindex;
+		int32_t L_21 = L_20.___i;
+		NullCheck(L_19);
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2000>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = ___0_coindex;
+		int32_t L_26 = L_25.___i;
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, NULL);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2001>
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_23) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+
+IL_007c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2003>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_28 = ___0_coindex;
+		int32_t L_29 = L_28.___i;
+		NullCheck(L_27);
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2004>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_32 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_33 = ___0_coindex;
+		int32_t L_34 = L_33.___i;
+		NullCheck(L_32);
+		ArrayElementTypeCheck (L_32, NULL);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2005>
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)L_31) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+
+IL_009b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2007>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing_CoindexExtract_m3779285BC23A046419BBCA2DDB80F141181C213D (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2015>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_003b;
+			}
+			case 2:
+			{
+				goto IL_0057;
+			}
+			case 3:
+			{
+				goto IL_0073;
+			}
+		}
+	}
+	{
+		goto IL_008f;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2018>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_3 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2019>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_8 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, NULL);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2020>
+		return L_7;
+	}
+
+IL_003b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2022>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_11 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12 = ___0_coindex;
+		int32_t L_13 = L_12.___i;
+		NullCheck(L_11);
+		int32_t L_14 = L_13;
+		RuntimeObject* L_15 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2023>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_16 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17 = ___0_coindex;
+		int32_t L_18 = L_17.___i;
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, NULL);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2024>
+		return L_15;
+	}
+
+IL_0057:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2026>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_19 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_20 = ___0_coindex;
+		int32_t L_21 = L_20.___i;
+		NullCheck(L_19);
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2027>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = ___0_coindex;
+		int32_t L_26 = L_25.___i;
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, NULL);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2028>
+		return L_23;
+	}
+
+IL_0073:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2030>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_28 = ___0_coindex;
+		int32_t L_29 = L_28.___i;
+		NullCheck(L_27);
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2031>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_32 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_33 = ___0_coindex;
+		int32_t L_34 = L_33.___i;
+		NullCheck(L_32);
+		ArrayElementTypeCheck (L_32, NULL);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (RuntimeObject*)NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2032>
+		return L_31;
+	}
+
+IL_008f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2034>
+		return (RuntimeObject*)NULL;
+	}
+}
+// Method Definition Index: 68555
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2040>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_002d;
+			}
+			case 2:
+			{
+				goto IL_003b;
+			}
+			case 3:
+			{
+				goto IL_0049;
+			}
+		}
+	}
+	{
+		goto IL_0057;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2043>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_3 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return L_7;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2045>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_8 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		RuntimeObject* L_12 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		return L_12;
+	}
+
+IL_003b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2047>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_13 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = ___0_coindex;
+		int32_t L_15 = L_14.___i;
+		NullCheck(L_13);
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		return L_17;
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2049>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_18 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = ___0_coindex;
+		int32_t L_20 = L_19.___i;
+		NullCheck(L_18);
+		int32_t L_21 = L_20;
+		RuntimeObject* L_22 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		return L_22;
+	}
+
+IL_0057:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2051>
+		return (RuntimeObject*)NULL;
+	}
+}
+// Method Definition Index: 68556
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2057>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_0030;
+			}
+			case 2:
+			{
+				goto IL_0041;
+			}
+			case 3:
+			{
+				goto IL_0052;
+			}
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2060>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_3 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return (bool)((((RuntimeObject*)(RuntimeObject*)L_7) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+	}
+
+IL_0030:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2062>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_8 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		RuntimeObject* L_12 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		return (bool)((((RuntimeObject*)(RuntimeObject*)L_12) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+	}
+
+IL_0041:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2064>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_13 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = ___0_coindex;
+		int32_t L_15 = L_14.___i;
+		NullCheck(L_13);
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		return (bool)((((RuntimeObject*)(RuntimeObject*)L_17) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+	}
+
+IL_0052:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2066>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_18 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = ___0_coindex;
+		int32_t L_20 = L_19.___i;
+		NullCheck(L_18);
+		int32_t L_21 = L_20;
+		RuntimeObject* L_22 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		return (bool)((((RuntimeObject*)(RuntimeObject*)L_22) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+	}
+
+IL_0063:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2068>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68557
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, bool ___1_newPausedState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B5_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B13_0 = 0;
+	int32_t G_B14_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B17_0 = 0;
+	int32_t G_B18_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2074>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		RuntimeObject* L_1;
+		L_1 = Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492(__this, L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2075>
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2079>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_2 = ___0_coindex;
+		int32_t L_3 = L_2.___seg;
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		switch (L_4)
+		{
+			case 0:
+			{
+				goto IL_002d;
+			}
+			case 1:
+			{
+				goto IL_00ab;
+			}
+			case 2:
+			{
+				goto IL_0129;
+			}
+			case 3:
+			{
+				goto IL_01a7;
+			}
+		}
+	}
+	{
+		goto IL_0225;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2082>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_5 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = ___0_coindex;
+		int32_t L_7 = L_6.___i;
+		NullCheck(L_5);
+		int32_t L_8 = L_7;
+		uint8_t L_9 = (uint8_t)(L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2083>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_11 = ___0_coindex;
+		int32_t L_12 = L_11.___i;
+		bool L_13 = ___1_newPausedState;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (bool)L_13);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2085>
+		bool L_14 = ___1_newPausedState;
+		if (!L_14)
+		{
+			G_B7_0 = ((int32_t)(L_9));
+			goto IL_00aa;
+		}
+		G_B5_0 = ((int32_t)(L_9));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_15 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_16 = ___0_coindex;
+		int32_t L_17 = L_16.___i;
+		NullCheck(L_15);
+		int32_t L_18 = L_17;
+		RuntimeObject* L_19 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_19);
+		float L_20;
+		L_20 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_19);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_21 = ___0_coindex;
+		int32_t L_22 = L_21.___seg;
+		float L_23;
+		L_23 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_22, NULL);
+		if ((!(((float)L_20) > ((float)L_23))))
+		{
+			G_B7_0 = G_B5_0;
+			goto IL_00aa;
+		}
+		G_B6_0 = G_B5_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2086>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2087>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = ___0_coindex;
+		int32_t L_26 = L_25.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_28 = ___0_coindex;
+		int32_t L_29 = L_28.___i;
+		NullCheck(L_27);
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_32 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_33 = ___0_coindex;
+		int32_t L_34 = L_33.___i;
+		NullCheck(L_32);
+		int32_t L_35 = L_34;
+		RuntimeObject* L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		NullCheck(L_36);
+		float L_37;
+		L_37 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_36);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_38 = ___0_coindex;
+		int32_t L_39 = L_38.___seg;
+		float L_40;
+		L_40 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_39, NULL);
+		RuntimeObject* L_41;
+		L_41 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_31, ((float)il2cpp_codegen_subtract(L_37, L_40)), NULL);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_41);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (RuntimeObject*)L_41);
+		G_B7_0 = G_B6_0;
+	}
+
+IL_00aa:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2089>
+		return (bool)G_B7_0;
+	}
+
+IL_00ab:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2091>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_42 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_43 = ___0_coindex;
+		int32_t L_44 = L_43.___i;
+		NullCheck(L_42);
+		int32_t L_45 = L_44;
+		uint8_t L_46 = (uint8_t)(L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2092>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_47 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_48 = ___0_coindex;
+		int32_t L_49 = L_48.___i;
+		bool L_50 = ___1_newPausedState;
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(L_49), (bool)L_50);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2094>
+		bool L_51 = ___1_newPausedState;
+		if (!L_51)
+		{
+			G_B11_0 = ((int32_t)(L_46));
+			goto IL_0128;
+		}
+		G_B9_0 = ((int32_t)(L_46));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_52 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_53 = ___0_coindex;
+		int32_t L_54 = L_53.___i;
+		NullCheck(L_52);
+		int32_t L_55 = L_54;
+		RuntimeObject* L_56 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		NullCheck(L_56);
+		float L_57;
+		L_57 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_56);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_58 = ___0_coindex;
+		int32_t L_59 = L_58.___seg;
+		float L_60;
+		L_60 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_59, NULL);
+		if ((!(((float)L_57) > ((float)L_60))))
+		{
+			G_B11_0 = G_B9_0;
+			goto IL_0128;
+		}
+		G_B10_0 = G_B9_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2095>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2096>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_61 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_62 = ___0_coindex;
+		int32_t L_63 = L_62.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_64 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_65 = ___0_coindex;
+		int32_t L_66 = L_65.___i;
+		NullCheck(L_64);
+		int32_t L_67 = L_66;
+		RuntimeObject* L_68 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_69 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_70 = ___0_coindex;
+		int32_t L_71 = L_70.___i;
+		NullCheck(L_69);
+		int32_t L_72 = L_71;
+		RuntimeObject* L_73 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		NullCheck(L_73);
+		float L_74;
+		L_74 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_73);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_75 = ___0_coindex;
+		int32_t L_76 = L_75.___seg;
+		float L_77;
+		L_77 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_76, NULL);
+		RuntimeObject* L_78;
+		L_78 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_68, ((float)il2cpp_codegen_subtract(L_74, L_77)), NULL);
+		NullCheck(L_61);
+		ArrayElementTypeCheck (L_61, L_78);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(L_63), (RuntimeObject*)L_78);
+		G_B11_0 = G_B10_0;
+	}
+
+IL_0128:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2098>
+		return (bool)G_B11_0;
+	}
+
+IL_0129:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2100>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_79 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_80 = ___0_coindex;
+		int32_t L_81 = L_80.___i;
+		NullCheck(L_79);
+		int32_t L_82 = L_81;
+		uint8_t L_83 = (uint8_t)(L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_82));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2101>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_84 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_85 = ___0_coindex;
+		int32_t L_86 = L_85.___i;
+		bool L_87 = ___1_newPausedState;
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(L_86), (bool)L_87);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2103>
+		bool L_88 = ___1_newPausedState;
+		if (!L_88)
+		{
+			G_B15_0 = ((int32_t)(L_83));
+			goto IL_01a6;
+		}
+		G_B13_0 = ((int32_t)(L_83));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_89 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_90 = ___0_coindex;
+		int32_t L_91 = L_90.___i;
+		NullCheck(L_89);
+		int32_t L_92 = L_91;
+		RuntimeObject* L_93 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+		NullCheck(L_93);
+		float L_94;
+		L_94 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_93);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_95 = ___0_coindex;
+		int32_t L_96 = L_95.___seg;
+		float L_97;
+		L_97 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_96, NULL);
+		if ((!(((float)L_94) > ((float)L_97))))
+		{
+			G_B15_0 = G_B13_0;
+			goto IL_01a6;
+		}
+		G_B14_0 = G_B13_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2104>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2105>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_98 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_99 = ___0_coindex;
+		int32_t L_100 = L_99.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_101 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_102 = ___0_coindex;
+		int32_t L_103 = L_102.___i;
+		NullCheck(L_101);
+		int32_t L_104 = L_103;
+		RuntimeObject* L_105 = (L_101)->GetAt(static_cast<il2cpp_array_size_t>(L_104));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_106 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_107 = ___0_coindex;
+		int32_t L_108 = L_107.___i;
+		NullCheck(L_106);
+		int32_t L_109 = L_108;
+		RuntimeObject* L_110 = (L_106)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		NullCheck(L_110);
+		float L_111;
+		L_111 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_110);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_112 = ___0_coindex;
+		int32_t L_113 = L_112.___seg;
+		float L_114;
+		L_114 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_113, NULL);
+		RuntimeObject* L_115;
+		L_115 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_105, ((float)il2cpp_codegen_subtract(L_111, L_114)), NULL);
+		NullCheck(L_98);
+		ArrayElementTypeCheck (L_98, L_115);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(L_100), (RuntimeObject*)L_115);
+		G_B15_0 = G_B14_0;
+	}
+
+IL_01a6:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2107>
+		return (bool)G_B15_0;
+	}
+
+IL_01a7:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2109>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_116 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_117 = ___0_coindex;
+		int32_t L_118 = L_117.___i;
+		NullCheck(L_116);
+		int32_t L_119 = L_118;
+		uint8_t L_120 = (uint8_t)(L_116)->GetAt(static_cast<il2cpp_array_size_t>(L_119));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2110>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_121 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_122 = ___0_coindex;
+		int32_t L_123 = L_122.___i;
+		bool L_124 = ___1_newPausedState;
+		NullCheck(L_121);
+		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(L_123), (bool)L_124);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2112>
+		bool L_125 = ___1_newPausedState;
+		if (!L_125)
+		{
+			G_B19_0 = ((int32_t)(L_120));
+			goto IL_0224;
+		}
+		G_B17_0 = ((int32_t)(L_120));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_126 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_127 = ___0_coindex;
+		int32_t L_128 = L_127.___i;
+		NullCheck(L_126);
+		int32_t L_129 = L_128;
+		RuntimeObject* L_130 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_129));
+		NullCheck(L_130);
+		float L_131;
+		L_131 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_130);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_132 = ___0_coindex;
+		int32_t L_133 = L_132.___seg;
+		float L_134;
+		L_134 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_133, NULL);
+		if ((!(((float)L_131) > ((float)L_134))))
+		{
+			G_B19_0 = G_B17_0;
+			goto IL_0224;
+		}
+		G_B18_0 = G_B17_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2113>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2114>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_135 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_136 = ___0_coindex;
+		int32_t L_137 = L_136.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_138 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_139 = ___0_coindex;
+		int32_t L_140 = L_139.___i;
+		NullCheck(L_138);
+		int32_t L_141 = L_140;
+		RuntimeObject* L_142 = (L_138)->GetAt(static_cast<il2cpp_array_size_t>(L_141));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_143 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_144 = ___0_coindex;
+		int32_t L_145 = L_144.___i;
+		NullCheck(L_143);
+		int32_t L_146 = L_145;
+		RuntimeObject* L_147 = (L_143)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+		NullCheck(L_147);
+		float L_148;
+		L_148 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_147);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_149 = ___0_coindex;
+		int32_t L_150 = L_149.___seg;
+		float L_151;
+		L_151 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_150, NULL);
+		RuntimeObject* L_152;
+		L_152 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_142, ((float)il2cpp_codegen_subtract(L_148, L_151)), NULL);
+		NullCheck(L_135);
+		ArrayElementTypeCheck (L_135, L_152);
+		(L_135)->SetAt(static_cast<il2cpp_array_size_t>(L_137), (RuntimeObject*)L_152);
+		G_B19_0 = G_B18_0;
+	}
+
+IL_0224:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2116>
+		return (bool)G_B19_0;
+	}
+
+IL_0225:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2118>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, bool ___1_newHeldState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B5_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B13_0 = 0;
+	int32_t G_B14_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B17_0 = 0;
+	int32_t G_B18_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2124>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		RuntimeObject* L_1;
+		L_1 = Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492(__this, L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2125>
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2129>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_2 = ___0_coindex;
+		int32_t L_3 = L_2.___seg;
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		switch (L_4)
+		{
+			case 0:
+			{
+				goto IL_002d;
+			}
+			case 1:
+			{
+				goto IL_00ab;
+			}
+			case 2:
+			{
+				goto IL_0129;
+			}
+			case 3:
+			{
+				goto IL_01a7;
+			}
+		}
+	}
+	{
+		goto IL_0225;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2132>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_5 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = ___0_coindex;
+		int32_t L_7 = L_6.___i;
+		NullCheck(L_5);
+		int32_t L_8 = L_7;
+		uint8_t L_9 = (uint8_t)(L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2133>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_11 = ___0_coindex;
+		int32_t L_12 = L_11.___i;
+		bool L_13 = ___1_newHeldState;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (bool)L_13);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2135>
+		bool L_14 = ___1_newHeldState;
+		if (!L_14)
+		{
+			G_B7_0 = ((int32_t)(L_9));
+			goto IL_00aa;
+		}
+		G_B5_0 = ((int32_t)(L_9));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_15 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_16 = ___0_coindex;
+		int32_t L_17 = L_16.___i;
+		NullCheck(L_15);
+		int32_t L_18 = L_17;
+		RuntimeObject* L_19 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_19);
+		float L_20;
+		L_20 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_19);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_21 = ___0_coindex;
+		int32_t L_22 = L_21.___seg;
+		float L_23;
+		L_23 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_22, NULL);
+		if ((!(((float)L_20) > ((float)L_23))))
+		{
+			G_B7_0 = G_B5_0;
+			goto IL_00aa;
+		}
+		G_B6_0 = G_B5_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2136>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2137>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_24 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = ___0_coindex;
+		int32_t L_26 = L_25.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_27 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_28 = ___0_coindex;
+		int32_t L_29 = L_28.___i;
+		NullCheck(L_27);
+		int32_t L_30 = L_29;
+		RuntimeObject* L_31 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_32 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_33 = ___0_coindex;
+		int32_t L_34 = L_33.___i;
+		NullCheck(L_32);
+		int32_t L_35 = L_34;
+		RuntimeObject* L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		NullCheck(L_36);
+		float L_37;
+		L_37 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_36);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_38 = ___0_coindex;
+		int32_t L_39 = L_38.___seg;
+		float L_40;
+		L_40 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_39, NULL);
+		RuntimeObject* L_41;
+		L_41 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_31, ((float)il2cpp_codegen_subtract(L_37, L_40)), NULL);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_41);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (RuntimeObject*)L_41);
+		G_B7_0 = G_B6_0;
+	}
+
+IL_00aa:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2139>
+		return (bool)G_B7_0;
+	}
+
+IL_00ab:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2141>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_42 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_43 = ___0_coindex;
+		int32_t L_44 = L_43.___i;
+		NullCheck(L_42);
+		int32_t L_45 = L_44;
+		uint8_t L_46 = (uint8_t)(L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2142>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_47 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_48 = ___0_coindex;
+		int32_t L_49 = L_48.___i;
+		bool L_50 = ___1_newHeldState;
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(L_49), (bool)L_50);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2144>
+		bool L_51 = ___1_newHeldState;
+		if (!L_51)
+		{
+			G_B11_0 = ((int32_t)(L_46));
+			goto IL_0128;
+		}
+		G_B9_0 = ((int32_t)(L_46));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_52 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_53 = ___0_coindex;
+		int32_t L_54 = L_53.___i;
+		NullCheck(L_52);
+		int32_t L_55 = L_54;
+		RuntimeObject* L_56 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		NullCheck(L_56);
+		float L_57;
+		L_57 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_56);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_58 = ___0_coindex;
+		int32_t L_59 = L_58.___seg;
+		float L_60;
+		L_60 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_59, NULL);
+		if ((!(((float)L_57) > ((float)L_60))))
+		{
+			G_B11_0 = G_B9_0;
+			goto IL_0128;
+		}
+		G_B10_0 = G_B9_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2145>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2146>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_61 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_62 = ___0_coindex;
+		int32_t L_63 = L_62.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_64 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_65 = ___0_coindex;
+		int32_t L_66 = L_65.___i;
+		NullCheck(L_64);
+		int32_t L_67 = L_66;
+		RuntimeObject* L_68 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_69 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_70 = ___0_coindex;
+		int32_t L_71 = L_70.___i;
+		NullCheck(L_69);
+		int32_t L_72 = L_71;
+		RuntimeObject* L_73 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		NullCheck(L_73);
+		float L_74;
+		L_74 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_73);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_75 = ___0_coindex;
+		int32_t L_76 = L_75.___seg;
+		float L_77;
+		L_77 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_76, NULL);
+		RuntimeObject* L_78;
+		L_78 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_68, ((float)il2cpp_codegen_subtract(L_74, L_77)), NULL);
+		NullCheck(L_61);
+		ArrayElementTypeCheck (L_61, L_78);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(L_63), (RuntimeObject*)L_78);
+		G_B11_0 = G_B10_0;
+	}
+
+IL_0128:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2148>
+		return (bool)G_B11_0;
+	}
+
+IL_0129:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2150>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_79 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_80 = ___0_coindex;
+		int32_t L_81 = L_80.___i;
+		NullCheck(L_79);
+		int32_t L_82 = L_81;
+		uint8_t L_83 = (uint8_t)(L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_82));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2151>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_84 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_85 = ___0_coindex;
+		int32_t L_86 = L_85.___i;
+		bool L_87 = ___1_newHeldState;
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(L_86), (bool)L_87);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2153>
+		bool L_88 = ___1_newHeldState;
+		if (!L_88)
+		{
+			G_B15_0 = ((int32_t)(L_83));
+			goto IL_01a6;
+		}
+		G_B13_0 = ((int32_t)(L_83));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_89 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_90 = ___0_coindex;
+		int32_t L_91 = L_90.___i;
+		NullCheck(L_89);
+		int32_t L_92 = L_91;
+		RuntimeObject* L_93 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+		NullCheck(L_93);
+		float L_94;
+		L_94 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_93);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_95 = ___0_coindex;
+		int32_t L_96 = L_95.___seg;
+		float L_97;
+		L_97 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_96, NULL);
+		if ((!(((float)L_94) > ((float)L_97))))
+		{
+			G_B15_0 = G_B13_0;
+			goto IL_01a6;
+		}
+		G_B14_0 = G_B13_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2154>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2155>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_98 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_99 = ___0_coindex;
+		int32_t L_100 = L_99.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_101 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_102 = ___0_coindex;
+		int32_t L_103 = L_102.___i;
+		NullCheck(L_101);
+		int32_t L_104 = L_103;
+		RuntimeObject* L_105 = (L_101)->GetAt(static_cast<il2cpp_array_size_t>(L_104));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_106 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_107 = ___0_coindex;
+		int32_t L_108 = L_107.___i;
+		NullCheck(L_106);
+		int32_t L_109 = L_108;
+		RuntimeObject* L_110 = (L_106)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		NullCheck(L_110);
+		float L_111;
+		L_111 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_110);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_112 = ___0_coindex;
+		int32_t L_113 = L_112.___seg;
+		float L_114;
+		L_114 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_113, NULL);
+		RuntimeObject* L_115;
+		L_115 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_105, ((float)il2cpp_codegen_subtract(L_111, L_114)), NULL);
+		NullCheck(L_98);
+		ArrayElementTypeCheck (L_98, L_115);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(L_100), (RuntimeObject*)L_115);
+		G_B15_0 = G_B14_0;
+	}
+
+IL_01a6:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2157>
+		return (bool)G_B15_0;
+	}
+
+IL_01a7:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2159>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_116 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_117 = ___0_coindex;
+		int32_t L_118 = L_117.___i;
+		NullCheck(L_116);
+		int32_t L_119 = L_118;
+		uint8_t L_120 = (uint8_t)(L_116)->GetAt(static_cast<il2cpp_array_size_t>(L_119));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2160>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_121 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_122 = ___0_coindex;
+		int32_t L_123 = L_122.___i;
+		bool L_124 = ___1_newHeldState;
+		NullCheck(L_121);
+		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(L_123), (bool)L_124);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2162>
+		bool L_125 = ___1_newHeldState;
+		if (!L_125)
+		{
+			G_B19_0 = ((int32_t)(L_120));
+			goto IL_0224;
+		}
+		G_B17_0 = ((int32_t)(L_120));
+	}
+	{
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_126 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_127 = ___0_coindex;
+		int32_t L_128 = L_127.___i;
+		NullCheck(L_126);
+		int32_t L_129 = L_128;
+		RuntimeObject* L_130 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_129));
+		NullCheck(L_130);
+		float L_131;
+		L_131 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_130);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_132 = ___0_coindex;
+		int32_t L_133 = L_132.___seg;
+		float L_134;
+		L_134 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_133, NULL);
+		if ((!(((float)L_131) > ((float)L_134))))
+		{
+			G_B19_0 = G_B17_0;
+			goto IL_0224;
+		}
+		G_B18_0 = G_B17_0;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2163>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2164>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_135 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_136 = ___0_coindex;
+		int32_t L_137 = L_136.___i;
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_138 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_139 = ___0_coindex;
+		int32_t L_140 = L_139.___i;
+		NullCheck(L_138);
+		int32_t L_141 = L_140;
+		RuntimeObject* L_142 = (L_138)->GetAt(static_cast<il2cpp_array_size_t>(L_141));
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_143 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_144 = ___0_coindex;
+		int32_t L_145 = L_144.___i;
+		NullCheck(L_143);
+		int32_t L_146 = L_145;
+		RuntimeObject* L_147 = (L_143)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+		NullCheck(L_147);
+		float L_148;
+		L_148 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_147);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_149 = ___0_coindex;
+		int32_t L_150 = L_149.___seg;
+		float L_151;
+		L_151 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(__this, L_150, NULL);
+		RuntimeObject* L_152;
+		L_152 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(__this, L_142, ((float)il2cpp_codegen_subtract(L_148, L_151)), NULL);
+		NullCheck(L_135);
+		ArrayElementTypeCheck (L_135, L_152);
+		(L_135)->SetAt(static_cast<il2cpp_array_size_t>(L_137), (RuntimeObject*)L_152);
+		G_B19_0 = G_B18_0;
+	}
+
+IL_0224:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2166>
+		return (bool)G_B19_0;
+	}
+
+IL_0225:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2168>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68559
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_proc, float ___1_delayTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* L_0 = (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42*)il2cpp_codegen_object_new(U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42_il2cpp_TypeInfo_var);
+		U3C_InjectDelayU3Ed__127__ctor_m25161687C92109699009E6E9FF90311CCFE108DF(L_0, 0, NULL);
+		U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* L_2 = L_1;
+		RuntimeObject* L_3 = ___0_proc;
+		NullCheck(L_2);
+		L_2->___proc = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___proc), (void*)L_3);
+		U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* L_4 = L_2;
+		float L_5 = ___1_delayTime;
+		NullCheck(L_4);
+		L_4->___delayTime = L_5;
+		return L_4;
+	}
+}
+// Method Definition Index: 68560
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsPaused_m39BD30FFF0057B9EAB9D1D40716A43CC44547B94 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2183>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_002d;
+			}
+			case 2:
+			{
+				goto IL_003b;
+			}
+			case 3:
+			{
+				goto IL_0049;
+			}
+		}
+	}
+	{
+		goto IL_0057;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2186>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___UpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		uint8_t L_7 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return (bool)L_7;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2188>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___FixedUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		uint8_t L_12 = (uint8_t)(L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		return (bool)L_12;
+	}
+
+IL_003b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2190>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_13 = __this->___LateUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = ___0_coindex;
+		int32_t L_15 = L_14.___i;
+		NullCheck(L_13);
+		int32_t L_16 = L_15;
+		uint8_t L_17 = (uint8_t)(L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		return (bool)L_17;
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2192>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___SlowUpdatePaused;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = ___0_coindex;
+		int32_t L_20 = L_19.___i;
+		NullCheck(L_18);
+		int32_t L_21 = L_20;
+		uint8_t L_22 = (uint8_t)(L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		return (bool)L_22;
+	}
+
+IL_0057:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2194>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68561
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_CoindexIsHeld_m424A2EB967A56C29BA3C4E777027BCED338802C8 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2200>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001f;
+			}
+			case 1:
+			{
+				goto IL_002d;
+			}
+			case 2:
+			{
+				goto IL_003b;
+			}
+			case 3:
+			{
+				goto IL_0049;
+			}
+		}
+	}
+	{
+		goto IL_0057;
+	}
+
+IL_001f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2203>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___UpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		uint8_t L_7 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return (bool)L_7;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2205>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = __this->___FixedUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_9 = ___0_coindex;
+		int32_t L_10 = L_9.___i;
+		NullCheck(L_8);
+		int32_t L_11 = L_10;
+		uint8_t L_12 = (uint8_t)(L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		return (bool)L_12;
+	}
+
+IL_003b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2207>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_13 = __this->___LateUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14 = ___0_coindex;
+		int32_t L_15 = L_14.___i;
+		NullCheck(L_13);
+		int32_t L_16 = L_15;
+		uint8_t L_17 = (uint8_t)(L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		return (bool)L_17;
+	}
+
+IL_0049:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2209>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___SlowUpdateHeld;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = ___0_coindex;
+		int32_t L_20 = L_19.___i;
+		NullCheck(L_18);
+		int32_t L_21 = L_20;
+		uint8_t L_22 = (uint8_t)(L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		return (bool)L_22;
+	}
+
+IL_0057:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2211>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68562
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_CoindexReplace_m53148BF8F7D8B6511959F56C14331EE5D0BAF648 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_coindex, RuntimeObject* ___1_replacement, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2217>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_coindex;
+		int32_t L_1 = L_0.___seg;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_001e;
+			}
+			case 1:
+			{
+				goto IL_002d;
+			}
+			case 2:
+			{
+				goto IL_003c;
+			}
+			case 3:
+			{
+				goto IL_004b;
+			}
+		}
+	}
+	{
+		return;
+	}
+
+IL_001e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2220>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_3 = __this->___UpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_coindex;
+		int32_t L_5 = L_4.___i;
+		RuntimeObject* L_6 = ___1_replacement;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_6);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RuntimeObject*)L_6);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2221>
+		return;
+	}
+
+IL_002d:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2223>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_7 = __this->___FixedUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_8 = ___0_coindex;
+		int32_t L_9 = L_8.___i;
+		RuntimeObject* L_10 = ___1_replacement;
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, L_10);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (RuntimeObject*)L_10);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2224>
+		return;
+	}
+
+IL_003c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2226>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_11 = __this->___LateUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12 = ___0_coindex;
+		int32_t L_13 = L_12.___i;
+		RuntimeObject* L_14 = ___1_replacement;
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_14);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (RuntimeObject*)L_14);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2227>
+		return;
+	}
+
+IL_004b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2229>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_15 = __this->___SlowUpdateProcesses;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_16 = ___0_coindex;
+		int32_t L_17 = L_16.___i;
+		RuntimeObject* L_18 = ___1_replacement;
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (RuntimeObject*)L_18);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2230>
+		return;
+	}
+}
+// Method Definition Index: 68563
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitForSeconds_m5B054FB5B3ADDFB2CD1D56AD91C144FC17F93ACA (float ___0_waitTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2240>
+		float L_0 = ___0_waitTime;
+		bool L_1;
+		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2240>
+		___0_waitTime = (0.0f);
+	}
+
+IL_000f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2241>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		float L_2;
+		L_2 = Timing_get_LocalTime_m7A9BB2F8196242204B65A477A07599C85A5297B9(NULL);
+		float L_3 = ___0_waitTime;
+		return ((float)il2cpp_codegen_add(L_2, L_3));
+	}
+}
+// Method Definition Index: 68564
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitForSecondsOnInstance_m70DD8D0387FC1B04510FBB49FADD5B9429C2760E (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_waitTime, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2250>
+		float L_0 = ___0_waitTime;
+		bool L_1;
+		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2250>
+		___0_waitTime = (0.0f);
+	}
+
+IL_000f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2251>
+		float L_2 = __this->___localTime;
+		float L_3 = ___0_waitTime;
+		return ((float)il2cpp_codegen_add(L_2, L_3));
+	}
+}
+// Method Definition Index: 68565
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitUntilDone_m720D475A3DFBA7379B4E52C644B19BC0F1FB61FD (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_otherCoroutine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2261>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = ___0_otherCoroutine;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		float L_1;
+		L_1 = Timing_WaitUntilDone_m1460343705C01A268D729CA07162A6FD5B3DCD70(L_0, (bool)1, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 68566
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitUntilDone_m1460343705C01A268D729CA07162A6FD5B3DCD70 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_otherCoroutine, bool ___1_warnOnIssue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_0 = NULL;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2272>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_otherCoroutine), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2274>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_015a;
+		}
+	}
+	{
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = V_0;
+		NullCheck(L_4);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_5 = L_4->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = ___0_otherCoroutine;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_5, L_6, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_7)
+		{
+			goto IL_015a;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2276>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_8 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_9 = V_0;
+		NullCheck(L_9);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_10 = L_9->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___0_otherCoroutine;
+		NullCheck(L_10);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12;
+		L_12 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_10, L_11, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_8);
+		bool L_13;
+		L_13 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(L_8, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2277>
+		return (0.0f);
+	}
+
+IL_0044:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2279>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_14 = V_0;
+		NullCheck(L_14);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_15 = L_14->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16 = ___0_otherCoroutine;
+		NullCheck(L_15);
+		bool L_17;
+		L_17 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_15, L_16, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (L_17)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2281>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2282>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_18 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_19 = V_0;
+		NullCheck(L_19);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_20 = L_19->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_21 = ___0_otherCoroutine;
+		NullCheck(L_20);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_22;
+		L_22 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_20, L_21, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_23 = V_0;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_24 = ___0_otherCoroutine;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_25 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_26 = V_0;
+		NullCheck(L_26);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_27 = L_26->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_28 = ___0_otherCoroutine;
+		NullCheck(L_27);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_29;
+		L_29 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_27, L_28, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_25);
+		RuntimeObject* L_30;
+		L_30 = Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492(L_25, L_29, NULL);
+		NullCheck(L_23);
+		RuntimeObject* L_31;
+		L_31 = Timing__StartWhenDone_m1BF1C758146D3E308E53BBA881817865BB0D694A(L_23, L_24, L_30, NULL);
+		NullCheck(L_18);
+		Timing_CoindexReplace_m53148BF8F7D8B6511959F56C14331EE5D0BAF648(L_18, L_22, L_31, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2283>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_32 = V_0;
+		NullCheck(L_32);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_33 = L_32->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_34 = ___0_otherCoroutine;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_35 = (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*)il2cpp_codegen_object_new(HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4(L_35, HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		NullCheck(L_33);
+		Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B(L_33, L_34, L_35, Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var);
+	}
+
+IL_008e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2286>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_36 = V_0;
+		NullCheck(L_36);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_37;
+		L_37 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_36, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_38 = ___0_otherCoroutine;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_39;
+		L_39 = CoroutineHandle_op_Equality_m6CF324F83762245FD6CD30092D73C0CA88CE77C4(L_37, L_38, NULL);
+		if (!L_39)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2289>
+		return (-std::numeric_limits<float>::infinity());
+	}
+
+IL_00a2:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2291>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_40 = V_0;
+		NullCheck(L_40);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_41;
+		L_41 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_40, NULL);
+		V_1 = L_41;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_42;
+		L_42 = CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87((&V_1), NULL);
+		if (L_42)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2294>
+		return (-std::numeric_limits<float>::infinity());
+	}
+
+IL_00b8:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2297>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_43 = V_0;
+		NullCheck(L_43);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_44 = L_43->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_45 = ___0_otherCoroutine;
+		NullCheck(L_44);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_46;
+		L_46 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_44, L_45, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_47 = V_0;
+		NullCheck(L_47);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_48;
+		L_48 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_47, NULL);
+		NullCheck(L_46);
+		bool L_49;
+		L_49 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_46, L_48, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2298>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_50 = V_0;
+		NullCheck(L_50);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_51 = L_50->____allWaiting;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_52 = V_0;
+		NullCheck(L_52);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_53;
+		L_53 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_52, NULL);
+		NullCheck(L_51);
+		bool L_54;
+		L_54 = HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C(L_51, L_53, HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_RuntimeMethod_var);
+		if (L_54)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2299>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_55 = V_0;
+		NullCheck(L_55);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_56 = L_55->____allWaiting;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_57 = V_0;
+		NullCheck(L_57);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_58;
+		L_58 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_57, NULL);
+		NullCheck(L_56);
+		bool L_59;
+		L_59 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_56, L_58, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+	}
+
+IL_00f5:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2300>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_60 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_61 = V_0;
+		NullCheck(L_61);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_62 = L_61->____handleToIndex;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_63 = V_0;
+		NullCheck(L_63);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_64;
+		L_64 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_63, NULL);
+		NullCheck(L_62);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_65;
+		L_65 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_62, L_64, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_60);
+		bool L_66;
+		L_66 = Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62(L_60, L_65, (bool)1, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2302>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_67 = V_0;
+		NullCheck(L_67);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_68 = L_67->____pendingResume;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_69 = ___0_otherCoroutine;
+		NullCheck(L_68);
+		bool L_70;
+		L_70 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_68, L_69, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (L_70)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2303>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_71 = V_0;
+		NullCheck(L_71);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_72 = L_71->____pendingResume;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_73 = ___0_otherCoroutine;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_74 = (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*)il2cpp_codegen_object_new(HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4(L_74, HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_75 = L_74;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_76 = V_0;
+		NullCheck(L_76);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_77;
+		L_77 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_76, NULL);
+		NullCheck(L_75);
+		bool L_78;
+		L_78 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_75, L_77, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		NullCheck(L_72);
+		Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B(L_72, L_73, L_75, Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var);
+		goto IL_0154;
+	}
+
+IL_013c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2305>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_79 = V_0;
+		NullCheck(L_79);
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_80 = L_79->____pendingResume;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_81 = ___0_otherCoroutine;
+		NullCheck(L_80);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_82;
+		L_82 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_80, L_81, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_83 = V_0;
+		NullCheck(L_83);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_84;
+		L_84 = Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline(L_83, NULL);
+		NullCheck(L_82);
+		bool L_85;
+		L_85 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_82, L_84, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+	}
+
+IL_0154:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2307>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+
+IL_015a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2311>
+		return (-std::numeric_limits<float>::infinity());
+	}
+}
+// Method Definition Index: 68567
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_m1BF1C758146D3E308E53BBA881817865BB0D694A (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, RuntimeObject* ___1_proc, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* L_0 = (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6*)il2cpp_codegen_object_new(U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6_il2cpp_TypeInfo_var);
+		U3C_StartWhenDoneU3Ed__135__ctor_mF908CB64F42DEB231DEC66C3CFF9678DF3E81AC1(L_0, 0, NULL);
+		U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* L_2 = L_1;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3 = ___0_handle;
+		NullCheck(L_2);
+		L_2->___handle = L_3;
+		U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* L_4 = L_2;
+		RuntimeObject* L_5 = ___1_proc;
+		NullCheck(L_4);
+		L_4->___proc = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___proc), (void*)L_5);
+		return L_4;
+	}
+}
+// Method Definition Index: 68568
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2334>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_0 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_handle;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_0, L_1, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2334>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2336>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_3 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4 = ___0_handle;
+		NullCheck(L_3);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_5;
+		L_5 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_3, L_4, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		NullCheck(L_5);
+		Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF L_6;
+		L_6 = HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B(L_5, HashSet_1_GetEnumerator_m2189F6CDB9D923205490B29D1BCD21FDC165812B_RuntimeMethod_var);
+		V_0 = L_6;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2337>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_7 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = ___0_handle;
+		NullCheck(L_7);
+		bool L_9;
+		L_9 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_7, L_8, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		goto IL_0080;
+	}
+
+IL_0030:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2341>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_10 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11;
+		L_11 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_0), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_10, L_11, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_12)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13;
+		L_13 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_0), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		bool L_14;
+		L_14 = Timing_HandleIsInWaitingList_m92D6026AF59B3AAE7159EA42C92EC50DDB39DB37(__this, L_13, NULL);
+		if (L_14)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2343>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_15 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16;
+		L_16 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_0), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_15);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17;
+		L_17 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_15, L_16, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_18;
+		L_18 = Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62(__this, L_17, (bool)0, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2344>
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_19 = __this->____allWaiting;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_20;
+		L_20 = Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_inline((&V_0), Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_RuntimeMethod_var);
+		NullCheck(L_19);
+		bool L_21;
+		L_21 = HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907(L_19, L_20, HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+	}
+
+IL_0080:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2339>
+		bool L_22;
+		L_22 = Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F((&V_0), Enumerator_MoveNext_mC8A306D2B6975AF80A1A3C760ED43AEA8E364D1F_RuntimeMethod_var);
+		if (L_22)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2347>
+		return;
+	}
+}
+// Method Definition Index: 68569
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_HandleIsInWaitingList_m92D6026AF59B3AAE7159EA42C92EC50DDB39DB37 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2351>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_0 = __this->____waitingTriggers;
+		NullCheck(L_0);
+		Enumerator_t565AD63A4136B421D0DD6A0883F2B6A3DD69088C L_1;
+		L_1 = Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F(L_0, Dictionary_2_GetEnumerator_m34001665CF19DD13542904B0FA154A4FE98C776F_RuntimeMethod_var);
+		V_0 = L_1;
+		goto IL_0027;
+	}
+
+IL_000e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2353>
+		KeyValuePair_2_t3797B69F4190D246195D4244C5AC9ECF563593D7 L_2;
+		L_2 = Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_inline((&V_0), Enumerator_get_Current_mEE81942402ABE71D257F863C71B67E74728BCD1D_RuntimeMethod_var);
+		V_1 = L_2;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_3;
+		L_3 = KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_inline((&V_1), KeyValuePair_2_get_Value_m8AB38AFD19A769E48F39713E8B46B19358DFA1CB_RuntimeMethod_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4 = ___0_handle;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C(L_3, L_4, HashSet_1_Contains_mAA6D1D615B042FBB6A93D3218F8FC6E17B956F8C_RuntimeMethod_var);
+		if (!L_5)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2354>
+		return (bool)1;
+	}
+
+IL_0027:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2352>
+		bool L_6;
+		L_6 = Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54((&V_0), Enumerator_MoveNext_m390490433ADE3DB4C0DAFFAD60FA3279CE9B8F54_RuntimeMethod_var);
+		if (L_6)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2356>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68570
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8 (RuntimeObject* ___0_coptr, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2361>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef;
+		return ((RuntimeObject*)IsInst((RuntimeObject*)L_0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var));
+	}
+}
+// Method Definition Index: 68571
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitUntilDone_m8C49962F2BDB1944832BC38232DE96017663F2C9 (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___0_operation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_1 = NULL;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2371>
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_0 = ___0_operation;
+		if (!L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_1 = ___0_operation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = AsyncOperation_get_isDone_m68A0682777E2132FC033182E9F50303566AA354D(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2371>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2373>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3;
+		L_3 = Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6(NULL);
+		V_0 = L_3;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2374>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		L_4 = Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6(NULL);
+		V_2 = L_4;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&V_2), NULL);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6;
+		L_6 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_5, NULL);
+		V_1 = L_6;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2375>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_7 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2375>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+
+IL_0039:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2377>
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_9 = ___0_operation;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_10 = V_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_11 = V_1;
+		NullCheck(L_11);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_12 = L_11->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13 = V_0;
+		NullCheck(L_12);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14;
+		L_14 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_12, L_13, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_10);
+		RuntimeObject* L_15;
+		L_15 = Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492(L_10, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		RuntimeObject* L_16;
+		L_16 = Timing__StartWhenDone_m368579C35765F51EF692B1F82F0D58B5823E639C(L_9, L_15, NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef), (void*)L_16);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2378>
+		Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_17 = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)il2cpp_codegen_object_new(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C(L_17, NULL, (intptr_t)((void*)Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var), NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)L_17);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2379>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+}
+// Method Definition Index: 68572
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_m368579C35765F51EF692B1F82F0D58B5823E639C (AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* ___0_operation, RuntimeObject* ___1_pausedProc, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* L_0 = (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27*)il2cpp_codegen_object_new(U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27_il2cpp_TypeInfo_var);
+		U3C_StartWhenDoneU3Ed__140__ctor_mC563B9DF2D6832623F05023231B6402506CD039E(L_0, 0, NULL);
+		U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* L_1 = L_0;
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_2 = ___0_operation;
+		NullCheck(L_1);
+		L_1->___operation = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___operation), (void*)L_2);
+		U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* L_3 = L_1;
+		RuntimeObject* L_4 = ___1_pausedProc;
+		NullCheck(L_3);
+		L_3->___pausedProc = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___pausedProc), (void*)L_4);
+		return L_3;
+	}
+}
+// Method Definition Index: 68573
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Timing_WaitUntilDone_m0FF811FB84E8A156C5AB3BEE56BE20F7E8B63E8C (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* ___0_operation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_1 = NULL;
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2399>
+		CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* L_0 = ___0_operation;
+		if (!L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* L_1 = ___0_operation;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(7, L_1);
+		if (L_2)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2399>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2401>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3;
+		L_3 = Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6(NULL);
+		V_0 = L_3;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2402>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		L_4 = Timing_get_CurrentCoroutine_m78E09FAE78E33CF0B2D1B9FC399B0A1397DA8BA6(NULL);
+		V_2 = L_4;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&V_2), NULL);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6;
+		L_6 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_5, NULL);
+		V_1 = L_6;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2403>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_7 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2403>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+
+IL_0039:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2405>
+		CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* L_9 = ___0_operation;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_10 = V_1;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_11 = V_1;
+		NullCheck(L_11);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_12 = L_11->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13 = V_0;
+		NullCheck(L_12);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_14;
+		L_14 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_12, L_13, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_10);
+		RuntimeObject* L_15;
+		L_15 = Timing_CoindexPeek_m260BA04D12B07AFA2DEDD0A387CC10312F27B492(L_10, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		RuntimeObject* L_16;
+		L_16 = Timing__StartWhenDone_mC59DB7699A9CFB0FB78AA35142D34657707CF117(L_9, L_15, NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef), (void*)L_16);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2406>
+		Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_17 = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)il2cpp_codegen_object_new(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C(L_17, NULL, (intptr_t)((void*)Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var), NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)L_17);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2407>
+		return (std::numeric_limits<float>::quiet_NaN());
+	}
+}
+// Method Definition Index: 68574
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__StartWhenDone_mC59DB7699A9CFB0FB78AA35142D34657707CF117 (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* ___0_operation, RuntimeObject* ___1_pausedProc, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* L_0 = (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4*)il2cpp_codegen_object_new(U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4_il2cpp_TypeInfo_var);
+		U3C_StartWhenDoneU3Ed__142__ctor_mD72DE6AA1666DEBA14064607A9F868342DDC1FBF(L_0, 0, NULL);
+		U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* L_1 = L_0;
+		CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* L_2 = ___0_operation;
+		NullCheck(L_1);
+		L_1->___operation = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___operation), (void*)L_2);
+		U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* L_3 = L_1;
+		RuntimeObject* L_4 = ___1_pausedProc;
+		NullCheck(L_3);
+		L_3->___pausedProc = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___pausedProc), (void*)L_4);
+		return L_3;
+	}
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_LockCoroutine_m785135569D8A23150869ADC05039D3E3E81521B0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_coroutine, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2428>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_coroutine), NULL);
+		uint8_t L_1 = __this->____instanceID;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2 = ___1_key;
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = CoroutineHandle_op_Equality_m6CF324F83762245FD6CD30092D73C0CA88CE77C4(L_2, L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_5;
+		L_5 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___1_key), NULL);
+		if (!L_5)
+		{
+			goto IL_002b;
+		}
+	}
+
+IL_0029:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2429>
+		return (bool)0;
+	}
+
+IL_002b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2431>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_6 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = ___1_key;
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_6, L_7, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (L_8)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2432>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_9 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_10 = ___1_key;
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_11 = (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*)il2cpp_codegen_object_new(HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4(L_11, HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_12 = L_11;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_13 = ___0_coroutine;
+		NullCheck(L_12);
+		bool L_14;
+		L_14 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_12, L_13, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		NullCheck(L_9);
+		Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B(L_9, L_10, L_12, Dictionary_2_Add_mC3D689279BEDD96AABCD9BD20AA7BDCD6AC6A02B_RuntimeMethod_var);
+		goto IL_0067;
+	}
+
+IL_0054:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2434>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_15 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16 = ___1_key;
+		NullCheck(L_15);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_17;
+		L_17 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_15, L_16, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_18 = ___0_coroutine;
+		NullCheck(L_17);
+		bool L_19;
+		L_19 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_17, L_18, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+	}
+
+IL_0067:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2436>
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_20 = __this->____allWaiting;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_21 = ___0_coroutine;
+		NullCheck(L_20);
+		bool L_22;
+		L_22 = HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062(L_20, L_21, HashSet_1_Add_mDD440DA8B3B33294F16683726D024CCA98BF6062_RuntimeMethod_var);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2438>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_23 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_24 = ___0_coroutine;
+		NullCheck(L_23);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25;
+		L_25 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_23, L_24, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_26;
+		L_26 = Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62(__this, L_25, (bool)1, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2440>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68576
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_UnlockCoroutine_m5B55B0084F4F78E143E30CA48124E6C531FA4A49 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_coroutine, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2451>
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2452>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_coroutine), NULL);
+		uint8_t L_1 = __this->____instanceID;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2 = ___1_key;
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = CoroutineHandle_op_Equality_m6CF324F83762245FD6CD30092D73C0CA88CE77C4(L_2, L_3, NULL);
+		if (L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_5 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = ___0_coroutine;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_5, L_6, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_7)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_8 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9 = ___1_key;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_8, L_9, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		if (L_10)
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_003c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2453>
+		return (bool)0;
+	}
+
+IL_003e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2455>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_11 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_12 = ___1_key;
+		NullCheck(L_11);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_13;
+		L_13 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_11, L_12, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_inline(L_13, HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_RuntimeMethod_var);
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2456>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_15 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16 = ___1_key;
+		NullCheck(L_15);
+		bool L_17;
+		L_17 = Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2(L_15, L_16, Dictionary_2_Remove_mFD6948FD2BC0F60D56117BB211142B6570CA16E2_RuntimeMethod_var);
+		goto IL_0074;
+	}
+
+IL_0061:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2458>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_18 = __this->____waitingTriggers;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_19 = ___1_key;
+		NullCheck(L_18);
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_20;
+		L_20 = Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD(L_18, L_19, Dictionary_2_get_Item_mF6EFCAA2BA43DA859074EFFAAFF29DBD10E85CAD_RuntimeMethod_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_21 = ___0_coroutine;
+		NullCheck(L_20);
+		bool L_22;
+		L_22 = HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907(L_20, L_21, HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+	}
+
+IL_0074:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2460>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_23 = ___0_coroutine;
+		bool L_24;
+		L_24 = Timing_HandleIsInWaitingList_m92D6026AF59B3AAE7159EA42C92EC50DDB39DB37(__this, L_23, NULL);
+		if (L_24)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2462>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_25 = __this->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_26 = ___0_coroutine;
+		NullCheck(L_25);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_27;
+		L_27 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_25, L_26, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		bool L_28;
+		L_28 = Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62(__this, L_27, (bool)0, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2463>
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_29 = __this->____allWaiting;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_30 = ___0_coroutine;
+		NullCheck(L_29);
+		bool L_31;
+		L_31 = HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907(L_29, L_30, HashSet_1_Remove_mD7F362FB97AB00CE6C6470B1C05A6FFDFA5D4907_RuntimeMethod_var);
+	}
+
+IL_009e:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2466>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68577
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_SetSegment_m7F40F0A083FC802FC5A8ADE56BDBCC9D899B81F6 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, int32_t ___1_newSegment, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_0 = NULL;
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RuntimeObject* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2477>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2478>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = V_0;
+		NullCheck(L_4);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_5 = L_4->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = ___0_handle;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_5, L_6, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_7)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_8 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_9 = V_0;
+		NullCheck(L_9);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_10 = L_9->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___0_handle;
+		NullCheck(L_10);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12;
+		L_12 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_10, L_11, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_8);
+		bool L_13;
+		L_13 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(L_8, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_003a;
+		}
+	}
+
+IL_0038:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2479>
+		return (bool)0;
+	}
+
+IL_003a:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2481>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_14 = V_0;
+		NullCheck(L_14);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_15 = L_14->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_16 = ___0_handle;
+		NullCheck(L_15);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_17;
+		L_17 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_15, L_16, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		V_1 = L_17;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2482>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_18 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_19 = V_1;
+		NullCheck(L_18);
+		RuntimeObject* L_20;
+		L_20 = Timing_CoindexExtract_m3779285BC23A046419BBCA2DDB80F141181C213D(L_18, L_19, NULL);
+		V_2 = L_20;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2483>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_21 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_22 = V_1;
+		NullCheck(L_21);
+		bool L_23;
+		L_23 = Timing_CoindexIsHeld_m424A2EB967A56C29BA3C4E777027BCED338802C8(L_21, L_22, NULL);
+		V_3 = L_23;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2484>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_24 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_25 = V_1;
+		NullCheck(L_24);
+		bool L_26;
+		L_26 = Timing_CoindexIsPaused_m39BD30FFF0057B9EAB9D1D40716A43CC44547B94(L_24, L_25, NULL);
+		V_4 = L_26;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2486>
+		RuntimeObject* L_27 = V_2;
+		NullCheck(L_27);
+		float L_28;
+		L_28 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_27);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_29 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_30 = V_1;
+		int32_t L_31 = L_30.___seg;
+		NullCheck(L_29);
+		float L_32;
+		L_32 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(L_29, L_31, NULL);
+		if ((!(((float)L_28) > ((float)L_32))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2487>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_33 = V_0;
+		RuntimeObject* L_34 = V_2;
+		RuntimeObject* L_35 = V_2;
+		NullCheck(L_35);
+		float L_36;
+		L_36 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_35);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_37 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_38 = V_1;
+		int32_t L_39 = L_38.___seg;
+		NullCheck(L_37);
+		float L_40;
+		L_40 = Timing_GetSegmentTime_mA171231215AFD31A275996A919D45F2947B3A821(L_37, L_39, NULL);
+		NullCheck(L_33);
+		RuntimeObject* L_41;
+		L_41 = Timing__InjectDelay_m59BF55EF5B99FF7FC418F2EE73D393E23CB80366(L_33, L_34, ((float)il2cpp_codegen_subtract(L_36, L_40)), NULL);
+		V_2 = L_41;
+	}
+
+IL_008f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2489>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_42 = V_0;
+		RuntimeObject* L_43 = V_2;
+		int32_t L_44 = ___1_newSegment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_45 = ___0_handle;
+		NullCheck(L_42);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_46;
+		L_46 = Timing_RunCoroutineInternal_m7C61282F55F76F4245A69D6D249496F4672B4B7F(L_42, L_43, L_44, (String_t*)NULL, L_45, (bool)0, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2491>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_47 = V_0;
+		NullCheck(L_47);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_48 = L_47->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_49 = ___0_handle;
+		NullCheck(L_48);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_50;
+		L_50 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_48, L_49, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		V_1 = L_50;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2492>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_51 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_52 = V_1;
+		bool L_53 = V_3;
+		NullCheck(L_51);
+		bool L_54;
+		L_54 = Timing_SetHeld_m82070284130FFCA69D74BCCD1831205024DAAB62(L_51, L_52, L_53, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2493>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_55 = V_0;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_56 = V_1;
+		bool L_57 = V_4;
+		NullCheck(L_55);
+		bool L_58;
+		L_58 = Timing_SetPause_m0666BE0BE1C0E2D98B805393CAB89E62244339F1(L_55, L_56, L_57, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2495>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68578
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Timing_IsRunning_m9296F906418D4B607E56090506817C8FBC4F5A5A (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_0 = NULL;
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2505>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0((&___0_handle), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_GetInstance_mB4ECEC05527F20BF3FAD95E8C690865A8971E746(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2506>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = V_0;
+		NullCheck(L_4);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_5 = L_4->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = ___0_handle;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272(L_5, L_6, Dictionary_2_ContainsKey_mC1F881C5ECE9C0BE8B30F49AADA665A6DAA8B272_RuntimeMethod_var);
+		if (!L_7)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_8 = V_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_9 = V_0;
+		NullCheck(L_9);
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_10 = L_9->____handleToIndex;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_11 = ___0_handle;
+		NullCheck(L_10);
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_12;
+		L_12 = Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE(L_10, L_11, Dictionary_2_get_Item_mD0079F496CC5CBBBD9D3E9B3167726CC614E83DE_RuntimeMethod_var);
+		NullCheck(L_8);
+		bool L_13;
+		L_13 = Timing_CoindexIsNull_mC03D4B74A4325F71BC340F6E8193688D097A3C92(L_8, L_12, NULL);
+		return (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_003a:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayed_m9A938FB8DD31F0BB051F17008595E7364E02F3B0 (float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2517>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___1_action;
+		NullCheck(L_1);
+		RuntimeObject* L_4;
+		L_4 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(L_1, L_2, L_3, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutine_m0E7144BEBB4CB80F24C3904EEDAEF4A11F5065A5(L_4, NULL);
+		return L_5;
+	}
+
+IL_0016:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68580
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayedOnInstance_mD0E803DCC4527C0BD6DE4F1F5825CBB4ED931A58 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2528>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		float L_1 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___1_action;
+		RuntimeObject* L_3;
+		L_3 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(__this, L_1, L_2, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_4;
+		L_4 = Timing_RunCoroutineOnInstance_mDA89139CE0799DB1506CF5957A5D78567DDA3BF7(__this, L_3, NULL);
+		return L_4;
+	}
+
+IL_0013:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 68581
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayed_mFDD630FB88F818842C5621A42E2DB921CB6C4971 (float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_cancelWith, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2540>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___1_action;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___2_cancelWith;
+		NullCheck(L_1);
+		RuntimeObject* L_5;
+		L_5 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(L_1, L_2, L_3, L_4, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutine_m0E7144BEBB4CB80F24C3904EEDAEF4A11F5065A5(L_5, NULL);
+		return L_6;
+	}
+
+IL_0016:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68582
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayedOnInstance_mF26A4431305D88F5899F4AEADAF5B4D7A9352571 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_cancelWith, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2552>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		float L_1 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___1_action;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___2_cancelWith;
+		RuntimeObject* L_4;
+		L_4 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(__this, L_1, L_2, L_3, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutineOnInstance_mDA89139CE0799DB1506CF5957A5D78567DDA3BF7(__this, L_4, NULL);
+		return L_5;
+	}
+
+IL_0013:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68583
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayed_m97CB6EC1E4D412238E4F278D21A6A1E739658370 (float ___0_delay, int32_t ___1_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2564>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___2_action;
+		NullCheck(L_1);
+		RuntimeObject* L_4;
+		L_4 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(L_1, L_2, L_3, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
+		int32_t L_5 = ___1_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_4, L_5, NULL);
+		return L_6;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68584
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayedOnInstance_mE3EBD31384D0F8B8C2D50823CBE349808BBE5B24 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, int32_t ___1_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2576>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		float L_1 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___2_action;
+		RuntimeObject* L_3;
+		L_3 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(__this, L_1, L_2, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, NULL);
+		int32_t L_4 = ___1_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_3, L_4, NULL);
+		return L_5;
+	}
+
+IL_0014:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayed_m4B3688E406360D4C5AD77A590A9A1B5F2497573F (float ___0_delay, int32_t ___1_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_gameObject, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2590>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___2_action;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___3_gameObject;
+		NullCheck(L_1);
+		RuntimeObject* L_5;
+		L_5 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(L_1, L_2, L_3, L_4, NULL);
+		int32_t L_6 = ___1_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_5, L_6, NULL);
+		return L_7;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68586
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallDelayedOnInstance_m5900FC578F8302445FD68BBA26E060ECB64BD556 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, int32_t ___1_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_gameObject, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2604>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		float L_1 = ___0_delay;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___2_action;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___3_gameObject;
+		RuntimeObject* L_4;
+		L_4 = Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6(__this, L_1, L_2, L_3, NULL);
+		int32_t L_5 = ___1_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_4, L_5, NULL);
+		return L_6;
+	}
+
+IL_0015:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68587
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__DelayedCall_mC4C284E83B2836E10FF893377708F278114379A6 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_delay, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_cancelWith, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* L_0 = (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D*)il2cpp_codegen_object_new(U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D_il2cpp_TypeInfo_var);
+		U3C_DelayedCallU3Ed__155__ctor_m227138A605520464FC1BE9A70497513F31D0AD3B(L_0, 0, NULL);
+		U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* L_2 = L_1;
+		float L_3 = ___0_delay;
+		NullCheck(L_2);
+		L_2->___delay = L_3;
+		U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* L_4 = L_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___1_action;
+		NullCheck(L_4);
+		L_4->___action = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___action), (void*)L_5);
+		U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* L_6 = L_4;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___2_cancelWith;
+		NullCheck(L_6);
+		L_6->___cancelWith = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___cancelWith), (void*)L_7);
+		return L_6;
+	}
+}
+// Method Definition Index: 68588
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallPeriodically_m7A9AEC885DAED7FE3F70BCE96D48AC0E9D72F481 (float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2625>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_timeframe;
+		float L_3 = ___1_period;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___2_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___3_onDone;
+		NullCheck(L_1);
+		RuntimeObject* L_6;
+		L_6 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(L_1, L_2, L_3, L_4, L_5, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_6, 0, NULL);
+		return L_7;
+	}
+
+IL_0018:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68589
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallPeriodicallyOnInstance_mB198F01BD567B086DD01FFBBF12D66F8688939F6 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2638>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		float L_1 = ___0_timeframe;
+		float L_2 = ___1_period;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___2_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___3_onDone;
+		RuntimeObject* L_5;
+		L_5 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(__this, L_1, L_2, L_3, L_4, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_5, 0, NULL);
+		return L_6;
+	}
+
+IL_0016:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68590
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallPeriodically_m5482A5733484A4122F8322FE63B022EB48CA1405 (float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, int32_t ___3_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___4_onDone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2652>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_timeframe;
+		float L_3 = ___1_period;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___2_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___4_onDone;
+		NullCheck(L_1);
+		RuntimeObject* L_6;
+		L_6 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(L_1, L_2, L_3, L_4, L_5, NULL);
+		int32_t L_7 = ___3_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8;
+		L_8 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_6, L_7, NULL);
+		return L_8;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 68591
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallPeriodicallyOnInstance_m353710162E80F7CDB85F7FB55D4CFF0983EE2FDA (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, int32_t ___3_segment, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___4_onDone, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2666>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___2_action;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		float L_1 = ___0_timeframe;
+		float L_2 = ___1_period;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___2_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___4_onDone;
+		RuntimeObject* L_5;
+		L_5 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(__this, L_1, L_2, L_3, L_4, NULL);
+		int32_t L_6 = ___3_segment;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_5, L_6, NULL);
+		return L_7;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68592
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallContinuously_m88E9A3DAC9E9242F1ECD45E2474A4CCFEBE7650A (float ___0_timeframe, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_onDone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2678>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_timeframe;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___1_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___2_onDone;
+		NullCheck(L_1);
+		RuntimeObject* L_5;
+		L_5 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(L_1, L_2, (0.0f), L_3, L_4, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_5, 0, NULL);
+		return L_6;
+	}
+
+IL_001c:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68593
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallContinuouslyOnInstance_mC571B507CF94517B8D7B83DA4894201386C8E1BD (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_onDone, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2690>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_1 = ___0_timeframe;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___1_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___2_onDone;
+		RuntimeObject* L_4;
+		L_4 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(__this, L_1, (0.0f), L_2, L_3, NULL);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5;
+		L_5 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_4, 0, NULL);
+		return L_5;
+	}
+
+IL_0019:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68594
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallContinuously_m4FBE92760166747AAE7E41E02BB8932E4A26354F (float ___0_timeframe, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, int32_t ___2_timing, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2703>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1;
+		L_1 = Timing_get_Instance_mC5F863E21E3213CC72A6F3023FA9D1B8392E8A13(NULL);
+		float L_2 = ___0_timeframe;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___1_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = ___3_onDone;
+		NullCheck(L_1);
+		RuntimeObject* L_5;
+		L_5 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(L_1, L_2, (0.0f), L_3, L_4, NULL);
+		int32_t L_6 = ___2_timing;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7;
+		L_7 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_5, L_6, NULL);
+		return L_7;
+	}
+
+IL_001c:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 68595
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_CallContinuouslyOnInstance_m21483272A4A09B184F40CC4FD84A4330F4FD64F8 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_action, int32_t ___2_timing, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) 
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2716>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___1_action;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		float L_1 = ___0_timeframe;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___1_action;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___3_onDone;
+		RuntimeObject* L_4;
+		L_4 = Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672(__this, L_1, (0.0f), L_2, L_3, NULL);
+		int32_t L_5 = ___2_timing;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_6;
+		L_6 = Timing_RunCoroutineOnInstance_m78A7B10DC1A31CC761B1D2147755E2435326D20E(__this, L_4, L_5, NULL);
+		return L_6;
+	}
+
+IL_001a:
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506));
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 68596
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Timing__CallContinuously_mAAD6543191D74FFF7B96AEF853F4D80B24145672 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, float ___0_timeframe, float ___1_period, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_action, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___3_onDone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_0 = (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651*)il2cpp_codegen_object_new(U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651_il2cpp_TypeInfo_var);
+		U3C_CallContinuouslyU3Ed__164__ctor_mC45A0C625477ECD3B56BE05F97C3A22781CA245D(L_0, 0, NULL);
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_2 = L_1;
+		float L_3 = ___0_timeframe;
+		NullCheck(L_2);
+		L_2->___timeframe = L_3;
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_4 = L_2;
+		float L_5 = ___1_period;
+		NullCheck(L_4);
+		L_4->___period = L_5;
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_6 = L_4;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = ___2_action;
+		NullCheck(L_6);
+		L_6->___action = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___action), (void*)L_7);
+		U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* L_8 = L_6;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ___3_onDone;
+		NullCheck(L_8);
+		L_8->___onDone = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&L_8->___onDone), (void*)L_9);
+		return L_8;
+	}
+}
+// Method Definition Index: 68606
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* Timing_StartCoroutine_m43058B09DC0CD8023743EBB066ADB7A3AFEE39C9 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2908>
+		return (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+	}
+}
+// Method Definition Index: 68607
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* Timing_StartCoroutine_m409BD39D64DA6F17349FDA5E6C8FAD08B4CD0345 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_methodName, RuntimeObject* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2911>
+		return (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+	}
+}
+// Method Definition Index: 68608
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* Timing_StartCoroutine_mD3EC6860A3051907894542F011E8F8D5B3A0ED0F (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_methodName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2914>
+		return (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+	}
+}
+// Method Definition Index: 68609
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* Timing_StartCoroutine_Auto_mECA7701A6610778C82B37EF58353AAA1532A4E96 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2917>
+		return (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+	}
+}
+// Method Definition Index: 68610
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_StopCoroutine_m921D35A490245D6D13439AC9BE01237632F8E360 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, String_t* ___0_methodName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2920>
+		return;
+	}
+}
+// Method Definition Index: 68611
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_StopCoroutine_m533DB6E1311FC9514F2810F6470732A577CC1028 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2923>
+		return;
+	}
+}
+// Method Definition Index: 68612
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_StopCoroutine_m27974ED4F96149AADD4C5B772AFA09C6E832E8ED (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2926>
+		return;
+	}
+}
+// Method Definition Index: 68613
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_StopAllCoroutines_mDB1B2A6FDCA7BF55E25DBE9E54B0A7C53A34D4F0 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2929>
+		return;
+	}
+}
+// Method Definition Index: 68614
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_Destroy_mBEDD6BC040BBE9332490120E99310EB10CE4E750 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2932>
+		return;
+	}
+}
+// Method Definition Index: 68615
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_Destroy_m0CB8E9BEF57DCAE2D17814DCD873695937A9D348 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_f, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2935>
+		return;
+	}
+}
+// Method Definition Index: 68616
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_DestroyObject_m620D0C4C3A55E7CB23FD2DF321574E894D24EF35 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2938>
+		return;
+	}
+}
+// Method Definition Index: 68617
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_DestroyObject_m94768A7D08BE6E98C26D3477FD68FBF4D07E4695 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_f, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2941>
+		return;
+	}
+}
+// Method Definition Index: 68618
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_DestroyImmediate_m34980A53F2F5A7CC464EFFB295214F9CF3859C70 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2944>
+		return;
+	}
+}
+// Method Definition Index: 68619
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_DestroyImmediate_m1ED2E13540CB7FF0EEA5D2621082BD68E263D901 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, bool ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2947>
+		return;
+	}
+}
+// Method Definition Index: 68620
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_Instantiate_mCD043FDC807FFFA571F0BAAC01B33AA8A1743002 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2950>
+		return;
+	}
+}
+// Method Definition Index: 68621
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_Instantiate_mABD9716B2524B7BCA434D2EECE54292F9B20E05D (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2953>
+		return;
+	}
+}
+// Method Definition Index: 68624
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* Timing_FindObjectOfType_mC7C61532CEC435C47B1C109D318018B076F008C5 (Type_t* ___0_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2962>
+		return (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL;
+	}
+}
+// Method Definition Index: 68626
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* Timing_FindObjectsOfType_mCD2AC91D270579FA85C014648FEC52AD0DB12C4D (Type_t* ___0_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2968>
+		return (ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A*)NULL;
+	}
+}
+// Method Definition Index: 68627
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing_print_m415906FB7C7EE0B08EAED5EA00DABBC8B5900882 (RuntimeObject* ___0_message, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2971>
+		return;
+	}
+}
+// Method Definition Index: 68628
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing__ctor_mEE64D785CF1B20E55FB5A57796B7A6DB50952402 (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m27CDD6CA93F1598C52AB1DFB78C770C49F6F743D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m56660FB75F401B22DA291F952774FB0FD7EAFD6E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:34>
+		__this->___TimeBetweenSlowUpdateCalls = (0.142857149f);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:134>
+		__this->____expansions = (uint16_t)1;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:138>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_0 = (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*)il2cpp_codegen_object_new(Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A(L_0, Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A_RuntimeMethod_var);
+		__this->____waitingTriggers = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____waitingTriggers), (void*)L_0);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:139>
+		HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* L_1 = (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F*)il2cpp_codegen_object_new(HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4(L_1, HashSet_1__ctor_m7DA6CD494A1D818AB7681EE506829B91ED5B52A4_RuntimeMethod_var);
+		__this->____allWaiting = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____allWaiting), (void*)L_1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:140>
+		Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_2 = (Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC*)il2cpp_codegen_object_new(Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A(L_2, Dictionary_2__ctor_m23A9E2C91CA2E03446F6978BEEF0BDC1C7D6FD4A_RuntimeMethod_var);
+		__this->____pendingResume = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingResume), (void*)L_2);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:141>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->____resumeBuffer = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____resumeBuffer), (void*)L_3);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:143>
+		Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3* L_4 = (Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3*)il2cpp_codegen_object_new(Dictionary_2_t9B04E387A0CF79389EA6A0068DF428FD7F684BD3_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2(L_4, Dictionary_2__ctor_m22A6F895D400DFD189153E98D88776A02F42C2A2_RuntimeMethod_var);
+		__this->____handleToIndex = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____handleToIndex), (void*)L_4);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:144>
+		Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5* L_5 = (Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5*)il2cpp_codegen_object_new(Dictionary_2_t4EAC952CB37B6DF30B387ED89738E08B03B220E5_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13(L_5, Dictionary_2__ctor_m6D122CD5DA05C70B8F096BD756FF2EA4175E6C13_RuntimeMethod_var);
+		__this->____indexToHandle = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____indexToHandle), (void*)L_5);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:145>
+		Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20* L_6 = (Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20*)il2cpp_codegen_object_new(Dictionary_2_t9301F39C04C10B1B93FB87C1CB8A318E438FFD20_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m56660FB75F401B22DA291F952774FB0FD7EAFD6E(L_6, Dictionary_2__ctor_m56660FB75F401B22DA291F952774FB0FD7EAFD6E_RuntimeMethod_var);
+		__this->____processTags = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____processTags), (void*)L_6);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:146>
+		Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0* L_7 = (Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0*)il2cpp_codegen_object_new(Dictionary_2_tC8A6332E719402B3DFEA4359819735BCC37AFEA0_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m27CDD6CA93F1598C52AB1DFB78C770C49F6F743D(L_7, Dictionary_2__ctor_m27CDD6CA93F1598C52AB1DFB78C770C49F6F743D_RuntimeMethod_var);
+		__this->____taggedProcesses = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____taggedProcesses), (void*)L_7);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:148>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_8 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdateProcesses = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateProcesses), (void*)L_8);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:149>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_9 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdateProcesses = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateProcesses), (void*)L_9);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:150>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_10 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdateProcesses = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateProcesses), (void*)L_10);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:151>
+		IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88* L_11 = (IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88*)SZArrayNew(IEnumerator_1U5BU5D_tA2EF2FFDBA098C53558E3177C143C4DCFB0E5B88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdateProcesses = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateProcesses), (void*)L_11);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:153>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdatePaused = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdatePaused), (void*)L_12);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:154>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_13 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdatePaused = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdatePaused), (void*)L_13);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:155>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdatePaused = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdatePaused), (void*)L_14);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:156>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_15 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdatePaused = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdatePaused), (void*)L_15);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:157>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_16 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		__this->___UpdateHeld = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___UpdateHeld), (void*)L_16);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:158>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_17 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)8);
+		__this->___LateUpdateHeld = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LateUpdateHeld), (void*)L_17);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:159>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___FixedUpdateHeld = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___FixedUpdateHeld), (void*)L_18);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:160>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)64));
+		__this->___SlowUpdateHeld = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SlowUpdateHeld), (void*)L_19);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 68629
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timing__cctor_m19967C7771A6CDE3FA14EDBC3E257572DAA3B676 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:169>
+		TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30* L_0 = (TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30*)(TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30*)SZArrayNew(TimingU5BU5D_tA03DCB036733FC45D1FD95DC402A809D6B7D9D30_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ActiveInstances), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68630
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_Equals_m141C9CEED4733E3B64CD81B0F864C8C1DF4E6B4B (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2881>
+		int32_t L_0 = __this->___seg;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_1 = ___0_other;
+		int32_t L_2 = L_1.___seg;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_2))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_3 = __this->___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_other;
+		int32_t L_5 = L_4.___i;
+		return (bool)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0);
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool ProcessIndex_Equals_m141C9CEED4733E3B64CD81B0F864C8C1DF4E6B4B_AdjustorThunk (RuntimeObject* __this, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_other, const RuntimeMethod* method)
+{
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = ProcessIndex_Equals_m141C9CEED4733E3B64CD81B0F864C8C1DF4E6B4B(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 68631
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_Equals_m585DA2113F8B4BEFD5E734F859544F856C236031 (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2886>
+		RuntimeObject* L_0 = ___0_other;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2887>
+		RuntimeObject* L_1 = ___0_other;
+		bool L_2;
+		L_2 = ProcessIndex_Equals_m141C9CEED4733E3B64CD81B0F864C8C1DF4E6B4B(__this, ((*(ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5*)UnBox(L_1, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5_il2cpp_TypeInfo_var))), NULL);
+		return L_2;
+	}
+
+IL_0015:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2888>
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool ProcessIndex_Equals_m585DA2113F8B4BEFD5E734F859544F856C236031_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_other, const RuntimeMethod* method)
+{
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = ProcessIndex_Equals_m585DA2113F8B4BEFD5E734F859544F856C236031(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 68632
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_op_Equality_m43BE508E6B670945422A5E82E9973131ED611C35 (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_a, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2893>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_a;
+		int32_t L_1 = L_0.___seg;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_2 = ___1_b;
+		int32_t L_3 = L_2.___seg;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_3))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_a;
+		int32_t L_5 = L_4.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = ___1_b;
+		int32_t L_7 = L_6.___i;
+		return (bool)((((int32_t)L_5) == ((int32_t)L_7))? 1 : 0);
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68633
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProcessIndex_op_Inequality_m944081F6A54EB2DB728597611BA5F9FF0A356AAE (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___0_a, ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2898>
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_0 = ___0_a;
+		int32_t L_1 = L_0.___seg;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_2 = ___1_b;
+		int32_t L_3 = L_2.___seg;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_3))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_4 = ___0_a;
+		int32_t L_5 = L_4.___i;
+		ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5 L_6 = ___1_b;
+		int32_t L_7 = L_6.___i;
+		return (bool)((((int32_t)((((int32_t)L_5) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0020:
+	{
+		return (bool)1;
+	}
+}
+// Method Definition Index: 68634
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProcessIndex_GetHashCode_mE50E4FC97E4EA920810C8B7CB561F85CDA261C41 (ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2903>
+		int32_t L_0 = __this->___seg;
+		int32_t L_1 = __this->___i;
+		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract((int32_t)L_0, 2)), ((int32_t)715827882))), L_1));
+	}
+}
+IL2CPP_EXTERN_C  int32_t ProcessIndex_GetHashCode_mE50E4FC97E4EA920810C8B7CB561F85CDA261C41_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ProcessIndex_tCA46AFBFFE9E6C8F75B18F65D2CE9487F40B74E5*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ProcessIndex_GetHashCode_mE50E4FC97E4EA920810C8B7CB561F85CDA261C41(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68635
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_CallContinuouslyU3Ed__164__ctor_mC45A0C625477ECD3B56BE05F97C3A22781CA245D (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68636
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_CallContinuouslyU3Ed__164_System_IDisposable_Dispose_m9BD17787824D3F32B6C73473D034D289C1FAAE33 (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68637
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_CallContinuouslyU3Ed__164_MoveNext_m7654A6BDA5868B04891AA05DF5603E656E9DF508 (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2721>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___localTime;
+		__this->___U3CstartTimeU3E5__2 = L_5;
+		goto IL_0059;
+	}
+
+IL_002c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2724>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_6 = V_1;
+		float L_7 = __this->___period;
+		NullCheck(L_6);
+		float L_8;
+		L_8 = Timing_WaitForSecondsOnInstance_m70DD8D0387FC1B04510FBB49FADD5B9429C2760E(L_6, L_7, NULL);
+		__this->___U3CU3E2__current = L_8;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0047:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2726>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = __this->___action;
+		NullCheck(L_9);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_9, NULL);
+	}
+
+IL_0059:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2722>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_10 = V_1;
+		NullCheck(L_10);
+		float L_11 = L_10->___localTime;
+		float L_12 = __this->___U3CstartTimeU3E5__2;
+		float L_13 = __this->___timeframe;
+		if ((((float)L_11) <= ((float)((float)il2cpp_codegen_add(L_12, L_13)))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2729>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_14 = __this->___onDone;
+		if (!L_14)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2730>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_15 = __this->___onDone;
+		NullCheck(L_15);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_15, NULL);
+	}
+
+IL_0081:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2731>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68638
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_CallContinuouslyU3Ed__164_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_m6302A769B2D1B53D85F8B851AC82E54C06E72BF3 (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68639
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_CallContinuouslyU3Ed__164_System_Collections_IEnumerator_Reset_m0FA521AD5490D5B34DE080598128FBA5CF4052E9 (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_CallContinuouslyU3Ed__164_System_Collections_IEnumerator_Reset_m0FA521AD5490D5B34DE080598128FBA5CF4052E9_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68640
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_CallContinuouslyU3Ed__164_System_Collections_IEnumerator_get_Current_m4560C3356C39C441FCDBA1BE159324C951E0C610 (U3C_CallContinuouslyU3Ed__164_t63797E257858B23024732A347B1F8741F5860651* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68647
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_DelayedCallU3Ed__155__ctor_m227138A605520464FC1BE9A70497513F31D0AD3B (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68648
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_DelayedCallU3Ed__155_System_IDisposable_Dispose_mE96DDFA97ABB78AB9FA41EA2BF9F88258C1521C2 (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68649
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_DelayedCallU3Ed__155_MoveNext_mA74A1695EC30A4361999751173C0A4969B872FEF (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2609>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_4 = V_1;
+		float L_5 = __this->___delay;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Timing_WaitForSecondsOnInstance_m70DD8D0387FC1B04510FBB49FADD5B9429C2760E(L_4, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0039:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2611>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___cancelWith;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_8)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___cancelWith;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0066;
+		}
+	}
+
+IL_005b:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2612>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = __this->___action;
+		NullCheck(L_11);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_11, NULL);
+	}
+
+IL_0066:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2613>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68650
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_DelayedCallU3Ed__155_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_mD813420941B88E45E2166981C1B83C6B46B535FC (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68651
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_DelayedCallU3Ed__155_System_Collections_IEnumerator_Reset_m243D5D316B0D03119FF16FAA2257D4BB19806D60 (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_DelayedCallU3Ed__155_System_Collections_IEnumerator_Reset_m243D5D316B0D03119FF16FAA2257D4BB19806D60_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68652
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_DelayedCallU3Ed__155_System_Collections_IEnumerator_get_Current_mC3380FE66CE6D91A141E44E719EAC3873B227027 (U3C_DelayedCallU3Ed__155_tF57C79C9E6D5E32512F1A92A865DCD2D347AA54D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68653
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_InjectDelayU3Ed__127__ctor_m25161687C92109699009E6E9FF90311CCFE108DF (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68654
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_InjectDelayU3Ed__127_System_IDisposable_Dispose_m9F5432B375368D63B0F6FD31DD51E37269AE2B6B (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68655
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_InjectDelayU3Ed__127_MoveNext_m40D5E059CD95407D66920B44E5FBCA5B6A965876 (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0044;
+			}
+			case 2:
+			{
+				goto IL_007b;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2174>
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = V_1;
+		float L_4 = __this->___delayTime;
+		NullCheck(L_3);
+		float L_5;
+		L_5 = Timing_WaitForSecondsOnInstance_m70DD8D0387FC1B04510FBB49FADD5B9429C2760E(L_3, L_4, NULL);
+		__this->___U3CU3E2__current = L_5;
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0044:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2176>
+		RuntimeObject* L_6 = __this->___proc;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef), (void*)L_6);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2177>
+		Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_7 = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)il2cpp_codegen_object_new(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C(L_7, NULL, (intptr_t)((void*)Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var), NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)L_7);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2178>
+		__this->___U3CU3E2__current = (std::numeric_limits<float>::quiet_NaN());
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_007b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2179>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68656
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_InjectDelayU3Ed__127_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_m2FD9835DD95C1A76F0C89E9BC7FDE9DE33C0C68C (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68657
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_InjectDelayU3Ed__127_System_Collections_IEnumerator_Reset_m86C9303AB1697D1BB51A20B75F42655C7CF17970 (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_InjectDelayU3Ed__127_System_Collections_IEnumerator_Reset_m86C9303AB1697D1BB51A20B75F42655C7CF17970_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68658
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_InjectDelayU3Ed__127_System_Collections_IEnumerator_get_Current_mFDEBE4213850E2292DA13E528FB8434641EEE1D0 (U3C_InjectDelayU3Ed__127_t8F1216035428B610483797B8860E2D4FC3526C42* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68659
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135__ctor_mF908CB64F42DEB231DEC66C3CFF9678DF3E81AC1 (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68660
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135_System_IDisposable_Dispose_m8405F5061F3C4CF6464E5FA5F46D274CDDA66B6D (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)-3))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract(L_2, 1))) <= ((uint32_t)1))))
+		{
+			goto IL_001c;
+		}
+	}
+
+IL_0012:
+	{
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0015:
+			{
+				U3C_StartWhenDoneU3Ed__135_U3CU3Em__Finally1_m1ECE8FE0B4D0416C632D4859C348B7B93561FF8B(__this, NULL);
+				return;
+			}
+		});
+		try
+		{
+			goto IL_001c;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 68661
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_StartWhenDoneU3Ed__135_MoveNext_m1DBBD4655E626914045C6DC4A263080EAE6E1A6F (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* V_2 = NULL;
+	{
+		auto __finallyBlock = il2cpp::utils::Fault([&]
+		{
+
+FAULT_00c4:
+			{
+				U3C_StartWhenDoneU3Ed__135_System_IDisposable_Dispose_m8405F5061F3C4CF6464E5FA5F46D274CDDA66B6D(__this, NULL);
+				return;
+			}
+		});
+		try
+		{
+			{
+				int32_t L_0 = __this->___U3CU3E1__state;
+				V_1 = L_0;
+				Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_1 = __this->___U3CU3E4__this;
+				V_2 = L_1;
+				int32_t L_2 = V_1;
+				switch (L_2)
+				{
+					case 0:
+					{
+						goto IL_0027_1;
+					}
+					case 1:
+					{
+						goto IL_007f_1;
+					}
+					case 2:
+					{
+						goto IL_00a5_1;
+					}
+				}
+			}
+			{
+				V_0 = (bool)0;
+				goto IL_00cb;
+			}
+
+IL_0027_1:
+			{
+				__this->___U3CU3E1__state = (-1);
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2316>
+				Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_3 = V_2;
+				NullCheck(L_3);
+				Dictionary_2_tBAD2B388404493DA5BD34A87965FA347E30B8AFC* L_4 = L_3->____waitingTriggers;
+				CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_5 = __this->___handle;
+				NullCheck(L_4);
+				bool L_6;
+				L_6 = Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936(L_4, L_5, Dictionary_2_ContainsKey_m8CDAFDF63CD8E82FE70CC83A98FDA2F0290C6936_RuntimeMethod_var);
+				if (L_6)
+				{
+					goto IL_0048_1;
+				}
+			}
+			{
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2316>
+				V_0 = (bool)0;
+				goto IL_00cb;
+			}
+
+IL_0048_1:
+			{
+				__this->___U3CU3E1__state = ((int32_t)-3);
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2320>
+				RuntimeObject* L_7 = __this->___proc;
+				NullCheck(L_7);
+				float L_8;
+				L_8 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_7);
+				Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_9 = V_2;
+				NullCheck(L_9);
+				float L_10 = L_9->___localTime;
+				if ((!(((float)L_8) > ((float)L_10))))
+				{
+					goto IL_00ad_1;
+				}
+			}
+			{
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2321>
+				RuntimeObject* L_11 = __this->___proc;
+				NullCheck(L_11);
+				float L_12;
+				L_12 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_11);
+				__this->___U3CU3E2__current = L_12;
+				__this->___U3CU3E1__state = 1;
+				V_0 = (bool)1;
+				goto IL_00cb;
+			}
+
+IL_007f_1:
+			{
+				__this->___U3CU3E1__state = ((int32_t)-3);
+				goto IL_00ad_1;
+			}
+
+IL_0089_1:
+			{
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2324>
+				RuntimeObject* L_13 = __this->___proc;
+				NullCheck(L_13);
+				float L_14;
+				L_14 = InterfaceFuncInvoker0< float >::Invoke(0, IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010_il2cpp_TypeInfo_var, L_13);
+				__this->___U3CU3E2__current = L_14;
+				__this->___U3CU3E1__state = 2;
+				V_0 = (bool)1;
+				goto IL_00cb;
+			}
+
+IL_00a5_1:
+			{
+				__this->___U3CU3E1__state = ((int32_t)-3);
+			}
+
+IL_00ad_1:
+			{
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2323>
+				RuntimeObject* L_15 = __this->___proc;
+				NullCheck(L_15);
+				bool L_16;
+				L_16 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_15);
+				if (L_16)
+				{
+					goto IL_0089_1;
+				}
+			}
+			{
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2325>
+				U3C_StartWhenDoneU3Ed__135_U3CU3Em__Finally1_m1ECE8FE0B4D0416C632D4859C348B7B93561FF8B(__this, NULL);
+				//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2330>
+				V_0 = (bool)0;
+				goto IL_00cb;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00cb:
+	{
+		bool L_17 = V_0;
+		return L_17;
+	}
+}
+// Method Definition Index: 68662
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135_U3CU3Em__Finally1_m1ECE8FE0B4D0416C632D4859C348B7B93561FF8B (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___U3CU3E1__state = (-1);
+		Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* L_0 = __this->___U3CU3E4__this;
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2328>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = __this->___handle;
+		NullCheck(L_0);
+		Timing_CloseWaitingProcess_mE760A29067F4439C97C7E8DC544F5181F01C98F0(L_0, L_1, NULL);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2329>
+		return;
+	}
+}
+// Method Definition Index: 68663
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_StartWhenDoneU3Ed__135_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_m70123FF3DF483C20FAF174B9832D56BCCD302987 (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68664
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__135_System_Collections_IEnumerator_Reset_m31ADBDFC77B738AB4652019F5BFCB73E8F2CD79E (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_StartWhenDoneU3Ed__135_System_Collections_IEnumerator_Reset_m31ADBDFC77B738AB4652019F5BFCB73E8F2CD79E_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68665
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_StartWhenDoneU3Ed__135_System_Collections_IEnumerator_get_Current_mB0EC02373BAFBE121C7CD0152675413D22C8360E (U3C_StartWhenDoneU3Ed__135_t34FA48814D2AE5BA111B38F3CA9E617D3E0589A6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68666
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__140__ctor_mC563B9DF2D6832623F05023231B6402506CD039E (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68667
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__140_System_IDisposable_Dispose_m6710CC4B4D84BEF2E21B0E51FC8E4062E1FD0E13 (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68668
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_StartWhenDoneU3Ed__140_MoveNext_mBE251EA3B24EB9D5D8D6E58353875C9F3E9C2AD3 (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_001b;
+			}
+			case 1:
+			{
+				goto IL_0038;
+			}
+			case 2:
+			{
+				goto IL_007c;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_003f;
+	}
+
+IL_0024:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2385>
+		__this->___U3CU3E2__current = (-std::numeric_limits<float>::infinity());
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_003f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2384>
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_2 = __this->___operation;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = AsyncOperation_get_isDone_m68A0682777E2132FC033182E9F50303566AA354D(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2387>
+		RuntimeObject* L_4 = __this->___pausedProc;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef), (void*)L_4);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2388>
+		Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_5 = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)il2cpp_codegen_object_new(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C(L_5, NULL, (intptr_t)((void*)Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var), NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)L_5);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2389>
+		__this->___U3CU3E2__current = (std::numeric_limits<float>::quiet_NaN());
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_007c:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2390>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68669
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_StartWhenDoneU3Ed__140_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_mEE8C5D6818815077ABAC4511B6665B952BBADB70 (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68670
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__140_System_Collections_IEnumerator_Reset_m466C714BE52575D326A02E37FFE4DBB00F9C22D0 (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_StartWhenDoneU3Ed__140_System_Collections_IEnumerator_Reset_m466C714BE52575D326A02E37FFE4DBB00F9C22D0_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68671
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_StartWhenDoneU3Ed__140_System_Collections_IEnumerator_get_Current_m78FEA2126898ADADD7371717FD3BA5719C6701F4 (U3C_StartWhenDoneU3Ed__140_t6DBEB94452E81C0B17BA58D473F0156A0510BB27* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68672
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__142__ctor_mD72DE6AA1666DEBA14064607A9F868342DDC1FBF (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68673
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__142_System_IDisposable_Dispose_mBE921F83FC3F82DEF36732086F5CA06A28C55064 (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 68674
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C_StartWhenDoneU3Ed__142_MoveNext_mA91E9F80A4F1DA55FB88F468523D07486E9F9548 (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_001b;
+			}
+			case 1:
+			{
+				goto IL_0038;
+			}
+			case 2:
+			{
+				goto IL_007c;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_003f;
+	}
+
+IL_0024:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2413>
+		__this->___U3CU3E2__current = (-std::numeric_limits<float>::infinity());
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_003f:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2412>
+		CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* L_2 = __this->___operation;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(7, L_2);
+		if (L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2415>
+		RuntimeObject* L_4 = __this->___pausedProc;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->____tmpRef), (void*)L_4);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2416>
+		Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2* L_5 = (Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2*)il2cpp_codegen_object_new(Func_3_t4C153951AAD63A15D3DE6613DC7358C4A43AC5A2_il2cpp_TypeInfo_var);
+		Func_3__ctor_mD8020C3F7FFB668B9D3B37ADC60F77C5D464CC2C(L_5, NULL, (intptr_t)((void*)Timing_ReturnTmpRefForRepFunc_mA4EB7B4FE73CF9EA2A2253FBCBF80A878897E3C8_RuntimeMethod_var), NULL);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___ReplacementFunction), (void*)L_5);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2417>
+		__this->___U3CU3E2__current = (std::numeric_limits<float>::quiet_NaN());
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_007c:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:2418>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68675
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3C_StartWhenDoneU3Ed__142_System_Collections_Generic_IEnumeratorU3CSystem_SingleU3E_get_Current_m4ACB8C57302F3FB332F4B37B064498FC44533344 (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68676
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_StartWhenDoneU3Ed__142_System_Collections_IEnumerator_Reset_mB0A82C8732827D4948F9FE139686C6D3EB990E2E (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C_StartWhenDoneU3Ed__142_System_Collections_IEnumerator_Reset_mB0A82C8732827D4948F9FE139686C6D3EB990E2E_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68677
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C_StartWhenDoneU3Ed__142_System_Collections_IEnumerator_get_Current_m4ED33D611D0BEF290B679D4B9BE0620C2FACD2F8 (U3C_StartWhenDoneU3Ed__142_t39790C4E1252CDE77FD6865A97664B5087110FD4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = __this->___U3CU3E2__current;
+		float L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68678
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3030>
+		int32_t L_0 = __this->____id;
+		return (uint8_t)((int32_t)(uint8_t)((int32_t)(L_0&((int32_t)15))));
+	}
+}
+IL2CPP_EXTERN_C  uint8_t CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	uint8_t _returnValue;
+	_returnValue = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 68679
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, uint8_t ___0_ind, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3034>
+		uint8_t L_0 = ___0_ind;
+		if ((((int32_t)L_0) <= ((int32_t)((int32_t)15))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3035>
+		uint8_t L_1 = ___0_ind;
+		___0_ind = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, ((int32_t)15))));
+	}
+
+IL_000c:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3037>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = ((CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_StaticFields*)il2cpp_codegen_static_fields_for(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var))->___NextIndex;
+		uint8_t L_3 = ___0_ind;
+		NullCheck(L_2);
+		uint8_t L_4 = L_3;
+		int32_t L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		uint8_t L_6 = ___0_ind;
+		__this->____id = ((int32_t)il2cpp_codegen_add(L_5, (int32_t)L_6));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3038>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = ((CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_StaticFields*)il2cpp_codegen_static_fields_for(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var))->___NextIndex;
+		uint8_t L_8 = ___0_ind;
+		NullCheck(L_7);
+		int32_t* L_9 = ((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_8)));
+		int32_t L_10 = *((int32_t*)L_9);
+		*((int32_t*)L_9) = (int32_t)((int32_t)il2cpp_codegen_add(L_10, ((int32_t)16)));
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3039>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6_AdjustorThunk (RuntimeObject* __this, uint8_t ___0_ind, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	CoroutineHandle__ctor_mA824AF145E611709D5E8A21554EF4442DE68CEC6(_thisAdjusted, ___0_ind, method);
+}
+// Method Definition Index: 68680
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_Equals_mF09A721CEF8542A10A1947AC86B4A0C23EFBFED5 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_other, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3043>
+		int32_t L_0 = __this->____id;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1 = ___0_other;
+		int32_t L_2 = L_1.____id;
+		return (bool)((((int32_t)L_0) == ((int32_t)L_2))? 1 : 0);
+	}
+}
+IL2CPP_EXTERN_C  bool CoroutineHandle_Equals_mF09A721CEF8542A10A1947AC86B4A0C23EFBFED5_AdjustorThunk (RuntimeObject* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_other, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CoroutineHandle_Equals_mF09A721CEF8542A10A1947AC86B4A0C23EFBFED5(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 68681
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_Equals_mA0CB662D0F1D1BC6361225001BA00C0645BF84CD (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, RuntimeObject* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3048>
+		RuntimeObject* L_0 = ___0_other;
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3049>
+		RuntimeObject* L_1 = ___0_other;
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = CoroutineHandle_Equals_mF09A721CEF8542A10A1947AC86B4A0C23EFBFED5(__this, ((*(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*)UnBox(L_1, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var))), NULL);
+		return L_2;
+	}
+
+IL_0015:
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3050>
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool CoroutineHandle_Equals_mA0CB662D0F1D1BC6361225001BA00C0645BF84CD_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_other, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CoroutineHandle_Equals_mA0CB662D0F1D1BC6361225001BA00C0645BF84CD(_thisAdjusted, ___0_other, method);
+	return _returnValue;
+}
+// Method Definition Index: 68682
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_op_Equality_m6CF324F83762245FD6CD30092D73C0CA88CE77C4 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_a, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3055>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = ___0_a;
+		int32_t L_1 = L_0.____id;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2 = ___1_b;
+		int32_t L_3 = L_2.____id;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_3))? 1 : 0);
+	}
+}
+// Method Definition Index: 68683
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_op_Inequality_mDB5193CA7D9D28BAF90AD1DE6C3D9E2C63E5DEF3 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_a, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3060>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = ___0_a;
+		int32_t L_1 = L_0.____id;
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2 = ___1_b;
+		int32_t L_3 = L_2.____id;
+		return (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 68684
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CoroutineHandle_GetHashCode_m3CF69A8A4E6352A7541B7D7570CC1926CAEEB51B (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3065>
+		int32_t L_0 = __this->____id;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t CoroutineHandle_GetHashCode_m3CF69A8A4E6352A7541B7D7570CC1926CAEEB51B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = CoroutineHandle_GetHashCode_m3CF69A8A4E6352A7541B7D7570CC1926CAEEB51B_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 68685
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87 (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3073>
+		il2cpp_codegen_runtime_class_init_inline(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		uint8_t L_0;
+		L_0 = CoroutineHandle_get_Key_m3AAB81D24D9D07734DB50901676AA2D4EB6E85D0(__this, NULL);
+		return (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+IL2CPP_EXTERN_C  bool CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CoroutineHandle_get_IsValid_m5737BFFFCC5AED83C7F7694BC5A8394964AC6D87(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 68686
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineHandle__cctor_m26DC8D6B2B389AA20F41BCE28EF38D3E7C3B9F67 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3027>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)16));
+		((CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_StaticFields*)il2cpp_codegen_static_fields_for(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var))->___NextIndex = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_StaticFields*)il2cpp_codegen_static_fields_for(CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506_il2cpp_TypeInfo_var))->___NextIndex), (void*)L_1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68687
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 MECExtensionMethods1_RunCoroutine_mA404DC76982B23D3FE9EC4CA3A1A06092C41AE6E (RuntimeObject* ___0_coroutine, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3086>
+		RuntimeObject* L_0 = ___0_coroutine;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_1;
+		L_1 = Timing_RunCoroutine_m0E7144BEBB4CB80F24C3904EEDAEF4A11F5065A5(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 68688
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 MECExtensionMethods1_RunCoroutine_m12A049E492CAF3B7DC0FD77DEE1C19824D53A207 (RuntimeObject* ___0_coroutine, String_t* ___1_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3097>
+		RuntimeObject* L_0 = ___0_coroutine;
+		String_t* L_1 = ___1_tag;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2;
+		L_2 = Timing_RunCoroutine_m734FCEB20B7D0C043022C04DA99913C244811D56(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 68689
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 MECExtensionMethods1_RunCoroutine_m46A328D5CB536C303663BC9A82416ECE98A9BD3C (RuntimeObject* ___0_coroutine, int32_t ___1_segment, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3108>
+		RuntimeObject* L_0 = ___0_coroutine;
+		int32_t L_1 = ___1_segment;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_2;
+		L_2 = Timing_RunCoroutine_mCD83D9CB3ABA98D547C949CBDFA5F0672762223B(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 68690
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 MECExtensionMethods1_RunCoroutine_mC2F3304AE8E2B968C6BC9138F3421383BCC24F7F (RuntimeObject* ___0_coroutine, int32_t ___1_segment, String_t* ___2_tag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3120>
+		RuntimeObject* L_0 = ___0_coroutine;
+		int32_t L_1 = ___1_segment;
+		String_t* L_2 = ___2_tag;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_3;
+		L_3 = Timing_RunCoroutine_m88FE2D92C255562E157DAE9A32E1AB643B75D4B9(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 68506
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* Timing_get_MainThread_m69654C25BED4CF6B7283A8282BD45FB07E2D0E19_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:94>
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = ((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 68509
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Timing_get_currentCoroutine_m08E8E255AC4DC376AD4274323D8515BDB2F0CA17_inline (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:111>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = __this->___U3CcurrentCoroutineU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 68507
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Timing_set_MainThread_mE6659D5F00027161EE9B50992730CA3203778B4C_inline (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:94>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var);
+		((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_StaticFields*)il2cpp_codegen_static_fields_for(Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E_il2cpp_TypeInfo_var))->___U3CMainThreadU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 12693
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 68510
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Timing_set_currentCoroutine_m2D8050721DBD565697807F75FE5C12451145EA40_inline (Timing_t0DD075F3BA9244F4658CF51250C0AEC79585114E* __this, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:111>
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = ___0_value;
+		__this->___U3CcurrentCoroutineU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 14011
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		float L_0 = ___0_f;
+		int32_t L_1;
+		L_1 = BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline(L_0, NULL);
+		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
+	}
+}
+// Method Definition Index: 68684
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CoroutineHandle_GetHashCode_m3CF69A8A4E6352A7541B7D7570CC1926CAEEB51B_inline (CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/Unity/Projects/New game1/Assets/Plugins/Digital Dust/MEC/Timing.cs:3065>
+		int32_t L_0 = __this->____id;
+		return L_0;
+	}
+}
+// Method Definition Index: 69428
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 Enumerator_get_Current_m0424926539F61D6DC8235B5A219EFC27729F90C1_gshared_inline (Enumerator_t7F41DC5EBAC27EE9B9BEF9B0B4596E901C2CC5EF* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 12711
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m38A40004F61A62B7D0CB17E487955A8070048A3F_gshared_inline (Func_3_t12FAD3F375A451FD0814F123B9C4BDC95BF9937E* __this, RuntimeObject* ___0_arg1, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 ___1_arg2, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 20971
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E Enumerator_get_Current_mF622ECB1073AF44689FA16820CFB8293BD0AD71F_gshared_inline (Enumerator_t1429A99506A8321BC75D9CDDC2BC31C5F6DDFC4B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 21048
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_m9B00ED4D6995D80B15B6E2764514270FCFFD8080_gshared_inline (KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___value;
+		return L_0;
+	}
+}
+// Method Definition Index: 69404
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m9D2F90DAA7E5DCF017864028B41C2E7702B4B4CD_gshared_inline (HashSet_1_t96BC3EFF6E210D1BE8A0A76AD49040205C7AB99F* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____count;
+		return L_0;
+	}
+}
+// Method Definition Index: 21047
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 KeyValuePair_2_get_Key_mBBBC921B6493D73C5FA7BA10480627B00DB1C88B_gshared_inline (KeyValuePair_2_tF8DF6BBC581FFF7154BA2EE068917BE7B265CC9E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		CoroutineHandle_tAE8AE05961C5C2CA453C7C94AA04C3448FACC506 L_0 = __this->___key;
+		return L_0;
+	}
+}
+// Method Definition Index: 12789
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = *((int32_t*)((uintptr_t)(&___0_value)));
+		return L_0;
+	}
+}

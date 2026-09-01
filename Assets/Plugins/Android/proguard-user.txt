@@ -1,0 +1,13 @@
+# WorkManager / AndroidX Startup workaround for R8
+
+-keep class androidx.work.** { *; }
+-keep class androidx.startup.** { *; }
+
+# WorkManager database / Room
+-keep class androidx.room.** { *; }
+
+# Keep WorkManager initializer
+-keep class androidx.work.WorkManagerInitializer { *; }
+
+# Keep generated WorkManager database implementation
+-keep class androidx.work.impl.WorkDatabase_Impl { *; }
