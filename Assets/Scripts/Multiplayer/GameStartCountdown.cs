@@ -1,12 +1,15 @@
+using System;
+using DG.Tweening;
 using FishNet.Object;
 using TMPro;
+using Timers;
 using UnityEngine;
-using DG.Tweening;
 
 public class GameStartCountdown : NetworkBehaviour
 {
+    [Header("Countdown")]
     [SerializeField] private TMP_Text countdownText;
-    [SerializeField] private float countdownTime = 5f;
+    [SerializeField] private int countdownTime = 5;
 
     [Header("DOTween")]
     [SerializeField] private float fadeInDuration = 0.2f;
@@ -14,58 +17,121 @@ public class GameStartCountdown : NetworkBehaviour
     [SerializeField] private float scaleIn = 1.4f;
     [SerializeField] private float scaleOut = 0.7f;
 
-    private float timer;
-    private int lastSecond = -1;
+    private GameInstructionManager gameInstructionManager;
+
+    private int countdown;
     private bool countingDown;
+
+    [Inject]
+    public void Construct(GameInstructionManager gameInstructionManager)
+    {
+        this.gameInstructionManager = gameInstructionManager;
+    }
+
+    // =========================================================
+    // SERVER
+    // =========================================================
 
     public override void OnStartServer()
     {
         base.OnStartServer();
-        timer = countdownTime;
-       
+
+        countdown = 0;
+        countingDown = false;
+
+        gameInstructionManager.OnTimerFinished += StartCountdownServer;
     }
 
-    [ContextMenu("StartCountdown")]
+    private void OnDisable()
+    {
+        if (gameInstructionManager != null)
+            gameInstructionManager.OnTimerFinished -= StartCountdownServer;
+    }
+
+    [ContextMenu("Start Countdown")]
+    public void StartCountdownServer()
+    {
+        StartCountdown();
+    }
+
+    [Server]
     public void StartCountdown()
     {
-        countdownText.gameObject.SetActive(true);
-        timer = countdownTime;
-        countingDown = true;
-    }
-
-    private void Update()
-    {
-        if (!IsServerInitialized || !countingDown)
+        if (countingDown)
             return;
 
-        timer -= Time.deltaTime;
+        countingDown = true;
+        countdown = countdownTime;
 
-        int seconds =
-            Mathf.CeilToInt(timer);
+        Debug.Log(
+            $"[GameStartCountdown] Started: {countdown}s"
+        );
 
-        if (seconds != lastSecond)
+        // Tell clients to display the countdown.
+        StartCountdownRpc();
+
+        // Tick every second.
+        TimersManager.SetTimer(
+            this,
+            1f,
+            (uint)countdownTime,
+            CountdownTick
+        );
+    }
+
+    [Server]
+    private void CountdownTick()
+    {
+        countdown--;
+
+        Debug.Log(
+            $"[GameStartCountdown] Server countdown: {countdown}"
+        );
+
+        if (countdown > 0)
         {
-            lastSecond = seconds;
-
-            ShowCountdownRpc(seconds);
+            ShowCountdownRpc(countdown);
+            return;
         }
 
-        if (timer <= 0f)
-        {
-            countingDown = false;
+        // Countdown finished.
+        countdown = 0;
+        countingDown = false;
 
-            ShowGoRpc();
+        ShowGoRpc();
 
-            // Start your Bomb Tag game here.
-            // StartGame();
-        }
+        StartGame();
+    }
+
+    // =========================================================
+    // SERVER → CLIENT
+    // =========================================================
+
+    [ObserversRpc]
+    private void StartCountdownRpc()
+    {
+        if (countdownText == null)
+            return;
+
+        countdownText.gameObject.SetActive(true);
+
+        countdownText.DOKill();
+
+        countdownText.alpha = 0f;
+        countdownText.transform.localScale = Vector3.one;
+
+        countdownText.text = countdownTime.ToString();
+
+        PlayNumberEffect();
     }
 
     [ObserversRpc]
     private void ShowCountdownRpc(int seconds)
     {
-        if (seconds <= 0)
+        if (countdownText == null)
             return;
+
+        countdownText.gameObject.SetActive(true);
 
         countdownText.text = seconds.ToString();
 
@@ -75,36 +141,52 @@ public class GameStartCountdown : NetworkBehaviour
     [ObserversRpc]
     private void ShowGoRpc()
     {
+        if (countdownText == null)
+            return;
+
+        countdownText.gameObject.SetActive(true);
+
         countdownText.text = "GO!";
 
         PlayGoEffect();
     }
+
+    // =========================================================
+    // DOTWEEN
+    // =========================================================
 
     private void PlayNumberEffect()
     {
         countdownText.DOKill();
 
         countdownText.alpha = 0f;
+
         countdownText.transform.localScale =
             Vector3.one * scaleIn;
 
         Sequence sequence = DOTween.Sequence();
 
         sequence.Append(
-            countdownText
-                .DOFade(1f, fadeInDuration)
+            countdownText.DOFade(
+                1f,
+                fadeInDuration
+            )
         );
 
         sequence.AppendInterval(0.5f);
 
         sequence.Append(
-            countdownText
-                .DOFade(0f, fadeOutDuration)
+            countdownText.DOFade(
+                0f,
+                fadeOutDuration
+            )
         );
 
         sequence.Join(
-            countdownText.transform
-                .DOScale(scaleOut, fadeOutDuration)
+            countdownText.transform.DOScale(
+                scaleOut,
+                fadeOutDuration
+            )
         );
     }
 
@@ -113,39 +195,68 @@ public class GameStartCountdown : NetworkBehaviour
         countdownText.DOKill();
 
         countdownText.alpha = 0f;
+
         countdownText.transform.localScale =
             Vector3.one * 0.5f;
 
         Sequence sequence = DOTween.Sequence();
 
         sequence.Append(
-            countdownText
-                .DOFade(1f, 0.2f)
+            countdownText.DOFade(
+                1f,
+                0.2f
+            )
         );
 
         sequence.Join(
             countdownText.transform
-                .DOScale(1.3f, 0.35f)
+                .DOScale(
+                    1.3f,
+                    0.35f
+                )
                 .SetEase(Ease.OutBack)
         );
 
         sequence.AppendInterval(0.5f);
 
         sequence.Append(
-            countdownText
-                .DOFade(0f, 0.3f)
+            countdownText.DOFade(
+                0f,
+                0.3f
+            )
         );
 
         sequence.OnComplete(() =>
         {
-            countingDown = false;
-            countdownText.gameObject.SetActive(false);
+            if (countdownText != null)
+                countdownText.gameObject.SetActive(false);
         });
     }
+
+    // =========================================================
+    // GAME START
+    // =========================================================
+
+    [Server]
+    private void StartGame()
+    {
+        Debug.Log(
+            "[GameStartCountdown] Countdown finished. Starting game."
+        );
+
+        // BombTagGameManager.StartGame();
+    }
+
+    // =========================================================
+    // CLEANUP
+    // =========================================================
 
     private void OnDestroy()
     {
         if (countdownText != null)
             countdownText.DOKill();
+
+        if (gameInstructionManager != null)
+            gameInstructionManager.OnTimerFinished -= StartCountdownServer;
     }
 }

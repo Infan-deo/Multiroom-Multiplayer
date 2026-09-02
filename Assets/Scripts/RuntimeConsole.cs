@@ -1,31 +1,29 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class RuntimeConsole : MonoBehaviour
 {
-    [Header("Console")]
-    [SerializeField] private GameObject consolePanel;
-    [SerializeField] private TMP_Text consoleText;
-
     [Header("Input")]
     [SerializeField] private InputActionReference consoleAction;
     [SerializeField] private InputActionReference clearConsoleAction;
+
+    private string consoleText = "";
+    private bool consoleVisible;
 
     private void OnEnable()
     {
         Application.logMessageReceived += HandleLog;
 
-        if (consoleAction != null)
-            consoleAction.action.Enable();
+        consoleAction?.action.Enable();
+        clearConsoleAction?.action.Enable();
     }
 
     private void OnDisable()
     {
         Application.logMessageReceived -= HandleLog;
 
-        if (consoleAction != null)
-            consoleAction.action.Disable();
+        consoleAction?.action.Disable();
+        clearConsoleAction?.action.Disable();
     }
 
     private void Update()
@@ -33,16 +31,13 @@ public class RuntimeConsole : MonoBehaviour
         if (consoleAction != null &&
             consoleAction.action.WasPressedThisFrame())
         {
-            bool newState = !consolePanel.activeSelf;
-
-            consolePanel.SetActive(newState);
-
-            Debug.Log($"Console: {newState}");
+            consoleVisible = !consoleVisible;
         }
+
         if (clearConsoleAction != null &&
             clearConsoleAction.action.WasPressedThisFrame())
         {
-            consoleText.text = "Chat Cleared";
+            consoleText = "Console Cleared\n";
         }
     }
 
@@ -51,10 +46,49 @@ public class RuntimeConsole : MonoBehaviour
         string stackTrace,
         LogType type)
     {
-        if (consoleText == null)
+        consoleText += $"[{type}] {logString}\n";
+    }
+
+    private void OnGUI()
+    {
+        if (!consoleVisible)
             return;
 
-        consoleText.text += $"[{type}] {logString}\n";
-        consoleText.text += $"Press P to close, C to Clear\n";
+        GUI.Box(
+            new Rect(
+                10,
+                10,
+                Screen.width - 20,
+                Screen.height - 20
+            ),
+            "Runtime Console"
+        );
+
+        GUIStyle style = new GUIStyle(GUI.skin.label)
+        {
+            wordWrap = true,
+            fontSize = 14
+        };
+
+        GUI.Label(
+            new Rect(
+                20,
+                45,
+                Screen.width - 40,
+                Screen.height - 80
+            ),
+            consoleText,
+            style
+        );
+
+        GUI.Label(
+            new Rect(
+                20,
+                Screen.height - 30,
+                Screen.width - 40,
+                20
+            ),
+            "Press P to close, C to Clear"
+        );
     }
 }

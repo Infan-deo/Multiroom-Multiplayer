@@ -1,6 +1,7 @@
 using FishNet;
 using FishNet.Connection;
 using FishNet.Object;
+using FishNet.Object.Synchronizing;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -37,6 +38,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
     
     public WorldSpawnerServer worldSpawnerServer;
     
+    public SyncList<PlayerController> roomPlayers;
     
 
     /// <summary>
@@ -117,6 +119,12 @@ public class RoomPlayerSpawner : NetworkBehaviour
 
         NetworkObject player =
             Instantiate(playerPrefab);
+        
+        if (player.TryGetComponent(out PlayerController playerController))
+        {
+            roomPlayers.Add(playerController);
+        }
+        
 
         Transform spawnPoint =
             GetSpawnPoint(playerIndex);

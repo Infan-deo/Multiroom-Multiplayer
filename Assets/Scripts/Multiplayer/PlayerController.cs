@@ -1,28 +1,29 @@
 using FishNet.Object;
+using FishNet.Object.Synchronizing;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(PlayerInputHandler))]
 public class PlayerController : NetworkBehaviour
 {
-    [Header("Movement")]
-    [SerializeField] private float moveSpeed = 5f;
+    [Header("Movement")] [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float gravity = -20f;
     [SerializeField] private float jumpHeight = 2f;
 
-    [Header("Look")]
-    [SerializeField] private Transform cameraTransform;
+    [Header("Look")] [SerializeField] private Transform cameraTransform;
     [SerializeField] private float lookSensitivity = 2f;
     [SerializeField] private float minPitch = -80f;
     [SerializeField] private float maxPitch = 80f;
+    public bool canRotateCamera;
+    public SyncVar<bool> canMove = new();
     
-    [Header("Interact")]
-    [SerializeField] private float interactDistance = 5f;
+
+    [Header("Interact")] [SerializeField] private float interactDistance = 5f;
 
     private CharacterController controller;
     private PlayerInputHandler inputHandler;
 
-    
+
     private Vector2 serverMoveInput;
     private bool serverJumpRequested;
     private Vector3 velocity;
@@ -30,6 +31,8 @@ public class PlayerController : NetworkBehaviour
     // Local camera pitch.
     private float cameraPitch;
     private float yaw;
+
+    public EventBinding<PauseMenuState> OnPauseMenuEventBinding;
 
     private void Awake()
     {
@@ -46,16 +49,27 @@ public class PlayerController : NetworkBehaviour
             cameraTransform.gameObject.SetActive(false);
             return;
         }
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
         cameraTransform.gameObject.SetActive(true);
     }
+
     public override void OnStartServer()
     {
         base.OnStartServer();
 
         yaw = transform.eulerAngles.y;
+        canMove.Value = true;
+
+        OnPauseMenuEventBinding = new EventBinding<PauseMenuState>(OnPauseMenu);
+        EventBus<PauseMenuState>.Register(OnPauseMenuEventBinding);
+    }
+
+    public void OnPauseMenu(PauseMenuState pauseMenuState)
+    {
+        canRotateCamera = !pauseMenuState.state;
     }
 
     private void Update()
@@ -72,9 +86,7 @@ public class PlayerController : NetworkBehaviour
             HandleJump();
         }
     }
-    
 
-   
 
     private void HandleJump()
     {
@@ -87,24 +99,30 @@ public class PlayerController : NetworkBehaviour
 
     private void HandleInput()
     {
-        Vector2 moveInput = inputHandler.MoveInput;
-        Vector2 lookInput = inputHandler.GetLookValue();
+        if (canMove.Value)
+        {
+            Vector2 moveInput = inputHandler.MoveInput;
+            Vector2 lookInput = inputHandler.GetLookValue();
 
-        // Send movement input to server.
-        SendMovementServerRpc(moveInput);
+            // Send movement input to server.
+            SendMovementServerRpc(moveInput);
 
-        // Send only horizontal mouse movement to server.
-        SendLookServerRpc(lookInput.x);
+            // Send only horizontal mouse movement to server.
+            SendLookServerRpc(lookInput.x);
+        }
     }
 
     private void HandleLocalCamera()
     {
-        Vector2 lookInput = inputHandler.GetLookValue();
+        if (canRotateCamera)
+        {
+            Vector2 lookInput = inputHandler.GetLookValue();
 
-        cameraPitch -= lookInput.y * lookSensitivity;
-        cameraPitch = Mathf.Clamp(cameraPitch, minPitch, maxPitch);
+            cameraPitch -= lookInput.y * lookSensitivity;
+            cameraPitch = Mathf.Clamp(cameraPitch, minPitch, maxPitch);
 
-        cameraTransform.localRotation = Quaternion.Euler(cameraPitch, 0f, 0f);
+            cameraTransform.localRotation = Quaternion.Euler(cameraPitch, 0f, 0f);
+        }
     }
 
     [ServerRpc]
@@ -177,7 +195,6 @@ public class PlayerController : NetworkBehaviour
         }
 
         velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        
     }
 
     public override void OnStopClient()
