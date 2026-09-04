@@ -15,15 +15,15 @@ public class PlayerController : NetworkBehaviour
     [SerializeField] private float minPitch = -80f;
     [SerializeField] private float maxPitch = 80f;
     public bool canRotateCamera;
-    public SyncVar<bool> canMove = new();
-    
+    private bool canMove;
+
 
     [Header("Interact")] [SerializeField] private float interactDistance = 5f;
 
     private CharacterController controller;
     private PlayerInputHandler inputHandler;
 
-
+    public GetPlayerInfo itsOwnInfo;
     private Vector2 serverMoveInput;
     private bool serverJumpRequested;
     private Vector3 velocity;
@@ -54,6 +54,9 @@ public class PlayerController : NetworkBehaviour
         Cursor.visible = false;
 
         cameraTransform.gameObject.SetActive(true);
+        
+        OnPauseMenuEventBinding = new EventBinding<PauseMenuState>(OnPauseMenu);
+        EventBus<PauseMenuState>.Register(OnPauseMenuEventBinding);
     }
 
     public override void OnStartServer()
@@ -61,12 +64,11 @@ public class PlayerController : NetworkBehaviour
         base.OnStartServer();
 
         yaw = transform.eulerAngles.y;
-        canMove.Value = true;
+        canMove = true;
 
-        OnPauseMenuEventBinding = new EventBinding<PauseMenuState>(OnPauseMenu);
-        EventBus<PauseMenuState>.Register(OnPauseMenuEventBinding);
+       
     }
-
+    [Client]
     public void OnPauseMenu(PauseMenuState pauseMenuState)
     {
         canRotateCamera = !pauseMenuState.state;
@@ -99,7 +101,7 @@ public class PlayerController : NetworkBehaviour
 
     private void HandleInput()
     {
-        if (canMove.Value)
+        if (canMove)
         {
             Vector2 moveInput = inputHandler.MoveInput;
             Vector2 lookInput = inputHandler.GetLookValue();
@@ -206,5 +208,10 @@ public class PlayerController : NetworkBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+    }
+    
+    public void SetCanMove(bool state)
+    {
+        canMove = state;
     }
 }

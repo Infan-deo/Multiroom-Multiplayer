@@ -65,7 +65,7 @@ public class RoomSelectionManager : MonoBehaviour
         {
             roomName = "Room1",
             sceneName = roomName,
-            maxPlayers = 2,
+            maxPlayers = 3,
             Roomvisibility = RoomVisibility.Public
         };
 

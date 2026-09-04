@@ -9,6 +9,7 @@ public struct RoomInfo : IEvent
 {
     public int roomId;
     public Scene gameScene;
+
     public RoomInfo(int roomId, Scene scene)
     {
         this.roomId = roomId;
@@ -16,30 +17,34 @@ public struct RoomInfo : IEvent
     }
 }
 
+public struct clientIdEventbus : IEvent
+{
+    public int clientId;
+
+    public clientIdEventbus(int clientId)
+    {
+        this.clientId = clientId;
+    }
+}
+
 public class RoomPlayerSpawner : NetworkBehaviour
 {
-    [Header("Player")]
-    [SerializeField]
-    private NetworkObject playerPrefab;
+    [Header("Player")] [SerializeField] private NetworkObject playerPrefab;
 
-    [Header("Spawns")]
-    [SerializeField]
-    private Transform[] spawns;
+    [Header("Spawns")] [SerializeField] private Transform[] spawns;
 
-    [Header("Room")]
-    [SerializeField]
-    private int roomId;
-    
+    [Header("Room")] [SerializeField] private int roomId;
+
     private Scene gameScene;
 
     private bool initialized;
 
     public int RoomId => roomId;
-    
+
     public WorldSpawnerServer worldSpawnerServer;
-    
-    public SyncList<PlayerController> roomPlayers;
-    
+
+    public AllRoomPlayerManager allRoomPlayerManager;
+
 
     /// <summary>
     /// Called by MultiRoomNetworkManager after this stacked
@@ -98,7 +103,11 @@ public class RoomPlayerSpawner : NetworkBehaviour
 
             SpawnPlayer(connection, i);
         }
+
+        allRoomPlayerManager?.NotifyAllPlayersSpawned();
+        // allRoomPlayerManager?.OnAllPlayerSpawned?.Invoke();
     }
+
     [Server]
     private void SpawnPlayer(
         NetworkConnection connection,
@@ -117,33 +126,28 @@ public class RoomPlayerSpawner : NetworkBehaviour
             return;
         }
 
-        NetworkObject player =
-            Instantiate(playerPrefab);
-        
+        NetworkObject player = Instantiate(playerPrefab);
+
         if (player.TryGetComponent(out PlayerController playerController))
         {
-            roomPlayers.Add(playerController);
+            allRoomPlayerManager.RoomPlayerspPlayerControllers.Add(playerController);
+            allRoomPlayerManager.roomPlayersinfo.Add(connection.ClientId, playerController.itsOwnInfo);
         }
-        
 
-        Transform spawnPoint =
-            GetSpawnPoint(playerIndex);
-
+        Transform spawnPoint = GetSpawnPoint(playerIndex);
         if (spawnPoint != null)
         {
-            player.transform.SetPositionAndRotation(
-                spawnPoint.position,
-                spawnPoint.rotation
-            );
+            player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
         }
 
-        // IMPORTANT:
-        // Spawn this player into THIS room's GameScene instance.
-        InstanceFinder.ServerManager.Spawn(
-            player.gameObject,
-            connection,
-            gameScene
-        );
+        InstanceFinder.ServerManager.Spawn(player.gameObject, connection, gameScene);
+
+        // Now the object (and its nested GetPlayerInfo) is networked — safe to RPC
+        if (playerController != null)
+        {
+            playerController.itsOwnInfo.SetClientInfo(connection.ClientId);
+        }
+
 
         Debug.Log(
             $"[RoomPlayerSpawner] Room {roomId} -> " +
@@ -151,6 +155,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
             $"scene {gameScene.name}."
         );
     }
+
 
     private Transform GetSpawnPoint(int index)
     {

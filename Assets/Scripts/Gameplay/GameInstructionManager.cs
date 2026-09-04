@@ -8,17 +8,14 @@ using UnityEngine;
 
 public class GameInstructionManager : NetworkBehaviour
 {
-    [Header("GameInfo")]
-    public GameObject InstructionPanel;
+    [Header("GameInfo")] public GameObject InstructionPanel;
     public TextMeshProUGUI GameNameText;
     public TextMeshProUGUI GameInstructionText;
 
-    [Header("Countdown")]
-    [SerializeField] private TMP_Text countdownText;
+    [Header("Countdown")] [SerializeField] private TMP_Text countdownText;
     [SerializeField] private int countdownTime = 10;
 
-    [Header("DOTween")]
-    [SerializeField] private float fadeInDuration = 0.2f;
+    [Header("DOTween")] [SerializeField] private float fadeInDuration = 0.2f;
     [SerializeField] private float fadeOutDuration = 0.2f;
     [SerializeField] private float scaleIn = 1.4f;
     [SerializeField] private float scaleOut = 0.7f;
@@ -30,8 +27,14 @@ public class GameInstructionManager : NetworkBehaviour
     public override void OnStartServer()
     {
         base.OnStartServer();
-        OpenInstructionPanel();
         StartTimer();
+    }
+
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
+        countdownText.text = countdownTime.ToString();
+        OpenInstructionPanel();
     }
 
     [ObserversRpc]

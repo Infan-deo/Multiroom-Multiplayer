@@ -17,13 +17,12 @@ public class InteractionSystem : NetworkBehaviour
 
     private void Awake()
     {
-        Debug.Log($"[Interaction] Awake: {gameObject.name}");
+       
 
         playerController = GetComponent<PlayerController>();
         inputHandler = GetComponent<PlayerInputHandler>();
 
-        Debug.Log($"[Interaction] PlayerController: {playerController}");
-        Debug.Log($"[Interaction] InputHandler: {inputHandler}");
+        
     }
 
     private void Update()
@@ -35,7 +34,6 @@ public class InteractionSystem : NetworkBehaviour
 
         if (currentInteractable != null)
         {
-           
 
             if (inputHandler.GetInteractInput())
             {
@@ -70,53 +68,27 @@ public class InteractionSystem : NetworkBehaviour
             Color.red
         );
 
-        // Debug.Log(
-        //     $"[Interaction] Raycast from: {ray.origin}, " +
-        //     $"Direction: {ray.direction}, " +
-        //     $"Distance: {interactionDistance}"
-        // );
+       
 
         if (!Physics.Raycast(
                 ray,
                 out RaycastHit hit,
                 interactionDistance))
         {
-            // Debug.Log("[Interaction] Raycast hit NOTHING.");
             return;
         }
 
-        // Debug.Log(
-        //     $"[Interaction] Raycast HIT: " +
-        //     $"{hit.collider.gameObject.name}"
-        // );
-
-        // Debug.Log(
-        //     $"[Interaction] Collider: {hit.collider.name}"
-        // );
-        //
-        // Debug.Log(
-        //     $"[Interaction] Layer: " +
-        //     $"{LayerMask.LayerToName(hit.collider.gameObject.layer)}"
-        // );
+       
 
         if (InteractionRegistry.TryGet(
                 hit.collider,
                 out IInteractable interactable))
         {
-            // Debug.Log(
-            //     $"[Interaction] Registry FOUND interactable: " +
-            //     $"{interactable}"
-            // );
+          
 
             currentInteractable = interactable;
         }
-        else
-        {
-            // Debug.Log(
-            //     "[Interaction] Registry did NOT find an interactable " +
-            //     "for this collider."
-            // );
-        }
+        
     }
 
     private void TryInteract()

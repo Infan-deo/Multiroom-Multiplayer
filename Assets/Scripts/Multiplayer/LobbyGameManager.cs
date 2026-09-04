@@ -34,7 +34,7 @@ namespace Multiplayer
    
 
         // One networked dictionary is shared by the scene, so roomId is part of every player entry.
-        private readonly SyncDictionary<int, LobbyPlayer> players = new();
+        public readonly SyncDictionary<int, LobbyPlayer> players = new();
 
         [Header("Lobby Player UI")]
         public Transform playerLobbyInfoContainer;
@@ -55,6 +55,8 @@ namespace Multiplayer
         [Header("Lobby Controls")]
         public Button ReadyButton;
         public Button LeaveLobbyButton;
+
+        public SO_PlayerInfo soPlayerInfo;
 
         private readonly Dictionary<int, PlayerLobbyUI> playerUIByClientId = new();
         private int localRoomId = -1;
@@ -114,7 +116,8 @@ namespace Multiplayer
                 MainMenu_Multiplayer.Instance.ShowLobbyPanel();
 
             // Get the saved player name.
-            string playerName = PlayerPrefs.GetString("PlayerName", "Player");
+            // string playerName = PlayerPrefs.GetString("PlayerName", "Player");
+            string playerName = soPlayerInfo.playerName;
 
             // Register this client on the server.
             RegisterPlayerServerRpc(playerName);
@@ -139,7 +142,7 @@ namespace Multiplayer
             if (MainMenu_Multiplayer.Instance != null)
                 MainMenu_Multiplayer.Instance.ShowLobbyPanel();
 
-            string playerName = PlayerPrefs.GetString("PlayerName", "Player");
+            string playerName = soPlayerInfo.playerName;
 
             RegisterPlayerServerRpc(playerName);
 
@@ -384,7 +387,8 @@ namespace Multiplayer
 
             foreach (KeyValuePair<int, LobbyPlayer> pair in players)
             {
-                LobbyPlayer player = pair.Value;
+                LobbyPlayer 
+                    player = pair.Value;
 
                 if (player.roomId != localRoomId)
                     continue;

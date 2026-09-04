@@ -16,17 +16,13 @@ public class GameStartCountdown : NetworkBehaviour
     [SerializeField] private float fadeOutDuration = 0.2f;
     [SerializeField] private float scaleIn = 1.4f;
     [SerializeField] private float scaleOut = 0.7f;
-
-    private GameInstructionManager gameInstructionManager;
+    
+    public Action OnCountdownFinished;
 
     private int countdown;
     private bool countingDown;
 
-    [Inject]
-    public void Construct(GameInstructionManager gameInstructionManager)
-    {
-        this.gameInstructionManager = gameInstructionManager;
-    }
+  
 
     // =========================================================
     // SERVER
@@ -39,14 +35,10 @@ public class GameStartCountdown : NetworkBehaviour
         countdown = 0;
         countingDown = false;
 
-        gameInstructionManager.OnTimerFinished += StartCountdownServer;
+       
     }
 
-    private void OnDisable()
-    {
-        if (gameInstructionManager != null)
-            gameInstructionManager.OnTimerFinished -= StartCountdownServer;
-    }
+    
 
     [ContextMenu("Start Countdown")]
     public void StartCountdownServer()
@@ -97,7 +89,7 @@ public class GameStartCountdown : NetworkBehaviour
         // Countdown finished.
         countdown = 0;
         countingDown = false;
-
+        
         ShowGoRpc();
 
         StartGame();
@@ -243,8 +235,9 @@ public class GameStartCountdown : NetworkBehaviour
         Debug.Log(
             "[GameStartCountdown] Countdown finished. Starting game."
         );
-
-        // BombTagGameManager.StartGame();
+        
+        OnCountdownFinished?.Invoke();
+       
     }
 
     // =========================================================
@@ -256,7 +249,5 @@ public class GameStartCountdown : NetworkBehaviour
         if (countdownText != null)
             countdownText.DOKill();
 
-        if (gameInstructionManager != null)
-            gameInstructionManager.OnTimerFinished -= StartCountdownServer;
     }
 }
