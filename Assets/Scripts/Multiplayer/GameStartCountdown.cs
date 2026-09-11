@@ -76,9 +76,7 @@ public class GameStartCountdown : NetworkBehaviour
     {
         countdown--;
 
-        Debug.Log(
-            $"[GameStartCountdown] Server countdown: {countdown}"
-        );
+       
 
         if (countdown > 0)
         {

@@ -7,12 +7,15 @@ using Multiplayer;
 public class AllRoomPlayerManager : NetworkBehaviour
 {
     public readonly SyncList<PlayerController> RoomPlayerspPlayerControllers = new();
+    public readonly SyncList<PlayerControllerClientPrediction> RoomPlayerspPlayerControllersP = new();
     public readonly SyncDictionary<int, GetPlayerInfo> roomPlayersinfo = new();
     public readonly SyncDictionary<NetworkObject,string> roomPlayersName = new();
 
     public readonly SyncVar<bool> canAllPlayersMove = new();
 
     public Action OnAllPlayerSpawned;
+    
+    public Transform disabledSpotTransform;
 
     [Server]
     public void SetAllPlayersMove(bool value)
@@ -90,6 +93,65 @@ public class AllRoomPlayerManager : NetworkBehaviour
         foreach (var player in RoomPlayerspPlayerControllers)
         {
             player.SetCanMove(next);
+            player.SetCanRotateCamera(next);
         }
+        foreach (var player in RoomPlayerspPlayerControllersP)
+        {
+            player.SetCanMove(next);
+            player.SetCanRotateCamera(next);
+        }
+    }
+    
+    [ObserversRpc]
+    public void DisablePlayer(NetworkObject networkObject)
+    {
+        if (networkObject.TryGetComponent(out PlayerController playerController))
+            DisablePlayerLocal(playerController);
+        else
+            Debug.Log($"{nameof(PlayerController)} is null");
+    }
+
+    [ObserversRpc]
+    public void DisablePlayer(PlayerController playerController)
+    {
+        DisablePlayerLocal(playerController);
+    }
+
+    private void DisablePlayerLocal(PlayerController playerController)
+    {
+        playerController.SetCanMove(false);
+        playerController.SetCanRotateCamera(false);
+
+        if (playerController.TryGetComponent(out InteractionSystem interactionSystem))
+            interactionSystem.SetCanInteract(false);
+
+        // playerController.itsOwnInfo.gameObject.GetComponent<MeshRenderer>().enabled = false;
+        playerController.itsOwnInfo.GetCollider().enabled = false;
+        playerController.transform.position = disabledSpotTransform.position;
+        playerController.transform.rotation = disabledSpotTransform.rotation;
+    }
+    public void EnablePlayer(NetworkObject networkObject)
+    {
+        if (networkObject.TryGetComponent(out PlayerController playerController))
+        {
+            EnablePlayer(playerController);
+        }
+        else
+        {
+            Debug.Log($"{nameof(PlayerController)} is null");
+        }
+    }
+
+    public void EnablePlayer(PlayerController playerController)
+    {
+        playerController.SetCanMove(true);
+        playerController.SetCanRotateCamera(true);
+        if (playerController.TryGetComponent(out InteractionSystem interactionSystem))
+        {
+            interactionSystem.SetCanInteract(true);
+        }
+        // playerController.itsOwnInfo.gameObject.GetComponent<MeshRenderer>().enabled = true;
+        playerController.itsOwnInfo.GetCollider().enabled = true;
+        
     }
 }

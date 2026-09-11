@@ -1,3 +1,4 @@
+using System.Collections;
 using FishNet;
 using FishNet.Connection;
 using FishNet.Object;
@@ -44,6 +45,8 @@ public class RoomPlayerSpawner : NetworkBehaviour
     public WorldSpawnerServer worldSpawnerServer;
 
     public AllRoomPlayerManager allRoomPlayerManager;
+    
+    public SpectateSystem  spectateSystem;
 
 
     /// <summary>
@@ -51,7 +54,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
     /// GameScene instance has been created for a room.
     /// </summary>
     [Server]
-    public void Initialize(int id, Scene scene)
+    public IEnumerator Initialize(int id, Scene scene)
     {
         roomId = id;
         gameScene = scene;
@@ -63,6 +66,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
         );
         EventBus<RoomInfo>.Raise(new RoomInfo(id, gameScene));
         worldSpawnerServer.SpawnWorldLocal(gameScene);
+        yield return new WaitForSeconds(2.0f);
         SpawnRoomPlayers();
     }
 
@@ -133,6 +137,11 @@ public class RoomPlayerSpawner : NetworkBehaviour
             allRoomPlayerManager.RoomPlayerspPlayerControllers.Add(playerController);
             allRoomPlayerManager.roomPlayersinfo.Add(connection.ClientId, playerController.itsOwnInfo);
         }
+        if (player.TryGetComponent(out PlayerControllerClientPrediction playerControllerP))
+        {
+            allRoomPlayerManager.RoomPlayerspPlayerControllersP.Add(playerControllerP);
+            allRoomPlayerManager.roomPlayersinfo.Add(connection.ClientId, playerControllerP.itsOwnInfo);
+        }
 
         Transform spawnPoint = GetSpawnPoint(playerIndex);
         if (spawnPoint != null)
@@ -145,7 +154,8 @@ public class RoomPlayerSpawner : NetworkBehaviour
         // Now the object (and its nested GetPlayerInfo) is networked — safe to RPC
         if (playerController != null)
         {
-            playerController.itsOwnInfo.SetClientInfo(connection.ClientId);
+            // playerController.itsOwnInfo.SetClientInfo(connection.ClientId);
+            // spectateSystem.SetLocalPlayerCamera(playerController.itsOwnInfo.playerCamera);
         }
 
 

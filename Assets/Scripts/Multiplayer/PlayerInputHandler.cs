@@ -8,7 +8,7 @@ public class PlayerInputHandler : MonoBehaviour
     [SerializeField] private InputActionReference lookAction;
     [SerializeField] private InputActionReference jump;
     [SerializeField] private InputActionReference interact;
-
+ 
     private void Start()
     {
         if (interact != null)

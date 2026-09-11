@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using MEC;
 using UnityEngine;
 
 public class ManageBoom : MonoBehaviour
@@ -17,6 +19,14 @@ public class ManageBoom : MonoBehaviour
 
     public void OnSetBoom(bool state)
     {
+        
+        Debug.Log("Sd4");
         boomGameObject.SetActive(state);
+    }
+    
+    public IEnumerator<float> _ExplodeBoom()
+    {
+        boomGameObject.SetActive(false);
+        yield return Timing.WaitForSeconds(2.0f);
     }
 }

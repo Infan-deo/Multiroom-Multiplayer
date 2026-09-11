@@ -7,6 +7,7 @@ using FishNet.Object.Synchronizing;
 using Timers;
 using TMPro;
 using UnityEngine;
+using MEC;
 
 
 public class BoomTagSystem : NetworkBehaviour
@@ -14,6 +15,7 @@ public class BoomTagSystem : NetworkBehaviour
     private GameInstructionManager instructionManager;
     private GameStartCountdown gameStartCountdown;
     private AllRoomPlayerManager allRoomPlayerManager;
+    private SpectateSystem spectateSystem;
     public TextMeshProUGUI boomTimerText;
     public TextMeshProUGUI ShowPlayerEliminatedText;
     public int boomTiggerCountdown;
@@ -33,11 +35,12 @@ public class BoomTagSystem : NetworkBehaviour
 
     [Inject]
     public void Construct(GameInstructionManager instructionManager, AllRoomPlayerManager allRoomPlayerManager,
-        GameStartCountdown gameStartCountdown)
+        GameStartCountdown gameStartCountdown,SpectateSystem spectateSystem)
     {
         this.instructionManager = instructionManager;
         this.allRoomPlayerManager = allRoomPlayerManager;
         this.gameStartCountdown = gameStartCountdown;
+        this.spectateSystem = spectateSystem;
     }
 
     public override void OnStartServer()
@@ -69,8 +72,10 @@ public class BoomTagSystem : NetworkBehaviour
     [Server]
     private void PlayerInteractInfo_OnPlayerInteractWithAnother(object sender, GetPlayerInfo.NetworkObjEventArgs e)
     {
+        Debug.Log("Sd");
         if (TryTransferBomb(e.from, e.to))
         {
+            Debug.Log("Sd1");
             TransferBomb(e.from, e.to);
         }
     }
@@ -206,15 +211,7 @@ public class BoomTagSystem : NetworkBehaviour
         NetworkObject from,
         NetworkObject to)
     {
-        if (!playerHasBomb.ContainsKey(from))
-            return;
-
-        if (!playerHasBomb.ContainsKey(to))
-            return;
-
-        if (!playerHasBomb[from])
-            return;
-
+        Debug.Log("Sd2");
         playerHasBomb[from] = false;
         playerHasBomb[to] = true;
         EnableBombInNetworkObject(from, to);
@@ -223,10 +220,23 @@ public class BoomTagSystem : NetworkBehaviour
     [ObserversRpc]
     public void EnableBombInNetworkObject(NetworkObject from, NetworkObject to)
     {
+        Debug.Log("Sd5");
         ManageBoom manageBoomFrom =
             from.GetComponent<ManageBoom>();
         ManageBoom manageBoomTo =
             to.GetComponent<ManageBoom>();
+        if (manageBoomFrom == null)
+        {
+            Debug.Log("Sd5 null");
+            
+            return;
+        }
+        if (manageBoomTo == null)
+        {
+            Debug.Log("Sd5 null ");
+            
+            return;
+        }
         manageBoomFrom.BoomEnabled = false;
         manageBoomTo.BoomEnabled = true;
     }
@@ -253,9 +263,9 @@ public class BoomTagSystem : NetworkBehaviour
     {
         bombcountdown.Value--;
 
-        Debug.Log(
-            $"Server Countdown: {bombcountdown.Value}"
-        );
+        // Debug.Log(
+        //     $"Server Countdown: {bombcountdown.Value}"
+        // );
 
         ShowCountdownRpc(bombcountdown.Value);
 
@@ -378,12 +388,22 @@ public class BoomTagSystem : NetworkBehaviour
             if (player.Value)
             {
                 //Transfer Player to spectate
+                ExplodeBoom(player.Key);
+                allRoomPlayerManager.DisablePlayer(player.Key);
+                spectateSystem.ServerBeginSpectating(player.Key.Owner);
                 UpdatePlayerEliminatedText(allRoomPlayerManager.GetPlayerName(player.Key) + " Eliminated!!");
                 playerHasBomb.Remove(player.Key);
                 RestartGameUntilSinglePlayerExits();
                 return;
             }
         }
+    }
+
+    [ObserversRpc]
+    public void ExplodeBoom(NetworkObject playerNetworkObject)
+    {
+        ManageBoom manageBoom = playerNetworkObject.GetComponent<ManageBoom>();
+        Timing.RunCoroutine(manageBoom._ExplodeBoom());
     }
 
     [ObserversRpc]

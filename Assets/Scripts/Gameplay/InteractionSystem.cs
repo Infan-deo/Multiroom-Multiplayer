@@ -1,7 +1,7 @@
 using FishNet.Object;
 using UnityEngine;
 
-[RequireComponent(typeof(PlayerController))]
+
 [RequireComponent(typeof(PlayerInputHandler))]
 public class InteractionSystem : NetworkBehaviour
 {
@@ -10,24 +10,32 @@ public class InteractionSystem : NetworkBehaviour
     [SerializeField] private float interactionDistance = 3f;
     // [SerializeField] private LayerMask interactionLayer;
 
-    private PlayerController playerController;
+    [SerializeField]private NetworkObject _playerNetworkObject;
     private PlayerInputHandler inputHandler;
 
     private IInteractable currentInteractable;
 
+    private bool _canInteract;
+
     private void Awake()
     {
-       
 
-        playerController = GetComponent<PlayerController>();
+
+        if (!TryGetComponent(out _playerNetworkObject))
+        {
+            Debug.Log(_playerNetworkObject is null);
+        }
         inputHandler = GetComponent<PlayerInputHandler>();
+        _canInteract = true;
 
-        
+
     }
 
     private void Update()
     {
         if (!IsOwner)
+            return;
+        if (!_canInteract)
             return;
 
         DetectInteractable();
@@ -157,7 +165,12 @@ public class InteractionSystem : NetworkBehaviour
 
         Debug.Log("[SERVER] Interaction requested.");
 
-        interactable.Interact(playerController);
+        interactable.Interact(_playerNetworkObject);
+    }
+    
+    public void SetCanInteract(bool state)
+    {
+        _canInteract = state;
     }
     
     // [ObserversRpc]

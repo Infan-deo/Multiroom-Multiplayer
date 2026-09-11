@@ -542,10 +542,10 @@ public class MultiRoomNetworkManager : MonoBehaviour
                 continue;
             }
 
-            spawner.Initialize(
+            StartCoroutine(spawner.Initialize(
                 roomId,
                 scene
-            );
+            ));
 
             Debug.Log(
                 $"[Server] GameSceneSpawner initialized " +

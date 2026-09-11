@@ -65,10 +65,6 @@ public class GameInstructionManager : NetworkBehaviour
     {
         countdown.Value--;
 
-        Debug.Log(
-            $"Server Countdown: {countdown.Value}"
-        );
-
         ShowCountdownRpc(countdown.Value);
 
         if (countdown.Value <= 0)

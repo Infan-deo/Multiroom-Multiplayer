@@ -9,12 +9,15 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
 {
     public SO_PlayerInfo PlayerInfo;
     public bool canInteract = true;
-    public NetworkObject bodyNetworkObject;
     public NetworkObject thisplayerNetworkObject;
-    public static Action<PlayerController> OnInteract;
-    private int _playerclientId;
+    // public static Action<PlayerController> OnInteract;
+    public Camera playerCamera;
+   
     public string PlayerName;
     public TextMeshProUGUI PlayerNameText;
+    
+    public readonly SyncVar<int> ClientId = new();
+    public readonly SyncVar<string> SyncedPlayerName = new();
     public event EventHandler<NetworkObjEventArgs> OnPlayerInteractWithAnother;
 
     public class NetworkObjEventArgs : EventArgs
@@ -30,6 +33,11 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
     }
 
     [SerializeField] private Collider interactionCollider;
+
+    public Collider GetCollider()
+    {
+        return interactionCollider;
+    }
 
     private void Awake()
     {
@@ -56,8 +64,7 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
         return canInteract;
     }
 
-    public readonly SyncVar<int> ClientId = new();
-    public readonly SyncVar<string> SyncedPlayerName = new();
+   
 
     public override void OnStartClient()
     {
@@ -90,14 +97,14 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
     public void SetClientInfo(int clientId)
     {
         Debug.Log("[Interaction] SetClientInfo" + clientId);
-        _playerclientId = clientId;
+        
     }
 
-    public void Interact(PlayerController player)
+    public void Interact(NetworkObject player)
     {
-        // Debug.Log("GetPlayerInfoName: " + PlayerInfo.playerName);
-        OnInteract?.Invoke(player);
+        Debug.Log("GetPlayerInfoName: " + PlayerInfo.playerName);
+        // OnInteract?.Invoke(player);
         OnPlayerInteractWithAnother?.Invoke(this,
-            new NetworkObjEventArgs(player.NetworkObject, thisplayerNetworkObject));
+            new NetworkObjEventArgs(player, thisplayerNetworkObject));
     }
 }

@@ -214,4 +214,11 @@ public class PlayerController : NetworkBehaviour
     {
         canMove = state;
     }
+
+    public void SetCanRotateCamera(bool state)
+    {
+        canRotateCamera = state;
+    }
+
+   
 }
