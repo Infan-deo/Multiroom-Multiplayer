@@ -1,7 +1,8 @@
 using System;
+using FishNet.Object;
 using UnityEngine;
 
-public class MainMenu_Multiplayer : MonoBehaviour
+public class MainMenu_Multiplayer : NetworkBehaviour
 {
     public GameObject RoomPanel;
     public GameObject LobbyPanel,mainCamera;
@@ -13,6 +14,15 @@ public class MainMenu_Multiplayer : MonoBehaviour
     {
         Instance = this;
     }
+
+    // public override void OnStartServer()
+    // {
+    //     base.OnStartServer();
+    //     if (IsServerInitialized)
+    //     {
+    //         mainCamera.SetActive(false);
+    //     }
+    // }
 
     public void ShowRoomPanel()
     {

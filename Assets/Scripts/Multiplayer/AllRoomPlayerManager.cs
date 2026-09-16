@@ -7,7 +7,7 @@ using Multiplayer;
 public class AllRoomPlayerManager : NetworkBehaviour
 {
     public readonly SyncList<PlayerController> RoomPlayerspPlayerControllers = new();
-    public readonly SyncList<PlayerControllerClientPrediction> RoomPlayerspPlayerControllersP = new();
+   
     public readonly SyncDictionary<int, GetPlayerInfo> roomPlayersinfo = new();
     public readonly SyncDictionary<NetworkObject,string> roomPlayersName = new();
 
@@ -22,6 +22,25 @@ public class AllRoomPlayerManager : NetworkBehaviour
     {
         canAllPlayersMove.Value = value;
     }
+    
+    [Server]
+    public void SetPlayerCanMove(PlayerController playerController,bool value)
+    {
+        if (RoomPlayerspPlayerControllers.Contains(playerController))
+        {
+            if (RoomPlayerspPlayerControllers.Contains(playerController))
+            {
+                PlayerController player =
+                    RoomPlayerspPlayerControllers.Find(
+                        p => p == playerController
+                    );
+
+                player.SetCanMove(value);
+            }
+        }
+    }
+    
+    
 
     public bool GetCanAllPlayersMove()
     {
@@ -95,11 +114,7 @@ public class AllRoomPlayerManager : NetworkBehaviour
             player.SetCanMove(next);
             player.SetCanRotateCamera(next);
         }
-        foreach (var player in RoomPlayerspPlayerControllersP)
-        {
-            player.SetCanMove(next);
-            player.SetCanRotateCamera(next);
-        }
+       
     }
     
     [ObserversRpc]
@@ -127,6 +142,8 @@ public class AllRoomPlayerManager : NetworkBehaviour
 
         // playerController.itsOwnInfo.gameObject.GetComponent<MeshRenderer>().enabled = false;
         playerController.itsOwnInfo.GetCollider().enabled = false;
+        playerController.itsOwnInfo.GetMeshRenderer().enabled = false;
+        playerController.GetCharacterController().enabled = false;
         playerController.transform.position = disabledSpotTransform.position;
         playerController.transform.rotation = disabledSpotTransform.rotation;
     }

@@ -15,18 +15,22 @@ public class ManageBoom : MonoBehaviour
     }
 
     private bool boomEnabled;
+    public Animator animator;
     public GameObject boomGameObject;
+
+    public void Start()
+    {
+        boomGameObject.SetActive(false);
+    }
 
     public void OnSetBoom(bool state)
     {
-        
-        Debug.Log("Sd4");
         boomGameObject.SetActive(state);
     }
-    
+
     public IEnumerator<float> _ExplodeBoom()
     {
-        boomGameObject.SetActive(false);
-        yield return Timing.WaitForSeconds(2.0f);
+        animator.SetTrigger("0");
+        yield return Timing.WaitForSeconds(1.0f);
     }
 }

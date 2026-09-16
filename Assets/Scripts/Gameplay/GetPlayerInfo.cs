@@ -10,12 +10,15 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
     public SO_PlayerInfo PlayerInfo;
     public bool canInteract = true;
     public NetworkObject thisplayerNetworkObject;
+
+    [SerializeField] private MeshRenderer meshRenderer;
+
     // public static Action<PlayerController> OnInteract;
     public Camera playerCamera;
-   
+
     public string PlayerName;
     public TextMeshProUGUI PlayerNameText;
-    
+
     public readonly SyncVar<int> ClientId = new();
     public readonly SyncVar<string> SyncedPlayerName = new();
     public event EventHandler<NetworkObjEventArgs> OnPlayerInteractWithAnother;
@@ -64,7 +67,6 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
         return canInteract;
     }
 
-   
 
     public override void OnStartClient()
     {
@@ -97,7 +99,6 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
     public void SetClientInfo(int clientId)
     {
         Debug.Log("[Interaction] SetClientInfo" + clientId);
-        
     }
 
     public void Interact(NetworkObject player)
@@ -106,5 +107,10 @@ public class GetPlayerInfo : NetworkBehaviour, IInteractable
         // OnInteract?.Invoke(player);
         OnPlayerInteractWithAnother?.Invoke(this,
             new NetworkObjEventArgs(player, thisplayerNetworkObject));
+    }
+
+    public MeshRenderer GetMeshRenderer()
+    {
+        return meshRenderer;
     }
 }

@@ -5,12 +5,15 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerInputHandler))]
 public class InteractionSystem : NetworkBehaviour
 {
-    [Header("Interaction")]
-    [SerializeField] private Transform interactionOrigin;
+    [Header("Interaction")] [SerializeField]
+    private Transform interactionOrigin;
+
     [SerializeField] private float interactionDistance = 3f;
+    [SerializeField] private float interactionAngle = 25f;
+    [SerializeField] private int coneRays = 10;
     // [SerializeField] private LayerMask interactionLayer;
 
-    [SerializeField]private NetworkObject _playerNetworkObject;
+    [SerializeField] private NetworkObject _playerNetworkObject;
     private PlayerInputHandler inputHandler;
 
     private IInteractable currentInteractable;
@@ -19,16 +22,13 @@ public class InteractionSystem : NetworkBehaviour
 
     private void Awake()
     {
-
-
         if (!TryGetComponent(out _playerNetworkObject))
         {
             Debug.Log(_playerNetworkObject is null);
         }
+
         inputHandler = GetComponent<PlayerInputHandler>();
         _canInteract = true;
-
-
     }
 
     private void Update()
@@ -38,11 +38,11 @@ public class InteractionSystem : NetworkBehaviour
         if (!_canInteract)
             return;
 
-        DetectInteractable();
+        // DetectInteractable();
+        DetectInteractable1();
 
         if (currentInteractable != null)
         {
-
             if (inputHandler.GetInteractInput())
             {
                 Debug.Log("[Interaction] Interact input detected.");
@@ -76,7 +76,6 @@ public class InteractionSystem : NetworkBehaviour
             Color.red
         );
 
-       
 
         if (!Physics.Raycast(
                 ray,
@@ -86,21 +85,101 @@ public class InteractionSystem : NetworkBehaviour
             return;
         }
 
-       
 
         if (InteractionRegistry.TryGet(
                 hit.collider,
                 out IInteractable interactable))
         {
-          
-
             currentInteractable = interactable;
         }
-        
+    }
+
+
+    private void DetectInteractable1()
+    {
+        currentInteractable = null;
+
+        if (interactionOrigin == null)
+        {
+            Debug.LogError(
+                "[Interaction] Interaction Origin is NULL!"
+            );
+
+            return;
+        }
+
+        Vector3 origin = interactionOrigin.position;
+        Vector3 forward = interactionOrigin.forward;
+
+        IInteractable closestInteractable = null;
+        float closestDistance = float.MaxValue;
+
+        for (int y = 0; y < coneRays; y++)
+        {
+            float vertical = coneRays == 1
+                ? 0f
+                : Mathf.Lerp(
+                    -interactionAngle,
+                    interactionAngle,
+                    (float)y / (coneRays - 1)
+                );
+
+            for (int x = 0; x < coneRays; x++)
+            {
+                float horizontal = coneRays == 1
+                    ? 0f
+                    : Mathf.Lerp(
+                        -interactionAngle,
+                        interactionAngle,
+                        (float)x / (coneRays - 1)
+                    );
+
+                Quaternion rotation =
+                    Quaternion.Euler(
+                        vertical,
+                        horizontal,
+                        0f
+                    );
+
+                Vector3 direction =
+                    rotation * forward;
+
+                Debug.DrawRay(
+                    origin,
+                    direction * interactionDistance,
+                    Color.red
+                );
+
+                if (!Physics.Raycast(
+                        origin,
+                        direction,
+                        out RaycastHit hit,
+                        interactionDistance))
+                {
+                    continue;
+                }
+
+                if (!InteractionRegistry.TryGet(
+                        hit.collider,
+                        out IInteractable interactable))
+                {
+                    continue;
+                }
+
+                if (hit.distance < closestDistance)
+                {
+                    closestDistance = hit.distance;
+                    closestInteractable = interactable;
+                }
+            }
+        }
+
+        currentInteractable = closestInteractable;
     }
 
     private void TryInteract()
     {
+        DetectInteractable1();
         if (currentInteractable == null)
         {
             Debug.Log(
@@ -111,7 +190,6 @@ public class InteractionSystem : NetworkBehaviour
             return;
         }
 
-      
 
         NetworkObject networkObject =
             currentInteractable.NetworkObject;
@@ -167,12 +245,12 @@ public class InteractionSystem : NetworkBehaviour
 
         interactable.Interact(_playerNetworkObject);
     }
-    
+
     public void SetCanInteract(bool state)
     {
         _canInteract = state;
     }
-    
+
     // [ObserversRpc]
     // private void InteractObserversRpc(NetworkObject target)
     // {
@@ -189,6 +267,4 @@ public class InteractionSystem : NetworkBehaviour
     //
     //     
     // }
-
-    
 }

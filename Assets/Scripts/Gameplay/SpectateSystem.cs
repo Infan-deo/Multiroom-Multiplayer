@@ -1,217 +1,144 @@
-using System.Collections.Generic;
-using FishNet.Object;
-using FishNet;
-using FishNet.Connection;
-using FishNet.Object.Synchronizing;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using FishNet.Object;
+using FishNet.Connection;
 
 public class SpectateSystem : NetworkBehaviour
 {
-    public Transform defaultPosition;
+    [Header("Cameras")]
+    [SerializeField] private Camera playerCamera;
+    [SerializeField] private Camera spectateCamera;
 
-    [Header("Spectating Panel")]
-    public GameObject spectatePanel;
-    public TextMeshProUGUI spectateText;
-    public Button NextButton;
-    public Button PreviousButton;
+    [Header("Free Roam")]
+    [SerializeField] private float moveSpeed = 8f;
+    [SerializeField] private float lookSensitivity = 2f;
+    [SerializeField] private float boostSpeed = 15f;
 
-    private AllRoomPlayerManager allRoomPlayerManager;
-
-    private readonly List<GetPlayerInfo> spectatablePlayers = new();
-    private Camera localPlayerCamera;   // the camera to restore when spectating stops
-    private Camera currentSpectateCamera;
-    private int currentIndex = -1;
+    private float pitch;
+    private float yaw;
     private bool isSpectating;
 
-    [Inject]
-    public void Construct(AllRoomPlayerManager allRoomPlayerManager)
+    private void Start()
     {
-        this.allRoomPlayerManager = allRoomPlayerManager;
-    }
-
-    /// <summary>
-    /// Called by the local player's PlayerController/camera setup once it knows
-    /// which camera belongs to the owning client.
-    /// </summary>
-    public void SetLocalPlayerCamera(Camera cam)
-    {
-        localPlayerCamera = cam;
-    }
-
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-
-        allRoomPlayerManager.roomPlayersinfo.OnChange += OnRoomPlayersInfoChanged;
-        RebuildSpectatablePlayers();
-
-        if (NextButton != null) NextButton.onClick.AddListener(SpectateNext);
-        if (PreviousButton != null) PreviousButton.onClick.AddListener(SpectatePrevious);
-
-        if (spectatePanel != null) spectatePanel.SetActive(false);
-    }
-
-    public override void OnStopClient()
-    {
-        base.OnStopClient();
-
-        if (allRoomPlayerManager != null)
-            allRoomPlayerManager.roomPlayersinfo.OnChange -= OnRoomPlayersInfoChanged;
-
-        if (NextButton != null) NextButton.onClick.RemoveListener(SpectateNext);
-        if (PreviousButton != null) PreviousButton.onClick.RemoveListener(SpectatePrevious);
-    }
-
-    private void OnRoomPlayersInfoChanged(SyncDictionaryOperation op, int key, GetPlayerInfo value, bool asServer)
-    {
-        if (asServer) return;
-        RebuildSpectatablePlayers();
-    }
-
-    private void RebuildSpectatablePlayers()
-    {
-        spectatablePlayers.Clear();
-
-        int localClientId = InstanceFinder.ClientManager != null && InstanceFinder.ClientManager.Connection != null
-            ? InstanceFinder.ClientManager.Connection.ClientId
-            : -1;
-
-        foreach (var kvp in allRoomPlayerManager.roomPlayersinfo)
+        if (spectateCamera != null)
         {
-            if (kvp.Value == null) continue;
-            if (kvp.Key == localClientId) continue; // don't spectate yourself
-            spectatablePlayers.Add(kvp.Value);
-        }
+            spectateCamera.enabled = false;
 
-        if (isSpectating && currentSpectateCamera != null)
-        {
-            currentIndex = spectatablePlayers.FindIndex(p => p.playerCamera == currentSpectateCamera);
-            if (currentIndex == -1)
-                StopSpectating(); // our target left/despawned
+            if (spectateCamera.TryGetComponent(out AudioListener listener))
+                listener.enabled = false;
         }
     }
 
-    public void SpectateNext() => CycleSpectateTarget(1);
-    public void SpectatePrevious() => CycleSpectateTarget(-1);
-
-    private void CycleSpectateTarget(int direction)
+    public void SetLocalPlayerCamera(Camera camera)
     {
-        if (spectatablePlayers.Count == 0)
-        {
-            StopSpectating();
-            return;
-        }
-
-        currentIndex = (currentIndex + direction + spectatablePlayers.Count) % spectatablePlayers.Count;
-        GetPlayerInfo target = spectatablePlayers[currentIndex];
-
-        if (target == null || target.playerCamera == null)
-        {
-            RebuildSpectatablePlayers();
-            return;
-        }
-
-        // Swap target.PlayerName for target.SyncedPlayerName.Value if you applied
-        // the SyncVar-based name fix from earlier.
-        SwitchToCamera(target.playerCamera, target.PlayerName);
+        playerCamera = camera;
     }
 
-    private void SwitchToCamera(Camera newCamera, string label = null)
+    private void Update()
     {
         if (!isSpectating)
-        {
-            // First time entering spectate mode: turn off our own view.
-            SetCameraActive(localPlayerCamera, false);
-        }
-        else if (currentSpectateCamera != null)
-        {
-            SetCameraActive(currentSpectateCamera, false);
-        }
+            return;
 
-        currentSpectateCamera = newCamera;
-        isSpectating = true;
-        SetCameraActive(currentSpectateCamera, true);
-
-        if (spectatePanel != null) spectatePanel.SetActive(true);
-        if (spectateText != null) spectateText.text = label ?? string.Empty;
+        HandleLook();
+        HandleMovement();
     }
 
-    public void StopSpectating()
+    private void HandleLook()
     {
-        if (currentSpectateCamera != null)
-            SetCameraActive(currentSpectateCamera, false);
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
 
-        currentSpectateCamera = null;
-        currentIndex = -1;
-        isSpectating = false;
+        yaw += mouseX * lookSensitivity;
+        pitch -= mouseY * lookSensitivity;
 
-        SetCameraActive(localPlayerCamera, true);
+        pitch = Mathf.Clamp(pitch, -89f, 89f);
 
-        if (spectatePanel != null) spectatePanel.SetActive(false);
+        spectateCamera.transform.rotation =
+            Quaternion.Euler(pitch, yaw, 0f);
     }
 
-    private static void SetCameraActive(Camera cam, bool active)
+    private void HandleMovement()
     {
-        if (cam == null) return;
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        cam.enabled = active;
+        Vector3 direction =
+            spectateCamera.transform.right * horizontal +
+            spectateCamera.transform.forward * vertical;
 
-        if (cam.TryGetComponent(out AudioListener listener))
-            listener.enabled = active;
+        if (Input.GetKey(KeyCode.E))
+            direction += Vector3.up;
+
+        if (Input.GetKey(KeyCode.Q))
+            direction += Vector3.down;
+
+        float speed =
+            Input.GetKey(KeyCode.LeftShift)
+                ? boostSpeed
+                : moveSpeed;
+
+        spectateCamera.transform.position +=
+            direction.normalized * speed * Time.deltaTime;
     }
-    /// <summary>
-    /// Call this when the local player should enter spectate mode
-    /// (e.g. on death, after the round ends, etc).
-    /// </summary>
+
     public void StartSpectating()
     {
         if (isSpectating)
             return;
 
-        RebuildSpectatablePlayers();
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        if (spectatablePlayers.Count == 0)
-        {
-            // Nobody to spectate yet — still hide the local view and show
-            // the panel/defaultPosition so the player isn't stuck looking
-            // at their own dead body.
-            SetCameraActive(localPlayerCamera, false);
-            isSpectating = true;
+        isSpectating = true;
 
-            if (spectatePanel != null) spectatePanel.SetActive(true);
-            if (spectateText != null) spectateText.text = "Waiting for players...";
-            return;
+        SetCameraActive(playerCamera, false);
+        SetCameraActive(spectateCamera, true);
+
+        if (spectateCamera != null)
+        {
+            Vector3 angles = spectateCamera.transform.eulerAngles;
+
+            yaw = angles.y;
+            pitch = angles.x;
+
+            if (pitch > 180f)
+                pitch -= 360f;
         }
 
-        currentIndex = -1;
-        CycleSpectateTarget(1); // lands on index 0, handles the localPlayerCamera → first target switch
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
-    
-    // Called by the server (e.g. from PlayerController when this player dies/is eliminated)
-    [Server]
-    public void ServerBeginSpectating(NetworkConnection conn)
+
+    public void StopSpectating()
     {
-        TargetBeginSpectating(conn);
+        if (!isSpectating)
+            return;
+
+        isSpectating = false;
+
+        SetCameraActive(spectateCamera, false);
+        SetCameraActive(playerCamera, true);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    private void SetCameraActive(Camera camera, bool active)
+    {
+        if (camera == null)
+            return;
+
+        camera.enabled = active;
+
+        if (camera.TryGetComponent(out AudioListener listener))
+            listener.enabled = active;
+    }
+
+    [Server]
+    public void ServerBeginSpectating(NetworkConnection connection)
+    {
+        TargetBeginSpectating(connection);
     }
 
     [TargetRpc]
-    private void TargetBeginSpectating(NetworkConnection conn)
+    private void TargetBeginSpectating(NetworkConnection connection)
     {
         StartSpectating();
-    }
-
-    [Server]
-    public void ServerEndSpectating(NetworkConnection conn)
-    {
-        TargetEndSpectating(conn);
-    }
-
-    [TargetRpc]
-    private void TargetEndSpectating(NetworkConnection conn)
-    {
-        StopSpectating();
     }
 }

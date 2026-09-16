@@ -34,6 +34,7 @@ public class RoomSelectionManager : MonoBehaviour
     [Header("Player info")] public TMP_InputField playerNameField;
     public Button save;
     public SO_PlayerInfo playerInfo;
+    public SteamProfile  steamProfile;
 
     private void Start()
     {
@@ -104,7 +105,7 @@ public class RoomSelectionManager : MonoBehaviour
         Debug.Log(_roomVisibility);
     }
 
-    private void SavePlayerName()
+    public  void SavePlayerName()
     {
         string playerName = playerNameField != null
             ? playerNameField.text.Trim()
@@ -118,8 +119,7 @@ public class RoomSelectionManager : MonoBehaviour
         if (playerInfo != null)
             playerInfo.playerName = playerName;
 
-        PlayerPrefs.SetString("PlayerName", playerName);
-        PlayerPrefs.Save();
+        steamProfile.SetPlayerName(playerName);
 
         Debug.Log($"Player name saved: {playerName}");
     }
@@ -175,7 +175,7 @@ public class RoomSelectionManager : MonoBehaviour
             return;
         }
 
-        SavePlayerName();
+        
 
         // Room ID joining intentionally does NOT check visibility.
         // Therefore private rooms can still be joined with the correct code.
@@ -207,7 +207,6 @@ public class RoomSelectionManager : MonoBehaviour
             return;
         }
 
-        SavePlayerName();
 
         var msg = new CreateRoomMessage
         {

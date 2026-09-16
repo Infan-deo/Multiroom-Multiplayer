@@ -331,7 +331,7 @@ namespace singleSceneServer
                     continue;
                 }
 
-                ui.Setup(ui.playerImage, player.playerName, player.isReady);
+                // ui.Setup(ui.playerImage, player.playerName, player.isReady);
                 playerUIByClientId[player.clientId] = ui;
             }
         }

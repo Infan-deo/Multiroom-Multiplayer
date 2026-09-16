@@ -215,6 +215,27 @@ public class BoomTagSystem : NetworkBehaviour
         playerHasBomb[from] = false;
         playerHasBomb[to] = true;
         EnableBombInNetworkObject(from, to);
+        StartCoroutine(CannotTransferForSec(to));
+    }
+
+    public IEnumerator CannotTransferForSec(NetworkObject obj)
+    {
+        canTransferBomb.Value = false;
+
+        PlayerController playerController = null;
+
+        if (obj != null)
+            obj.TryGetComponent(out playerController);
+
+        if (playerController != null)
+            allRoomPlayerManager.SetPlayerCanMove(playerController, false);
+
+        yield return new WaitForSeconds(1f);
+
+        if (playerController != null)
+            allRoomPlayerManager.SetPlayerCanMove(playerController, true);
+
+        canTransferBomb.Value = true;
     }
 
     [ObserversRpc]
@@ -387,16 +408,22 @@ public class BoomTagSystem : NetworkBehaviour
         {
             if (player.Value)
             {
-                //Transfer Player to spectate
-                ExplodeBoom(player.Key);
-                allRoomPlayerManager.DisablePlayer(player.Key);
-                spectateSystem.ServerBeginSpectating(player.Key.Owner);
-                UpdatePlayerEliminatedText(allRoomPlayerManager.GetPlayerName(player.Key) + " Eliminated!!");
-                playerHasBomb.Remove(player.Key);
-                RestartGameUntilSinglePlayerExits();
+                NetworkObject playerNetworkObj = player.Key;
+                StartCoroutine(PlayerEliminatingProcess(playerNetworkObj));
                 return;
             }
         }
+    }
+    [Server]
+    public IEnumerator PlayerEliminatingProcess(NetworkObject player)
+    {
+        ExplodeBoom(player);
+        yield return new WaitForSeconds(1f);
+        allRoomPlayerManager.DisablePlayer(player);
+        spectateSystem.ServerBeginSpectating(player.Owner);
+        UpdatePlayerEliminatedText(allRoomPlayerManager.GetPlayerName(player) + " Eliminated!!");
+        playerHasBomb.Remove(player);
+        RestartGameUntilSinglePlayerExits();
     }
 
     [ObserversRpc]

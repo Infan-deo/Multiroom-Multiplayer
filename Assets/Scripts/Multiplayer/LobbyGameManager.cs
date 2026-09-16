@@ -6,6 +6,7 @@ using FishNet.Object;
 using FishNet.Object.Synchronizing;
 using FishNet.Transporting;
 using Game.PopupSystem;
+using Steamworks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,12 +20,14 @@ namespace Multiplayer
         public int roomId;
         public string playerName;
         public bool isReady;
+        public SteamId steamId;
 
-        public LobbyPlayer(int clientId, int roomId, string playerName)
+        public LobbyPlayer(int clientId, int roomId, string playerName,SteamId steamId)
         {
             this.clientId = clientId;
             this.roomId = roomId;
             this.playerName = playerName;
+            this.steamId = steamId;
             this.isReady = false;
         }
     }
@@ -47,6 +50,8 @@ namespace Multiplayer
         [Header("Room Code Info")]
         public Button ShowButton;
         public Button CopyButton;
+        public GameObject ShowIcon;
+        public GameObject HideIcon;
         public TextMeshProUGUI CodeText;
         public GameObject HideCodeText;
         private bool isCodeShowing;
@@ -63,7 +68,9 @@ namespace Multiplayer
         private readonly HashSet<int> startingRooms = new();
 
         public int LocalRoomId => localRoomId;
-
+        public SteamProfile  steamProfile;
+        
+     
         private void Awake()
         {
             players.OnChange += OnPlayersChanged;
@@ -156,6 +163,8 @@ namespace Multiplayer
         private void ToggleCodeToShow()
         {
             isCodeShowing = !isCodeShowing;
+            ShowIcon.SetActive(!isCodeShowing);
+            HideIcon.SetActive(isCodeShowing);
 
             if (CodeText != null)
                 CodeText.gameObject.SetActive(isCodeShowing);
@@ -222,7 +231,8 @@ namespace Multiplayer
                 new LobbyPlayer(
                     sender.ClientId,
                     room.roomID,
-                    playerName
+                    playerName,
+                    SteamClient.SteamId
                 )
             );
         }
@@ -375,7 +385,7 @@ namespace Multiplayer
             RefreshLobbyUI();
         }
 
-        private void RefreshLobbyUI()
+        private async void RefreshLobbyUI()
         {
             if (playerLobbyInfoContainer == null || playerLobbyPrefab == null || localRoomId <= 0)
                 return;
@@ -393,6 +403,7 @@ namespace Multiplayer
                 if (player.roomId != localRoomId)
                     continue;
 
+                Sprite playericonfromSteamid = await steamProfile.GetPlayerSprite(player.steamId);
                 Transform child = Instantiate(playerLobbyPrefab, playerLobbyInfoContainer);
                 PlayerLobbyUI ui = child.GetComponent<PlayerLobbyUI>();
 
@@ -403,7 +414,7 @@ namespace Multiplayer
                 }
 
                 // Player image is intentionally left as the prefab's current image for now.
-                ui.Setup(ui.playerImage, player.playerName, player.isReady);
+                ui.Setup(playericonfromSteamid, player.playerName, player.isReady);
                 playerUIByClientId[player.clientId] = ui;
             }
         }

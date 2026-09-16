@@ -10,9 +10,9 @@ public class PlayerLobbyUI : MonoBehaviour
     public GameObject readyStatus;
     private bool ready = false;
 
-    public void Setup(Image _playerImage, string _playerName, bool _readyStatus)
+    public void Setup(Sprite _playerImage, string _playerName, bool _readyStatus)
     {
-        playerImage.sprite = _playerImage.sprite;
+        playerImage.sprite = _playerImage;
         playerNameText.text = _playerName;
         unReadyStatus.SetActive(!_readyStatus);
         readyStatus.SetActive(_readyStatus);

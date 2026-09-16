@@ -45,8 +45,8 @@ public class RoomPlayerSpawner : NetworkBehaviour
     public WorldSpawnerServer worldSpawnerServer;
 
     public AllRoomPlayerManager allRoomPlayerManager;
-    
-    public SpectateSystem  spectateSystem;
+
+    public SpectateSystem spectateSystem;
 
 
     /// <summary>
@@ -66,7 +66,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
         );
         EventBus<RoomInfo>.Raise(new RoomInfo(id, gameScene));
         worldSpawnerServer.SpawnWorldLocal(gameScene);
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1.0f);
         SpawnRoomPlayers();
     }
 
@@ -96,7 +96,7 @@ public class RoomPlayerSpawner : NetworkBehaviour
             );
             return;
         }
-
+        int spawnIndex = 0;
         for (int i = 0; i < room.playerConnections.Count; i++)
         {
             NetworkConnection connection =
@@ -104,8 +104,13 @@ public class RoomPlayerSpawner : NetworkBehaviour
 
             if (connection == null)
                 continue;
-
-            SpawnPlayer(connection, i);
+            if (spawnIndex >= spawns.Length)
+            {
+                spawnIndex = 0;
+            }
+            SpawnPlayer(connection, spawnIndex);
+            
+            spawnIndex++;
         }
 
         allRoomPlayerManager?.NotifyAllPlayersSpawned();
@@ -129,6 +134,13 @@ public class RoomPlayerSpawner : NetworkBehaviour
 
             return;
         }
+        Transform spawnPoint = spawns[playerIndex];
+        Debug.Log(
+            $"[SPAWN BEFORE] Client={connection.ClientId} " +
+            $"Index={playerIndex} " +
+            $"Spawn={spawnPoint.name} " +
+            $"Position={spawnPoint.position}"
+        );
 
         NetworkObject player = Instantiate(playerPrefab);
 
@@ -137,33 +149,78 @@ public class RoomPlayerSpawner : NetworkBehaviour
             allRoomPlayerManager.RoomPlayerspPlayerControllers.Add(playerController);
             allRoomPlayerManager.roomPlayersinfo.Add(connection.ClientId, playerController.itsOwnInfo);
         }
-        if (player.TryGetComponent(out PlayerControllerClientPrediction playerControllerP))
-        {
-            allRoomPlayerManager.RoomPlayerspPlayerControllersP.Add(playerControllerP);
-            allRoomPlayerManager.roomPlayersinfo.Add(connection.ClientId, playerControllerP.itsOwnInfo);
-        }
 
-        Transform spawnPoint = GetSpawnPoint(playerIndex);
-        if (spawnPoint != null)
-        {
-            player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
-        }
+      
 
+      
+      
+        Debug.Log("Connection:"+connection+".    "+spawnPoint.name + " spawned.");
+        SetPlayerPosition(player, spawnPoint);
+        // if (spawnPoint != null)
+        // {
+        //     player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+        // }
+        Debug.Log(
+            $"[SPAWN INSTANTIATE] Client={connection.ClientId} " +
+            $"PlayerPosition={player.transform.position}"
+        );
         InstanceFinder.ServerManager.Spawn(player.gameObject, connection, gameScene);
-
+        Debug.Log(
+            $"[SPAWN AFTER NETWORK SPAWN] Client={connection.ClientId} " +
+            $"PlayerPosition={player.transform.position}"
+        );
+        // SetPositionInServer(player, spawnPoint);
+        // SetPositionInClient(player, spawnPoint);
         // Now the object (and its nested GetPlayerInfo) is networked — safe to RPC
         if (playerController != null)
         {
             // playerController.itsOwnInfo.SetClientInfo(connection.ClientId);
-            // spectateSystem.SetLocalPlayerCamera(playerController.itsOwnInfo.playerCamera);
+            spectateSystem.SetLocalPlayerCamera(playerController.itsOwnInfo.playerCamera);
         }
 
 
-        Debug.Log(
-            $"[RoomPlayerSpawner] Room {roomId} -> " +
-            $"Client {connection.ClientId} spawned in " +
-            $"scene {gameScene.name}."
+        // Debug.Log(
+        //     $"[RoomPlayerSpawner] Room {roomId} -> " +
+        //     $"Client {connection.ClientId} spawned in " +
+        //     $"scene {gameScene.name}."
+        // );
+        
+    }
+    
+    private void SetPlayerPosition(
+        NetworkObject player,
+        Transform spawnPoint)
+    {
+        CharacterController controller =
+            player.GetComponent<CharacterController>();
+
+        if (controller != null)
+            controller.enabled = false;
+
+        player.transform.SetPositionAndRotation(
+            spawnPoint.position,
+            spawnPoint.rotation
         );
+
+        if (controller != null)
+            controller.enabled = true;
+    }
+    [ServerRpc]
+    private void SetPositionInServer(NetworkObject player, Transform spawnPoint)
+    {
+        if (spawnPoint != null)
+        {
+            player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+        }
+    }
+
+    [ObserversRpc]
+    private void SetPositionInClient(NetworkObject player, Transform spawnPoint)
+    {
+        if (spawnPoint != null)
+        {
+            player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+        }
     }
 
 

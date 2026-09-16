@@ -1,62 +1,140 @@
+using FishNet.Component.Prediction;
 using FishNet.Object;
-using FishNet.Object.Synchronizing;
+using FishNet.Object.Prediction;
+using FishNet.Transporting;
+using FishNet.Utility.Template;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 [RequireComponent(typeof(PlayerInputHandler))]
-public class PlayerController : NetworkBehaviour
+public class PlayerController : TickNetworkBehaviour
 {
-    [Header("Movement")] [SerializeField] private float moveSpeed = 5f;
+    [Header("Movement")]
+    [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float gravity = -20f;
     [SerializeField] private float jumpHeight = 2f;
 
-    [Header("Look")] [SerializeField] private Transform cameraTransform;
+    [Header("Look")]
+    [SerializeField] private Transform cameraTransform;
     [SerializeField] private float lookSensitivity = 2f;
     [SerializeField] private float minPitch = -80f;
     [SerializeField] private float maxPitch = 80f;
+
     public bool canRotateCamera;
-    private bool canMove;
 
-
-    [Header("Interact")] [SerializeField] private float interactDistance = 5f;
+    [Header("Interact")]
+    [SerializeField] private float interactDistance = 5f;
 
     private CharacterController controller;
     private PlayerInputHandler inputHandler;
 
     public GetPlayerInfo itsOwnInfo;
-    private Vector2 serverMoveInput;
-    private bool serverJumpRequested;
-    private Vector3 velocity;
 
-    // Local camera pitch.
+    private Vector3 velocity;
     private float cameraPitch;
     private float yaw;
+    private bool canMove;
+    private bool jumpRequested;
 
     public EventBinding<PauseMenuState> OnPauseMenuEventBinding;
+
+    public struct ReplicateData : IReplicateData
+    {
+        public Vector2 MoveInput;
+        public float LookX;
+        public bool Jump;
+
+        private uint _tick;
+
+        public ReplicateData(
+            Vector2 moveInput,
+            float lookX,
+            bool jump)
+        {
+            MoveInput = moveInput;
+            LookX = lookX;
+            Jump = jump;
+            _tick = 0;
+        }
+
+        public void Dispose()
+        {
+        }
+
+        public uint GetTick() => _tick;
+
+        public void SetTick(uint value)
+        {
+            _tick = value;
+        }
+    }
+
+    public struct ReconcileData : IReconcileData
+    {
+        public Vector3 Position;
+        public Quaternion Rotation;
+        public Vector3 Velocity;
+
+        private uint _tick;
+
+        public ReconcileData(
+            Vector3 position,
+            Quaternion rotation,
+            Vector3 velocity)
+        {
+            Position = position;
+            Rotation = rotation;
+            Velocity = velocity;
+            _tick = 0;
+        }
+
+        public void Dispose()
+        {
+        }
+
+        public uint GetTick() => _tick;
+
+        public void SetTick(uint value)
+        {
+            _tick = value;
+        }
+    }
 
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
         inputHandler = GetComponent<PlayerInputHandler>();
+
+        SetTickCallbacks(
+            TickCallback.Tick |
+            TickCallback.PostTick
+        );
     }
 
     public override void OnStartClient()
     {
         base.OnStartClient();
-        // Only the owner controls this camera.
+
         if (!IsOwner)
         {
-            cameraTransform.gameObject.SetActive(false);
+            if (cameraTransform != null)
+                cameraTransform.gameObject.SetActive(false);
+
             return;
         }
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        cameraTransform.gameObject.SetActive(true);
-        
-        OnPauseMenuEventBinding = new EventBinding<PauseMenuState>(OnPauseMenu);
-        EventBus<PauseMenuState>.Register(OnPauseMenuEventBinding);
+        if (cameraTransform != null)
+            cameraTransform.gameObject.SetActive(true);
+
+        OnPauseMenuEventBinding =
+            new EventBinding<PauseMenuState>(OnPauseMenu);
+
+        EventBus<PauseMenuState>.Register(
+            OnPauseMenuEventBinding
+        );
     }
 
     public override void OnStartServer()
@@ -65,9 +143,8 @@ public class PlayerController : NetworkBehaviour
 
         yaw = transform.eulerAngles.y;
         canMove = true;
-
-       
     }
+
     [Client]
     public void OnPauseMenu(PauseMenuState pauseMenuState)
     {
@@ -76,138 +153,162 @@ public class PlayerController : NetworkBehaviour
 
     private void Update()
     {
-        if (IsServerStarted)
-        {
-            UpdateServerMovement();
-        }
+        if (!IsOwner)
+            return;
 
-        if (IsOwner)
-        {
-            HandleInput();
-            HandleLocalCamera();
-            HandleJump();
-        }
+        HandleJump();
+        HandleLocalCamera();
     }
-
 
     private void HandleJump()
     {
+        if (!canMove)
+            return;
+
         if (inputHandler.GetJumpInput())
-        {
-            SendJumpServerRpc();
-            print("jump");
-        }
-    }
-
-    private void HandleInput()
-    {
-        if (canMove)
-        {
-            Vector2 moveInput = inputHandler.MoveInput;
-            Vector2 lookInput = inputHandler.GetLookValue();
-
-            // Send movement input to server.
-            SendMovementServerRpc(moveInput);
-
-            // Send only horizontal mouse movement to server.
-            SendLookServerRpc(lookInput.x);
-        }
+            jumpRequested = true;
     }
 
     private void HandleLocalCamera()
     {
-        if (canRotateCamera)
-        {
-            Vector2 lookInput = inputHandler.GetLookValue();
+        if (!canRotateCamera)
+            return;
 
-            cameraPitch -= lookInput.y * lookSensitivity;
-            cameraPitch = Mathf.Clamp(cameraPitch, minPitch, maxPitch);
+        Vector2 lookInput = inputHandler.GetLookValue();
 
-            cameraTransform.localRotation = Quaternion.Euler(cameraPitch, 0f, 0f);
-        }
+        cameraPitch -= lookInput.y * lookSensitivity;
+
+        cameraPitch = Mathf.Clamp(
+            cameraPitch,
+            minPitch,
+            maxPitch
+        );
+        yaw += lookInput.x * lookSensitivity;
+
+        // if (cameraTransform != null)
+        // {
+        //     cameraTransform.localRotation =
+        //         Quaternion.Euler(
+        //             cameraPitch,
+        //             yaw,
+        //             0f
+        //         );
+        // }
     }
 
-    [ServerRpc]
-    private void SendMovementServerRpc(Vector2 input)
+    protected override void TimeManager_OnTick()
     {
-        serverMoveInput = input;
+        PerformReplicate(BuildMoveData());
     }
 
-    [Server]
-    private void UpdateServerMovement()
+    private ReplicateData BuildMoveData()
     {
-        if (serverJumpRequested)
+        if (!IsOwner)
+            return default;
+
+        Vector2 moveInput = Vector2.zero;
+        float lookX = 0f;
+
+        if (canMove)
         {
-            Jump();
-            serverJumpRequested = false;
+            moveInput = inputHandler.MoveInput;
+            lookX = inputHandler.GetLookValue().x;
         }
+
+        bool jump = jumpRequested;
+
+        jumpRequested = false;
+
+        return new ReplicateData(
+            moveInput,
+            lookX,
+            jump
+        );
+    }
+
+    
+    [Replicate]
+    private void PerformReplicate(
+        ReplicateData data,
+        ReplicateState state = ReplicateState.Invalid,
+        Channel channel = Channel.Unreliable)
+    {
+        if (!canMove)
+            return;
+
+        float delta = (float)TimeManager.TickDelta;
+
+        Vector2 input = Vector2.ClampMagnitude(data.MoveInput, 1f);
+
+        yaw += data.LookX * lookSensitivity;
+
+        transform.rotation = Quaternion.Euler(0f, yaw, 0f);
 
         Vector3 movement =
-            transform.right * serverMoveInput.x +
-            transform.forward * serverMoveInput.y;
+            transform.right * input.x +
+            transform.forward * input.y;
 
         movement = Vector3.ClampMagnitude(movement, 1f);
 
-        controller.Move(
-            movement * moveSpeed * Time.deltaTime
-        );
-
         if (controller.isGrounded && velocity.y < 0f)
-        {
             velocity.y = -2f;
-        }
 
-        velocity.y += gravity * Time.deltaTime;
+        if (data.Jump && controller.isGrounded)
+            velocity.y = Mathf.Sqrt(
+                jumpHeight * -2f * gravity
+            );
 
-        controller.Move(
-            velocity * Time.deltaTime
-        );
+        velocity.y += gravity * delta;
+
+        Vector3 finalMovement = movement * moveSpeed;
+        finalMovement.y = velocity.y;
+
+        controller.Move(finalMovement * delta);
+
+       
     }
 
-    [ServerRpc]
-    private void SendLookServerRpc(float mouseX)
+    protected override void TimeManager_OnPostTick()
     {
-        RotatePlayer(mouseX);
-    }
-
-    [Server]
-    private void RotatePlayer(float mouseX)
-    {
-        yaw += mouseX * lookSensitivity;
-
-        transform.rotation = Quaternion.Euler(
-            0f,
-            yaw,
-            0f
-        );
-    }
-
-    [ServerRpc]
-    private void SendJumpServerRpc()
-    {
-        serverJumpRequested = true;
-    }
-
-    [Server]
-    private void Jump()
-    {
-        if (!controller.isGrounded)
-        {
+        if (!canMove)
             return;
-        }
-
-        velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        CreateReconcile();
     }
 
-    public override void OnStopClient()
+    public override void CreateReconcile()
     {
-        base.OnStopClient();
+        ReconcileData data =
+            new ReconcileData(
+                transform.position,
+                transform.rotation,
+                velocity
+            );
 
-        if (IsOwner)
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
+        PerformReconcile(data);
+    }
+
+    [Reconcile]
+    private void PerformReconcile(
+        ReconcileData data,
+        Channel channel = Channel.Unreliable)
+    {
+        if (!canMove)
+            return;
+        velocity = data.Velocity;
+
+        controller.enabled = false;
+
+        transform.position = data.Position;
+        transform.rotation = data.Rotation;
+
+        controller.enabled = true;
+
+        yaw = transform.eulerAngles.y;
+    }
+
+    public CharacterController GetCharacterController()
+    {
+        return controller;
     }
     
     public void SetCanMove(bool state)
@@ -220,5 +321,21 @@ public class PlayerController : NetworkBehaviour
         canRotateCamera = state;
     }
 
-   
+    public override void OnStopClient()
+    {
+        base.OnStopClient();
+
+        if (IsOwner)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            if (OnPauseMenuEventBinding != null)
+            {
+                EventBus<PauseMenuState>.Deregister(
+                    OnPauseMenuEventBinding
+                );
+            }
+        }
+    }
 }
