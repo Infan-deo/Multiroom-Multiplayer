@@ -392,18 +392,46 @@ namespace Multiplayer
             if (playerLobbyInfoContainer == null || playerLobbyPrefab == null || localRoomId <= 0)
                 return;
 
-            foreach (Transform child in playerLobbyInfoContainer)
-                Destroy(child.gameObject);
-
             playerUIByClientId.Clear();
+
+            int uiIndex = 0;
 
             foreach (KeyValuePair<int, LobbyPlayer> pair in players)
             {
-                LobbyPlayer 
-                    player = pair.Value;
+                LobbyPlayer player = pair.Value;
 
                 if (player.roomId != localRoomId)
                     continue;
+
+                PlayerLobbyUI ui;
+
+                if (uiIndex < playerLobbyInfoContainer.childCount)
+                {
+                    Transform child = playerLobbyInfoContainer.GetChild(uiIndex);
+                    child.gameObject.SetActive(true);
+
+                    ui = child.GetComponent<PlayerLobbyUI>();
+                }
+                else
+                {
+                    Transform child = Instantiate(
+                        playerLobbyPrefab,
+                        playerLobbyInfoContainer
+                    );
+
+                    ui = child.GetComponent<PlayerLobbyUI>();
+                }
+
+                if (ui == null)
+                {
+                    Debug.LogError(
+                        "Lobby player prefab is missing PlayerLobbyUI.",
+                        playerLobbyInfoContainer.GetChild(uiIndex).gameObject
+                    );
+
+                    continue;
+                }
+
                 SteamId steamId = new SteamId
                 {
                     Value = player.steamId
@@ -411,18 +439,22 @@ namespace Multiplayer
 
                 Sprite playerIconFromSteamId =
                     await steamProfile.GetPlayerSprite(steamId);
-                Transform child = Instantiate(playerLobbyPrefab, playerLobbyInfoContainer);
-                PlayerLobbyUI ui = child.GetComponent<PlayerLobbyUI>();
 
-                if (ui == null)
-                {
-                    Debug.LogError("Lobby player prefab is missing PlayerLobbyUI.", child.gameObject);
-                    continue;
-                }
+                ui.Setup(
+                    playerIconFromSteamId,
+                    player.playerName,
+                    player.isReady
+                );
 
-                // Player image is intentionally left as the prefab's current image for now.
-                ui.Setup(playerIconFromSteamId, player.playerName, player.isReady);
                 playerUIByClientId[player.clientId] = ui;
+
+                uiIndex++;
+            }
+
+            // Disable unused UI objects
+            for (int i = uiIndex; i < playerLobbyInfoContainer.childCount; i++)
+            {
+                playerLobbyInfoContainer.GetChild(i).gameObject.SetActive(false);
             }
         }
 

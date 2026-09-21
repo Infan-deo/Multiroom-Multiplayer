@@ -103,7 +103,7 @@ public class GameStartCountdown : NetworkBehaviour
     {
         if (countdownText == null)
             return;
-        BroAudio.Play(_sFXManager.Countdown);
+        _sFXManager.PlaySoundCountdown();
         countdownText.gameObject.SetActive(true);
 
         countdownText.DOKill();

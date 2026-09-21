@@ -17,8 +17,10 @@ public enum RoomVisibility
 public class RoomSelectionManager : MonoBehaviour
 {
     [Header("Create Room")] public TMP_InputField nameField;
-    public TMP_InputField maxField;
-    public TMP_Dropdown roomVisibilityDropdown;
+    public Toggle PublicRoomVisibilityToggle;
+    public Toggle PrivateRoomVisibilityToggle;
+    public Slider roomVisibilitySlider;
+    
     private RoomVisibility _roomVisibility = RoomVisibility.Private;
     public string roomName;
     public Button createRoomButton;
@@ -34,7 +36,8 @@ public class RoomSelectionManager : MonoBehaviour
     [Header("Player info")] public TMP_InputField playerNameField;
     public Button save;
     public SO_PlayerInfo playerInfo;
-    public SteamProfile  steamProfile;
+    public SteamProfile steamProfile;
+    private int maxPlayers;
 
     private void Start()
     {
@@ -46,18 +49,24 @@ public class RoomSelectionManager : MonoBehaviour
             findRoomButton.onClick.AddListener(FindRoom);
         if (joinRoomButton != null)
             joinRoomButton.onClick.AddListener(JoinRoomViaID);
+        if (roomVisibilitySlider != null)
+            roomVisibilitySlider.onValueChanged.AddListener(ChangeMaxPlayer);
         if (save != null)
             save.onClick.AddListener(SavePlayerName);
-        if (roomVisibilityDropdown != null)
-            roomVisibilityDropdown.onValueChanged.AddListener(OnRoomVisibilityChanged);
+        
 
         if (InstanceFinder.ClientManager != null)
             InstanceFinder.ClientManager.RegisterBroadcast<RoomListResponseMessage>(OnRoomList);
-        
+
         if (InstanceFinder.ClientManager != null)
             InstanceFinder.ClientManager.RegisterBroadcast<EnterLobbyMessage>(OnEnterLobby);
-
+        PublicRoomVisibilityToggle.onValueChanged.AddListener(OnRoomVisibilityChanged);
         LoadSavedPlayerName();
+    }
+
+    public void ChangeMaxPlayer(float value)
+    {
+        maxPlayers = (int)value;
     }
 
     private void InstantCreateRoom()
@@ -97,15 +106,21 @@ public class RoomSelectionManager : MonoBehaviour
             InstanceFinder.ClientManager.UnregisterBroadcast<EnterLobbyMessage>(OnEnterLobby);
     }
 
-    private void OnRoomVisibilityChanged(int value)
+    private void OnRoomVisibilityChanged(bool value)
     {
-        _roomVisibility = value == 0
-            ? RoomVisibility.Private
-            : RoomVisibility.Public;
+        if (value)
+        {
+            _roomVisibility = RoomVisibility.Public;
+        }
+        else
+        {
+            _roomVisibility = RoomVisibility.Private;
+        }
+            
         Debug.Log(_roomVisibility);
     }
 
-    public  void SavePlayerName()
+    public void SavePlayerName()
     {
         string playerName = playerNameField != null
             ? playerNameField.text.Trim()
@@ -175,7 +190,6 @@ public class RoomSelectionManager : MonoBehaviour
             return;
         }
 
-        
 
         // Room ID joining intentionally does NOT check visibility.
         // Therefore private rooms can still be joined with the correct code.
@@ -186,17 +200,9 @@ public class RoomSelectionManager : MonoBehaviour
         });
     }
 
+
     public void CreateRoom()
     {
-        if (!int.TryParse(maxField.text, out int maxPlayers))
-        {
-            PopupManager.Popup_Show(new PopupContent(
-                "Invalid Player Count",
-                "Please enter a valid maximum player count.",
-                showConfirmButton: true));
-            return;
-        }
-
         string selectedRoomName = nameField.text.Trim();
         if (string.IsNullOrWhiteSpace(selectedRoomName))
         {

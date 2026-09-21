@@ -16,8 +16,8 @@ public class BoomTagSystem : NetworkBehaviour
     private GameInstructionManager instructionManager;
     private GameStartCountdown gameStartCountdown;
     private AllRoomPlayerManager allRoomPlayerManager;
-    private SFXManager  sfxManager;
-    
+    private SFXManager sfxManager;
+
     private SpectateSystem spectateSystem;
     public TextMeshProUGUI boomTimerText;
     public TextMeshProUGUI ShowPlayerEliminatedText;
@@ -38,7 +38,7 @@ public class BoomTagSystem : NetworkBehaviour
 
     [Inject]
     public void Construct(GameInstructionManager instructionManager, AllRoomPlayerManager allRoomPlayerManager,
-        GameStartCountdown gameStartCountdown,SpectateSystem spectateSystem,SFXManager sfxManager)
+        GameStartCountdown gameStartCountdown, SpectateSystem spectateSystem, SFXManager sfxManager)
     {
         this.instructionManager = instructionManager;
         this.allRoomPlayerManager = allRoomPlayerManager;
@@ -74,10 +74,10 @@ public class BoomTagSystem : NetworkBehaviour
     }
 
     [Server]
-    private void PlayerInteractInfo_OnPlayerInteractWithAnother(object sender, 
+    private void PlayerInteractInfo_OnPlayerInteractWithAnother(object sender,
         GetPlayerInfo.NetworkObjEventArgs e)
     {
-        BroAudio.Play(sfxManager.Interact); 
+        sfxManager.PlaySoundInteract();
         if (TryTransferBomb(e.from, e.to))
         {
             Debug.Log("Sd1");
@@ -252,7 +252,7 @@ public class BoomTagSystem : NetworkBehaviour
             from.GetComponent<ManageBoom>();
         ManageBoom manageBoomTo =
             to.GetComponent<ManageBoom>();
-        
+
         manageBoomFrom.BoomEnabled = false;
         manageBoomTo.BoomEnabled = true;
     }
@@ -278,11 +278,11 @@ public class BoomTagSystem : NetworkBehaviour
     private void DecreaseCountdown()
     {
         bombcountdown.Value--;
-       
+
         // Debug.Log(
         //     $"Server Countdown: {bombcountdown.Value}"
         // );
-        BroAudio.Play(sfxManager.Beep);
+        sfxManager.PlaySoundBeep();
         ShowCountdownRpc(bombcountdown.Value);
 
         if (bombcountdown.Value <= 0)
@@ -296,7 +296,7 @@ public class BoomTagSystem : NetworkBehaviour
     {
         if (boomTimerText == null)
             return;
-        BroAudio.Play(sfxManager.Beep);
+        sfxManager.PlaySoundBeep();
         boomTimerText.text = seconds.ToString();
 
         PlayNumberEffect();
@@ -409,11 +409,12 @@ public class BoomTagSystem : NetworkBehaviour
             }
         }
     }
+
     [Server]
     public IEnumerator PlayerEliminatingProcess(NetworkObject player)
     {
         ExplodeBoom(player);
-        BroAudio.Play(sfxManager.Explosion).AsDominator();
+        sfxManager.PlaySoundExplosion();
         yield return new WaitForSeconds(1.3f);
         allRoomPlayerManager.DisablePlayer(player);
         spectateSystem.ServerBeginSpectating(player.Owner);
@@ -425,7 +426,7 @@ public class BoomTagSystem : NetworkBehaviour
     [ObserversRpc]
     public void ExplodeBoom(NetworkObject playerNetworkObject)
     {
-        BroAudio.Play(sfxManager.Explosion).AsDominator();
+        sfxManager.PlaySoundExplosion();
         ManageBoom manageBoom = playerNetworkObject.GetComponent<ManageBoom>();
         Timing.RunCoroutine(manageBoom._ExplodeBoom());
     }
