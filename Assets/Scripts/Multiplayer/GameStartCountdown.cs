@@ -1,4 +1,5 @@
 using System;
+using Ami.BroAudio;
 using DG.Tweening;
 using FishNet.Object;
 using TMPro;
@@ -7,26 +8,29 @@ using UnityEngine;
 
 public class GameStartCountdown : NetworkBehaviour
 {
-    [Header("Countdown")]
-    [SerializeField] private TMP_Text countdownText;
+    [Header("Countdown")] [SerializeField] private TMP_Text countdownText;
     [SerializeField] private int countdownTime = 5;
 
-    [Header("DOTween")]
-    [SerializeField] private float fadeInDuration = 0.2f;
+    [Header("DOTween")] [SerializeField] private float fadeInDuration = 0.2f;
     [SerializeField] private float fadeOutDuration = 0.2f;
     [SerializeField] private float scaleIn = 1.4f;
     [SerializeField] private float scaleOut = 0.7f;
-    
+
     public Action OnCountdownFinished;
 
     private int countdown;
     private bool countingDown;
 
-  
+    private SFXManager _sFXManager;
 
     // =========================================================
     // SERVER
     // =========================================================
+    [Inject]
+    public void Inject(SFXManager sfxManager)
+    {
+        _sFXManager = sfxManager;
+    }
 
     public override void OnStartServer()
     {
@@ -34,16 +38,14 @@ public class GameStartCountdown : NetworkBehaviour
 
         countdown = 0;
         countingDown = false;
-
-       
     }
 
-    
 
     [ContextMenu("Start Countdown")]
     public void StartCountdownServer()
     {
         StartCountdown();
+       
     }
 
     [Server]
@@ -76,7 +78,6 @@ public class GameStartCountdown : NetworkBehaviour
     {
         countdown--;
 
-       
 
         if (countdown > 0)
         {
@@ -87,7 +88,7 @@ public class GameStartCountdown : NetworkBehaviour
         // Countdown finished.
         countdown = 0;
         countingDown = false;
-        
+
         ShowGoRpc();
 
         StartGame();
@@ -102,7 +103,7 @@ public class GameStartCountdown : NetworkBehaviour
     {
         if (countdownText == null)
             return;
-
+        BroAudio.Play(_sFXManager.Countdown);
         countdownText.gameObject.SetActive(true);
 
         countdownText.DOKill();
@@ -233,9 +234,8 @@ public class GameStartCountdown : NetworkBehaviour
         Debug.Log(
             "[GameStartCountdown] Countdown finished. Starting game."
         );
-        
+
         OnCountdownFinished?.Invoke();
-       
     }
 
     // =========================================================
@@ -246,6 +246,5 @@ public class GameStartCountdown : NetworkBehaviour
     {
         if (countdownText != null)
             countdownText.DOKill();
-
     }
 }

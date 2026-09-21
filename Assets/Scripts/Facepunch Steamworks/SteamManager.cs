@@ -1,15 +1,16 @@
-using System;
-using System.Collections;
+using FishNet;
 using Steamworks;
 using UnityEngine;
 
 public class SteamManager : MonoBehaviour
 {
     public static SteamManager Instance;
-    public SO_PlayerInfo  PlayerInfo;
+    public SO_PlayerInfo PlayerInfo;
 
     [SerializeField]
     private uint appId = 480;
+
+    private bool steamInitialized;
 
     private void Awake()
     {
@@ -21,12 +22,11 @@ public class SteamManager : MonoBehaviour
 
         Instance = this;
 
-        DontDestroyOnLoad(gameObject);
+        if (InstanceFinder.IsServerOnly)
+            return;
 
         InitializeSteam();
     }
-
-   
 
     private void InitializeSteam()
     {
@@ -34,32 +34,47 @@ public class SteamManager : MonoBehaviour
         {
             SteamClient.Init(appId, true);
 
-            Debug.Log(
-                $"Steam initialized: {SteamClient.Name}"
-            );
-            
-            
-            PlayerInfo.playerName = SteamClient.Name;
+            steamInitialized = true;
 
-            Debug.Log(
-                $"Steam ID: {SteamClient.SteamId}"
-            );
+            Debug.Log($"Steam initialized: {SteamClient.Name}");
+            Debug.Log($"Steam ID: {SteamClient.SteamId}");
+
+            if (PlayerInfo != null)
+            {
+                PlayerInfo.playerName = SteamClient.Name;
+            }
+            else
+            {
+                Debug.LogError("PlayerInfo is NULL!");
+            }
         }
         catch (System.Exception e)
         {
-            Debug.LogError(
-                $"Steam initialization failed: {e}"
-            );
+            Debug.LogError($"Steam initialization failed: {e}");
+            steamInitialized = false;
         }
     }
 
     private void Update()
     {
+        if (InstanceFinder.IsServerOnly)
+            return;
+
+        if (!steamInitialized)
+            return;
+
         SteamClient.RunCallbacks();
     }
 
     private void OnApplicationQuit()
     {
+        if (InstanceFinder.IsServerOnly)
+            return;
+
+        if (!steamInitialized)
+            return;
+
         SteamClient.Shutdown();
+        steamInitialized = false;
     }
 }

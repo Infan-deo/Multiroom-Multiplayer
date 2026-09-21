@@ -103,9 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453481867b26f7c43b5bf38802a5f50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FishNet.Runtime::FishNet.Component.Transforming.Beta.NetworkTickSmoother
-  _componentIndexCache: 255
+  _componentIndexCache: 3
   _addedNetworkObject: {fileID: 3250262427633669501}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 3250262427633669501}
   _initializationSettings:
     TargetTransform: {fileID: 6331113091814968578}
     DetachOnStart: 0
@@ -645,9 +645,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453481867b26f7c43b5bf38802a5f50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FishNet.Runtime::FishNet.Component.Transforming.Beta.NetworkTickSmoother
-  _componentIndexCache: 255
+  _componentIndexCache: 4
   _addedNetworkObject: {fileID: 3250262427633669501}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 3250262427633669501}
   _initializationSettings:
     TargetTransform: {fileID: 6331113091814968578}
     DetachOnStart: 1
@@ -881,10 +881,13 @@ MonoBehaviour:
   NetworkBehaviours:
   - {fileID: 1649442375789915161}
   - {fileID: 4397940198960297375}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3463776083722609410}
+  - {fileID: 6713111062523870990}
+  - {fileID: 9165305667205838731}
+  - {fileID: 3171334828763874330}
   InitializedParentNetworkBehaviour: {fileID: 0}
-  InitializedNestedNetworkObjects: []
+  InitializedNestedNetworkObjects:
+  - {fileID: 2829534514568513065}
   RuntimeParentNetworkBehaviour: {fileID: 0}
   RuntimeChildNetworkBehaviours: []
   _isNetworked: 1
@@ -893,7 +896,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _preventDespawnOnDisconnect: 0
   _defaultDespawnType: 0
-  _initializedTimestamp: -8584124669336953387
+  _initializedTimestamp: -8584119791855413882
 --- !u!114 &2620014157040707575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,7 +994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 410de630efb32b14cbd5aa638a72e47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GetPlayerInfo
-  _componentIndexCache: 3
+  _componentIndexCache: 2
   _addedNetworkObject: {fileID: 3250262427633669501}
   _networkObjectCache: {fileID: 3250262427633669501}
   PlayerInfo: {fileID: 11400000, guid: a1e5dc8ab59c14442a124a4475ec445e, type: 2}
@@ -1585,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5332809968238436118, guid: 924f754fac7da9f489b55324fc897387, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5542297725489584311, guid: 924f754fac7da9f489b55324fc897387, type: 3}
       propertyPath: m_Layer
@@ -1610,12 +1613,122 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 924f754fac7da9f489b55324fc897387, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7774514348596621026}
+    - targetCorrespondingSourceObject: {fileID: 5327625582935776581, guid: 924f754fac7da9f489b55324fc897387, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1934154751373169631}
+    - targetCorrespondingSourceObject: {fileID: 5327625582935776581, guid: 924f754fac7da9f489b55324fc897387, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2829534514568513065}
+    - targetCorrespondingSourceObject: {fileID: 5327625582935776581, guid: 924f754fac7da9f489b55324fc897387, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1720877669539172395}
   m_SourcePrefab: {fileID: 100100000, guid: 924f754fac7da9f489b55324fc897387, type: 3}
 --- !u!1 &1176878736192418103 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5332809968238436118, guid: 924f754fac7da9f489b55324fc897387, type: 3}
   m_PrefabInstance: {fileID: 6509089667021155873}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1421846300640260964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5327625582935776581, guid: 924f754fac7da9f489b55324fc897387, type: 3}
+  m_PrefabInstance: {fileID: 6509089667021155873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934154751373169631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421846300640260964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385ffc06106304cc3824d5bcf25a7037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BroAudio::Ami.BroAudio.SoundSource
+  _onlyPlayOnce: 0
+  _playOnEnable: 1
+  _stopOnDisable: 1
+  _overrideFadeOut: -1
+  _sound:
+    _entity: {fileID: 11400000, guid: 113a64f9c0755a94982ed99add93bfe5, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 1421846300640260964}
+  _overrideGroup: {fileID: 0}
+  _positionMode: 1
+  _delay: 0
+--- !u!114 &2829534514568513065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421846300640260964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Object.NetworkObject
+  _localLevelOfDetailCalculationType: 0
+  _useLevelOfDetail: 0
+  _useRootLevelOfDetail: 1
+  NetworkObserver: {fileID: 0}
+  _enablePrediction: 0
+  _predictionType: 0
+  _localReconcileCorrectionType: 2
+  _graphicalObject: {fileID: 0}
+  _detachGraphicalObject: 0
+  _enableStateForwarding: 1
+  _networkTransform: {fileID: 0}
+  _ownerInterpolation: 1
+  _ownerSmoothedProperties: 255
+  _adaptiveInterpolation: 3
+  _spectatorSmoothedProperties: 255
+  _spectatorInterpolation: 2
+  _enableTeleport: 0
+  _teleportThreshold: 1
+  <PrefabId>k__BackingField: 65535
+  <SpawnableCollectionId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 0
+  SceneId: 0
+  SerializedTransformProperties:
+    Position: {x: -0, y: 0, z: 0}
+    Rotation: {x: 0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    IsValid: 1
+  <IsNested>k__BackingField: 1
+  WasActiveDuringEdit: 1
+  WasActiveDuringEdit_Set1: 1
+  <ComponentIndex>k__BackingField: 1
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  <PredictedOwner>k__BackingField: {fileID: 0}
+  NetworkBehaviours:
+  - {fileID: 1720877669539172395}
+  InitializedParentNetworkBehaviour: {fileID: 1649442375789915161}
+  InitializedNestedNetworkObjects: []
+  RuntimeParentNetworkBehaviour: {fileID: 0}
+  RuntimeChildNetworkBehaviours: []
+  _isNetworked: 1
+  _isSpawnable: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _preventDespawnOnDisconnect: 0
+  _defaultDespawnType: 0
+  _initializedTimestamp: -8584119791855413882
+--- !u!114 &1720877669539172395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421846300640260964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6a39c46bf52104ba8efe3100bce3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FishNet.Runtime::FishNet.Object.EmptyNetworkBehaviour
+  _componentIndexCache: 0
+  _addedNetworkObject: {fileID: 2829534514568513065}
+  _networkObjectCache: {fileID: 2829534514568513065}
 --- !u!4 &4264650372799248624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2198888584636164399, guid: 924f754fac7da9f489b55324fc897387, type: 3}
@@ -1638,9 +1751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453481867b26f7c43b5bf38802a5f50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FishNet.Runtime::FishNet.Component.Transforming.Beta.NetworkTickSmoother
-  _componentIndexCache: 255
+  _componentIndexCache: 5
   _addedNetworkObject: {fileID: 3250262427633669501}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 3250262427633669501}
   _initializationSettings:
     TargetTransform: {fileID: 6331113091814968578}
     DetachOnStart: 0

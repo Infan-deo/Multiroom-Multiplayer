@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Linq;
+using Ami.BroAudio;
 using DG.Tweening;
 using FishNet.Object;
 using FishNet.Object.Synchronizing;
@@ -15,6 +16,8 @@ public class BoomTagSystem : NetworkBehaviour
     private GameInstructionManager instructionManager;
     private GameStartCountdown gameStartCountdown;
     private AllRoomPlayerManager allRoomPlayerManager;
+    private SFXManager  sfxManager;
+    
     private SpectateSystem spectateSystem;
     public TextMeshProUGUI boomTimerText;
     public TextMeshProUGUI ShowPlayerEliminatedText;
@@ -35,12 +38,13 @@ public class BoomTagSystem : NetworkBehaviour
 
     [Inject]
     public void Construct(GameInstructionManager instructionManager, AllRoomPlayerManager allRoomPlayerManager,
-        GameStartCountdown gameStartCountdown,SpectateSystem spectateSystem)
+        GameStartCountdown gameStartCountdown,SpectateSystem spectateSystem,SFXManager sfxManager)
     {
         this.instructionManager = instructionManager;
         this.allRoomPlayerManager = allRoomPlayerManager;
         this.gameStartCountdown = gameStartCountdown;
         this.spectateSystem = spectateSystem;
+        this.sfxManager = sfxManager;
     }
 
     public override void OnStartServer()
@@ -70,9 +74,10 @@ public class BoomTagSystem : NetworkBehaviour
     }
 
     [Server]
-    private void PlayerInteractInfo_OnPlayerInteractWithAnother(object sender, GetPlayerInfo.NetworkObjEventArgs e)
+    private void PlayerInteractInfo_OnPlayerInteractWithAnother(object sender, 
+        GetPlayerInfo.NetworkObjEventArgs e)
     {
-        Debug.Log("Sd");
+        BroAudio.Play(sfxManager.Interact); 
         if (TryTransferBomb(e.from, e.to))
         {
             Debug.Log("Sd1");
@@ -178,6 +183,7 @@ public class BoomTagSystem : NetworkBehaviour
             player.GetComponent<ManageBoom>();
 
         manageBoom.BoomEnabled = true;
+        // BroAudio.Play(sfxManager.ThreadOnFire);
     }
 
     [Server]
@@ -246,18 +252,7 @@ public class BoomTagSystem : NetworkBehaviour
             from.GetComponent<ManageBoom>();
         ManageBoom manageBoomTo =
             to.GetComponent<ManageBoom>();
-        if (manageBoomFrom == null)
-        {
-            Debug.Log("Sd5 null");
-            
-            return;
-        }
-        if (manageBoomTo == null)
-        {
-            Debug.Log("Sd5 null ");
-            
-            return;
-        }
+        
         manageBoomFrom.BoomEnabled = false;
         manageBoomTo.BoomEnabled = true;
     }
@@ -283,11 +278,11 @@ public class BoomTagSystem : NetworkBehaviour
     private void DecreaseCountdown()
     {
         bombcountdown.Value--;
-
+       
         // Debug.Log(
         //     $"Server Countdown: {bombcountdown.Value}"
         // );
-
+        BroAudio.Play(sfxManager.Beep);
         ShowCountdownRpc(bombcountdown.Value);
 
         if (bombcountdown.Value <= 0)
@@ -301,7 +296,7 @@ public class BoomTagSystem : NetworkBehaviour
     {
         if (boomTimerText == null)
             return;
-
+        BroAudio.Play(sfxManager.Beep);
         boomTimerText.text = seconds.ToString();
 
         PlayNumberEffect();
@@ -418,7 +413,8 @@ public class BoomTagSystem : NetworkBehaviour
     public IEnumerator PlayerEliminatingProcess(NetworkObject player)
     {
         ExplodeBoom(player);
-        yield return new WaitForSeconds(1f);
+        BroAudio.Play(sfxManager.Explosion).AsDominator();
+        yield return new WaitForSeconds(1.3f);
         allRoomPlayerManager.DisablePlayer(player);
         spectateSystem.ServerBeginSpectating(player.Owner);
         UpdatePlayerEliminatedText(allRoomPlayerManager.GetPlayerName(player) + " Eliminated!!");
@@ -429,6 +425,7 @@ public class BoomTagSystem : NetworkBehaviour
     [ObserversRpc]
     public void ExplodeBoom(NetworkObject playerNetworkObject)
     {
+        BroAudio.Play(sfxManager.Explosion).AsDominator();
         ManageBoom manageBoom = playerNetworkObject.GetComponent<ManageBoom>();
         Timing.RunCoroutine(manageBoom._ExplodeBoom());
     }

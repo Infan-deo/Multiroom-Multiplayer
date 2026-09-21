@@ -1,4 +1,6 @@
 using System.Threading.Tasks;
+using FishNet;
+using FishNet.Object;
 using Multiplayer;
 using Steamworks;
 using Steamworks.Data;
@@ -13,21 +15,25 @@ public class SteamProfile : MonoBehaviour
 {
     [SerializeField] private UnityImage profileImage;
     [SerializeField] private TextMeshProUGUI profileNameText;
-    public SO_PlayerInfo  playerInfo;
-    public RoomSelectionManager  roomSelectionManager;
+    public SO_PlayerInfo playerInfo;
+    public RoomSelectionManager roomSelectionManager;
 
     public void SetPlayerName(string playerName)
     {
         playerInfo.playerName = playerName;
         profileNameText.text = playerName;
     }
+
     private async void Start()
     {
+        if (InstanceFinder.IsServerOnly)
+            return;
+
         string playerName = SteamClient.Name;
 
         Debug.Log($"Steam Name: {playerName}");
         Debug.Log($"Steam ID: {SteamClient.SteamId}");
-        
+
         profileNameText.text = playerName;
         playerInfo.playerName = playerName;
         // roomSelectionManager.SavePlayerName();

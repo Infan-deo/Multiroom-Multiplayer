@@ -20,7 +20,7 @@ namespace Multiplayer
         public int roomId;
         public string playerName;
         public bool isReady;
-        public SteamId steamId;
+        public ulong steamId;
 
         public LobbyPlayer(int clientId, int roomId, string playerName,SteamId steamId)
         {
@@ -127,7 +127,7 @@ namespace Multiplayer
             string playerName = soPlayerInfo.playerName;
 
             // Register this client on the server.
-            RegisterPlayerServerRpc(playerName);
+            RegisterPlayerServerRpc(playerName,SteamClient.SteamId.Value);
 
             // Initial refresh. SyncDictionary.OnChange will refresh again
             // when the server adds the player.
@@ -151,7 +151,7 @@ namespace Multiplayer
 
             string playerName = soPlayerInfo.playerName;
 
-            RegisterPlayerServerRpc(playerName);
+            RegisterPlayerServerRpc(playerName,SteamClient.SteamId.Value);
 
             RefreshLobbyUI();
 
@@ -205,10 +205,12 @@ namespace Multiplayer
         // PLAYER REGISTRATION
         // --------------------------------------------------
 
+        
         [ServerRpc(RequireOwnership = false)]
         public void RegisterPlayerServerRpc(
-            string playerName,
-            NetworkConnection sender = null)
+                string playerName,
+                ulong steamId,
+                NetworkConnection sender = null)
         {
             if (sender == null)
                 return;
@@ -232,7 +234,7 @@ namespace Multiplayer
                     sender.ClientId,
                     room.roomID,
                     playerName,
-                    SteamClient.SteamId
+                    steamId
                 )
             );
         }
@@ -402,8 +404,13 @@ namespace Multiplayer
 
                 if (player.roomId != localRoomId)
                     continue;
+                SteamId steamId = new SteamId
+                {
+                    Value = player.steamId
+                };
 
-                Sprite playericonfromSteamid = await steamProfile.GetPlayerSprite(player.steamId);
+                Sprite playerIconFromSteamId =
+                    await steamProfile.GetPlayerSprite(steamId);
                 Transform child = Instantiate(playerLobbyPrefab, playerLobbyInfoContainer);
                 PlayerLobbyUI ui = child.GetComponent<PlayerLobbyUI>();
 
@@ -414,7 +421,7 @@ namespace Multiplayer
                 }
 
                 // Player image is intentionally left as the prefab's current image for now.
-                ui.Setup(playericonfromSteamid, player.playerName, player.isReady);
+                ui.Setup(playerIconFromSteamId, player.playerName, player.isReady);
                 playerUIByClientId[player.clientId] = ui;
             }
         }

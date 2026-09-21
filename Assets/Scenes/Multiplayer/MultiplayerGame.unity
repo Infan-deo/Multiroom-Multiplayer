@@ -119,6 +119,70 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &92829780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92829782}
+  - component: {fileID: 92829781}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &92829781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92829780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ae279dfe4b1e14d8bfd05eae89dc1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SFXManager
+  Beep:
+    _entity: {fileID: 11400000, guid: 4eee7d26b46b4b44791046868cffafe1, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 92829780}
+  Explosion:
+    _entity: {fileID: 11400000, guid: e5e2ab7e0e8a71b4eb20015c9853dea7, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 92829780}
+  Interact:
+    _entity: {fileID: 11400000, guid: a9cdd64c8218d0d4e9bf5dc646d84270, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 92829780}
+  Countdown:
+    _entity: {fileID: 11400000, guid: 8e967fedc0e36f342b0dd626562c75e7, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 92829780}
+  ThreadOnFire:
+    _entity: {fileID: 11400000, guid: 113a64f9c0755a94982ed99add93bfe5, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 92829780}
+--- !u!4 &92829782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92829780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &93505862
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +391,7 @@ MonoBehaviour:
   _networkObjectCache: {fileID: 0}
   boomTimerText: {fileID: 2009353234}
   ShowPlayerEliminatedText: {fileID: 1197005404}
-  boomTiggerCountdown: 300
+  boomTiggerCountdown: 30
   boomParent: {fileID: 921578869}
   fadeInDuration: 0.2
   fadeOutDuration: 0.2
@@ -1648,6 +1712,7 @@ MonoBehaviour:
   - {fileID: 108820008}
   - {fileID: 318896347}
   - {fileID: 1144814159}
+  - {fileID: 92829781}
 --- !u!4 &534133963
 Transform:
   m_ObjectHideFlags: 0
@@ -3550,7 +3615,7 @@ MonoBehaviour:
   GameNameText: {fileID: 241525264}
   GameInstructionText: {fileID: 1773925351}
   countdownText: {fileID: 1070729524}
-  countdownTime: 5
+  countdownTime: 10
   fadeInDuration: 0.2
   fadeOutDuration: 0.2
   scaleIn: 2
@@ -6241,4 +6306,5 @@ SceneRoots:
   - {fileID: 108820007}
   - {fileID: 318896348}
   - {fileID: 1144814160}
+  - {fileID: 92829782}
   - {fileID: 383493818}

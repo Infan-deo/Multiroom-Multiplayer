@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Ami.BroAudio;
 using MEC;
 using UnityEngine;
 
@@ -26,6 +27,7 @@ public class ManageBoom : MonoBehaviour
     public void OnSetBoom(bool state)
     {
         boomGameObject.SetActive(state);
+        
     }
 
     public IEnumerator<float> _ExplodeBoom()
